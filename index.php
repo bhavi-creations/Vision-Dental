@@ -55,15 +55,15 @@
      <!-- ======= Header ======= -->
 
 
-     <header id="header"  >
-         <div class="container d-flex align-items-center onlypad  ">
-             <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
+     <header id="header" class="header_bg">
+         <div class="container d-flex align-items-center onlypad_index  ">
+             <div class="logo-text-container d-flex align-items-center d-lg-none" style="z-index: 999;">
                  <a href="index.php">
-                     <img src="assets/img/vision/large_icon.png" class="img-fluid  " alt="">
+                     <img src="assets/img/vision/large_icon.png" class="img-fluid  index_logo_sm_md" alt="">
                  </a>
              </div>
 
-             <nav id="navbar" class="navbar order-lg-0">
+             <nav id="navbar" class="  navbar_empyt order-lg-0">
                  <i class="bi bi-list mobile-nav-toggle"></i>
                  <ul>
                      <li><a class="nav-link scrollto" href="index.php">Home</a></li>
@@ -88,10 +88,133 @@
      </header>
 
 
+     <section class="banner_bg_color">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-6 first_banner_col">
+                     <img src="assets/img/vision/large_icon.png" class="img-fluid banner_image_logo  d-none d-lg-block" alt="">
+                     <h1 class="banner_head">A smile is a curve <br>
+                         that sets <br>
+                         everything straight</h1>
+                     <p class="banner_para">Vision Multispeciality Dental Hospital in Guntur offers expert dental care with advanced technology and a patient-first approach.</p>
+
+                     <div class="d-flex">
+                         <button class="banner_contact_us">Contact us</button>
+                         <button class="banner_read_more">Read more</button>
+
+                     </div>
+
+
+                 </div>
+                 <div class="col-md-6">
+                     <img src="assets/img/vision/banner_pic.png" class="img-fluid" alt="">
+
+                 </div>
+
+             </div>
+         </div>
+     </section>
+
+
+     <div class="container teeth_card_container">
+         <div class="row">
+             <div class="col-4  ">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="card_tooth_size" viewBox="0 0 431 432" fill="none">
+                     <g filter="url(#filter0_d_122_1295)">
+                         <path d="M284.228 361C273.358 361 263.366 355.071 258.154 345.527L232.522 298.53C229.121 292.297 222.597 288.426 215.5 288.426C208.401 288.426 201.879 292.297 198.475 298.532L172.849 345.524C167.641 355.069 157.649 361 146.772 361C133.532 361 121.958 352.519 117.97 339.894L77.7093 212.397C69.9396 187.787 66 162.231 66 136.444C66 95.3943 99.3898 62 140.428 62C177.27 62 187.708 75.9518 215.5 75.9518C243.296 75.9518 253.737 62 290.56 62C331.61 62 365 95.3943 365 136.444C365 162.231 361.06 187.787 353.293 212.397L313.032 339.894C309.042 352.519 297.468 361 284.228 361Z" fill="white" />
+                         <path d="M232.961 298.29L232.961 298.29C229.472 291.897 222.78 287.926 215.5 287.926C208.218 287.926 201.528 291.897 198.037 298.292L198.037 298.293L172.41 345.285C167.289 354.669 157.466 360.5 146.772 360.5C133.75 360.5 122.369 352.16 118.447 339.744L78.1861 212.246C70.4318 187.685 66.5 162.18 66.5 136.444C66.5 95.6704 99.666 62.5 140.428 62.5C158.774 62.5 170.537 65.9707 181.203 69.4512C181.956 69.6972 182.705 69.9433 183.45 70.1883C193.261 73.4143 202.499 76.4518 215.5 76.4518C228.505 76.4518 237.746 73.4132 247.558 70.1866C248.302 69.9421 249.048 69.6966 249.8 69.4512C260.465 65.9707 272.224 62.5 290.56 62.5C331.334 62.5 364.5 95.6704 364.5 136.444C364.5 162.18 360.568 187.685 352.816 212.246L312.555 339.744C308.631 352.16 297.25 360.5 284.228 360.5C273.541 360.5 263.718 354.671 258.593 345.287C258.593 345.287 258.593 345.287 258.592 345.287L232.961 298.29Z" stroke="#9A9A9A" stroke-opacity="0.2" />
+                     </g>
 
 
 
-    
+                     <image href="assets/img/vision/appoit_icon.png" class="teeth_icon" />
+
+
+                     <text x="50%" y="50%" text-anchor="middle" fill="#333" font-size="24" font-family="Arial" dy=".3em">Your Text Here</text>
+
+
+
+                     <defs>
+                         <filter id="filter0_d_122_1295" x="0.400002" y="0.982377" width="430.2" height="430.2" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                             <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                             <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                             <feOffset dy="4.58238" />
+                             <feGaussianBlur stdDeviation="32.8" />
+                             <feComposite in2="hardAlpha" operator="out" />
+                             <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.04 0" />
+                             <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_122_1295" />
+                             <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_122_1295" result="shape" />
+                         </filter>
+                     </defs>
+                 </svg>
+             </div>
+             <div class="col-4  ">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="card_tooth_size" viewBox="0 0 431 432" fill="none">
+                     <g filter="url(#filter0_d_122_1295)">
+                         <path d="M284.228 361C273.358 361 263.366 355.071 258.154 345.527L232.522 298.53C229.121 292.297 222.597 288.426 215.5 288.426C208.401 288.426 201.879 292.297 198.475 298.532L172.849 345.524C167.641 355.069 157.649 361 146.772 361C133.532 361 121.958 352.519 117.97 339.894L77.7093 212.397C69.9396 187.787 66 162.231 66 136.444C66 95.3943 99.3898 62 140.428 62C177.27 62 187.708 75.9518 215.5 75.9518C243.296 75.9518 253.737 62 290.56 62C331.61 62 365 95.3943 365 136.444C365 162.231 361.06 187.787 353.293 212.397L313.032 339.894C309.042 352.519 297.468 361 284.228 361Z" fill="white" />
+                         <path d="M232.961 298.29L232.961 298.29C229.472 291.897 222.78 287.926 215.5 287.926C208.218 287.926 201.528 291.897 198.037 298.292L198.037 298.293L172.41 345.285C167.289 354.669 157.466 360.5 146.772 360.5C133.75 360.5 122.369 352.16 118.447 339.744L78.1861 212.246C70.4318 187.685 66.5 162.18 66.5 136.444C66.5 95.6704 99.666 62.5 140.428 62.5C158.774 62.5 170.537 65.9707 181.203 69.4512C181.956 69.6972 182.705 69.9433 183.45 70.1883C193.261 73.4143 202.499 76.4518 215.5 76.4518C228.505 76.4518 237.746 73.4132 247.558 70.1866C248.302 69.9421 249.048 69.6966 249.8 69.4512C260.465 65.9707 272.224 62.5 290.56 62.5C331.334 62.5 364.5 95.6704 364.5 136.444C364.5 162.18 360.568 187.685 352.816 212.246L312.555 339.744C308.631 352.16 297.25 360.5 284.228 360.5C273.541 360.5 263.718 354.671 258.593 345.287C258.593 345.287 258.593 345.287 258.592 345.287L232.961 298.29Z" stroke="#9A9A9A" stroke-opacity="0.2" />
+                     </g>
+
+
+
+                     <image href="assets/img/vision/emergrncy_icon.png" class="teeth_icon" />
+
+
+                     <text x="50%" y="50%" text-anchor="middle" fill="#333" font-size="24" font-family="Arial" dy=".3em">Your Text Here</text>
+
+
+
+                     <defs>
+                         <filter id="filter0_d_122_1295" x="0.400002" y="0.982377" width="430.2" height="430.2" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                             <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                             <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                             <feOffset dy="4.58238" />
+                             <feGaussianBlur stdDeviation="32.8" />
+                             <feComposite in2="hardAlpha" operator="out" />
+                             <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.04 0" />
+                             <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_122_1295" />
+                             <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_122_1295" result="shape" />
+                         </filter>
+                     </defs>
+                 </svg>
+             </div>
+             <div class="col-4  ">
+                 <svg xmlns="http://www.w3.org/2000/svg" class="card_tooth_size" viewBox="0 0 431 432" fill="none">
+                     <g filter="url(#filter0_d_122_1295)">
+                         <path d="M284.228 361C273.358 361 263.366 355.071 258.154 345.527L232.522 298.53C229.121 292.297 222.597 288.426 215.5 288.426C208.401 288.426 201.879 292.297 198.475 298.532L172.849 345.524C167.641 355.069 157.649 361 146.772 361C133.532 361 121.958 352.519 117.97 339.894L77.7093 212.397C69.9396 187.787 66 162.231 66 136.444C66 95.3943 99.3898 62 140.428 62C177.27 62 187.708 75.9518 215.5 75.9518C243.296 75.9518 253.737 62 290.56 62C331.61 62 365 95.3943 365 136.444C365 162.231 361.06 187.787 353.293 212.397L313.032 339.894C309.042 352.519 297.468 361 284.228 361Z" fill="white" />
+                         <path d="M232.961 298.29L232.961 298.29C229.472 291.897 222.78 287.926 215.5 287.926C208.218 287.926 201.528 291.897 198.037 298.292L198.037 298.293L172.41 345.285C167.289 354.669 157.466 360.5 146.772 360.5C133.75 360.5 122.369 352.16 118.447 339.744L78.1861 212.246C70.4318 187.685 66.5 162.18 66.5 136.444C66.5 95.6704 99.666 62.5 140.428 62.5C158.774 62.5 170.537 65.9707 181.203 69.4512C181.956 69.6972 182.705 69.9433 183.45 70.1883C193.261 73.4143 202.499 76.4518 215.5 76.4518C228.505 76.4518 237.746 73.4132 247.558 70.1866C248.302 69.9421 249.048 69.6966 249.8 69.4512C260.465 65.9707 272.224 62.5 290.56 62.5C331.334 62.5 364.5 95.6704 364.5 136.444C364.5 162.18 360.568 187.685 352.816 212.246L312.555 339.744C308.631 352.16 297.25 360.5 284.228 360.5C273.541 360.5 263.718 354.671 258.593 345.287C258.593 345.287 258.593 345.287 258.592 345.287L232.961 298.29Z" stroke="#9A9A9A" stroke-opacity="0.2" />
+                     </g>
+
+                     <!-- Image inside the SVG -->
+                     <image href="assets/img/vision/doc_icon.png" class="teeth_icon" />
+
+                     <!-- First Text Element -->
+                     <text class="teeth_heading" x="50%" y="50%" text-anchor="middle" fill="#333" font-size="24" font-family="Arial" dy=".3em">Online Appointment</text>
+
+                     <!-- Additional Text Element -->
+                     <text class="teeth_subheading" x="50%" y="60%" text-anchor="middle" fill="#666" font-size="16" font-family="Arial" dy=".3em">Call us at: 123-456-7890</text>
+
+                     <defs>
+                         <filter id="filter0_d_122_1295" x="0.400002" y="0.982377" width="430.2" height="430.2" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                             <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                             <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                             <feOffset dy="4.58238" />
+                             <feGaussianBlur stdDeviation="32.8" />
+                             <feComposite in2="hardAlpha" operator="out" />
+                             <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.04 0" />
+                             <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_122_1295" />
+                             <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_122_1295" result="shape" />
+                         </filter>
+                     </defs>
+                 </svg>
+
+             </div>
+         </div>
+     </div>
+
+
+
+
 
      <main id="main">
 
