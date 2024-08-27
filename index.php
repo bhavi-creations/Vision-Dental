@@ -55,11 +55,11 @@
      <!-- ======= Header ======= -->
 
 
-     <header id="header" class="  onlypad">
-         <div class="container d-flex align-items-center">
+     <header id="header"  >
+         <div class="container d-flex align-items-center onlypad  ">
              <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
                  <a href="index.php">
-                     <img src="assets/img/vision/vision_logo.png" class="img-fluid  " alt="">
+                     <img src="assets/img/vision/large_icon.png" class="img-fluid  " alt="">
                  </a>
              </div>
 
