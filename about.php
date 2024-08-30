@@ -258,7 +258,7 @@
         </script>
 
     </main>
-    <footer id="footer">
+    <!-- <footer id="footer">
         <div class="footer-top">
             <div class="container py-5">
                 <div class="row">
@@ -405,7 +405,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
 
     <!-- Scroll Up Button  -->
