@@ -116,7 +116,7 @@
      </section>
 
 
-     <div class="container teeth_card_container">
+     <div class="container teeth_card_container d-none d-md-block">
          <div class="row">
              <div class="col-4  ">
                  <svg xmlns="http://www.w3.org/2000/svg" class="card_tooth_size" viewBox="0 0 431 432" fill="none">
@@ -130,9 +130,11 @@
                      <image href="assets/img/vision/appoit_icon.png" class="teeth_icon" />
 
 
-                     <text x="50%" y="50%" text-anchor="middle" fill="#333" font-size="24" font-family="Arial" dy=".3em">Your Text Here</text>
+                     <text class="teeth_heading" x="50%" y="30%" text-anchor="middle" fill="#333" dy=".3em">Online Appointment </text>
 
+                     <text class="teeth_first_para_card" x="50%" y="45%" text-anchor="middle" fill="#333" dy=".3em">Vision Multispeciality Dental </text>
 
+                     <text class="teeth_sub_heading" x="50%" y="60%" text-anchor="middle" fill="#333" dy=".3em">Make a appointment </text>
 
                      <defs>
                          <filter id="filter0_d_122_1295" x="0.400002" y="0.982377" width="430.2" height="430.2" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
@@ -160,8 +162,11 @@
                      <image href="assets/img/vision/emergrncy_icon.png" class="teeth_icon" />
 
 
-                     <text x="50%" y="50%" text-anchor="middle" fill="#333" font-size="24" font-family="Arial" dy=".3em">Your Text Here</text>
+                     <text class="teeth_heading" x="50%" y="30%" text-anchor="middle" fill="#333" dy=".3em">Emergency Call</text>
+                     <text class="teeth_first_para_card" x="50%" y="40%" text-anchor="middle" fill="#333" dy=".3em">Vision Multispeciality Dental </text>
 
+                     <text class="teeth_para_card" x="50%" y="50%" text-anchor="middle" fill="#2B93B8" dy=".3em"> +919391457072</text>
+                     <text class="teeth_sub_heading" x="50%" y="60%" text-anchor="middle" fill="#333" dy=".3em">Contact Us</text>
 
 
                      <defs>
@@ -185,14 +190,16 @@
                          <path d="M232.961 298.29L232.961 298.29C229.472 291.897 222.78 287.926 215.5 287.926C208.218 287.926 201.528 291.897 198.037 298.292L198.037 298.293L172.41 345.285C167.289 354.669 157.466 360.5 146.772 360.5C133.75 360.5 122.369 352.16 118.447 339.744L78.1861 212.246C70.4318 187.685 66.5 162.18 66.5 136.444C66.5 95.6704 99.666 62.5 140.428 62.5C158.774 62.5 170.537 65.9707 181.203 69.4512C181.956 69.6972 182.705 69.9433 183.45 70.1883C193.261 73.4143 202.499 76.4518 215.5 76.4518C228.505 76.4518 237.746 73.4132 247.558 70.1866C248.302 69.9421 249.048 69.6966 249.8 69.4512C260.465 65.9707 272.224 62.5 290.56 62.5C331.334 62.5 364.5 95.6704 364.5 136.444C364.5 162.18 360.568 187.685 352.816 212.246L312.555 339.744C308.631 352.16 297.25 360.5 284.228 360.5C273.541 360.5 263.718 354.671 258.593 345.287C258.593 345.287 258.593 345.287 258.592 345.287L232.961 298.29Z" stroke="#9A9A9A" stroke-opacity="0.2" />
                      </g>
 
-                     <!-- Image inside the SVG -->
+
                      <image href="assets/img/vision/doc_icon.png" class="teeth_icon" />
 
-                     <!-- First Text Element -->
-                     <text class="teeth_heading" x="50%" y="50%" text-anchor="middle" fill="#333" font-size="24" font-family="Arial" dy=".3em">Online Appointment</text>
 
-                     <!-- Additional Text Element -->
-                     <text class="teeth_subheading" x="50%" y="60%" text-anchor="middle" fill="#666" font-size="16" font-family="Arial" dy=".3em">Call us at: 123-456-7890</text>
+                     <text class="teeth_heading" x="50%" y="30%" text-anchor="middle" fill="#333" dy=".3em">Our Doctors</text>
+
+                     <text class="teeth_first_para_card" x="50%" y="45%" text-anchor="middle" fill="#333" dy=".3em">Vision Multispeciality Dental </text>
+
+                     <text class="teeth_sub_heading" x="50%" y="60%" text-anchor="middle" fill="#333" dy=".3em">Doctors </text>
+
 
                      <defs>
                          <filter id="filter0_d_122_1295" x="0.400002" y="0.982377" width="430.2" height="430.2" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
@@ -224,7 +231,7 @@
      </main><!-- End #main -->
 
      <!-- ======= Footer ======= -->
-     <footer id="footer">
+     <!-- <footer id="footer">
          <div class="footer-top">
              <div class="container py-5">
                  <div class="row">
@@ -373,7 +380,7 @@
                  </div>
              </div>
          </div>
-     </footer>
+     </footer> -->
 
 
      <!-- End Footer -->

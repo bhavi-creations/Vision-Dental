@@ -855,52 +855,65 @@ h6 {
 
 
 /* vision dental from banner section  */
+@media (min-width:768px) {
+  
 .banner_bg_color {
   background-color: #F5F9FC;
   padding-bottom: 100px;
 }
-
+}
+@media (max-width:768px) {
+  
+  .banner_bg_color {
+    background-color: #F5F9FC;
+    
+  }
+  }
+  
 .banner_image_logo {
   width: 51%;
   margin-bottom: 25px;
 }
+
 @media (min-width:1200px) {
-  
+
   .first_banner_col {
     padding-left: 116px;
   }
 }
-@media (min-width:992px) {
-  
 
-.banner_head {
-  color: #000;
-  font-family: "Mulish", sans-serif;
-  font-size: 45px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 54px;
-  /* 120% */
-  letter-spacing: -0.256px;
-  text-transform: capitalize;
-}
+@media (min-width:992px) {
+
+
+  .banner_head {
+    color: #000;
+    font-family: "Mulish", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    /* 120% */
+    letter-spacing: -0.256px;
+    text-transform: capitalize;
+  }
 }
 
 @media (max-width:768px) {
-  .index_logo_sm_md{
+  .index_logo_sm_md {
     width: 60%;
   }
 
 }
-@media (min-width:768px) and  (min-width:768px)  {
 
-.index_logo_sm_md{
-  width: 40%;
-}
+@media (min-width:768px) and (min-width:768px) {
+
+  .index_logo_sm_md {
+    width: 40%;
+  }
 }
 
 @media (max-width:992px) {
-  
+
 
   .banner_head {
     color: #000;
@@ -913,7 +926,8 @@ h6 {
     letter-spacing: -0.256px;
     text-transform: capitalize;
   }
-  }
+}
+
 .banner_para {
   color: var(--Body-text, #3C4959);
   font-family: "Mulish", sans-serif;
@@ -1049,28 +1063,51 @@ h6 {
   z-index: 0;
 }
 
-@media (min-width:1400px) {
-  
+@media (min-width:1400px) {}
+
+.card_tooth_size {
+  width: 100%;
 }
 
-.card_tooth_size{
-  width:100%;
-}
-
-.teeth_card_container{
+.teeth_card_container {
   margin-top: -100px;
 }
 
-.teeth_icon{
-  x: 43%;      
-  y:10%;    
-  width:15%;
+.teeth_icon {
+  x: 43%;
+  y: 10%;
+  width: 15%;
+
+}
+
+.teeth_heading {
+  color: #2D2D2D;
+  font-family: "poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+ 
+  letter-spacing: -0.256px;
+  text-transform: capitalize;
  
 }
 
-.teeth_heading{
+
+.teeth_sub_heading{
   color: #2D2D2D;
-font-family: "General Sans";
+font-family: "poppins";
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px; /* 400% */
+letter-spacing: -0.256px;
+text-transform: capitalize;
+}
+
+.teeth_para_card{
+  color: #2B93B8;
+font-family: "poppins";
 font-size: 18px;
 font-style: normal;
 font-weight: 600;
@@ -1078,3 +1115,16 @@ line-height: 56px; /* 311.111% */
 letter-spacing: -0.256px;
 text-transform: capitalize;
 }
+
+.teeth_first_para_card{
+  color: var(--Body-text, #3C4959);
+text-align: center;
+font-family: "poppins";
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 16.9px */
+letter-spacing: 0.195px;
+}
+
+ 

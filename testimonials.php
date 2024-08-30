@@ -14,7 +14,9 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -43,23 +45,23 @@
 </head>
 
 <style>
-    @media (min-width:992px) {
+@media (min-width:992px) {
 
-        .showthisdiv {
-            padding-left: 100px !important;
-        }
+    .showthisdiv {
+        padding-left: 100px !important;
     }
+}
 </style>
 
 <body>
-   
 
 
-    <header id="header1" class="main_images onlypad">
-        <div class="container d-flex align-items-center">
+
+    <header id="header">
+        <div class="container d-flex align-items-center onlypad  ">
             <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
                 <a href="index.php">
-                    <img src="assets/img/srinivasa/image 1.png" class="img-fluid" alt="">
+                    <img src="assets/img/vision/large_icon.png" class="img-fluid  " alt="">
                 </a>
             </div>
 
@@ -68,10 +70,13 @@
                 <ul>
                     <li><a class="nav-link scrollto" href="index.php">Home</a></li>
                     <li><a class="nav-link scrollto" href="about.php">About</a></li>
-                    <li><a class="nav-link scrollto" href="services.php">Services</a></li>
-                    <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
+                    <li><a class="nav-link scrollto" href="services.php">Treatments</a></li>
+                    <li><a class="nav-link scrollto" href="equipment.php">equipment</a></li>
+
                     <li><a class="nav-link" href="blogs.php">Blogs</a></li>
-                    <li><a class="nav-link scrollto" href="testimonials.php">What Patients Say</a></li>
+                    <li><a class="nav-link scrollto" href="testimonials.php">Reviews</a></li>
+                    <li><a class="nav-link scrollto" href="gallery.php">Smile Gallery</a></li>
+
                     <li><a href="appointment.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
                             Appointment
                         </a></li>
@@ -91,149 +96,112 @@
 
         <section class="sectionForm">
             <div class="container">
-                <div class="row servSect">
-                    <div class="col-md-7 dr_content_padding  order-1 order-md-1">
-                        <h5 class="poetsen_font11">What Patients Say</h2>
-                            <h2 class="dr_welcome_text1 mt-2 mb-0">Excellent</h2>
-                            <img src="assets/img/services/s3.png" class="img-fluid dr_img_padding servImgg" alt="">
+                <div class="abot mt-5">
+                    <h4 class="abh4">Reviews</h4>
+                    <p class="abP">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br>
+                        Aenean commodo ligula aenean massa.</p>
+                </div>
 
-                            <div class="carousel-container">
-                                <div class="carousel">
-                                    <div class="slide">
-                                        <div class="card mb-3 testCard" style="max-width: auto;">
-                                            <div class="row g-0">
-
-                                                <div class="col-md-8">
-                                                    <div class="card-body">
-                                                        <img src="assets/img/services/1.png" alt="" class="img-fluid testy1">
-                                                        <p class="card-text">This is a wider card with supporting text
-                                                            below as a
-                                                            natural lead-in to additional content. This content is a
-                                                            little bit
-                                                            longer.</p>
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text"><small class="text-muted">Lorem ipsum
-                                                            </small></p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <img src="assets/img/services/s5.png" class="img-fluid rounded-start crdImg" alt="...">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card mb-3 testCard" style="max-width: auto;">
-                                            <div class="row g-0">
-
-                                                <div class="col-md-8">
-                                                    <div class="card-body">
-                                                        <p class="card-text">This is a wider card with supporting text
-                                                            below as a
-                                                            natural lead-in to additional content. This content is a
-                                                            little bit
-                                                            longer.</p>
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text"><small class="text-muted">Lorem ipsum
-                                                            </small></p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <img src="assets/img/services/s5.png" class="img-fluid rounded-start crdImg" alt="...">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="slide">
-                                        <div class="card mb-3 testCard" style="max-width: auto;">
-                                            <div class="row g-0">
-
-                                                <div class="col-md-8">
-                                                    <div class="card-body">
-                                                        <p class="card-text">This is a wider card with supporting text
-                                                            below as a
-                                                            natural lead-in to additional content. This content is a
-                                                            little bit
-                                                            longer.</p>
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text"><small class="text-muted">Lorem ipsum
-                                                            </small></p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <img src="assets/img/services/s5.png" class="img-fluid rounded-start crdImg" alt="...">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card mb-3 testCard" style="max-width: auto;">
-                                            <div class="row g-0">
-
-                                                <div class="col-md-8">
-                                                    <div class="card-body">
-                                                        <p class="card-text">This is a wider card with supporting text
-                                                            below as a
-                                                            natural lead-in to additional content. This content is a
-                                                            little bit
-                                                            longer.</p>
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text"><small class="text-muted">Lorem ipsum
-                                                            </small></p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <img src="assets/img/services/s5.png" class="img-fluid rounded-start crdImg" alt="...">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="slide">
-                                        <div class="card mb-3 testCard" style="max-width: auto;">
-                                            <div class="row g-0">
-
-                                                <div class="col-md-8">
-                                                    <div class="card-body">
-                                                        <p class="card-text">This is a wider card with supporting text
-                                                            below as a
-                                                            natural lead-in to additional content. This content is a
-                                                            little bit
-                                                            longer.</p>
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text"><small class="text-muted">Lorem ipsum
-                                                            </small></p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <img src="assets/img/services/s5.png" class="img-fluid rounded-start crdImg" alt="...">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="card mb-3 testCard" style="max-width: auto;">
-                                            <div class="row g-0">
-
-                                                <div class="col-md-8">
-                                                    <div class="card-body">
-                                                        <p class="card-text">This is a wider card with supporting text
-                                                            below as a
-                                                            natural lead-in to additional content. This content is a
-                                                            little bit
-                                                            longer.</p>
-                                                        <h5 class="card-title">Card title</h5>
-                                                        <p class="card-text"><small class="text-muted">Lorem ipsum
-                                                            </small></p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <img src="assets/img/services/s5.png" class="img-fluid rounded-start crdImg" alt="...">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
-                                <button class="next" onclick="moveSlide(1)">&#10095;</button>
-                            </div>
+                <div class="abtt1 mt-4 mb-4">
+                    <h2 class="patients">What our Patient says</h2>
+                    <p class="ppaaatt mt-2">5,0 <span> <img src="assets/img/services/s3.png"
+                                class="img-fluid dr_img_padding servImgg" alt=""></span> Google Reviews</p>
+                </div>
+                <div class="row servSection mt-5">
+                    <div class="col-md-4">
+                        <div class="tes">
+                            <img src="assets/img/about/u1.png" alt="" class="userImage">
+                            <h4 class="personame">Person Name</h4>
+                        </div>
+                        <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
+                            illo omnis quod minus minima rem quo cum deserunt sint iusto id quasi eaque totam, explicabo
+                            asperiores hic. Laudantium.sint iusto id quasi eaque totam, explicabo
+                            asperiores hic. Laudantium.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="tes">
+                            <img src="assets/img/about/u1.png" alt="" class="userImage">
+                            <h4 class="personame">Person Name</h4>
+                        </div>
+                        <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
+                            illo omnis quod minus minima rem quo cum deserunt sint iusto id quasi eaque total.sint iusto id quasi eaque totam, explicabo
+                            asperiores hic. Laudantium.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="tes">
+                            <img src="assets/img/about/u1.png" alt="" class="userImage">
+                            <h4 class="personame">Person Name</h4>
+                        </div>
+                        <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
+                            illo omnis quod minus minima rem quo cum deserunt sint iusto id quasi eaque totam, explicabo
+                            asperiores hic. Laudantium. sint iusto id quasi eaque totam, explicabo
+                            asperiores hic. Laudantium.  </p>
                     </div>
 
-                    <div class="col-md-5 order-3  order-md-2 mt-5">
-                        <img src="assets/img/services/s4.png" class="img-fluid dr_img_padding" alt="" class="servImg">
+
+                </div>
+                <div class="row servSect">
+                    <div class="col-md-4  ">
+                        <div class="tes">
+                            <img src="assets/img/about/u1.png" alt="" class="userImage">
+                            <h4 class="personame">Person Name</h4>
+                        </div>
+                        <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
+                            illo omnis quod minus minima rem quo cum deserunt sint iusto id quasi eaque totam, explicabo
+                            asperiores hic. </p>
+                    </div>
+                    <div class="col-md-4  ">
+                        <div class="tes">
+                            <img src="assets/img/about/u1.png" alt="" class="userImage">
+                            <h4 class="personame">Person Name</h4>
+                        </div>
+                        <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
+                            illo omnis quod minus minima rem quo cum deserunt sint iusto id quasi eaque totam, explicabo
+                            asperiores hic. Laudantium.Laudantium.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
+                            illo omnis quod minus minima rem quo cum deserunt sint iusto id quasi eaque totam, explicabo
+                            asperiores hic. Laudantium.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="tes">
+                            <img src="assets/img/about/u1.png" alt="" class="userImage">
+                            <h4 class="personame">Person Name</h4>
+                        </div>
+                        <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
+                            illo omnis quod minus minima rem quo cum deserunt sint iusto id quasi eaque totam, explicabo
+                            asperiores hic.  </p>
+                    </div>
+
+
+                </div>
+                <div class="row servSect">
+                    <div class="col-md-4">
+                        <div class="tes">
+                            <img src="assets/img/about/u1.png" alt="" class="userImage">
+                            <h4 class="personame">Person Name</h4>
+                        </div>
+                        <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
+                            illo omnis quod minus minima rem quo cum deserunt sint iusto id quasi eaque totam, explicabo
+                            asperiores hic. Laudantium.sint iusto id quasi eaque totam, explicabo
+                            asperiores hic. Laudantium.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="tes">
+                            <img src="assets/img/about/u1.png" alt="" class="userImage">
+                            <h4 class="personame">Person Name</h4>
+                        </div>
+                        <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
+                            illo omnis quod minus minima rem quo cum deserunt sint iusto id quasi eaque total.sint iusto id quasi eaque totam, explicabo
+                            asperiores hic. Laudantium.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="tes">
+                            <img src="assets/img/about/u1.png" alt="" class="userImage">
+                            <h4 class="personame">Person Name</h4>
+                        </div>
+                        <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
+                            illo omnis quod minus minima rem quo cum deserunt sint iusto id quasi eaque totam, explicabo
+                            asperiores hic. Laudantium. sint iusto id quasi eaque totam, explicabo
+                            asperiores hic. Laudantium.  </p>
                     </div>
 
 
@@ -241,18 +209,18 @@
             </div>
         </section>
         <script>
-            function toggleReadMore() {
-                var showThisDiv = document.querySelector('.showthisdiv');
-                var readMoreText = document.querySelector('.get_in_touch');
+        function toggleReadMore() {
+            var showThisDiv = document.querySelector('.showthisdiv');
+            var readMoreText = document.querySelector('.get_in_touch');
 
-                if (showThisDiv.style.display === "none") {
-                    showThisDiv.style.display = "block";
-                    readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-                } else {
-                    showThisDiv.style.display = "none";
-                    readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
-                }
+            if (showThisDiv.style.display === "none") {
+                showThisDiv.style.display = "block";
+                readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
+            } else {
+                showThisDiv.style.display = "none";
+                readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
             }
+        }
         </script>
 
     </main>
@@ -266,10 +234,15 @@
                             showroom, opp
                             Vivekananda statue- kulaicheruvu park Kakinada-1
                         </p>
-                        <p class="foot_para"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                        <p class="foot_para"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17"
+                                viewBox="0 0 17 17" fill="none">
                                 <g clip-path="url(#clip0_94_738)">
-                                    <path d="M11.5289 10.0012L9.15863 8.22346V4.60227C9.15863 4.23816 8.86432 3.94385 8.50021 3.94385C8.13611 3.94385 7.8418 4.23816 7.8418 4.60227V8.55271C7.8418 8.76009 7.93925 8.95566 8.10516 9.07944L10.7388 11.0547C10.8573 11.1435 10.9956 11.1863 11.1332 11.1863C11.334 11.1863 11.5315 11.0961 11.6606 10.9223C11.8792 10.6319 11.8199 10.2191 11.5289 10.0012Z" fill="white" />
-                                    <path d="M8.5 0C3.81281 0 0 3.81281 0 8.5C0 13.1872 3.81281 17 8.5 17C13.1872 17 17 13.1872 17 8.5C17 3.81281 13.1872 0 8.5 0ZM8.5 15.6832C4.5397 15.6832 1.3168 12.4603 1.3168 8.5C1.3168 4.5397 4.5397 1.3168 8.5 1.3168C12.461 1.3168 15.6832 4.5397 15.6832 8.5C15.6832 12.4603 12.4603 15.6832 8.5 15.6832Z" fill="white" />
+                                    <path
+                                        d="M11.5289 10.0012L9.15863 8.22346V4.60227C9.15863 4.23816 8.86432 3.94385 8.50021 3.94385C8.13611 3.94385 7.8418 4.23816 7.8418 4.60227V8.55271C7.8418 8.76009 7.93925 8.95566 8.10516 9.07944L10.7388 11.0547C10.8573 11.1435 10.9956 11.1863 11.1332 11.1863C11.334 11.1863 11.5315 11.0961 11.6606 10.9223C11.8792 10.6319 11.8199 10.2191 11.5289 10.0012Z"
+                                        fill="white" />
+                                    <path
+                                        d="M8.5 0C3.81281 0 0 3.81281 0 8.5C0 13.1872 3.81281 17 8.5 17C13.1872 17 17 13.1872 17 8.5C17 3.81281 13.1872 0 8.5 0ZM8.5 15.6832C4.5397 15.6832 1.3168 12.4603 1.3168 8.5C1.3168 4.5397 4.5397 1.3168 8.5 1.3168C12.461 1.3168 15.6832 4.5397 15.6832 8.5C15.6832 12.4603 12.4603 15.6832 8.5 15.6832Z"
+                                        fill="white" />
                                 </g>
                                 <defs>
                                     <clipPath id="clip0_94_738">
@@ -279,9 +252,12 @@
                             </svg> &nbsp; &nbsp; Clinic Time <br>
                             Mon-Sat – 9:00 AM To 8:30 PM <br> Sun – 9:00 AM To 1:00 PM</p>
                         <p class="foot_para">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15"
+                                fill="none">
                                 <g clip-path="url(#clip0_94_734)">
-                                    <path d="M13.6189 10.4377L11.6652 8.48393C10.9674 7.78617 9.7812 8.0653 9.50209 8.97237C9.29276 9.60038 8.595 9.94927 7.96701 9.80969C6.57148 9.4608 4.68751 7.64661 4.33863 6.18131C4.1293 5.55329 4.54796 4.85553 5.17595 4.64622C6.08304 4.36712 6.36215 3.18092 5.66439 2.48315L3.71064 0.529413C3.15243 0.0409771 2.31511 0.0409771 1.82668 0.529413L0.500926 1.85517C-0.824828 3.2507 0.640479 6.94885 3.91997 10.2283C7.19947 13.5078 10.8976 15.0429 12.2932 13.6474L13.6189 12.3216C14.1074 11.7634 14.1074 10.9261 13.6189 10.4377Z" fill="white" />
+                                    <path
+                                        d="M13.6189 10.4377L11.6652 8.48393C10.9674 7.78617 9.7812 8.0653 9.50209 8.97237C9.29276 9.60038 8.595 9.94927 7.96701 9.80969C6.57148 9.4608 4.68751 7.64661 4.33863 6.18131C4.1293 5.55329 4.54796 4.85553 5.17595 4.64622C6.08304 4.36712 6.36215 3.18092 5.66439 2.48315L3.71064 0.529413C3.15243 0.0409771 2.31511 0.0409771 1.82668 0.529413L0.500926 1.85517C-0.824828 3.2507 0.640479 6.94885 3.91997 10.2283C7.19947 13.5078 10.8976 15.0429 12.2932 13.6474L13.6189 12.3216C14.1074 11.7634 14.1074 10.9261 13.6189 10.4377Z"
+                                        fill="white" />
                                 </g>
                                 <defs>
                                     <clipPath id="clip0_94_734">
@@ -293,9 +269,12 @@
                             +91-08842342346 
                         </p>
                         <p class="foot_para">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15"
+                                fill="none">
                                 <g clip-path="url(#clip0_94_734)">
-                                    <path d="M13.6189 10.4377L11.6652 8.48393C10.9674 7.78617 9.7812 8.0653 9.50209 8.97237C9.29276 9.60038 8.595 9.94927 7.96701 9.80969C6.57148 9.4608 4.68751 7.64661 4.33863 6.18131C4.1293 5.55329 4.54796 4.85553 5.17595 4.64622C6.08304 4.36712 6.36215 3.18092 5.66439 2.48315L3.71064 0.529413C3.15243 0.0409771 2.31511 0.0409771 1.82668 0.529413L0.500926 1.85517C-0.824828 3.2507 0.640479 6.94885 3.91997 10.2283C7.19947 13.5078 10.8976 15.0429 12.2932 13.6474L13.6189 12.3216C14.1074 11.7634 14.1074 10.9261 13.6189 10.4377Z" fill="white" />
+                                    <path
+                                        d="M13.6189 10.4377L11.6652 8.48393C10.9674 7.78617 9.7812 8.0653 9.50209 8.97237C9.29276 9.60038 8.595 9.94927 7.96701 9.80969C6.57148 9.4608 4.68751 7.64661 4.33863 6.18131C4.1293 5.55329 4.54796 4.85553 5.17595 4.64622C6.08304 4.36712 6.36215 3.18092 5.66439 2.48315L3.71064 0.529413C3.15243 0.0409771 2.31511 0.0409771 1.82668 0.529413L0.500926 1.85517C-0.824828 3.2507 0.640479 6.94885 3.91997 10.2283C7.19947 13.5078 10.8976 15.0429 12.2932 13.6474L13.6189 12.3216C14.1074 11.7634 14.1074 10.9261 13.6189 10.4377Z"
+                                        fill="white" />
                                 </g>
                                 <defs>
                                     <clipPath id="clip0_94_734">
@@ -324,10 +303,13 @@
                         </a>
 
                         <div class="d-flex">
-                            <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank"> <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt=""></a> &nbsp;&nbsp;
-                            <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank"> <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt=""></a> &nbsp;&nbsp;
+                            <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank"> <img
+                                    src="assets/img/srinivasa/facebook.png" class="img-fluid" alt=""></a> &nbsp;&nbsp;
+                            <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank"> <img
+                                    src="assets/img/srinivasa/instagram.png" class="img-fluid" alt=""></a> &nbsp;&nbsp;
 
-                            <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank"> <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt=""></a>
+                            <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank"> <img
+                                    src="assets/img/srinivasa/youtube.png" class="img-fluid" alt=""></a>
 
                         </div>
 
@@ -372,7 +354,8 @@
                             <p class="mini_text last_text" style="color: #ffffff">
                                 ©2024 SRINIVASA DENTAL . All Rights Reserved. Designed &
                                 Developed by
-                                <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none; color: #ffffff">Bhavi
+                                <a href="https://bhavicreations.com/" target="_blank"
+                                    style="text-decoration: none; color: #ffffff">Bhavi
                                     Creations</a>
                             </p>
                         </div>
@@ -392,28 +375,28 @@
         </div>
     </footer>
     <script>
-        function toggleReadMore() {
-            var showThisDiv = document.querySelector('.showthisdiv');
-            var readMoreText = document.querySelector('.get_in_touch');
+    function toggleReadMore() {
+        var showThisDiv = document.querySelector('.showthisdiv');
+        var readMoreText = document.querySelector('.get_in_touch');
 
-            if (showThisDiv.style.display === "none") {
-                showThisDiv.style.display = "block";
-                readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-            } else {
-                showThisDiv.style.display = "none";
-                readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
-            }
+        if (showThisDiv.style.display === "none") {
+            showThisDiv.style.display = "block";
+            readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
+        } else {
+            showThisDiv.style.display = "none";
+            readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
         }
+    }
     </script>
     <script>
-        let currentSlide = 0;
+    let currentSlide = 0;
 
-        function moveSlide(step) {
-            const slides = document.querySelectorAll('.carousel .slide');
-            const totalSlides = slides.length;
-            currentSlide = (currentSlide + step + totalSlides) % totalSlides;
-            document.querySelector('.carousel').style.transform = `translateX(-${currentSlide * 100}%)`;
-        }
+    function moveSlide(step) {
+        const slides = document.querySelectorAll('.carousel .slide');
+        const totalSlides = slides.length;
+        currentSlide = (currentSlide + step + totalSlides) % totalSlides;
+        document.querySelector('.carousel').style.transform = translateX(-${currentSlide * 100}%);
+    }
     </script>
 
 
@@ -423,51 +406,52 @@
     <button id="scrollBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up "></i></button>
 
     <script>
-        // Function to scroll to the top of the page
-        function scrollToTop() {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth' // Optional, smooth scrolling animation
-            });
-        }
+    // Function to scroll to the top of the page
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth' // Optional, smooth scrolling animation
+        });
+    }
 
-        // Show scroll button when scrolling down
-        window.onscroll = function() {
-            scrollFunction()
-        };
+    // Show scroll button when scrolling down
+    window.onscroll = function() {
+        scrollFunction()
+    };
 
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("scrollBtn").style.display = "block";
-            } else {
-                document.getElementById("scrollBtn").style.display = "none";
-            }
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("scrollBtn").style.display = "block";
+        } else {
+            document.getElementById("scrollBtn").style.display = "none";
         }
+    }
     </script>
 
     <style>
-        #scrollBtn {
-            display: none;
-            /* Initially hide the button */
-            position: fixed;
-            /* Fix the position of the button */
-            bottom: 20px;
-            /* Adjust the bottom distance */
-            right: 20px;
-            /* Adjust the right distance */
-            z-index: 999;
-            /* Set a high z-index to ensure the button is on top */
-            padding: 10px 15px;
-            background-color: #01539D;
-            ;
-            color: white;
-            border: none;
-            border-radius: 50%;
-            cursor: pointer;
-        }
+    #scrollBtn {
+        display: none;
+        /* Initially hide the button */
+        position: fixed;
+        /* Fix the position of the button */
+        bottom: 20px;
+        /* Adjust the bottom distance */
+        right: 20px;
+        /* Adjust the right distance */
+        z-index: 999;
+        /* Set a high z-index to ensure the button is on top */
+        padding: 10px 15px;
+        background-color: #01539D;
+        ;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+    }
     </style>
 
-    <a href="https://api.whatsapp.com/send?phone=918406907980" style="color: #fff;" class="whatsapp-link" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=918406907980" style="color: #fff;" class="whatsapp-link"
+        target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>
 

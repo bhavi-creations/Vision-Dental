@@ -14,7 +14,9 @@
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -41,17 +43,17 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 </head>
- 
+
 
 <body>
-     
 
 
-    <header id="header1" class="main_images onlypad">
-        <div class="container d-flex align-items-center">
+
+    <header id="header">
+        <div class="container d-flex align-items-center onlypad  ">
             <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
                 <a href="index.php">
-                    <img src="assets/img/srinivasa/image 1.png" class="img-fluid" alt="">
+                    <img src="assets/img/vision/large_icon.png" class="img-fluid  " alt="">
                 </a>
             </div>
 
@@ -60,10 +62,13 @@
                 <ul>
                     <li><a class="nav-link scrollto" href="index.php">Home</a></li>
                     <li><a class="nav-link scrollto" href="about.php">About</a></li>
-                    <li><a class="nav-link scrollto" href="services.php">Services</a></li>
-                    <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
+                    <li><a class="nav-link scrollto" href="services.php">Treatments</a></li>
+                    <li><a class="nav-link scrollto" href="equipment.php">equipment</a></li>
+
                     <li><a class="nav-link" href="blogs.php">Blogs</a></li>
-                    <li><a class="nav-link scrollto" href="testimonials.php">What Patients Say</a></li>
+                    <li><a class="nav-link scrollto" href="testimonials.php">Reviews</a></li>
+                    <li><a class="nav-link scrollto" href="gallery.php">Smile Gallery</a></li>
+
                     <li><a href="appointment.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
                             Appointment
                         </a></li>
@@ -81,44 +86,57 @@
 
     <main id="main">
 
-        <section class="sectionForm mt-5 pt-5">
+        <section class="sectionForm  ">
             <div class="container">
+                <div class="abotu mt-5">
+                    <h4 class="abh4">Smile Gallery</h4>
+                    <p class="abP">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo ligula aenean massa.</p>
+                </div>
                 <div class="row servSect">
+
+                    <div class="col-md-2 ">
+                        <img src="assets/img/about/i1.png" alt="" class="iimage">
+                        <img src="assets/img/about/i2.png" alt="" class="iimage1">
+                    </div>
                     <div class="col-md-4">
-                        <img src="assets/img/gallery/1.png" alt="" class="imgg1">
-                    </div>
-                    <div class="col-md-4"> <img src="assets/img/gallery/2.png" alt="" class="imgg2">
-                    </div>
-                    <div class="col-md-4"> <img src="assets/img/gallery/3.png" alt="" class="imgg3">
-                    </div>
+                        <img src="assets/img/about/g1.png" alt="">
 
-
-                </div>
-                <div class="row servSect">
-                    <div class="col-md-3">
-                        <img src="assets/img/gallery/4.png" alt="" class="imgg4"><br />
-                        <img src="assets/img/gallery/7.png" alt="" class="imgg5">
                     </div>
-
-                    <div class="col-md-6"> <img src="assets/img/gallery/5.png" alt="" class="imgg6">
+                    <div class="col-md-4"> <img src="assets/img/about/g2.png" alt="">
                     </div>
-                    <div class="col-md-3"> <img src="assets/img/gallery/6.png" alt="" class="imgg7">
-                    </div>
-
+                    <div class="col-md-2"></div>
 
                 </div>
-                <div class="row servSect">
+                <img src="assets/img/about/i3.png" alt="" class="iimage2">
+                <img src="assets/img/about/i4.png" alt="" class="iimage3">
+                <div class="row servSecttt ">
+
+                    <div class="col-md-4"> <img src="assets/img/about/g3.png" alt="">
+                    </div>
                     <div class="col-md-4">
-                        <img src="assets/img/gallery/8.png" alt="" class="imgg8">
+                        <img src="assets/img/about/g4.png" alt="">
                     </div>
-
-                    <div class="col-md-4"> <img src="assets/img/gallery/9.png" alt="" class="imgg9">
-                    </div>
-                    <div class="col-md-4"> <img src="assets/img/gallery/10.png" alt="" class="imgg10">
+                    <div class="col-md-4"> <img src="assets/img/about/g5.png" alt="">
                     </div>
 
 
                 </div>
+
+                <div class="row servSecttttt mt-4">
+
+
+                    <div class="col-md-2"> <img src="assets/img/about/i5.png" alt="" class="iimage4">
+                        <img src="assets/img/about/i6.png" alt="" class="iimage5">
+                    </div>
+                    <div class="col-md-4"> <img src="assets/img/about/g6.png" alt="">
+                    </div>
+                    <div class="col-md-4"> <img src="assets/img/about/g7.png" alt="">
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+
+
             </div>
         </section>
 
@@ -134,10 +152,15 @@
                         <p class="foot_para">Srinivasa Multispeciality Dental Hospital Jawahar street, Beside MRF
                             showroom, opp Vivekananda statue- kulaicheruvu park Kakinada-1
                         </p>
-                        <p class="foot_para"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                        <p class="foot_para"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17"
+                                viewBox="0 0 17 17" fill="none">
                                 <g clip-path="url(#clip0_94_738)">
-                                    <path d="M11.5289 10.0012L9.15863 8.22346V4.60227C9.15863 4.23816 8.86432 3.94385 8.50021 3.94385C8.13611 3.94385 7.8418 4.23816 7.8418 4.60227V8.55271C7.8418 8.76009 7.93925 8.95566 8.10516 9.07944L10.7388 11.0547C10.8573 11.1435 10.9956 11.1863 11.1332 11.1863C11.334 11.1863 11.5315 11.0961 11.6606 10.9223C11.8792 10.6319 11.8199 10.2191 11.5289 10.0012Z" fill="white" />
-                                    <path d="M8.5 0C3.81281 0 0 3.81281 0 8.5C0 13.1872 3.81281 17 8.5 17C13.1872 17 17 13.1872 17 8.5C17 3.81281 13.1872 0 8.5 0ZM8.5 15.6832C4.5397 15.6832 1.3168 12.4603 1.3168 8.5C1.3168 4.5397 4.5397 1.3168 8.5 1.3168C12.461 1.3168 15.6832 4.5397 15.6832 8.5C15.6832 12.4603 12.4603 15.6832 8.5 15.6832Z" fill="white" />
+                                    <path
+                                        d="M11.5289 10.0012L9.15863 8.22346V4.60227C9.15863 4.23816 8.86432 3.94385 8.50021 3.94385C8.13611 3.94385 7.8418 4.23816 7.8418 4.60227V8.55271C7.8418 8.76009 7.93925 8.95566 8.10516 9.07944L10.7388 11.0547C10.8573 11.1435 10.9956 11.1863 11.1332 11.1863C11.334 11.1863 11.5315 11.0961 11.6606 10.9223C11.8792 10.6319 11.8199 10.2191 11.5289 10.0012Z"
+                                        fill="white" />
+                                    <path
+                                        d="M8.5 0C3.81281 0 0 3.81281 0 8.5C0 13.1872 3.81281 17 8.5 17C13.1872 17 17 13.1872 17 8.5C17 3.81281 13.1872 0 8.5 0ZM8.5 15.6832C4.5397 15.6832 1.3168 12.4603 1.3168 8.5C1.3168 4.5397 4.5397 1.3168 8.5 1.3168C12.461 1.3168 15.6832 4.5397 15.6832 8.5C15.6832 12.4603 12.4603 15.6832 8.5 15.6832Z"
+                                        fill="white" />
                                 </g>
                                 <defs>
                                     <clipPath id="clip0_94_738">
@@ -147,9 +170,12 @@
                             </svg> &nbsp; &nbsp; Clinic Time <br>
                             Mon-Sat – 9:00 AM To 8:30 PM <br> Sun – 9:00 AM To 1:00 PM</p>
                         <p class="foot_para">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15"
+                                fill="none">
                                 <g clip-path="url(#clip0_94_734)">
-                                    <path d="M13.6189 10.4377L11.6652 8.48393C10.9674 7.78617 9.7812 8.0653 9.50209 8.97237C9.29276 9.60038 8.595 9.94927 7.96701 9.80969C6.57148 9.4608 4.68751 7.64661 4.33863 6.18131C4.1293 5.55329 4.54796 4.85553 5.17595 4.64622C6.08304 4.36712 6.36215 3.18092 5.66439 2.48315L3.71064 0.529413C3.15243 0.0409771 2.31511 0.0409771 1.82668 0.529413L0.500926 1.85517C-0.824828 3.2507 0.640479 6.94885 3.91997 10.2283C7.19947 13.5078 10.8976 15.0429 12.2932 13.6474L13.6189 12.3216C14.1074 11.7634 14.1074 10.9261 13.6189 10.4377Z" fill="white" />
+                                    <path
+                                        d="M13.6189 10.4377L11.6652 8.48393C10.9674 7.78617 9.7812 8.0653 9.50209 8.97237C9.29276 9.60038 8.595 9.94927 7.96701 9.80969C6.57148 9.4608 4.68751 7.64661 4.33863 6.18131C4.1293 5.55329 4.54796 4.85553 5.17595 4.64622C6.08304 4.36712 6.36215 3.18092 5.66439 2.48315L3.71064 0.529413C3.15243 0.0409771 2.31511 0.0409771 1.82668 0.529413L0.500926 1.85517C-0.824828 3.2507 0.640479 6.94885 3.91997 10.2283C7.19947 13.5078 10.8976 15.0429 12.2932 13.6474L13.6189 12.3216C14.1074 11.7634 14.1074 10.9261 13.6189 10.4377Z"
+                                        fill="white" />
                                 </g>
                                 <defs>
                                     <clipPath id="clip0_94_734">
@@ -161,9 +187,12 @@
                             +91-08842342346 
                         </p>
                         <p class="foot_para">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15"
+                                fill="none">
                                 <g clip-path="url(#clip0_94_734)">
-                                    <path d="M13.6189 10.4377L11.6652 8.48393C10.9674 7.78617 9.7812 8.0653 9.50209 8.97237C9.29276 9.60038 8.595 9.94927 7.96701 9.80969C6.57148 9.4608 4.68751 7.64661 4.33863 6.18131C4.1293 5.55329 4.54796 4.85553 5.17595 4.64622C6.08304 4.36712 6.36215 3.18092 5.66439 2.48315L3.71064 0.529413C3.15243 0.0409771 2.31511 0.0409771 1.82668 0.529413L0.500926 1.85517C-0.824828 3.2507 0.640479 6.94885 3.91997 10.2283C7.19947 13.5078 10.8976 15.0429 12.2932 13.6474L13.6189 12.3216C14.1074 11.7634 14.1074 10.9261 13.6189 10.4377Z" fill="white" />
+                                    <path
+                                        d="M13.6189 10.4377L11.6652 8.48393C10.9674 7.78617 9.7812 8.0653 9.50209 8.97237C9.29276 9.60038 8.595 9.94927 7.96701 9.80969C6.57148 9.4608 4.68751 7.64661 4.33863 6.18131C4.1293 5.55329 4.54796 4.85553 5.17595 4.64622C6.08304 4.36712 6.36215 3.18092 5.66439 2.48315L3.71064 0.529413C3.15243 0.0409771 2.31511 0.0409771 1.82668 0.529413L0.500926 1.85517C-0.824828 3.2507 0.640479 6.94885 3.91997 10.2283C7.19947 13.5078 10.8976 15.0429 12.2932 13.6474L13.6189 12.3216C14.1074 11.7634 14.1074 10.9261 13.6189 10.4377Z"
+                                        fill="white" />
                                 </g>
                                 <defs>
                                     <clipPath id="clip0_94_734">
@@ -192,10 +221,13 @@
                         </a>
 
                         <div class="d-flex">
-                            <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank"> <img src="assets/img/srinivasa/facebook.png" class="img-fluid" alt=""></a> &nbsp;&nbsp;
-                            <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank"> <img src="assets/img/srinivasa/instagram.png" class="img-fluid" alt=""></a> &nbsp;&nbsp;
+                            <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank"> <img
+                                    src="assets/img/srinivasa/facebook.png" class="img-fluid" alt=""></a> &nbsp;&nbsp;
+                            <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank"> <img
+                                    src="assets/img/srinivasa/instagram.png" class="img-fluid" alt=""></a> &nbsp;&nbsp;
 
-                            <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank"> <img src="assets/img/srinivasa/youtube.png" class="img-fluid" alt=""></a>
+                            <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank"> <img
+                                    src="assets/img/srinivasa/youtube.png" class="img-fluid" alt=""></a>
 
                         </div>
 
@@ -240,7 +272,8 @@
                             <p class="mini_text last_text" style="color: #ffffff">
                                 ©2024 SRINIVASA DENTAL . All Rights Reserved. Designed &
                                 Developed by
-                                <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none; color: #ffffff">Bhavi Creations</a>
+                                <a href="https://bhavicreations.com/" target="_blank"
+                                    style="text-decoration: none; color: #ffffff">Bhavi Creations</a>
                             </p>
                         </div>
                     </div>
@@ -266,51 +299,52 @@
     <button id="scrollBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up "></i></button>
 
     <script>
-        // Function to scroll to the top of the page
-        function scrollToTop() {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth' // Optional, smooth scrolling animation
-            });
-        }
+    // Function to scroll to the top of the page
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth' // Optional, smooth scrolling animation
+        });
+    }
 
-        // Show scroll button when scrolling down
-        window.onscroll = function() {
-            scrollFunction()
-        };
+    // Show scroll button when scrolling down
+    window.onscroll = function() {
+        scrollFunction()
+    };
 
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("scrollBtn").style.display = "block";
-            } else {
-                document.getElementById("scrollBtn").style.display = "none";
-            }
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("scrollBtn").style.display = "block";
+        } else {
+            document.getElementById("scrollBtn").style.display = "none";
         }
+    }
     </script>
 
     <style>
-        #scrollBtn {
-            display: none;
-            /* Initially hide the button */
-            position: fixed;
-            /* Fix the position of the button */
-            bottom: 20px;
-            /* Adjust the bottom distance */
-            right: 20px;
-            /* Adjust the right distance */
-            z-index: 999;
-            /* Set a high z-index to ensure the button is on top */
-            padding: 10px 15px;
-            background-color: #01539D;
-            ;
-            color: white;
-            border: none;
-            border-radius: 50%;
-            cursor: pointer;
-        }
+    #scrollBtn {
+        display: none;
+        /* Initially hide the button */
+        position: fixed;
+        /* Fix the position of the button */
+        bottom: 20px;
+        /* Adjust the bottom distance */
+        right: 20px;
+        /* Adjust the right distance */
+        z-index: 999;
+        /* Set a high z-index to ensure the button is on top */
+        padding: 10px 15px;
+        background-color: #01539D;
+        ;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+    }
     </style>
 
-    <a href="https://api.whatsapp.com/send?phone=918406907980" style="color: #fff;" class="whatsapp-link" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=918406907980" style="color: #fff;" class="whatsapp-link"
+        target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>
 
