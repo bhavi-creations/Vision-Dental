@@ -44,18 +44,18 @@
 
 </head>
 <style>
-    @media (min-width:992px) {
+@media (min-width:992px) {
 
-        .showthisdiv {
-            padding-left: 100px !important;
-        }
+    .showthisdiv {
+        padding-left: 100px !important;
     }
+}
 </style>
 
 <body>
 
 
-<header id="header">
+    <header id="header">
         <div class="container d-flex align-items-center onlypad  ">
             <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
                 <a href="index.php">
@@ -107,20 +107,25 @@
                             Guntur
                         </h2>
                         <p class="poetsen_font1">
-                            Vision Multispeciality Dental Hospital is dedicated to providing comprehensive dental care in a modern and compassionate environment. With a team of skilled dentists and state-of-the-art technology, we deliver personalized treatment plans for optimal oral health.
+                            Vision Multispeciality Dental Hospital is dedicated to providing comprehensive dental care
+                            in a modern and compassionate environment. With a team of skilled dentists and
+                            state-of-the-art technology, we deliver personalized treatment plans for optimal oral
+                            health.
 
                             <br>
 
 
 
-                            From routine check-ups to advanced procedures, our focus is on exceptional patient care and creating confident smiles. Trust us for all your dental needs and experience the highest standard of dental excellence.
+                            From routine check-ups to advanced procedures, our focus is on exceptional patient care and
+                            creating confident smiles. Trust us for all your dental needs and experience the highest
+                            standard of dental excellence.
                         </p>
 
 
                     </div>
 
                     <div class="col-md-6 order-3  order-md-2 mt-5">
-                        <img src="assets/img/about/a1.png" class="img-fluid dr_img_padding abouter" alt=""  >
+                        <img src="assets/img/about/a1.png" class="img-fluid dr_img_padding abouter" alt="">
                     </div>
 
 
@@ -132,100 +137,124 @@
                 <div class="row servSect">
                     <div class="abot mt-5">
                         <h4 class="abh4">Meet our specialists</h4>
-                        <p class="abP">We use only the best quality materials on the market in order to provide the best products to our patients.</p>
+                        <p class="abP">We use only the best quality materials on the market in order to provide the best
+                            products to our patients.</p>
                     </div>
-                    <div class="col-md-7 dr_content_padding  order-1 order-md-1">
-                        <h5 class="poetsen_font11">Dr. Abhilash <span class="spanabout">(  Founder and Chief Doctor )</span></h5>
+                      <div class="col-md-5   mt-5">
+                        <img src="assets/img/about/a2.png" class="img-fluid dr_img_padding abouter" alt="">
+                    </div>
+                    <div class="col-md-7 dr_content_padding   ">
+                        <h5 class="poetsen_font11">Dr. Abhilash <span class="spanabout">(  Founder and Chief Doctor
+                                )</span></h5>
                         <p class="poetsen_font1">
-                        Welcome to Vision Multispeciality Dental Hospital, Guntur, where Dr. Abhilash, our founder and chief doctor, leads a dedicated team committed to providing top-notch dental care. With over 8 years of experience, Dr. Abhilash is highly skilled in implant surgeries, laser photomedicine, and full mouth rehabilitations.
+                            Welcome to Vision Multispeciality Dental Hospital, Guntur, where Dr. Abhilash, our founder
+                            and chief doctor, leads a dedicated team committed to providing top-notch dental care. With
+                            over 8 years of experience, Dr. Abhilash is highly skilled in implant surgeries, laser
+                            photomedicine, and full mouth rehabilitations.
 
                             <br>
                             <br>
-                            Dr. Abhilash's expertise ensures that every patient receives personalized and effective treatment. He combines advanced technology with a patient-centered approach, focusing on comfort, precision, and long-lasting results. Whether you're looking for secure dental implants, minimally invasive laser treatments, or comprehensive full mouth rehabilitation,
-Dr. Abhilash and his team are here to help you achieve a healthy and confident smile.
+                            Dr. Abhilash's expertise ensures that every patient receives personalized and effective
+                            treatment. He combines advanced technology with a patient-centered approach, focusing on
+                            comfort, precision, and long-lasting results. Whether you're looking for secure dental
+                            implants, minimally invasive laser treatments, or comprehensive full mouth rehabilitation,
+                            Dr. Abhilash and his team are here to help you achieve a healthy and confident smile.
                         </p>
                         <div class="d-flex flex-row justify-content-start">
-                                <p class="get_in_touch" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore()">
-                                    Read More <i class="fa-solid fa-arrow-right"></i></p>
-                            </div>
+                            <p class="get_in_touch" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore()">
+                                Read More <i class="fa-solid fa-arrow-right"></i></p>
+                        </div>
 
                     </div>
 
-                    <div class="col-md-5 order-3  order-md-2 mt-5">
-                        <img src="assets/img/about/a2.png" class="img-fluid dr_img_padding abouter" alt=""  >
-                    </div>
+                  
 
                     <div class="showthisdiv order-2  order-md-3" style="display:none ">
-                        <p class="poetsen_font1"> 
-At Vision Multispeciality Dental Hospital, we prioritize your well-being and strive to make every visit a positive experience. Experience exceptional dental care with Dr. Abhilash, where your comfort and satisfaction are our top priorities.</p>
+                        <p class="poetsen_font1">
+                            At Vision Multispeciality Dental Hospital, we prioritize your well-being and strive to make
+                            every visit a positive experience. Experience exceptional dental care with Dr. Abhilash,
+                            where your comfort and satisfaction are our top priorities.</p>
                     </div>
                 </div>
                 <div class="row imgGap mt-5">
                     <div class="col-md-3"></div>
-                    <div class="col-md-6">                <img src="assets/img/about/a3.png" class="img-fluid dr_img_paddinger" alt="">
+                    <div class="col-md-6"> <img src="assets/img/about/a3.png" class="img-fluid dr_img_paddinger" alt="">
                     </div>
                     <div class="col-md-3"></div>
                 </div>
                 <div class="row servSect mt-2">
-                   
-                    <div class="col-md-7 dr_content_padding  order-1 order-md-1">
-                        <h5 class="poetsen_font11">Dr. Lathasree <span class="spanabout">(  Co-Founder and Senior Dentist )</span></h5>
+                <div class="col-md-5   mt-5">
+                        <img src="assets/img/about/a4.png" class="img-fluid dr_img_padding abouter" alt="">
+                    </div>
+                    <div class="col-md-7 dr_content_padding   ">
+                        <h5 class="poetsen_font11">Dr. Lathasree <span class="spanabout">(  Co-Founder and Senior
+                                Dentist )</span></h5>
                         <p class="poetsen_font1">
-                        Meet Dr. Lathasree, the co-founder and senior dentist at Vision Multispeciality Dental Hospital, Guntur. With 4 years of valuable clinical experience in some of the country’s leading corporate hospitals, Dr. Lathasree brings a wealth of knowledge and expertise to our practice.
+                            Meet Dr. Lathasree, the co-founder and senior dentist at Vision Multispeciality Dental
+                            Hospital, Guntur. With 4 years of valuable clinical experience in some of the country’s
+                            leading corporate hospitals, Dr. Lathasree brings a wealth of knowledge and expertise to our
+                            practice.
 
                             <br>
                             <br>
-                            As the wife of Dr. Abhilash, Dr. Lathasree shares his commitment to delivering exceptional dental care. Her extensive experience in diverse clinical settings has equipped her with a comprehensive understanding of advanced dental procedures and patient management. Her dedication to patient-centered care ensures that each individual receives personalized attention
+                            As the wife of Dr. Abhilash, Dr. Lathasree shares his commitment to delivering exceptional
+                            dental care. Her extensive experience in diverse clinical settings has equipped her with a
+                            comprehensive understanding of advanced dental procedures and patient management. Her
+                            dedication to patient-centered care ensures that each individual receives personalized
+                            attention
                         </p>
                         <div class="d-flex flex-row justify-content-start">
-                                <p class="get_in_touch" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore1()">
-                                    Read More <i class="fa-solid fa-arrow-right"></i></p>
-                            </div>
+                            <p class="get_in_touch" style="color: #474FA0; cursor: pointer;"
+                                onclick="toggleReadMore1()">
+                                Read More <i class="fa-solid fa-arrow-right"></i></p>
+                        </div>
 
                     </div>
 
-                    <div class="col-md-5 order-3  order-md-2 mt-5">
-                        <img src="assets/img/about/a4.png" class="img-fluid dr_img_padding abouter" alt=""  >
-                    </div>
+                
 
                     <div class="showthisdiv1 order-2  order-md-3" style="display:none ">
-                        <p class="poetsen_font1"> 
-                       
+                        <p class="poetsen_font1">
 
-At Vision Multispeciality Dental Hospital, Dr. Lathasree 
-plays a pivotal role in maintaining the highest standards of clinical excellence. Her collaborative approach and compassionate demeanor create a reassuring environment for all patients. Together with Dr. Abhilash, she strives to provide innovative and effective dental solutions, making Vision Multispeciality Dental Hospital a trusted choice for comprehensive dental care.</p>
+
+                            At Vision Multispeciality Dental Hospital, Dr. Lathasree
+                            plays a pivotal role in maintaining the highest standards of clinical excellence. Her
+                            collaborative approach and compassionate demeanor create a reassuring environment for all
+                            patients. Together with Dr. Abhilash, she strives to provide innovative and effective dental
+                            solutions, making Vision Multispeciality Dental Hospital a trusted choice for comprehensive
+                            dental care.</p>
                     </div>
                 </div>
             </div>
         </section>
-        
-        <script>
-            function toggleReadMore() {
-                var showThisDiv = document.querySelector('.showthisdiv');
-                var readMoreText = document.querySelector('.get_in_touch');
 
-                if (showThisDiv.style.display === "none") {
-                    showThisDiv.style.display = "block";
-                    readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-                } else {
-                    showThisDiv.style.display = "none";
-                    readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
-                }
+        <script>
+        function toggleReadMore() {
+            var showThisDiv = document.querySelector('.showthisdiv');
+            var readMoreText = document.querySelector('.get_in_touch');
+
+            if (showThisDiv.style.display === "none") {
+                showThisDiv.style.display = "block";
+                readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
+            } else {
+                showThisDiv.style.display = "none";
+                readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
             }
+        }
         </script>
         <script>
-            function toggleReadMore1() {
-                var showThisDiv = document.querySelector('.showthisdiv1');
-                var readMoreText = document.querySelector('.get_in_touch');
+        function toggleReadMore1() {
+            var showThisDiv = document.querySelector('.showthisdiv1');
+            var readMoreText = document.querySelector('.get_in_touch');
 
-                if (showThisDiv.style.display === "none") {
-                    showThisDiv.style.display = "block";
-                    readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-                } else {
-                    showThisDiv.style.display = "none";
-                    readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
-                }
+            if (showThisDiv.style.display === "none") {
+                showThisDiv.style.display = "block";
+                readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
+            } else {
+                showThisDiv.style.display = "none";
+                readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
             }
+        }
         </script>
 
     </main>
@@ -383,48 +412,48 @@ plays a pivotal role in maintaining the highest standards of clinical excellence
     <button id="scrollBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up "></i></button>
 
     <script>
-        // Function to scroll to the top of the page
-        function scrollToTop() {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth' // Optional, smooth scrolling animation
-            });
-        }
+    // Function to scroll to the top of the page
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth' // Optional, smooth scrolling animation
+        });
+    }
 
-        // Show scroll button when scrolling down
-        window.onscroll = function() {
-            scrollFunction()
-        };
+    // Show scroll button when scrolling down
+    window.onscroll = function() {
+        scrollFunction()
+    };
 
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                document.getElementById("scrollBtn").style.display = "block";
-            } else {
-                document.getElementById("scrollBtn").style.display = "none";
-            }
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("scrollBtn").style.display = "block";
+        } else {
+            document.getElementById("scrollBtn").style.display = "none";
         }
+    }
     </script>
 
     <style>
-        #scrollBtn {
-            display: none;
-            /* Initially hide the button */
-            position: fixed;
-            /* Fix the position of the button */
-            bottom: 20px;
-            /* Adjust the bottom distance */
-            right: 20px;
-            /* Adjust the right distance */
-            z-index: 999;
-            /* Set a high z-index to ensure the button is on top */
-            padding: 10px 15px;
-            background-color: #01539D;
-            ;
-            color: white;
-            border: none;
-            border-radius: 50%;
-            cursor: pointer;
-        }
+    #scrollBtn {
+        display: none;
+        /* Initially hide the button */
+        position: fixed;
+        /* Fix the position of the button */
+        bottom: 20px;
+        /* Adjust the bottom distance */
+        right: 20px;
+        /* Adjust the right distance */
+        z-index: 999;
+        /* Set a high z-index to ensure the button is on top */
+        padding: 10px 15px;
+        background-color: #01539D;
+        ;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+    }
     </style>
 
     <a href="https://api.whatsapp.com/send?phone=918406907980" style="color: #fff;" class="whatsapp-link"

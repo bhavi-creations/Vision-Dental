@@ -108,7 +108,7 @@
                 <div class="row servSection mt-5">
                     <div class="col-md-4">
                         <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage">
+                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
                             <h4 class="personame">Person Name</h4>
                         </div>
                         <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
@@ -118,7 +118,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage">
+                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
                             <h4 class="personame">Person Name</h4>
                         </div>
                         <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
@@ -127,7 +127,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage">
+                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
                             <h4 class="personame">Person Name</h4>
                         </div>
                         <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
@@ -141,7 +141,7 @@
                 <div class="row servSect">
                     <div class="col-md-4  ">
                         <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage">
+                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
                             <h4 class="personame">Person Name</h4>
                         </div>
                         <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
@@ -150,7 +150,7 @@
                     </div>
                     <div class="col-md-4  ">
                         <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage">
+                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
                             <h4 class="personame">Person Name</h4>
                         </div>
                         <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
@@ -161,7 +161,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage">
+                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
                             <h4 class="personame">Person Name</h4>
                         </div>
                         <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
@@ -174,7 +174,7 @@
                 <div class="row servSect">
                     <div class="col-md-4">
                         <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage">
+                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
                             <h4 class="personame">Person Name</h4>
                         </div>
                         <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
@@ -184,7 +184,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage">
+                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
                             <h4 class="personame">Person Name</h4>
                         </div>
                         <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
@@ -193,7 +193,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage">
+                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
                             <h4 class="personame">Person Name</h4>
                         </div>
                         <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus

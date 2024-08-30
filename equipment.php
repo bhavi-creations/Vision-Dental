@@ -131,7 +131,7 @@
                                         </ul>
                                     </div>
                                     <div class="col-md-6">
-                                        <img src="assets/img/about/e.png" alt="">
+                                        <img src="assets/img/about/e.png" alt="" class="img-fluid">
                                     </div>
                                 </div>
 
@@ -158,7 +158,7 @@
                                         </ul>
                                     </div>
                                     <div class="col-md-6">
-                                        <img src="assets/img/about/e.png" alt="">
+                                        <img src="assets/img/about/e.png" alt="" class="img-fluid">
                                     </div>
                                 </div>
 
@@ -184,7 +184,7 @@
                                         </ul>
                                     </div>
                                     <div class="col-md-6">
-                                        <img src="assets/img/about/e.png" alt="">
+                                        <img src="assets/img/about/e.png" alt="" class="img-fluid">
                                     </div>
                                 </div>
 
