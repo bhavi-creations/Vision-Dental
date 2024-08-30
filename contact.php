@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Srinivasa</title>
+    <title>Vision Dentals</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/srinivasa/tittle.png" rel="icon">
+    <link href="assets/img/vision/fav.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
@@ -47,11 +47,11 @@
    
 
 
-    <header id="header1" class="main_images onlypad">
-        <div class="container d-flex align-items-center">
+<header id="header">
+        <div class="container d-flex align-items-center onlypad  ">
             <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
                 <a href="index.php">
-                    <img src="assets/img/srinivasa/image 1.png" class="img-fluid" alt="">
+                    <img src="assets/img/vision/large_icon.png" class="img-fluid  " alt="">
                 </a>
             </div>
 
@@ -60,10 +60,13 @@
                 <ul>
                     <li><a class="nav-link scrollto" href="index.php">Home</a></li>
                     <li><a class="nav-link scrollto" href="about.php">About</a></li>
-                    <li><a class="nav-link scrollto" href="services.php">Services</a></li>
-                    <li><a class="nav-link scrollto" href="gallery.php">Gallery</a></li>
+                    <li><a class="nav-link scrollto" href="treatment.php">Treatments</a></li>
+                    <li><a class="nav-link scrollto" href="equipment.php">equipment</a></li>
+
                     <li><a class="nav-link" href="blogs.php">Blogs</a></li>
-                    <li><a class="nav-link scrollto" href="testimonials.php">What Patients Say</a></li>
+                    <li><a class="nav-link scrollto" href="testimonials.php">Reviews</a></li>
+                    <li><a class="nav-link scrollto" href="gallery.php">Smile Gallery</a></li>
+
                     <li><a href="appointment.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
                             Appointment
                         </a></li>
@@ -75,7 +78,6 @@
             </a>
         </div>
     </header>
-
 
 
 

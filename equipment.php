@@ -43,13 +43,19 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 </head>
+<style>
+@media (min-width:992px) {
 
+    .showthisdiv {
+        padding-left: 100px !important;
+    }
+}
+</style>
 
 <body>
 
 
-
-<header id="header">
+    <header id="header">
         <div class="container d-flex align-items-center onlypad  ">
             <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
                 <a href="index.php">
@@ -83,66 +89,154 @@
 
 
 
-
     <main id="main">
 
-        <section class="sectionForm  ">
+        <section class="sectionForm">
             <div class="container">
-                <div class="abotu mt-5">
-                    <h4 class="abh4">Smile Gallery</h4>
-                    <p class="abP">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo ligula aenean massa.</p>
-                </div>
                 <div class="row servSect">
+                    <div class="abot mt-5">
+                        <h4 class="abh4">Our Dental equipment</h4>
+                        <p class="abP">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br>
+                            Aenean commodo ligula aenean massa.</p>
+                    </div>
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide mt-5" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner mb-5">
+                            <div class="carousel-item active" data-bs-interval="10000">
 
-                    <div class="col-md-2 ">
-                        <img src="assets/img/about/i1.png" alt="" class="iimage">
-                        <img src="assets/img/about/i2.png" alt="" class="iimage1">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="assets/img/about/g1 (1).png" alt="">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h2 class="dr_welcome_text1 mt-4 mb-4">Dental Handpieces
+                                        </h2>
+                                        <p class="poetsen_font1">
+                                            Dental handpieces, also known as dental drills, are essential tools used by
+                                            dentists, hygienists, specialists, and lab technicians for a variety of
+                                            dental procedures
+                                        </p>
+                                        <ul>
+                                            <li>Drilling: Preparing teeth for fillings </li>
+                                            <li>Removing decay: Removing decay from teeth </li>
+                                            <li>Polishing: Polishing fillings </li>
+                                            <li>Cosmetic dentistry: Performing cosmetic dentistry </li>
+                                            <li>Altering prostheses: Altering prostheses </li>
+                                            <li>Root canal treatments: Cleaning and shaping canals during root canal treatments </li>
+                                            <li>Dental implants: Performing dental implant procedures </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="assets/img/about/e.png" alt="">
+                                    </div>
+                                </div>
 
+
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                            <div class="row">
+                                    <div class="col-md-6">
+                                        <h2 class="dr_welcome_text1 mt-4 mb-4">Dental Handpieces
+                                        </h2>
+                                        <p class="poetsen_font1">
+                                            Dental handpieces, also known as dental drills, are essential tools used by
+                                            dentists, hygienists, specialists, and lab technicians for a variety of
+                                            dental procedures
+                                        </p>
+                                        <ul>
+                                            <li>Drilling: Preparing teeth for fillings </li>
+                                            <li>Removing decay: Removing decay from teeth </li>
+                                            <li>Polishing: Polishing fillings </li>
+                                            <li>Cosmetic dentistry: Performing cosmetic dentistry </li>
+                                            <li>Altering prostheses: Altering prostheses </li>
+                                            <li>Root canal treatments: Cleaning and shaping canals during root canal treatments </li>
+                                            <li>Dental implants: Performing dental implant procedures </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="assets/img/about/e.png" alt="">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="carousel-item">
+                            <div class="row">
+                                    <div class="col-md-6">
+                                        <h2 class="dr_welcome_text1 mt-4 mb-4">Dental Handpieces
+                                        </h2>
+                                        <p class="poetsen_font1">
+                                            Dental handpieces, also known as dental drills, are essential tools used by
+                                            dentists, hygienists, specialists, and lab technicians for a variety of
+                                            dental procedures
+                                        </p>
+                                        <ul>
+                                            <li>Drilling: Preparing teeth for fillings </li>
+                                            <li>Removing decay: Removing decay from teeth </li>
+                                            <li>Polishing: Polishing fillings </li>
+                                            <li>Cosmetic dentistry: Performing cosmetic dentistry </li>
+                                            <li>Altering prostheses: Altering prostheses </li>
+                                            <li>Root canal treatments: Cleaning and shaping canals during root canal treatments </li>
+                                            <li>Dental implants: Performing dental implant procedures </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="assets/img/about/e.png" alt="">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button> -->
                     </div>
-                    <div class="col-md-4"> <img src="assets/img/about/g2.png" alt="">
-                    </div>
-                    <div class="col-md-2"></div>
+
 
                 </div>
-                <img src="assets/img/about/i3.png" alt="" class="iimage2">
-                <img src="assets/img/about/i4.png" alt="" class="iimage3">
-                <div class="row servSecttt ">
-
-                    <div class="col-md-4"> <img src="assets/img/about/g3 (1).png" alt="">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="assets/img/about/g4.png" alt="">
-                    </div>
-                    <div class="col-md-4"> <img src="assets/img/about/g5.png" alt="">
-                    </div>
-
-
-                </div>
-
-                <div class="row servSecttttt mt-4">
-
-
-                    <div class="col-md-2"> <img src="assets/img/about/i5.png" alt="" class="iimage4">
-                        <img src="assets/img/about/i6.png" alt="" class="iimage5">
-                    </div>
-                    <div class="col-md-4"> <img src="assets/img/about/g6.png" alt="">
-                    </div>
-                    <div class="col-md-4"> <img src="assets/img/about/g7.png" alt="">
-                    </div>
-                    <div class="col-md-2"></div>
-                </div>
-
-
             </div>
         </section>
 
+        <script>
+        function toggleReadMore() {
+            var showThisDiv = document.querySelector('.showthisdiv');
+            var readMoreText = document.querySelector('.get_in_touch');
+
+            if (showThisDiv.style.display === "none") {
+                showThisDiv.style.display = "block";
+                readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
+            } else {
+                showThisDiv.style.display = "none";
+                readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
+            }
+        }
+        </script>
+        <script>
+        function toggleReadMore1() {
+            var showThisDiv = document.querySelector('.showthisdiv1');
+            var readMoreText = document.querySelector('.get_in_touch');
+
+            if (showThisDiv.style.display === "none") {
+                showThisDiv.style.display = "block";
+                readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
+            } else {
+                showThisDiv.style.display = "none";
+                readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
+            }
+        }
+        </script>
 
     </main>
-
     <footer id="footer">
         <div class="footer-top">
             <div class="container py-5">
@@ -291,8 +385,6 @@
             </div>
         </div>
     </footer>
-
-
 
 
     <!-- Scroll Up Button  -->

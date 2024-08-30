@@ -313,3 +313,8 @@ img.img-fluid.dr_img_padding.abouter1 {
    padding: 40px;
   border-radius: 23px;
 }
+.carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #0aa49a;
+  width: 4%;
+  height: 9px;
+}
