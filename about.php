@@ -121,7 +121,7 @@
                     </div>
 
                     <div class="col-md-6 order-3  order-md-2 mt-5">
-                        <img src="assets/img/about/a1.png" class="img-fluid dr_img_padding" alt="" class="servImg">
+                        <img src="assets/img/about/a1.png" class="img-fluid dr_img_padding abouter" alt=""  >
                     </div>
 
 
@@ -153,7 +153,7 @@ Dr. Abhilash and his team are here to help you achieve a healthy and confident s
                     </div>
 
                     <div class="col-md-5 order-3  order-md-2 mt-5">
-                        <img src="assets/img/about/a2.png" class="img-fluid dr_img_padding" alt="" class="servImg">
+                        <img src="assets/img/about/a2.png" class="img-fluid dr_img_padding abouter" alt=""  >
                     </div>
 
                     <div class="showthisdiv order-2  order-md-3" style="display:none ">
@@ -186,7 +186,7 @@ At Vision Multispeciality Dental Hospital, we prioritize your well-being and str
                     </div>
 
                     <div class="col-md-5 order-3  order-md-2 mt-5">
-                        <img src="assets/img/about/a4.png" class="img-fluid dr_img_padding" alt="" class="servImg">
+                        <img src="assets/img/about/a4.png" class="img-fluid dr_img_padding abouter" alt=""  >
                     </div>
 
                     <div class="showthisdiv1 order-2  order-md-3" style="display:none ">

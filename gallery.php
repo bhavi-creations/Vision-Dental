@@ -100,7 +100,7 @@
                         <img src="assets/img/about/i2.png" alt="" class="iimage1">
                     </div>
                     <div class="col-md-4">
-                        <img src="assets/img/about/g1.png" alt="">
+                        <img src="assets/img/about/g1 (1).png" alt="">
 
                     </div>
                     <div class="col-md-4"> <img src="assets/img/about/g2.png" alt="">
@@ -112,7 +112,7 @@
                 <img src="assets/img/about/i4.png" alt="" class="iimage3">
                 <div class="row servSecttt ">
 
-                    <div class="col-md-4"> <img src="assets/img/about/g3.png" alt="">
+                    <div class="col-md-4"> <img src="assets/img/about/g3 (1).png" alt="">
                     </div>
                     <div class="col-md-4">
                         <img src="assets/img/about/g4.png" alt="">
