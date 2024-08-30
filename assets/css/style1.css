@@ -24,8 +24,20 @@ img.img-fluid.dr_img_padding {
   line-height: 36px;
   letter-spacing: 0.20000000298023224px;
   text-align: left;
-  color: #252b42;
+  color: #242e55;
   line-height: 47px;
+}
+ 
+.dr_welcome_text11 {
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #111b44;
+  line-height: 47px;
+  text-decoration: underline;
 }
  
 
@@ -287,4 +299,17 @@ img.iimage3 {
   margin-top: -223px;
 }img.img-fluid.dr_img_padding.abouter {
   width: 80% !important;
+}
+img.img-fluid.dr_img_padding.abouter1 {
+  width: 80% !important;
+}button.appont {
+  background: #09a39a;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 20px;
+}.col-md-6.dr_content_padding.order-1.order-md-1.treater {
+  background: #86868614;
+   padding: 40px;
+  border-radius: 23px;
 }
