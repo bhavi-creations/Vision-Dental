@@ -46,6 +46,7 @@
      <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
 
  </head>
 
@@ -294,6 +295,144 @@
 
 
      <section>
+         <div class="container text-center testmonials_section_space">
+             <div class="row  d-flex fex-row justify-content-center">
+                 <h1 class="test_cont_head">Our Patients Testimonials</h1>
+                 <p class="test_cont_para">The mouth is the gateway to a person’soverall health.</p>
+                 <button class="test_cont_btn">View all</button>
+             </div>
+         </div>
+
+
+         <div class="slide-container swiper">
+             <div class="slide-content">
+                 <div class="card-wrapper swiper-wrapper only_padding_top_for_card_div">
+                     <div class="card swiper-slide card_border_radious">
+
+                         <div class="card-content ">
+                             <h2 class="  text_card_head">Highly Recommend
+                             </h2>
+                             <p class="description_in_card">“I can confidently say they're the best! The staff is always welcoming, and Doctors are exceptionally skilled.”</p>
+
+
+                         </div>
+                         <div class="d-flex profile_card_div_dp">
+                             <div class="">
+                                 <img src="assets/img/vision/sample_img_dp.png" class="img-fluid dp_image_testmonials" alt="">
+                             </div>
+                             <div class="">
+                                 <h3 class="revier_name">fdnglfdkng</h3>
+                                 <p class="revier_occuption">fjngjfkv</p>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="card swiper-slide card_border_radious">
+
+                         <div class="card-content ">
+                             <h2 class="  text_card_head">Highly Recommend
+                             </h2>
+                             <p class="description_in_card">“I can confidently say they're the best! The staff is always welcoming, and Doctors are exceptionally skilled.”</p>
+
+
+                         </div>
+                         <div class="d-flex profile_card_div_dp">
+                             <div class="">
+                                 <img src="assets/img/vision/sample_img_dp.png" class="img-fluid dp_image_testmonials" alt="">
+                             </div>
+                             <div class="">
+                                 <h3 class="revier_name">fdnglfdkng</h3>
+                                 <p class="revier_occuption">fjngjfkv</p>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="card swiper-slide card_border_radious">
+
+                         <div class="card-content ">
+                             <h2 class="  text_card_head">Highly Recommend
+                             </h2>
+                             <p class="description_in_card">“I can confidently say they're the best! The staff is always welcoming, and Doctors are exceptionally skilled.”</p>
+
+
+                         </div>
+                         <div class="d-flex profile_card_div_dp">
+                             <div class="">
+                                 <img src="assets/img/vision/sample_img_dp.png" class="img-fluid dp_image_testmonials" alt="">
+                             </div>
+                             <div class="">
+                                 <h3 class="revier_name">fdnglfdkng</h3>
+                                 <p class="revier_occuption">fjngjfkv</p>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="card swiper-slide card_border_radious">
+
+                         <div class="card-content ">
+                             <h2 class="  text_card_head">Highly Recommend
+                             </h2>
+                             <p class="description_in_card">“I can confidently say they're the best! The staff is always welcoming, and Doctors are exceptionally skilled.”</p>
+
+
+                         </div>
+                         <div class="d-flex profile_card_div_dp">
+                             <div class="">
+                                 <img src="assets/img/vision/sample_img_dp.png" class="img-fluid dp_image_testmonials" alt="">
+                             </div>
+                             <div class="">
+                                 <h3 class="revier_name">fdnglfdkng</h3>
+                                 <p class="revier_occuption">fjngjfkv</p>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
+
+
+             <!-- <div class="swiper-button-next swiper-navBtn"></div>
+             <div class="swiper-button-prev swiper-navBtn"></div> -->
+             <div class="swiper-pagination  "></div>
+         </div>
+
+         <script>
+             var swiper = new Swiper(".slide-content", {
+                 slidesPerView: 3,
+                 spaceBetween: 25,
+                 loop: true,
+                 centerSlide: 'true',
+                 fade: 'true',
+                 grabCursor: 'true',
+                 pagination: {
+                     el: ".swiper-pagination",
+                     clickable: true,
+                     dynamicBullets: true,
+                 },
+                 navigation: {
+                     nextEl: ".swiper-button-next",
+                     prevEl: ".swiper-button-prev",
+                 },
+                 autoplay: {
+                     delay: 3000, // Time in milliseconds between automatic slides (3 seconds here)
+                     disableOnInteraction: false, // Keeps autoplay active even after manual swiping
+                 },
+                 breakpoints: {
+                     0: {
+                         slidesPerView: 1,
+                     },
+                     520: {
+                         slidesPerView: 2,
+                     },
+                     950: {
+                         slidesPerView: 3,
+                     },
+                 },
+             });
+         </script>
+     </section>
+
+
+
+
+     <section>
          <div class="container">
              <div class="row">
                  <div class="col-md-5">
@@ -327,6 +466,8 @@
              </div>
          </div>
      </section>
+
+
 
 
      <main id="main">
@@ -572,7 +713,12 @@
      <script src="assets/js/main.js"></script>
 
 
+     <!-- Swiper JS -->
+     <script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.js"></script>
 
+     <!-- JavaScript -->
+     <!--Uncomment this line-->
+     <script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/script.js"></script>
 
 
  </body>
