@@ -56,11 +56,11 @@
 
 
 
-    <header id="header">
+<header id="header">
         <div class="container d-flex align-items-center onlypad  ">
             <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
                 <a href="index.php">
-                    <img src="assets/img/vision/large_icon.png" class="img-fluid  " alt="">
+                    <img src="assets/img/vision/large_icon.png" class="img-fluid nav_logo_image " alt="">
                 </a>
             </div>
 
@@ -69,9 +69,47 @@
                 <ul>
                     <li><a class="nav-link scrollto" href="index.php">Home</a></li>
                     <li><a class="nav-link scrollto" href="about.php">About</a></li>
-                    <li><a class="nav-link scrollto" href="treatment.php">Treatments</a></li>
-                    <li><a class="nav-link scrollto" href="equipment.php">equipment</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="treatment.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Treatments
+                        </a>
+                        <ul class="dropdown-menu services_drop_menu service_width  mt-3" aria-labelledby="servicesDropdown" style="width:550px;">
+                            <div class="row  ">
+                                <div class="col-md-6">
+                                    <li><a class="dropdown-item services_drop" href="root.php">Root Canal</a></li>
+                                    <li><a class="dropdown-item services_drop" href="braces.php">Braces for Teeth Alignment</a></li>
+                                    <li><a class="dropdown-item services_drop" href="pediatric.php">Pediatric Dentist</a></li>
+                                    <li><a class="dropdown-item services_drop" href="paedodontist.php">Paedodontist Doctors</a></li>
+                                    <li><a class="dropdown-item services_drop" href="aligners.php">Clear Aligners</a></li>
+                                    <li><a class="dropdown-item services_drop" href="cosmetic.php">Cosmetic Dentistry</a></li>
+                                    <li><a class="dropdown-item services_drop" href="crowns.php">Crowns and Bridges</a></li>
+                                    <li><a class="dropdown-item services_drop" href="implants.php">Dental Implants</a></li>
+                                    <li><a class="dropdown-item services_drop" href="dentures.php">Dentures Treatment</a></li>
+                                    <li><a class="dropdown-item services_drop" href="invisalign.php">Invisalign </a></li>
+                                    <li><a class="dropdown-item services_drop" href="jaw.php">Jaw Corrective</a></li>
+                                    <li><a class="dropdown-item services_drop" href="laser.php">Laser and Gum</a></li>
+                                </div>
+                                <div class="col-md-6">
 
+                                    <li><a class="dropdown-item services_drop" href="smile.php">Smile Designing</a></li>
+                                    <li><a class="dropdown-item services_drop" href="make.php">Smile Makeover</a></li>
+                                    <li><a class="dropdown-item services_drop" href="teeth.php">Teeth Alignment</a></li>
+                                    <li><a class="dropdown-item services_drop" href="tooth.php">Tooth Extraction</a></li>
+                                    <li><a class="dropdown-item services_drop" href="laserTooth.php">Laser Tooth Cleaning</a></li>
+                                    <li><a class="dropdown-item services_drop" href="gum.php">Gum Depigmentation</a></li>
+                                    <li><a class="dropdown-item services_drop" href="laserTeeth.php">Laser Teeth Whitening</a></li>
+                                    <li><a class="dropdown-item services_drop" href="laserGum.php">Laser Gum Surgery</a></li>
+                                    <li><a class="dropdown-item services_drop" href="mouth.php">Mouth Ulcers</a></li>
+                                    <li><a class="dropdown-item services_drop" href="lasion.php">Precancerous Lesion</a></li>
+                                    <li><a class="dropdown-item services_drop" href="laserCrown.php">Laser Crown Lengthening</a></li>
+                                </div>
+                                 
+                            </div>
+                        </ul>
+                    </li>
+
+
+                    <li><a class="nav-link scrollto" href="equipment.php">equipment</a></li>
                     <li><a class="nav-link" href="blogs.php">Blogs</a></li>
                     <li><a class="nav-link scrollto" href="testimonials.php">Reviews</a></li>
                     <li><a class="nav-link scrollto" href="gallery.php">Smile Gallery</a></li>
@@ -86,6 +124,22 @@
                 Appointment
             </a>
         </div>
+
+
+        <script>// jQuery needed to manage hover and click behavior
+            $(document).ready(function() {
+                // Ensure that the dropdown opens on hover
+                $('#servicesDropdown').hover(function() {
+                    $(this).dropdown('toggle');
+                });
+            
+                // Make sure the dropdown also works on click
+                $('#servicesDropdown').click(function(e) {
+                    e.stopPropagation(); // Prevents the click from closing the dropdown immediately
+                    window.location.href = $(this).attr('href'); // Redirect to the link
+                });
+            });
+            </script>
     </header>
 
 
@@ -96,7 +150,7 @@
             <div class="container">
                 <div class="row servSect">
                     <div class="abot mt-5">
-                        <h4 class="abh4">Our Treatments</h4>
+                        <h4 class="abh4">Braces for Teeth Alignment Treatments</h4>
                         <p class="abP">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br>
                             Aenean commodo ligula aenean massa.</p>
                     </div>

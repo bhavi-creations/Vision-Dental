@@ -411,4 +411,7 @@ button.appont {
   background-color: #0aa49a;
   width: 4%;
   height: 9px;
+}a.dropdown-item.services_drop {
+  font-size: 14px;
+  font-weight: 700;
 }

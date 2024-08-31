@@ -540,7 +540,7 @@ h6 {
   left: 14px;
   top: calc(100% + 30px);
   margin: 0;
-  padding: 10px 0;
+  padding: 25px 2px 20px 42px;
   z-index: 99;
   opacity: 0;
   visibility: hidden;
@@ -548,6 +548,9 @@ h6 {
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
   border-radius: 4px;
+  background: #e5f1f1 !important;
+  border: 1px solid #0aa49b26;
+  list-style: circle;
 }
 
 .navbar .dropdown ul li {
@@ -1285,4 +1288,8 @@ letter-spacing: 0.195px;
 .services_drop_menu {
   background-color: #ccdcec64 !important; /* Adjust the color as needed */
    
+}
+.someabout{
+  display: flex;
+  justify-content: center;
 }
