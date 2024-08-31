@@ -68,7 +68,44 @@
                  <ul>
                      <li><a class="nav-link scrollto" href="index.php">Home</a></li>
                      <li><a class="nav-link scrollto" href="about.php">About</a></li>
-                     <li><a class="nav-link scrollto" href="services.php">Treatments</a></li>
+                     <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle" href="treatment.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                             Treatments
+                         </a>
+                         <ul class="dropdown-menu services_drop_menu service_width  mt-3" aria-labelledby="servicesDropdown" style="width:550px;">
+                             <div class="row  ">
+                                 <div class="col-md-6">
+                                     <li><a class="dropdown-item services_drop" href="root.php">Root Canal</a></li>
+                                     <li><a class="dropdown-item services_drop" href="braces.php">Braces for Teeth Alignment</a></li>
+                                     <li><a class="dropdown-item services_drop" href="pediatric.php">Pediatric Dentist</a></li>
+                                     <li><a class="dropdown-item services_drop" href="paedodontist.php">Paedodontist Doctors</a></li>
+                                     <li><a class="dropdown-item services_drop" href="aligners.php">Clear Aligners</a></li>
+                                     <li><a class="dropdown-item services_drop" href="cosmetic.php">Cosmetic Dentistry</a></li>
+                                     <li><a class="dropdown-item services_drop" href="crowns.php">Crowns and Bridges</a></li>
+                                     <li><a class="dropdown-item services_drop" href="implants.php">Dental Implants</a></li>
+                                     <li><a class="dropdown-item services_drop" href="dentures.php">Dentures Treatment</a></li>
+                                     <li><a class="dropdown-item services_drop" href="invisalign.php">Invisalign </a></li>
+                                     <li><a class="dropdown-item services_drop" href="jaw.php">Jaw Corrective</a></li>
+                                     <li><a class="dropdown-item services_drop" href="laser.php">Laser and Gum</a></li>
+                                 </div>
+                                 <div class="col-md-6">
+
+                                     <li><a class="dropdown-item services_drop" href="smile.php">Smile Designing</a></li>
+                                     <li><a class="dropdown-item services_drop" href="make.php">Smile Makeover</a></li>
+                                     <li><a class="dropdown-item services_drop" href="teeth.php">Teeth Alignment</a></li>
+                                     <li><a class="dropdown-item services_drop" href="tooth.php">Tooth Extraction</a></li>
+                                     <li><a class="dropdown-item services_drop" href="laserTooth.php">Laser Tooth Cleaning</a></li>
+                                     <li><a class="dropdown-item services_drop" href="gum.php">Gum Depigmentation</a></li>
+                                     <li><a class="dropdown-item services_drop" href="laserTeeth.php">Laser Teeth Whitening</a></li>
+                                     <li><a class="dropdown-item services_drop" href="laserGum.php">Laser Gum Surgery</a></li>
+                                     <li><a class="dropdown-item services_drop" href="mouth.php">Mouth Ulcers</a></li>
+                                     <li><a class="dropdown-item services_drop" href="lasion.php">Precancerous Lesion</a></li>
+                                     <li><a class="dropdown-item services_drop" href="laserCrown.php">Laser Crown Lengthening</a></li>
+                                 </div>
+
+                             </div>
+                         </ul>
+                     </li>
                      <li><a class="nav-link scrollto" href="equipment.php">equipment</a></li>
 
                      <li><a class="nav-link" href="blogs.php">Blogs</a></li>
@@ -85,6 +122,22 @@
                  Appointment
              </a>
          </div>
+
+         <script>
+             // jQuery needed to manage hover and click behavior
+             $(document).ready(function() {
+                 // Ensure that the dropdown opens on hover
+                 $('#servicesDropdown').hover(function() {
+                     $(this).dropdown('toggle');
+                 });
+
+                 // Make sure the dropdown also works on click
+                 $('#servicesDropdown').click(function(e) {
+                     e.stopPropagation(); // Prevents the click from closing the dropdown immediately
+                     window.location.href = $(this).attr('href'); // Redirect to the link
+                 });
+             });
+         </script>
      </header>
 
 
@@ -220,7 +273,60 @@
      </div>
 
 
+     <section>
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-6">
+                     <img src="assets/img/vision/doc_main_img.png" class="img-fluid" alt="">
+                 </div>
+                 <div class="col-md-6">
 
+                     <h1 class="doc_head_text">
+                         Vision Multispeciality Dental Hospital Dentist In Guntur</h1>
+                     <p class="doc_para_text">Welcome to Vision Multispeciality Dental Hospital, Guntur, where Dr. Abhilash, our esteemed founder and chief doctor, leads our dedicated team. With over 8 years of extensive experience in the field of dentistry,
+                         Dr. Abhilash is renowned for his expertise in implant surgeries, laser photomedicines, and full mouth rehabilitations.</p>
+                     <button class="read_more_btn_vision">Read More</button>
+                 </div>
+
+             </div>
+         </div>
+     </section>
+
+
+     <section>
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-5">
+                     <h1 class="head_tag_doc_mam">For Best Dentist in Guntur
+                         and <span class="doc_span_text">Top Dental Care In
+                             Guntur</span> Solutions, Enroll With Us Now.</h1>
+                     <p class="call_text_bg_green">Call - +91 9391 457072</p>
+
+
+                     <div class="d-flex justify-content-between">
+                         <div class="">
+                             <h1 class="num_head_tag">07+ </h1>
+                             <p class="num_para_tag"> Years Experience</p>
+                         </div>
+                         <div class="">
+                             <h1 class="num_head_tag"> 2697</h1>
+                             <p class="num_para_tag"> Happy Smile</p>
+                         </div>
+                         <div class="">
+                             <h1 class="num_head_tag"> 1489 </h1>
+                             <p class="num_para_tag"> Root Canal</p>
+                         </div>
+                     </div>
+                 </div>
+
+                 <div class="col-md-2 d-none d-lg-block"></div>
+                 <div class="col-md-5">
+                     <img src="assets/img/vision/lady_doc_img.png" class="img-fluid" alt="">
+                 </div>
+
+             </div>
+         </div>
+     </section>
 
 
      <main id="main">

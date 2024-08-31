@@ -302,7 +302,7 @@ h6 {
 }
 
 @media (max-width: 768px) {
-  .appointment_btn_index{
+  .appointment_btn_index {
     margin: 0 15px 0 0;
     padding: 6px 15px;
   }
@@ -311,21 +311,21 @@ h6 {
 
 @media (max-width:992px) {
 
-.appointment_btn_index{
-  width: Fixed (151px) px;
-  height: Hug (45px) px;
-  top: 68px;
-  left: 1103px;
-  padding: 10px 19px 10px 26px;
-  gap: 10px;
-  border-radius: 30px;
-  opacity: 0px;
-  background: transparent !important;
-  color: white;
-  font-weight: 800;
-  margin-left: 10px;
-  width: 15%;
-}
+  .appointment_btn_index {
+    width: Fixed (151px) px;
+    height: Hug (45px) px;
+    top: 68px;
+    left: 1103px;
+    padding: 10px 19px 10px 26px;
+    gap: 10px;
+    border-radius: 30px;
+    opacity: 0px;
+    background: transparent !important;
+    color: white;
+    font-weight: 800;
+    margin-left: 10px;
+    width: 15%;
+  }
 }
 
 
@@ -475,23 +475,25 @@ h6 {
     padding: 10px 10px 10px 15px !important;
   }
 }
-@media (min-width: 1400px)   {
 
-.navbar a,
-.navbar a:focus {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-family: "Mulish", sans-serif;
-  font-size: 16px;
-  color: #011632;
-  white-space: nowrap;
-  transition: 0.3s;
-  font-weight: 800;
-  padding: 0px 22px 0px 22px !important;
+@media (min-width: 1400px) {
+
+  .navbar a,
+  .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    color: #011632;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-weight: 800;
+    padding: 0px 22px 0px 22px !important;
+  }
 }
-}
-@media (min-width: 992px) and (max-width:1200px)  {
+
+@media (min-width: 992px) and (max-width:1200px) {
 
   .navbar a,
   .navbar a:focus {
@@ -506,20 +508,22 @@ h6 {
     font-weight: 800;
     padding: 0px 22px 0px 10px !important;
   }
-  }
-  @media (max-width:768px)  {
+}
 
-  .nav_logo_image{
-    width:50%
+@media (max-width:768px) {
+
+  .nav_logo_image {
+    width: 50%
   }
 }
 
-@media   (min-width: 768px) and (max-width:992px)   {
+@media (min-width: 768px) and (max-width:992px) {
 
-  .nav_logo_image{
-    width:50%
+  .nav_logo_image {
+    width: 50%
   }
 }
+
 .navbar a i,
 .navbar a:focus i {
   font-size: 12px;
@@ -603,15 +607,16 @@ h6 {
 
 
 /* service_width   */
-.service_width{
+.service_width {
   width: 700px;
 }
 
 @media (min-width:992px) and (max-width:1200px) {
-  .service_width{
+  .service_width {
     width: 500px;
   }
 }
+
 /**
 * Mobile Navigation 
 */
@@ -1009,20 +1014,21 @@ h6 {
 
 /* vision dental from banner section  */
 @media (min-width:768px) {
-  
-.banner_bg_color {
-  background-color: #F5F9FC;
-  padding-bottom: 100px;
-}
-}
-@media (max-width:768px) {
-  
+
   .banner_bg_color {
     background-color: #F5F9FC;
-    
+    padding-bottom: 100px;
   }
+}
+
+@media (max-width:768px) {
+
+  .banner_bg_color {
+    background-color: #F5F9FC;
+
   }
-  
+}
+
 .banner_image_logo {
   width: 51%;
   margin-bottom: 25px;
@@ -1240,56 +1246,168 @@ h6 {
   font-style: normal;
   font-weight: 600;
   line-height: 56px;
- 
+
   letter-spacing: -0.256px;
   text-transform: capitalize;
- 
+
 }
 
 
-.teeth_sub_heading{
+.teeth_sub_heading {
   color: #2D2D2D;
-font-family: "poppins";
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-line-height: 56px; /* 400% */
-letter-spacing: -0.256px;
-text-transform: capitalize;
+  font-family: "poppins";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  /* 400% */
+  letter-spacing: -0.256px;
+  text-transform: capitalize;
 }
 
-.teeth_para_card{
+.teeth_para_card {
   color: #2B93B8;
-font-family: "poppins";
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 56px; /* 311.111% */
-letter-spacing: -0.256px;
-text-transform: capitalize;
+  font-family: "poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  /* 311.111% */
+  letter-spacing: -0.256px;
+  text-transform: capitalize;
 }
 
-.teeth_first_para_card{
+.teeth_first_para_card {
   color: var(--Body-text, #3C4959);
-text-align: center;
-font-family: "poppins";
-font-size: 13px;
-font-style: normal;
-font-weight: 400;
-line-height: 130%; /* 16.9px */
-letter-spacing: 0.195px;
+  text-align: center;
+  font-family: "poppins";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  /* 16.9px */
+  letter-spacing: 0.195px;
 }
 
 .services_drop {
-  line-height: 2; /* Adjust the line height as needed */
- width:100%!important;
- color: #000a2d !important;
+  line-height: 2;
+  /* Adjust the line height as needed */
+  width: 100% !important;
+  color: #000a2d !important;
 }
+
 .services_drop_menu {
-  background-color: #ccdcec64 !important; /* Adjust the color as needed */
-   
+  background-color: #ccdcec64 !important;
+  /* Adjust the color as needed */
+
 }
-.someabout{
+
+.someabout {
   display: flex;
   justify-content: center;
+}
+
+.doc_head_text {
+  color: #1D2053;
+  font-family: "poppins";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 109%;
+  /* 45.78px */
+}
+
+
+.doc_para_text {
+  color: #141B2A;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 225%;
+}
+
+.read_more_btn_vision {
+  border-radius: 30px;
+  background: linear-gradient(95deg, #09A299 -1.58%, #0DABA0 100%);
+  display: flex;
+  width: 158px;
+  height: 48px;
+  padding: 9.613px 22.832px;
+  justify-content: center;
+  align-items: center;
+  gap: 12.017px;
+  flex-shrink: 0;
+  border: none;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 152%;
+ 
+}
+
+
+.head_tag_doc_mam{
+  color: #1D2053;
+font-family: "poppins";
+font-size: 37px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 42px */
+margin-top: 50px;
+}
+
+
+
+.doc_span_text{
+  color: #692C5E;
+  font-family: "poppins";
+
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+
+.call_text_bg_green{
+  color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 152%; /* 27.36px */
+display: flex;
+width: 258px;
+height: 47px;
+padding: 2.613px   2.832px;
+justify-content: center;
+align-items: center;
+/* gap: 12.017px; */
+flex-shrink: 0;border-radius: 30px;
+background: linear-gradient(95deg, #09A299 -1.58%, #0DABA0 100%);
+margin-top: 30px;
+margin-bottom: 50px;
+}
+
+
+.num_head_tag{
+  color: #1D2053;
+  font-family: Helvetica;
+  font-size: 52.925px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33.968px; /* 64.181% */
+}
+
+
+.num_para_tag{
+  color: #1D2053;
+  font-family: Helvetica;
+  font-size: 19.245px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.968px;
 }
