@@ -295,11 +295,29 @@
 
 
      <section>
+         <div class="container why_choose_container">
+             <div class="row">
+                 <div class="col-md-5">
+                     <h1  class="why_choose_head">Why Choose 
+                         Vision Multi speciality
+                         Dental</h1>
+                         <p class="why_choose_para">"We provide comprehensive dental care, from routine check-ups to advanced procedures, all in one place. Our skilled team offers personalized treatment for your best oral health. Visit the Best Dentist in Guntur."</p>
+                         <button class="view_all_buttton">View all</button>
+                 </div>
+                 <div class="col-md-7">
+                    <img src="assets/img/vision/group chair.png" class="img-fluid group_chair_img" alt="">
+                 </div>
+
+             </div>
+         </div>
+     </section>
+
+     <section>
          <div class="container text-center testmonials_section_space">
              <div class="row  d-flex fex-row justify-content-center">
                  <h1 class="test_cont_head">Our Patients Testimonials</h1>
                  <p class="test_cont_para">The mouth is the gateway to a person’soverall health.</p>
-                 <button class="test_cont_btn">View all</button>
+                 <button class="test_cont_btn"> <a href="testimonials.php" style="text-decoration: none; color:#fff">View all</a></button>
              </div>
          </div>
 

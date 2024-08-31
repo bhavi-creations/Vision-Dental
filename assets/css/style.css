@@ -1666,9 +1666,59 @@ h6 {
 
 }
 
-.only_padding_top_for_card_div{
-padding-top: 30px;
-padding-bottom: 50px;
+.only_padding_top_for_card_div {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.why_choose_container{
+  margin-top: 80px;
+}
+.why_choose_head {
+  color: #1D2053;
+  font-family: "Poppins";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  margin-top: 50px;
+  /* 42px */
+}
+
+.why_choose_para {
+  color: #141B2A;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 152%;
+  /* 27.36px */
+}
+
+.view_all_buttton {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 152%;
+  /* 24.32px */
+  display: flex;
+  width: 158px;
+  height: 48px;
+  padding: 9.613px 22.832px;
+  justify-content: center;
+  align-items: center;
+  gap: 12.017px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: linear-gradient(95deg, #09A299 -1.58%, #0DABA0 100%);
+  border: none;
 }
 
 /* swiper or slider ended  */
+
+
+.group_chair_img{
+/* width: 50%; */
+}
