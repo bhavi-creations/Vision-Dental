@@ -101,7 +101,8 @@
                             Aenean commodo ligula aenean massa.</p>
                     </div>
                     <div class="col-md-6 dr_content_padding  order-1 order-md-1 treater">
-                        <h2 class="dr_welcome_text1 mt-4 mb-4">Root Canal Treatment in <br>
+                        <h2 class="dr_welcome_text1 mt-4 mb-4">Dentures Treatment in  
+                        <br>
                             Guntur
                         </h2>
                         <p class="poetsen_font1">
@@ -130,8 +131,8 @@
                 <div class="row servSect">
 
                     <div class="col-md-12 dr_content_padding  order-1 order-md-1  ">
-                        <h2 class="dr_welcome_text1 mt-4 mb-4">What is a Root Canal
-                            Treatment?
+                        <h2 class="dr_welcome_text1 mt-4 mb-4">What are Dentures?
+
                         </h2>
                         <p class="poetsen_font1">
                             A root canal treatment, also known as endodontic therapy, is a dental procedure performed to
@@ -144,7 +145,8 @@
 
 
                         <div class="row">
-                            <div class="col-md-6"> <h2 class="dr_welcome_text11 mt-4 mb-4">Why Do You Need Root Canal Treatment in Guntur?</h2>
+                            <div class="col-md-6"> <h2 class="dr_welcome_text11 mt-4 mb-4">Why Do You Need Dentures Treatment in Guntur?
+                            </h2>
                         <p class="poetsen_font1">Root canal treatment is essential when the soft tissue inside your
                             tooth, known as the pulp, becomes inflamed or infected due to deep decay, repeated dental
                             procedures, or trauma. This treatment is vital to save the natural tooth and prevent the
@@ -153,7 +155,8 @@
                             tooth, root canal treatment also helps maintain proper chewing function and prevents the
                             misalignment of neighboring teeth, which can affect your overall oral health.
                         </p></div>
-                            <div class="col-md-6"> <h2 class="dr_welcome_text11 mt-4 mb-4">Benefits of Root Canal Treatment in Guntur:
+                            <div class="col-md-6"> <h2 class="dr_welcome_text11 mt-4 mb-4">Benefits of Dentures Treatment in Guntur:
+
                         </h2>
                         <p class="poetsen_font1">Root canal treatment offers significant benefits, including immediate pain relief from
                             infected or inflamed tooth pulp and the preservation of your natural tooth, which helps
