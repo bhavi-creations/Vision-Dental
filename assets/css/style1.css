@@ -653,7 +653,95 @@ span.spanabout {
 
 }
 
+@media (max-width:762px)   {
 
+  img.iimage {
+    width: 66%;
+    position: relative;
+    top: 265px;
+    z-index: -1;
+    left: 11px;
+
+  }
+
+  img.iimage1 {
+    position: relative;
+    top: 495px;
+    left:-80px;
+    width: 20%;
+
+
+  }
+
+  img.iimage2 {
+    width:20%;
+    position: relative;
+    top:  247px;
+    left: 58px;
+
+  }
+
+  img.iimage3 {
+    width: 20%;
+    position: relative;
+    top: 515px;
+    left: 150px;
+
+  }
+
+  .row.servSecttt {
+    margin-top: -260px;
+  }
+
+  img.iimage4 {
+    position: relative;
+    left: 40px;
+    top: -135px;
+    width: 20%;
+
+  }
+
+  img.iimage5 {
+    width: 75%;
+    position: relative;
+    left: 25px;
+    z-index: -1;
+    top: 85px;
+
+  }
+
+  .row.servSecttttt.mt-4 {
+    margin-bottom: -165px;
+  }
+
+
+  .main_img_one { 
+    margin-top:-150px;
+  }
+
+  .main_img_two { 
+    margin-top: 68px;
+  }
+  .main_img_three { 
+    margin-top: 230px;
+  }
+
+  .main_img_center{
+    margin-top: 40px;
+
+  }
+  .main_img_four { 
+    margin-top: 40px;
+  }
+  .main_img_five { 
+    margin-top: -290px;
+  }
+  .main_img_six { 
+    margin-top:  0px;
+  }
+
+
+}
 .abotu.mt-5 {
   margin-bottom: -65px;
 }
