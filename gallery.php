@@ -49,7 +49,7 @@
 
 
 
-<header id="header">
+    <header id="header">
         <div class="container d-flex align-items-center onlypad  ">
             <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
                 <a href="index.php">
@@ -96,28 +96,28 @@
                 <div class="row servSect">
 
                     <div class="col-md-2 ">
-                        <img src="assets/img/about/i1.png" alt="" class="iimage">
-                        <img src="assets/img/about/i2.png" alt="" class="iimage1">
+                        <img src="assets/img/about/i1.png" alt="" class="   iimage">
+                        <img src="assets/img/about/i2.png" alt="" class="img-fluid iimage1">
                     </div>
                     <div class="col-md-4">
-                        <img src="assets/img/about/g1 (1).png" alt="">
+                        <img src="assets/img/about/g1 (1).png" alt="" class="img-fluid main_img_one">
 
                     </div>
-                    <div class="col-md-4"> <img src="assets/img/about/g2.png" alt="">
+                    <div class="col-md-4"> <img src="assets/img/about/g2.png" alt="" class="img-fluid main_img_two">
                     </div>
                     <div class="col-md-2"></div>
 
                 </div>
-                <img src="assets/img/about/i3.png" alt="" class="iimage2">
-                <img src="assets/img/about/i4.png" alt="" class="iimage3">
+                <img src="assets/img/about/i3.png" alt="" class="img-fluid iimage2">
+                <img src="assets/img/about/i4.png" alt="" class="img-fluid iimage3">
                 <div class="row servSecttt ">
 
-                    <div class="col-md-4"> <img src="assets/img/about/g3 (1).png" alt="">
+                    <div class="col-md-4"> <img src="assets/img/about/g3 (1).png" alt=""  class="img-fluid main_img_three">
                     </div>
                     <div class="col-md-4">
-                        <img src="assets/img/about/g4.png" alt="">
+                        <img src="assets/img/about/g4.png" alt=""  class="img-fluid main_img_center" >
                     </div>
-                    <div class="col-md-4"> <img src="assets/img/about/g5.png" alt="">
+                    <div class="col-md-4"> <img src="assets/img/about/g5.png" alt=""  class="img-fluid main_img_four">
                     </div>
 
 
@@ -126,12 +126,12 @@
                 <div class="row servSecttttt mt-4">
 
 
-                    <div class="col-md-2"> <img src="assets/img/about/i5.png" alt="" class="iimage4">
-                        <img src="assets/img/about/i6.png" alt="" class="iimage5">
+                    <div class="col-md-2"> <img src="assets/img/about/i5.png" alt="" class="img-fluid iimage4">
+                        <img src="assets/img/about/i6.png" alt="" class="  iimage5">
                     </div>
-                    <div class="col-md-4"> <img src="assets/img/about/g6.png" alt="">
+                    <div class="col-md-4"> <img src="assets/img/about/g6.png" alt=""  class="img-fluid main_img_five ">
                     </div>
-                    <div class="col-md-4"> <img src="assets/img/about/g7.png" alt="">
+                    <div class="col-md-4"> <img src="assets/img/about/g7.png" alt=""  class="img-fluid main_img_six">
                     </div>
                     <div class="col-md-2"></div>
                 </div>
@@ -299,48 +299,48 @@
     <button id="scrollBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up "></i></button>
 
     <script>
-    // Function to scroll to the top of the page
-    function scrollToTop() {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth' // Optional, smooth scrolling animation
-        });
-    }
-
-    // Show scroll button when scrolling down
-    window.onscroll = function() {
-        scrollFunction()
-    };
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("scrollBtn").style.display = "block";
-        } else {
-            document.getElementById("scrollBtn").style.display = "none";
+        // Function to scroll to the top of the page
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Optional, smooth scrolling animation
+            });
         }
-    }
+
+        // Show scroll button when scrolling down
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("scrollBtn").style.display = "block";
+            } else {
+                document.getElementById("scrollBtn").style.display = "none";
+            }
+        }
     </script>
 
     <style>
-    #scrollBtn {
-        display: none;
-        /* Initially hide the button */
-        position: fixed;
-        /* Fix the position of the button */
-        bottom: 20px;
-        /* Adjust the bottom distance */
-        right: 20px;
-        /* Adjust the right distance */
-        z-index: 999;
-        /* Set a high z-index to ensure the button is on top */
-        padding: 10px 15px;
-        background-color: #01539D;
-        ;
-        color: white;
-        border: none;
-        border-radius: 50%;
-        cursor: pointer;
-    }
+        #scrollBtn {
+            display: none;
+            /* Initially hide the button */
+            position: fixed;
+            /* Fix the position of the button */
+            bottom: 20px;
+            /* Adjust the bottom distance */
+            right: 20px;
+            /* Adjust the right distance */
+            z-index: 999;
+            /* Set a high z-index to ensure the button is on top */
+            padding: 10px 15px;
+            background-color: #01539D;
+            ;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+        }
     </style>
 
     <a href="https://api.whatsapp.com/send?phone=918406907980" style="color: #fff;" class="whatsapp-link"
