@@ -59,7 +59,7 @@
         <div class="container d-flex align-items-center onlypad  ">
             <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
                 <a href="index.php">
-                    <img src="assets/img/vision/large_icon.png" class="img-fluid  " alt="">
+                    <img src="assets/img/vision/large_icon.png" class="img-fluid nav_logo_image " alt="">
                 </a>
             </div>
 
@@ -68,9 +68,31 @@
                 <ul>
                     <li><a class="nav-link scrollto" href="index.php">Home</a></li>
                     <li><a class="nav-link scrollto" href="about.php">About</a></li>
-                    <li><a class="nav-link scrollto" href="treatment.php">Treatments</a></li>
-                    <li><a class="nav-link scrollto" href="equipment.php">equipment</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="treatment.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Treatments
+                        </a>
+                        <ul class="dropdown-menu services_drop_menu service_width  mt-3" aria-labelledby="servicesDropdown" style="width:700px;">
+                            <div class="row  ">
+                                <div class="col-md-6">
+                                    <li><a class="dropdown-item services_drop" href="rootcanal.php">Root Canal</a></li>
+                                    <li><a class="dropdown-item services_drop" href="dentalbraces.php">Dental Braces</a></li>
+                                    <li><a class="dropdown-item services_drop" href="dentalimplents.php">Dental Implants</a></li>
+                                    <li><a class="dropdown-item services_drop" href="bridgetreatment.php">Crown & Bridge</a></li>
+                                </div>
+                                <div class="col-md-6">
+                                    <li><a class="dropdown-item services_drop" href="teethfilling.php">Teeth Filling</a></li>
+                                    <li><a class="dropdown-item services_drop" href="dentures.php">Dentures</a></li>
+                                    <li><a class="dropdown-item services_drop" href="teethscaling.php">Teeth Scaling</a></li>
+                                    <li><a class="dropdown-item services_drop" href="toothextraction.php">Tooth Extraction</a></li>
+                                </div>
+                                 
+                            </div>
+                        </ul>
+                    </li>
 
+
+                    <li><a class="nav-link scrollto" href="equipment.php">equipment</a></li>
                     <li><a class="nav-link" href="blogs.php">Blogs</a></li>
                     <li><a class="nav-link scrollto" href="testimonials.php">Reviews</a></li>
                     <li><a class="nav-link scrollto" href="gallery.php">Smile Gallery</a></li>
@@ -85,6 +107,22 @@
                 Appointment
             </a>
         </div>
+
+
+        <script>// jQuery needed to manage hover and click behavior
+            $(document).ready(function() {
+                // Ensure that the dropdown opens on hover
+                $('#servicesDropdown').hover(function() {
+                    $(this).dropdown('toggle');
+                });
+            
+                // Make sure the dropdown also works on click
+                $('#servicesDropdown').click(function(e) {
+                    e.stopPropagation(); // Prevents the click from closing the dropdown immediately
+                    window.location.href = $(this).attr('href'); // Redirect to the link
+                });
+            });
+            </script>
     </header>
 
 

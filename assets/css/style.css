@@ -237,6 +237,106 @@ h6 {
 /**
 * Appointment Button
 */
+@media (min-width:1400px) {
+
+  .appointment_btn_index {
+    width: Fixed (111px) px;
+    height: Hug (45px) px;
+    top: 68px;
+    left: 1103px;
+    padding: 10px 4px 10px 23px;
+    gap: 10px;
+    border-radius: 30px;
+    opacity: 0px;
+    background: linear-gradient(95deg, #09A299 -1.58%, #0DABA0 100%);
+    color: white;
+    font-weight: 800;
+    margin-left: 10px;
+    width: 12%;
+  }
+}
+
+@media (min-width:1200px) and (max-width:1400px) {
+
+  .appointment_btn_index {
+    width: Fixed (111px) px;
+    height: Hug (45px) px;
+    top: 68px;
+    left: 1103px;
+    padding: 10px 4px 10px 23px;
+    gap: 10px;
+    border-radius: 30px;
+    opacity: 0px;
+    background: linear-gradient(95deg, #09A299 -1.58%, #0DABA0 100%);
+    color: white;
+    font-weight: 800;
+    margin-left: 10px;
+    width: 13%;
+  }
+}
+
+
+
+@media (min-width:992px) and (max-width:1200px) {
+
+  .appointment_btn_index {
+    width: Fixed (111px) px;
+    height: Hug (45px) px;
+    top: 68px;
+    left: 1103px;
+    padding: 10px 4px 10px 23px;
+    gap: 10px;
+    border-radius: 30px;
+    opacity: 0px;
+    background: linear-gradient(95deg, #09A299 -1.58%, #0DABA0 100%);
+    color: white;
+    font-weight: 800;
+    margin-left: 10px;
+    width: 16%;
+  }
+}
+
+.appointment_btn_index:hover {
+  background: #0598d2;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .appointment_btn_index{
+    margin: 0 15px 0 0;
+    padding: 6px 15px;
+  }
+}
+
+
+@media (max-width:992px) {
+
+.appointment_btn_index{
+  width: Fixed (151px) px;
+  height: Hug (45px) px;
+  top: 68px;
+  left: 1103px;
+  padding: 10px 19px 10px 26px;
+  gap: 10px;
+  border-radius: 30px;
+  opacity: 0px;
+  background: transparent !important;
+  color: white;
+  font-weight: 800;
+  margin-left: 10px;
+  width: 15%;
+}
+}
+
+
+
+
+
+
+
+
+
+
 @media (max-width:992px) {
 
   .appointment-btn {
@@ -271,7 +371,7 @@ h6 {
     color: white;
     font-weight: 800;
     margin-left: 10px;
-    width: 12%;
+    width: 20%;
   }
 }
 
@@ -282,7 +382,7 @@ h6 {
     height: Hug (45px) px;
     top: 68px;
     left: 1103px;
-    padding: 10px 4px 10px 23px;
+    padding: 10px 16px 10px 16px;
     gap: 10px;
     border-radius: 30px;
     opacity: 0px;
@@ -303,7 +403,7 @@ h6 {
     height: Hug (45px) px;
     top: 68px;
     left: 1103px;
-    padding: 10px 4px 10px 23px;
+    padding: 6px 13px 6px 14px;
     gap: 10px;
     border-radius: 30px;
     opacity: 0px;
@@ -311,7 +411,7 @@ h6 {
     color: white;
     font-weight: 800;
     margin-left: 10px;
-    width: 16%;
+    width: 15%;
   }
 }
 
@@ -359,13 +459,23 @@ h6 {
   position: relative;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width:1400px) {
 
   .navbar a,
   .navbar a:focus {
-    padding: 10px 40px 10px 30px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    color: #011632;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-weight: 800;
+    padding: 10px 10px 10px 15px !important;
   }
 }
+@media (min-width: 1400px)   {
 
 .navbar a,
 .navbar a:focus {
@@ -380,7 +490,36 @@ h6 {
   font-weight: 800;
   padding: 0px 22px 0px 22px !important;
 }
+}
+@media (min-width: 992px) and (max-width:1200px)  {
 
+  .navbar a,
+  .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    color: #011632;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-weight: 800;
+    padding: 0px 22px 0px 10px !important;
+  }
+  }
+  @media (max-width:768px)  {
+
+  .nav_logo_image{
+    width:50%
+  }
+}
+
+@media   (min-width: 768px) and (max-width:992px)   {
+
+  .nav_logo_image{
+    width:50%
+  }
+}
 .navbar a i,
 .navbar a:focus i {
   font-size: 12px;
@@ -459,6 +598,17 @@ h6 {
   }
 }
 
+
+/* service_width   */
+.service_width{
+  width: 700px;
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+  .service_width{
+    width: 500px;
+  }
+}
 /**
 * Mobile Navigation 
 */
@@ -1127,4 +1277,12 @@ line-height: 130%; /* 16.9px */
 letter-spacing: 0.195px;
 }
 
- 
+.services_drop {
+  line-height: 2; /* Adjust the line height as needed */
+ width:100%!important;
+ color: #000a2d !important;
+}
+.services_drop_menu {
+  background-color: #ccdcec64 !important; /* Adjust the color as needed */
+   
+}

@@ -81,7 +81,7 @@
                  </ul>
              </nav>
 
-             <a href="appointment.php" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
+             <a href="appointment.php" class="appointment_btn_index scrollto d-none d-lg-block" style="z-index: 999;">
                  Appointment
              </a>
          </div>
