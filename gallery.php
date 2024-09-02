@@ -144,8 +144,7 @@
             <div class="container">
                 <div class="abotu mt-5">
                     <h4 class="abh4">Smile Gallery</h4>
-                    <p class="abP">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo ligula aenean massa.</p>
+                    <p class="abP">"Explore our smile gallery to see the exceptional transformations achieved by our skilled team."</p>
                 </div>
                 <div class="row servSect">
 

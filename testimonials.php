@@ -150,8 +150,7 @@
             <div class="container">
                 <div class="abot mt-5">
                     <h4 class="abh4">Reviews</h4>
-                    <p class="abP">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br>
-                        Aenean commodo ligula aenean massa.</p>
+                    <p class="abP">"Discover what our patients have to say about their exceptional experiences and results at our dental hospital."</p>
                 </div>
 
                 <div class="abtt1 mt-4 mb-4">
@@ -163,31 +162,23 @@
                     <div class="col-md-4">
                         <div class="tes">
                             <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
-                            <h4 class="personame">Person Name</h4>
+                            <h4 class="personame">Ravi Kumar</h4>
                         </div>
-                        <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
-                            illo omnis quod minus minima rem quo cum deserunt sint iusto id quasi eaque totam, explicabo
-                            asperiores hic. Laudantium.sint iusto id quasi eaque totam, explicabo
-                            asperiores hic. Laudantium.</p>
+                        <p class="testPara">"My experience at this dental hospital was outstanding. The team provided thorough, compassionate care and made sure I was comfortable throughout my visit. Highly recommended for quality dental care!</p>
                     </div>
                     <div class="col-md-4">
                         <div class="tes">
                             <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
-                            <h4 class="personame">Person Name</h4>
+                            <h4 class="personame">Anitha</h4>
                         </div>
-                        <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
-                            illo omnis quod minus minima rem quo cum deserunt sint iusto id quasi eaque total.sint iusto id quasi eaque totam, explicabo
-                            asperiores hic. Laudantium.</p>
+                        <p class="testPara">"I had an exceptional experience at this dental hospital. The staff was incredibly professional, and the treatment was both effective and comfortable. Highly recommend for anyone looking for top-notch dental care!"</p>
                     </div>
                     <div class="col-md-4">
                         <div class="tes">
                             <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
-                            <h4 class="personame">Person Name</h4>
+                            <h4 class="personame"> Murthy</h4>
                         </div>
-                        <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
-                            illo omnis quod minus minima rem quo cum deserunt sint iusto id quasi eaque totam, explicabo
-                            asperiores hic. Laudantium. sint iusto id quasi eaque totam, explicabo
-                            asperiores hic. Laudantium.  </p>
+                        <p class="testPara">"Fantastic dental care at this hospital! The team is professional and made me feel at ease throughout my treatment. I’m very satisfied with the results and highly recommend their services."  </p>
                     </div>
 
 
@@ -196,31 +187,23 @@
                     <div class="col-md-4  ">
                         <div class="tes">
                             <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
-                            <h4 class="personame">Person Name</h4>
+                            <h4 class="personame">Vijaya Lakshmi</h4>
                         </div>
-                        <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
-                            illo omnis quod minus minima rem quo cum deserunt sint iusto id quasi eaque totam, explicabo
-                            asperiores hic. </p>
+                        <p class="testPara">"I had a wonderful experience at this dental hospital. The staff were incredibly professional and attentive, ensuring I was comfortable throughout my treatment. The high-quality care I received exceeded my expectations."</p>
                     </div>
                     <div class="col-md-4  ">
                         <div class="tes">
                             <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
-                            <h4 class="personame">Person Name</h4>
+                            <h4 class="personame">Sumathi</h4>
                         </div>
-                        <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
-                            illo omnis quod minus minima rem quo cum deserunt sint iusto id quasi eaque totam, explicabo
-                            asperiores hic. Laudantium.Laudantium.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
-                            illo omnis quod minus minima rem quo cum deserunt sint iusto id quasi eaque totam, explicabo
-                            asperiores hic. Laudantium.</p>
+                        <p class="testPara">"Exceptional service and care at this dental hospital! The team was professional and made me feel at ease. I'm very pleased with my results and I highly recommend this clinic to anyone seeking exceptional dental services."</p>
                     </div>
                     <div class="col-md-4">
                         <div class="tes">
                             <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
-                            <h4 class="personame">Person Name</h4>
+                            <h4 class="personame">Rama Krishna</h4>
                         </div>
-                        <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
-                            illo omnis quod minus minima rem quo cum deserunt sint iusto id quasi eaque totam, explicabo
-                            asperiores hic.  </p>
+                        <p class="testPara">"This dental hospital provided exceptional care from start to finish. The staff was friendly, professional, and made sure I was comfortable throughout my visit. I’m very pleased with the results and would highly recommend!"</p>
                     </div>
 
 
@@ -229,31 +212,23 @@
                     <div class="col-md-4">
                         <div class="tes">
                             <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
-                            <h4 class="personame">Person Name</h4>
+                            <h4 class="personame">Arjun</h4>
                         </div>
-                        <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
-                            illo omnis quod minus minima rem quo cum deserunt sint iusto id quasi eaque totam, explicabo
-                            asperiores hic. Laudantium.sint iusto id quasi eaque totam, explicabo
-                            asperiores hic. Laudantium.</p>
+                        <p class="testPara">"I am extremely impressed with the care I received at this dental hospital. The staff were not only highly skilled but also genuinely caring, ensuring a comfortable experience from start to finish."</p>
                     </div>
                     <div class="col-md-4">
                         <div class="tes">
                             <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
-                            <h4 class="personame">Person Name</h4>
+                            <h4 class="personame">Venkatesh</h4>
                         </div>
-                        <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
-                            illo omnis quod minus minima rem quo cum deserunt sint iusto id quasi eaque total.sint iusto id quasi eaque totam, explicabo
-                            asperiores hic. Laudantium.</p>
+                        <p class="testPara">"This dental hospital exceeded all my expectations. The team was incredibly professional and made me feel at ease throughout my treatment. I’m extremely satisfied with the results."</p>
                     </div>
                     <div class="col-md-4">
                         <div class="tes">
                             <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
-                            <h4 class="personame">Person Name</h4>
+                            <h4 class="personame">Sangeetha</h4>
                         </div>
-                        <p class="testPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit unde accusamus
-                            illo omnis quod minus minima rem quo cum deserunt sint iusto id quasi eaque totam, explicabo
-                            asperiores hic. Laudantium. sint iusto id quasi eaque totam, explicabo
-                            asperiores hic. Laudantium.  </p>
+                        <p class="testPara">"Outstanding service and care at this dental hospital. The staff is professional and friendly, making each visit comfortable and stress-free. I highly recommend them for anyone in need of dental care."  </p>
                     </div>
 
 

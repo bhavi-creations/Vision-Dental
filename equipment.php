@@ -150,8 +150,7 @@
                 <div class="row servSect">
                     <div class="abot mt-5">
                         <h4 class="abh4">Our Dental equipment</h4>
-                        <p class="abP">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br>
-                            Aenean commodo ligula aenean massa.</p>
+                        <p class="abP">"With the latest dental technology and advanced equipment, we provide precise, effective, and comfortable care for every patient."</p>
                     </div>
                     <div id="carouselExampleDark" class="carousel carousel-dark slide mt-5" data-bs-ride="carousel">
                         <div class="carousel-indicators">
@@ -185,34 +184,32 @@
                                         </ul>
                                     </div>
                                     <div class="col-md-6">
-                                        <img src="assets/img/about/e.png" alt="" class="img-fluid">
+                                        <img src="assets/img/about/e.png" alt="" class="equipment-img">
                                     </div>
                                 </div>
 
 
                             </div>
                             <div class="carousel-item" data-bs-interval="2000">
-                            <div class="row">
+                              <div class="row">
                                     <div class="col-md-6">
-                                        <h2 class="dr_welcome_text1 mt-4 mb-4">Dental Handpieces
+                                        <h2 class="dr_welcome_text1 mt-4 mb-4">Dental Chair
                                         </h2>
                                         <p class="poetsen_font1">
-                                            Dental handpieces, also known as dental drills, are essential tools used by
-                                            dentists, hygienists, specialists, and lab technicians for a variety of
-                                            dental procedures
+                                        Our dental chairs offer exceptional comfort and ergonomic support, ensuring a relaxed experience. Equipped with the latest technology, they enhance both patient comfort and treatment precision.
                                         </p>
                                         <ul>
-                                            <li>Drilling: Preparing teeth for fillings </li>
-                                            <li>Removing decay: Removing decay from teeth </li>
-                                            <li>Polishing: Polishing fillings </li>
-                                            <li>Cosmetic dentistry: Performing cosmetic dentistry </li>
-                                            <li>Altering prostheses: Altering prostheses </li>
-                                            <li>Root canal treatments: Cleaning and shaping canals during root canal treatments </li>
-                                            <li>Dental implants: Performing dental implant procedures </li>
+                                            <li>Adjustable Headrest: Customizes patient positioning for optimal comfort. </li>
+                                            <li>Ergonomic Armrests: Enhances patient relaxation during treatment. </li>
+                                            <li>Lumbar Support: Provides additional lower back comfort. </li>
+                                            <li>Reclining Backrest: Adjusts for various treatment positions.</li>
+                                            <li>Durable Upholstery: Ensures easy cleaning and hygiene.</li>
+                                            <li>Hydraulic Lift System: Allows smooth and precise height adjustments. </li>
+                                            <li>Foot Control: Enables hands-free chair adjustments. </li>
                                         </ul>
                                     </div>
                                     <div class="col-md-6">
-                                        <img src="assets/img/about/e.png" alt="" class="img-fluid">
+                                        <img src="assets/img/about/e.png" alt="" class="equipment-img">
                                     </div>
                                 </div>
 
@@ -220,25 +217,23 @@
                             <div class="carousel-item">
                             <div class="row">
                                     <div class="col-md-6">
-                                        <h2 class="dr_welcome_text1 mt-4 mb-4">Dental Handpieces
+                                        <h2 class="dr_welcome_text1 mt-4 mb-4">Dental Laser
                                         </h2>
                                         <p class="poetsen_font1">
-                                            Dental handpieces, also known as dental drills, are essential tools used by
-                                            dentists, hygienists, specialists, and lab technicians for a variety of
-                                            dental procedures
+                                        Dental lasers offer a precise and minimally invasive approach to a variety of dental procedures, including cavity treatment and gum therapy. Advanced controls and cooling systems ensure optimal safety and effectiveness during use.
                                         </p>
                                         <ul>
-                                            <li>Drilling: Preparing teeth for fillings </li>
-                                            <li>Removing decay: Removing decay from teeth </li>
-                                            <li>Polishing: Polishing fillings </li>
-                                            <li>Cosmetic dentistry: Performing cosmetic dentistry </li>
-                                            <li>Altering prostheses: Altering prostheses </li>
+                                            <li>Laser Handpiece: Delivers precise, controlled laser energy for targeted treatment. </li>
+                                            <li>Foot Pedal: Controls laser activation and intensity for hands-free operation. </li>
+                                            <li>Cooling System: Regulates temperature to ensure safe and effective laser use. </li>
+                                            <li>Display Panel: Allows for easy adjustment of settings and monitoring of treatment parameters. </li>
+                                            <!-- <li>Altering prostheses: Altering prostheses </li>
                                             <li>Root canal treatments: Cleaning and shaping canals during root canal treatments </li>
-                                            <li>Dental implants: Performing dental implant procedures </li>
+                                            <li>Dental implants: Performing dental implant procedures </li> -->
                                         </ul>
                                     </div>
                                     <div class="col-md-6">
-                                        <img src="assets/img/about/e.png" alt="" class="img-fluid">
+                                        <img src="assets/img/about/epng" alt="" class="equipment-img">
                                     </div>
                                 </div>
 

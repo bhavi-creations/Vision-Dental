@@ -151,8 +151,7 @@
                     <div class="abot mt-5">
                         <h4 class="abh4">About Vision Dental – <br>
                             Best Dental Clinic In Guntur</h4>
-                        <p class="abP">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo ligula aenean massa.</p>
+                        <p class="abP">"Welcome to Vision Dental, where advanced dental care meets compassionate service to give you a healthy, confident smile."</p>
                     </div>
                     <div class="col-md-6 dr_content_padding  order-1 order-md-1">
                         <h2 class="dr_welcome_text1 mt-4 mb-4">Vision Multi Speciality
