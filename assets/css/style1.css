@@ -21,7 +21,22 @@ img.img-fluid.dr_img_padding {
 
 }
 
-@media (min-width:768px) {
+
+@media (min-width:768px) and (max-width:992px) {
+
+  .dr_welcome_text1 {
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    line-height:30px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #242e55;
+   
+  }
+}
+
+@media (min-width:992px) {
 
   .dr_welcome_text1 {
     font-family: Poppins;

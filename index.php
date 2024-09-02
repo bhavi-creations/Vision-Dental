@@ -293,19 +293,156 @@
          </div>
      </section>
 
+     <section>
+         <div class="container text-center testmonials_section_space">
+             <div class="row  d-flex fex-row justify-content-center">
+                 <h1 class="test_cont_head">What We Do for Your Teeth</h1>
+                 <p class="test_cont_para">The mouth is the gateway to a person’soverall health.</p>
+                 <button class="list_cont_btn"> <a href="root.php" style="text-decoration: none; color:#fff">List Of all Services</a></button>
+             </div>
+         </div>
 
+
+         <div class="custom-slide-container swiper">
+             <div class="custom-slide-content">
+                 <div class="custom-card-wrapper swiper-wrapper py-5">
+
+
+
+
+              
+
+                     <div class="custom-card custom_card_bg_one swiper-slide">
+                         <div class="row">
+                             <div class="col-6">
+                                 <div class="custom-card-content">
+                                     <h2 class="custom-name">Dental
+                                         Implant</h2>
+                                     <p class="custom-description">Surgical placement of artificial tooth roots</p>
+                                 </div>
+                                 <button class="custom-button">Read More</button>
+                             </div>
+                             <div class="col-6">
+                                 <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
+                             </div>
+                         </div>
+                     </div>
+
+                     <div class="custom-card custom_card_bg_two swiper-slide">
+                         <div class="row">
+                             <div class="col-6">
+                                 <div class="custom-card-content">
+                                     <h2 class="custom-name ">Teeth
+                                     Whitening</h2>
+                                     <p class="custom-description">Cosmetic treatment to enhance the whiteness of teeth</p>
+                                 </div>
+                                 <button class="custom-button">Read More</button>
+                             </div>
+                             <div class="col-6">
+                                 <img src="assets/img/vision/text_doc_ldy.png" alt="" class="img-fluid custom-card-img ">
+                             </div>
+                         </div>
+                     </div>
+
+                     <div class="custom-card custom_card_bg_three swiper-slide">
+                         <div class="row">
+                             <div class="col-6">
+                                 <div class="custom-card-content">
+                                     <h2 class="custom-name">Teeth
+                                         Fillings</h2>
+                                     <p class="custom-description">Restorative procedures to repair cavities and damaged teeth</p>
+
+                                 </div>
+                                 <button class="custom-button">Read More</button>
+                             </div>
+                             <div class="col-6">
+
+
+
+                                 <img src="assets/img/vision/test_doc.png" alt="" class="img-fluid custom-card-img ">
+
+
+                             </div>
+                         </div>
+
+
+
+                     </div>
+
+                     <div class="custom-card custom_card_bg_one swiper-slide">
+                         <div class="row">
+                             <div class="col-6">
+                                 <div class="custom-card-content">
+                                     <h2 class="custom-name">Dental
+                                         Implant</h2>
+                                     <p class="custom-description">Surgical placement of artificial tooth roots</p>
+                                 </div>
+                                 <button class="custom-button">Read More</button>
+                             </div>
+                             <div class="col-6">
+                                 <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+
+             <!-- <div class="swiper-button-next custom-swiper-navBtn"></div>
+             <div class="swiper-button-prev custom-swiper-navBtn"></div> -->
+             <div class="custom-swiper-pagination position_og_peagination"></div>
+         </div>
+
+         <script>
+             var swiper = new Swiper(".custom-slide-content", {
+                 slidesPerView: 3,
+                 spaceBetween: 25,
+                 loop: true,
+                 centerSlide: 'true',
+                 fade: 'true',
+                 grabCursor: 'true',
+                 pagination: {
+                     el: ".custom-swiper-pagination",
+                     clickable: true,
+                     dynamicBullets: true,
+                 },
+                 autoplay: {
+                     delay: 3000, // Time in milliseconds between automatic slides (3 seconds here)
+                     disableOnInteraction: false, // Keeps autoplay active even after manual swiping
+                 },
+                 navigation: {
+                     nextEl: ".swiper-button-next.custom-swiper-navBtn",
+                     prevEl: ".swiper-button-prev.custom-swiper-navBtn",
+                 },
+
+                 breakpoints: {
+                     0: {
+                         slidesPerView: 1,
+                     },
+                     520: {
+                         slidesPerView: 2,
+                     },
+                     950: {
+                         slidesPerView: 3,
+                     },
+                 },
+             });
+         </script>
+
+
+
+     </section>
      <section>
          <div class="container why_choose_container">
              <div class="row">
                  <div class="col-md-5">
-                     <h1  class="why_choose_head">Why Choose 
+                     <h1 class="why_choose_head">Why Choose 
                          Vision Multi speciality
                          Dental</h1>
-                         <p class="why_choose_para">"We provide comprehensive dental care, from routine check-ups to advanced procedures, all in one place. Our skilled team offers personalized treatment for your best oral health. Visit the Best Dentist in Guntur."</p>
-                         <button class="view_all_buttton">View all</button>
+                     <p class="why_choose_para">"We provide comprehensive dental care, from routine check-ups to advanced procedures, all in one place. Our skilled team offers personalized treatment for your best oral health. Visit the Best Dentist in Guntur."</p>
+                     <button class="view_all_buttton">View all</button>
                  </div>
                  <div class="col-md-7">
-                    <img src="assets/img/vision/group chair.png" class="img-fluid group_chair_img" alt="">
+                     <img src="assets/img/vision/group chair.png" class="img-fluid group_chair_img" alt="">
                  </div>
 
              </div>
@@ -450,7 +587,7 @@
 
 
 
-     <section>
+     <section class="lady_doc_sec">
          <div class="container">
              <div class="row">
                  <div class="col-md-5">
@@ -476,7 +613,7 @@
                      </div>
                  </div>
 
-                 <div class="col-md-2 d-none d-lg-block"></div>
+                 <div class="col-md-2 d-none d-md-block"></div>
                  <div class="col-md-5">
                      <img src="assets/img/vision/lady_doc_img.png" class="img-fluid" alt="">
                  </div>
@@ -486,7 +623,97 @@
      </section>
 
 
+     <section class="ask_qus_sec">
+         <div class="container  ">
+             <div class="row">
+                 <div class="col-lg-3"></div>
+                 <div class="col-lg-6">
+                     <div class="text-center">
+                         <h1 class="ask_heading">Frequently Ask Question</h1>
+                         <p class="ask_para">Lorem ipsum dolor sit amet consectetur. Molestie sagittis sit habitasse vivamus vulputate lectus pharetra nibh diam. </p>
+                     </div>
 
+                     <div class="faq">
+                         <ul class="faq-list">
+                             <li class="padding_in_list">
+                                 <div class="question ">
+                                     <p class="list_p_tag"><span class="list_type_style">. </span>Is a root canal treatment painful?
+                                         <span class="toggle-icon toggle_padding_icon_one">+</span>
+                                     </p>
+                                 </div>
+
+                                 <div class="answer">
+                                     No, with modern anesthesia and techniques, root canal treatments are usually not painful.
+                                 </div>
+                             </li>
+                             <hr class="hr_line">
+                             <li>
+                                 <div class="question ">
+                                     <p class="list_p_tag"><span class="list_type_style">. </span> How long does a root canal treatment take?
+                                         <span class="toggle-icon toggle_padding_icon_two">+</span>
+                                     </p>
+                                 </div>
+
+                                 <div class="answer">
+                                     No, with modern anesthesia and techniques, root canal treatments are usually not painful.
+                                 </div>
+                             </li>
+                             <hr class="hr_line">
+
+                             <li>
+                                 <div class="question ">
+                                     <p class="list_p_tag"><span class="list_type_style">. </span> Are root canal treatments expensive?
+                                         <span class="toggle-icon toggle_padding_icon_three">+</span>
+                                     </p>
+                                 </div>
+
+                                 <div class="answer">
+                                     No, with modern anesthesia and techniques, root canal treatments are usually not painful.
+                                 </div>
+                             </li>
+                             <hr class="hr_line">
+
+                             <li>
+                                 <div class="question ">
+                                     <p class="list_p_tag"><span class="list_type_style">. </span>Can I drive after a root canal treatment?
+                                         <span class="toggle-icon toggle_padding_icon_four">+</span>
+                                     </p>
+                                 </div>
+
+                                 <div class="answer">
+                                     No, with modern anesthesia and techniques, root canal treatments are usually not painful.
+                                 </div>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+                 <div class="col-lg-3"></div>
+             </div>
+         </div>
+
+
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+         <script>
+             $(document).ready(function() {
+                 $('.question').click(function() {
+                     var $answer = $(this).next('.answer');
+                     var $icon = $(this).find('.toggle-icon');
+
+                     // Toggle the answer visibility
+                     $answer.slideToggle();
+
+                     // Change icon text
+                     $icon.text($icon.text() === '+' ? '-' : '+');
+
+                     // Toggle background color by adding/removing the active-bg class
+                     $(this).toggleClass('active-bg');
+                     $answer.toggleClass('active-bg');
+                 });
+             });
+         </script>
+
+
+     </section>
 
      <main id="main">
 
