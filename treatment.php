@@ -43,7 +43,6 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 </head>
-
 <style>
 @media (min-width:992px) {
 
@@ -56,7 +55,7 @@
 <body>
 
 
- <header id="header">
+    <header id="header">
         <div class="container d-flex align-items-center onlypad  ">
             <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
                 <a href="index.php">
@@ -148,97 +147,245 @@
 
         <section class="sectionForm">
             <div class="container">
-                <div class="abot mt-5">
-                    <h4 class="abh4">Reviews</h4>
-                    <p class="abP">"Discover what our patients have to say about their exceptional experiences and results at our dental hospital."</p>
-                </div>
+                <div class="row servSect mt-5">
+                    <div class="abot mt-5">
+                        <h4 class="abh4">About Vision Dental – <br>
+                            Best Dental Clinic In Guntur</h4>
+                        <p class="abP">"Welcome to Vision Dental, where advanced dental care meets compassionate service to give you a healthy, confident smile."</p>
+                    </div>
+               <div class="col-md-3">
+               <div class="cardB">
+  <img src="" alt="">
+  <div class="card__content">
+    <p class="card__title">Card Title</p>
+    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
 
-                <div class="abtt1 mt-4 mb-4">
-                    <h2 class="patients">What our Patient says</h2>
-                    <p class="ppaaatt mt-2">5,0 <span> <img src="assets/img/services/s3.png"
-                                class="img-fluid dr_img_padding servImgg" alt=""></span> Google Reviews</p>
-                </div>
-                <div class="row servSection mt-5">
-                    <div class="col-md-4">
-                        <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
-                            <h4 class="personame">Ravi Kumar</h4>
-                        </div>
-                        <p class="testPara">Actually I visited for root canal and fixing the new caps, I really like the process and they treat me well. They are very friendly and explained me everything. I'm really happy for now 😊.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
-                            <h4 class="personame">Sesha Reddy</h4>
-                        </div>
-                        <p class="testPara">I had a wonderful experience at this dental hospital. The staff were incredibly professional and attentive, ensuring I was comfortable throughout my treatment.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
-                            <h4 class="personame"> Murthy</h4>
-                        </div>
-                        <p class="testPara">Visited vision dental hospital for cavity filling underwent 6 teeth very smooth.
-                        Extremely hygienic and good experience.  </p>
-                    </div>
+               </div>
+               <div class="col-md-3">
+               <div class="cardB">
+  <img src="" alt="">
+  <div class="card__content">
+    <p class="card__title">Card Title</p>
+    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
 
+               </div>    <div class="col-md-3">
+               <div class="cardB">
+  <img src="" alt="">
+  <div class="card__content">
+    <p class="card__title">Card Title</p>
+    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
 
-                </div>
-                <div class="row servSect">
-                    <div class="col-md-4  ">
-                        <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
-                            <h4 class="personame">Velpula Nageswararao</h4>
-                        </div>
-                        <p class="testPara">I'm so happy I chose vision Dental hospital for my root canal treatment! The Doctor abhilash sir and entire team is caring and professional, and they truly prioritize patient comfort.</p>
-                    </div>
-                    <div class="col-md-4  ">
-                        <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
-                            <h4 class="personame">Rohit Pawar</h4>
-                        </div>
-                        <p class="testPara">Started invisible braces, also known as aligners, six months ago. Treatment is almost finished, and I'm pleased with the comfort and experience. Highly Recommended!</p>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
-                            <h4 class="personame">Shiva Ram</h4>
-                        </div>
-                        <p class="testPara">I went to Vision Multispecialty Dental Hospital yesterday to replace my teeth. They offered me the option of an implant, which I accepted right away. It seems like a very happy, painless experience with excellent hospitality.</p>
-                    </div>
+               </div>    <div class="col-md-3">
+               <div class="cardB">
+  <img src="" alt="">
+  <div class="card__content">
+    <p class="card__title">Card Title</p>
+    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
 
+               </div>
 
                 </div>
-                <div class="row servSect">
-                    <div class="col-md-4">
-                        <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
-                            <h4 class="personame">Anand Naidu</h4>
-                        </div>
-                        <p class="testPara">I had an exceptional experience at vision multi-speciality dental hospital . From the friendly and professional front desk staff to the highly skilled dental team, every aspect of my visit was top-notch.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
-                            <h4 class="personame">Sangeetha</h4>
-                        </div>
-                        <p class="testPara">Outstanding service and care at this dental hospital. The staff is professional and friendly, making each visit comfortable and stress-free. I highly recommend them for anyone in need of dental care.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
-                            <h4 class="personame">Meghana</h4>
-                        </div>
-                        <p class="testPara">I got my all wisdom teeth removed, safe to say its total painless during and after the process. I will recommend the clinic for painless treatments. I am extremely satisfied with the results. </p>
-                    </div>
 
+<div class="row mt-5">
+    <div class="col-md-3"><div class="cardB">
+  <img src="" alt="">
+  <div class="card__content">
+    <p class="card__title">Card Title</p>
+    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+</div>
+    <div class="col-md-3"><div class="cardB">
+  <img src="" alt="">
+  <div class="card__content">
+    <p class="card__title">Card Title</p>
+    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+</div>
+    <div class="col-md-3"><div class="cardB">
+  <img src="" alt="">
+  <div class="card__content">
+    <p class="card__title">Card Title</p>
+    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+</div>
+    <div class="col-md-3"><div class="cardB">
+  <img src="" alt="">
+  <div class="card__content">
+    <p class="card__title">Card Title</p>
+    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+</div>
+</div>
+<div class="row mt-5">
+    <div class="col-md-3"><div class="cardB">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+  <div class="card__content">
+    <p class="card__title">Card Title</p>
+    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+</div>
+    <div class="col-md-3"><div class="cardB">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+  <div class="card__content">
+    <p class="card__title">Card Title</p>
+    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+</div>
+    <div class="col-md-3"><div class="cardB">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+  <div class="card__content">
+    <p class="card__title">Card Title</p>
+    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+</div>
+    <div class="col-md-3"><div class="cardB">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+  <div class="card__content">
+    <p class="card__title">Card Title</p>
+    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+</div>
+</div>
+<div class="row mt-5">
+    <div class="col-md-3"><div class="cardB">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+  <div class="card__content">
+    <p class="card__title">Card Title</p>
+    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+</div>
+    <div class="col-md-3"><div class="cardB">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+  <div class="card__content">
+    <p class="card__title">Card Title</p>
+    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+</div>
+    <div class="col-md-3"><div class="cardB">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+  <div class="card__content">
+    <p class="card__title">Card Title</p>
+    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+</div>
+    <div class="col-md-3"><div class="cardB">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+  <div class="card__content">
+    <p class="card__title">Card Title</p>
+    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+</div>
+</div>
+<div class="row mt-5">
+    <div class="col-md-3"><div class="cardB">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+  <div class="card__content">
+    <p class="card__title">Card Title</p>
+    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+</div>
+    <div class="col-md-3"><div class="cardB">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+  <div class="card__content">
+    <p class="card__title">Card Title</p>
+    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+</div>
+    <div class="col-md-3"><div class="cardB">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+  <div class="card__content">
+    <p class="card__title">Card Title</p>
+    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+</div>
+    <div class="col-md-3"><div class="cardB">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+  <div class="card__content">
+    <p class="card__title">Card Title</p>
+    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+</div>
+</div>
+<div class="row mt-5">
+    <div class="col-md-3"><div class="cardB">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+  <div class="card__content">
+    <p class="card__title">Card Title</p>
+    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+</div>
+    <div class="col-md-3"><div class="cardB">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+  <div class="card__content">
+    <p class="card__title">Card Title</p>
+    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+</div>
+    <div class="col-md-3"><div class="cardB">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+  <div class="card__content">
+    <p class="card__title">Card Title</p>
+    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+</div>
+    <div class="col-md-3"><div class="cardB">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+  <div class="card__content">
+    <p class="card__title">Card Title</p>
+    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+</div>
+</div>
+</div>
 
-                </div>
             </div>
         </section>
+        
+
         <script>
         function toggleReadMore() {
             var showThisDiv = document.querySelector('.showthisdiv');
+            var readMoreText = document.querySelector('.get_in_touch');
+
+            if (showThisDiv.style.display === "none") {
+                showThisDiv.style.display = "block";
+                readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
+            } else {
+                showThisDiv.style.display = "none";
+                readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
+            }
+        }
+        </script>
+        <script>
+        function toggleReadMore1() {
+            var showThisDiv = document.querySelector('.showthisdiv1');
             var readMoreText = document.querySelector('.get_in_touch');
 
             if (showThisDiv.style.display === "none") {
@@ -259,8 +406,7 @@
                     <div class="col-12 col-md-6 col-lg-3 py-2">
                         <a href="#"> <img src="assets/img/srinivasa/logo.png" class="img-fluid" alt=""></a>
                         <p class="foot_para">Srinivasa Multispeciality Dental Hospital Jawahar street, Beside MRF
-                            showroom, opp
-                            Vivekananda statue- kulaicheruvu park Kakinada-1
+                            showroom, opp Vivekananda statue- kulaicheruvu park Kakinada-1
                         </p>
                         <p class="foot_para"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17"
                                 viewBox="0 0 17 17" fill="none">
@@ -383,8 +529,7 @@
                                 ©2024 SRINIVASA DENTAL . All Rights Reserved. Designed &
                                 Developed by
                                 <a href="https://bhavicreations.com/" target="_blank"
-                                    style="text-decoration: none; color: #ffffff">Bhavi
-                                    Creations</a>
+                                    style="text-decoration: none; color: #ffffff">Bhavi Creations</a>
                             </p>
                         </div>
                     </div>
@@ -402,32 +547,6 @@
             </div>
         </div>
     </footer> -->
-    <script>
-    function toggleReadMore() {
-        var showThisDiv = document.querySelector('.showthisdiv');
-        var readMoreText = document.querySelector('.get_in_touch');
-
-        if (showThisDiv.style.display === "none") {
-            showThisDiv.style.display = "block";
-            readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-        } else {
-            showThisDiv.style.display = "none";
-            readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
-        }
-    }
-    </script>
-    <script>
-    let currentSlide = 0;
-
-    function moveSlide(step) {
-        const slides = document.querySelectorAll('.carousel .slide');
-        const totalSlides = slides.length;
-        currentSlide = (currentSlide + step + totalSlides) % totalSlides;
-        document.querySelector('.carousel').style.transform = translateX(-${currentSlide * 100}%);
-    }
-    </script>
-
-
 
 
     <!-- Scroll Up Button  -->
