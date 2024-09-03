@@ -64,49 +64,49 @@
                  </a>
              </div>
 
-             <nav id="navbar" class="  navbar_empyt order-lg-0">
+             <nav id="navbar" class="  navbar_empyt navbar order-lg-0">
                  <i class="bi bi-list mobile-nav-toggle"></i>
                  <ul>
                      <li><a class="nav-link scrollto" href="index.php">Home</a></li>
                      <li><a class="nav-link scrollto" href="about.php">About</a></li>
                      <li class="nav-item dropdown">
-                         <a class="nav-link dropdown-toggle" href="treatment.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                             Treatments
-                         </a>
-                         <ul class="dropdown-menu services_drop_menu service_width  mt-3" aria-labelledby="servicesDropdown" style="width:550px;">
-                             <div class="row  ">
-                                 <div class="col-md-6  ">
-                                     <li><a class="dropdown-item services_drop" href="root.php">Root Canal</a></li>
-                                     <li><a class="dropdown-item services_drop" href="braces.php">Braces for Teeth Alignment</a></li>
-                                     <li><a class="dropdown-item services_drop" href="pediatric.php">Pediatric Dentist</a></li>
-                                     <li><a class="dropdown-item services_drop" href="paedodontist.php">Paedodontist Doctors</a></li>
-                                     <li><a class="dropdown-item services_drop" href="aligners.php">Clear Aligners</a></li>
-                                     <li><a class="dropdown-item services_drop" href="cosmetic.php">Cosmetic Dentistry</a></li>
-                                     <li><a class="dropdown-item services_drop" href="crowns.php">Crowns and Bridges</a></li>
-                                     <li><a class="dropdown-item services_drop" href="implants.php">Dental Implants</a></li>
-                                     <li><a class="dropdown-item services_drop" href="dentures.php">Dentures Treatment</a></li>
-                                     <li><a class="dropdown-item services_drop" href="invisalign.php">Invisalign </a></li>
-                                     <li><a class="dropdown-item services_drop" href="jaw.php">Jaw Corrective</a></li>
-                                     <li><a class="dropdown-item services_drop" href="laser.php">Laser and Gum</a></li>
-                                 </div>
-                                 <div class="col-md-6">
+                        <a class="nav-link dropdown-toggle" href="treatment.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Treatments
+                        </a>
+                        <ul class="dropdown-menu services_drop_menu service_width  mt-3" aria-labelledby="servicesDropdown" style="width:550px;">
+                            <div class="row  ">
+                                <div class="col-md-6">
+                                    <li><a class="dropdown-item services_drop" href="root.php">Root Canal</a></li>
+                                    <li><a class="dropdown-item services_drop" href="braces.php">Braces for Teeth Alignment</a></li>
+                                    <li><a class="dropdown-item services_drop" href="pediatric.php">Pediatric Dentist</a></li>
+                                    <li><a class="dropdown-item services_drop" href="paedodontist.php">Paedodontist Doctors</a></li>
+                                    <li><a class="dropdown-item services_drop" href="aligners.php">Clear Aligners</a></li>
+                                    <li><a class="dropdown-item services_drop" href="cosmetic.php">Cosmetic Dentistry</a></li>
+                                    <li><a class="dropdown-item services_drop" href="crowns.php">Crowns and Bridges</a></li>
+                                    <li><a class="dropdown-item services_drop" href="implants.php">Dental Implants</a></li>
+                                    <li><a class="dropdown-item services_drop" href="dentures.php">Dentures Treatment</a></li>
+                                    <li><a class="dropdown-item services_drop" href="invisalign.php">Invisalign </a></li>
+                                    <li><a class="dropdown-item services_drop" href="jaw.php">Jaw Corrective</a></li>
+                                    <li><a class="dropdown-item services_drop" href="laser.php">Laser and Gum</a></li>
+                                </div>
+                                <div class="col-md-6">
 
-                                     <li><a class="dropdown-item services_drop" href="smile.php">Smile Designing</a></li>
-                                     <li><a class="dropdown-item services_drop" href="make.php">Smile Makeover</a></li>
-                                     <li><a class="dropdown-item services_drop" href="teeth.php">Teeth Alignment</a></li>
-                                     <li><a class="dropdown-item services_drop" href="tooth.php">Tooth Extraction</a></li>
-                                     <li><a class="dropdown-item services_drop" href="laserTooth.php">Laser Tooth Cleaning</a></li>
-                                     <li><a class="dropdown-item services_drop" href="gum.php">Gum Depigmentation</a></li>
-                                     <li><a class="dropdown-item services_drop" href="laserTeeth.php">Laser Teeth Whitening</a></li>
-                                     <li><a class="dropdown-item services_drop" href="laserGum.php">Laser Gum Surgery</a></li>
-                                     <li><a class="dropdown-item services_drop" href="mouth.php">Mouth Ulcers</a></li>
-                                     <li><a class="dropdown-item services_drop" href="lasion.php">Precancerous Lesion</a></li>
-                                     <li><a class="dropdown-item services_drop" href="laserCrown.php">Laser Crown Lengthening</a></li>
-                                 </div>
-
-                             </div>
-                         </ul>
-                     </li>
+                                    <li><a class="dropdown-item services_drop" href="smile.php">Smile Designing</a></li>
+                                    <li><a class="dropdown-item services_drop" href="make.php">Smile Makeover</a></li>
+                                    <li><a class="dropdown-item services_drop" href="teeth.php">Teeth Alignment</a></li>
+                                    <li><a class="dropdown-item services_drop" href="tooth.php">Tooth Extraction</a></li>
+                                    <li><a class="dropdown-item services_drop" href="laserTooth.php">Laser Tooth Cleaning</a></li>
+                                    <li><a class="dropdown-item services_drop" href="gum.php">Gum Depigmentation</a></li>
+                                    <li><a class="dropdown-item services_drop" href="laserTeeth.php">Laser Teeth Whitening</a></li>
+                                    <li><a class="dropdown-item services_drop" href="laserGum.php">Laser Gum Surgery</a></li>
+                                    <li><a class="dropdown-item services_drop" href="mouth.php">Mouth Ulcers</a></li>
+                                    <li><a class="dropdown-item services_drop" href="lasion.php">Precancerous Lesion</a></li>
+                                    <li><a class="dropdown-item services_drop" href="laserCrown.php">Laser Crown Lengthening</a></li>
+                                </div>
+                                 
+                            </div>
+                        </ul>
+                    </li>
                      <li><a class="nav-link scrollto" href="equipment.php">equipment</a></li>
 
                      <li><a class="nav-link" href="blogs.php">Blogs</a></li>
