@@ -180,17 +180,29 @@
                                         class="form-select" required>
                                         <option value="">Select Service</option>
                                         <option value="Root Canal"> Root Canal</option>
-                                        <option value="Dental Implants">Dental Implants</option>
-                                        <option value="Teeth Filling">Teeth Filling</option>
-                                        <option value="Dental Braces">Dental Braces</option>
-                                        <option value="Teeth Cleaning">Teeth Cleaning</option>
-                                        <option value="Teeth Whitening">Teeth Whitening</option>
-                                        <option value="Smile Makeover">Smile Makeover</option>
-                                        <option value="Tooth Crown & Bridges">Tooth Crown & Bridges</option>
-                                        <option value="Dentures">Dentures</option>
-                                        <option value="Tooth extraction">Tooth extraction</option>
-                                        <option value="Teeth Scaling"> Teeth Scaling</option>
-                                        <option value="Full Mouth Restoration">Full Mouth Restoration</option>
+                                        <option value="Braces for Teeth Alignment">Braces for Teeth Alignment</option>
+                                         <option value="Pediatric Dentist">Pediatric Dentist</option>
+                                         <option value="Paedodontist">Paedodontist</option>
+                                         <option value="Clear Aligners ">Clear Aligners </option>
+                                         <option value="Cosmetic Dentistry">Cosmetic Dentistry</option>
+                                         <option value="Crowns and Bridges ">Crowns and Bridges </option>
+                                         <option value="Dental Implants">Dental Implants</option>
+                                         <option value="Dentures">Dentures</option>
+                                         <option value="Invisalign">Invisalign</option>
+                                         <option value="Jaw Corrective">Jaw Corrective</option>
+                                         <option value="Laser and Gum Therapy ">Laser and Gum Therapy </option>
+                                         <option value="Smile Designing ">Smile Designing </option>
+                                         <option value="Smile Makeover ">Smile Makeover</option>
+                                         <option value="Teeth Alignment ">Teeth Alignment </option>
+                                         <option value="Tooth Extraction">Tooth Extraction</option>
+                                         <option value="Laser Tooth Cleaning ">Laser Tooth Cleaning </option>
+                                         <option value="Gum Depigmentation">Gum Depigmentation</option>
+                                         <option value="Laser Teeth Whitening"></option>
+                                         <option value="Laser Gum Surgery">Laser Gum Surgery</option>
+                                         <option value="Mouth Ulcers">Mouth Ulcers</option>
+                                         <option value="Precancerous Lesion">Precancerous Lesion</option>
+                                         <option value="Laser Crown Lengthening">Laser Crown Lengthening</option>
+                                  
 
 
 

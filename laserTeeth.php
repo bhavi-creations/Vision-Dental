@@ -150,7 +150,7 @@
             <div class="container">
                 <div class="row servSect">
                     <div class="abot mt-5">
-                        <h4 class="abh4">aser Teeth Whitening Treatments</h4>
+                        <h4 class="abh4">Laser Teeth Whitening Treatments</h4>
                         <p class="abP">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br>
                             Aenean commodo ligula aenean massa.</p>
                     </div>
@@ -169,7 +169,7 @@
                             <br> This article aims to provide insights into root canal treatments, explain why they are
                             necessary, highlight their benefits, and address common questions related to this procedure.
                         </p>
-                        <button class="appont">Book Appointment</button>
+                        <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
 
                     </div>
 
