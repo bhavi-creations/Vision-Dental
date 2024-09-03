@@ -145,48 +145,72 @@
 
     <main id="main">
 
-        <section class="sectionForm">
+        <section class="sectionForm mb-5">
             <div class="container">
-                <div class="row servSect mt-5">
-                    <div class="abot mt-5">
+                <div class="row servSect  ">
+                    <div class="abot mt-5 mb-5">
                         <h4 class="abh4">About Vision Dental – <br>
                             Best Dental Clinic In Guntur</h4>
                         <p class="abP">"Welcome to Vision Dental, where advanced dental care meets compassionate service to give you a healthy, confident smile."</p>
                     </div>
                <div class="col-md-3">
                <div class="cardB">
-  <img src="" alt="">
+  <img src="assets/img/treat/0.png" alt="" class="imggg1">
   <div class="card__content">
-    <p class="card__title">Card Title</p>
-    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p class="card__title cardH">Root Canal</p>
+    <p class="card__description cardP">A root canal is a dental procedure to remove infected or damaged pulp from inside a tooth, relieving pain and preventing further infection.</p>
   </div>
 </div>
 
                </div>
                <div class="col-md-3">
                <div class="cardB">
-  <img src="" alt="">
+  <img src="assets/img/treat/23.png" alt="" class="imggg2">
   <div class="card__content">
-    <p class="card__title">Card Title</p>
-    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p class="card__title">Braces for Teeth Alignment</p>
+    <p class="card__description">Braces are orthodontic devices used to straighten teeth, correct alignment, and improve bite by gradually moving teeth into the desired position.
+
+
+
+
+
+
+
+</p>
   </div>
 </div>
 
                </div>    <div class="col-md-3">
                <div class="cardB">
-  <img src="" alt="">
+  <img src="assets/img/treat/17.png" alt="" class="imggg3">
   <div class="card__content">
-    <p class="card__title">Card Title</p>
-    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p class="card__title">Pediatric Dentist</p>
+    <p class="card__description">A pediatric dentist specializes in the dental care of children, focusing on their unique oral health needs and providing a child-friendly environment.
+
+
+
+
+
+
+
+</p>
   </div>
 </div>
 
                </div>    <div class="col-md-3">
                <div class="cardB">
-  <img src="" alt="">
-  <div class="card__content">
-    <p class="card__title">Card Title</p>
-    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+               <img src="assets/img/treat/8.png" alt="" class="imggg4">
+               <div class="card__content">
+    <p class="card__title">Paedodontist Doctors</p>
+    <p class="card__description">Paedodontists are dental specialists who focus on the oral health and treatment of infants, children, and adolescents, including those with special needs.
+
+
+
+
+
+
+
+</p>
   </div>
 </div>
 
@@ -196,173 +220,239 @@
 
 <div class="row mt-5">
     <div class="col-md-3"><div class="cardB">
-  <img src="" alt="">
-  <div class="card__content">
-    <p class="card__title">Card Title</p>
-    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <img src="assets/img/treat/16.png" alt="" class="imggg5">
+    <div class="card__content">
+    <p class="card__title">Clear Aligners</p>
+    <p class="card__description">Clear aligners are transparent, removable orthodontic devices used to straighten teeth and correct alignment discreetly without the need for traditional braces.
+
+
+
+
+
+
+
+</p>
   </div>
 </div>
 </div>
     <div class="col-md-3"><div class="cardB">
-  <img src="" alt="">
+    <img src="assets/img/treat/3.png" alt="" class="imggg6">
   <div class="card__content">
-    <p class="card__title">Card Title</p>
-    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p class="card__title">Cosmetic Dentistry</p>
+    <p class="card__description">Cosmetic dentistry focuses on enhancing the appearance of teeth, gums, and smiles through procedures like whitening, veneers, bonding, and reshaping.
+
+
+
+
+
+
+
+</p>
   </div>
 </div>
 </div>
     <div class="col-md-3"><div class="cardB">
-  <img src="" alt="">
+    <img src="assets/img/treat/9.png" alt="" class="imggg7">
   <div class="card__content">
-    <p class="card__title">Card Title</p>
-    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p class="card__title">Crowns and Bridges</p>
+    <p class="card__description">Crowns and bridges are dental restorations used to replace missing teeth and restore damaged teeth, improving function, appearance, and stability.
+
+
+
+
+
+
+
+</p>
   </div>
 </div>
 </div>
     <div class="col-md-3"><div class="cardB">
-  <img src="" alt="">
+    <img src="assets/img/treat/22.png" alt="" class="imggg8">
   <div class="card__content">
-    <p class="card__title">Card Title</p>
-    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p class="card__title">Dental Implants</p>
+    <p class="card__description">Dental implants are artificial tooth roots surgically placed into the jawbone to support replacement teeth, providing a permanent solution for missing teeth.
+
+
+
+
+
+
+
+</p>
   </div>
 </div>
 </div>
 </div>
 <div class="row mt-5">
     <div class="col-md-3"><div class="cardB">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+    <img src="assets/img/treat/21.png" alt="" class="imggg9">
+
   <div class="card__content">
-    <p class="card__title">Card Title</p>
-    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p class="card__title">Dentures Treatments</p>
+    <p class="card__description">Dentures are removable appliances designed to replace missing teeth and surrounding tissues, restoring function and aesthetics for individuals with tooth loss.
+
+
+
+
+
+
+
+</p>
   </div>
 </div>
 </div>
     <div class="col-md-3"><div class="cardB">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+    <img src="assets/img/treat/11.png" alt="" class="imggg9">
+
   <div class="card__content">
-    <p class="card__title">Card Title</p>
-    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p class="card__title">Invisalign</p>
+    <p class="card__description">Invisalign is a series of clear, removable aligners custom-made to straighten teeth and correct misalignments discreetly and comfortably.
+
+</p>
   </div>
 </div>
 </div>
     <div class="col-md-3"><div class="cardB">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+    <img src="assets/img/treat/24.png" alt="" class="imggg10">
+
   <div class="card__content">
-    <p class="card__title">Card Title</p>
-    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p class="card__title">Jaw Corrective</p>
+    <p class="card__description">Jaw corrective treatment addresses misalignments and functional issues of the jaw through orthodontics or surgical procedures to improve bite and overall oral health.
+</p>
   </div>
 </div>
 </div>
     <div class="col-md-3"><div class="cardB">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+    <img src="assets/img/treat/5.png" alt="" class="imggg11">
+
   <div class="card__content">
-    <p class="card__title">Card Title</p>
-    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p class="card__title">Laser and Gum Therapy</p>
+    <p class="card__description">Laser and gum therapy uses advanced laser technology to treat gum disease, reduce inflammation, and promote healing with minimal discomfort and recovery time.
+</p>
   </div>
 </div>
 </div>
 </div>
 <div class="row mt-5">
     <div class="col-md-3"><div class="cardB">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+    <img src="assets/img/treat/15.png" alt="" class="imggg12">
+
   <div class="card__content">
-    <p class="card__title">Card Title</p>
-    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p class="card__title">Smile Designing</p>
+    <p class="card__description">Smile designing is a cosmetic dental process that customizes treatments to enhance the appearance of a smile, including adjustments to teeth, gums, and overall facial harmony.
+</p>
   </div>
 </div>
 </div>
     <div class="col-md-3"><div class="cardB">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+    <img src="assets/img/treat/12.png" alt="" class="imggg12">
+
   <div class="card__content">
-    <p class="card__title">Card Title</p>
-    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p class="card__title">Smile Makeover</p>
+    <p class="card__description">A smile makeover involves a combination of cosmetic dental procedures to transform and enhance the overall appearance of a person's smile.
+
+
+
+</p>
   </div>
 </div>
 </div>
     <div class="col-md-3"><div class="cardB">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+    <img src="assets/img/treat/13.png" alt="" class="imggg13">
+
   <div class="card__content">
-    <p class="card__title">Card Title</p>
-    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p class="card__title">Teeth Alignment</p>
+    <p class="card__description">Teeth alignment involves correcting the position of teeth to achieve a straighter, more even smile and improve bite function.
+</p>
   </div>
 </div>
 </div>
     <div class="col-md-3"><div class="cardB">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+    <img src="assets/img/treat/20.png" alt="" class="imggg14">
+
   <div class="card__content">
-    <p class="card__title">Card Title</p>
-    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p class="card__title">Tooth Extraction</p>
+    <p class="card__description">Tooth extraction is the removal of a tooth from its socket in the jawbone, typically due to damage, decay, or crowding.
+</p>
   </div>
 </div>
 </div>
 </div>
 <div class="row mt-5">
     <div class="col-md-3"><div class="cardB">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+    <img src="assets/img/treat/6.png" alt="" class="imggg15">
+
   <div class="card__content">
-    <p class="card__title">Card Title</p>
-    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p class="card__title">Laser Tooth Cleaning</p>
+    <p class="card__description">Laser tooth cleaning uses focused laser technology to remove plaque, tartar, and bacteria from teeth and gums for a thorough and precise cleaning.
+</p>
   </div>
 </div>
 </div>
     <div class="col-md-3"><div class="cardB">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+    <img src="assets/img/treat/19.png" alt="" class="imggg16">
+
   <div class="card__content">
-    <p class="card__title">Card Title</p>
-    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p class="card__title">Gum Depigmentation</p>
+    <p class="card__description">Gum depigmentation is a cosmetic procedure that removes dark spots or discoloration from the gums to achieve a more even and aesthetically pleasing appearance.
+</p>
   </div>
 </div>
 </div>
     <div class="col-md-3"><div class="cardB">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+    <img src="assets/img/treat/14.png" alt="" class="imggg17">
+
   <div class="card__content">
-    <p class="card__title">Card Title</p>
-    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p class="card__title">Laser Teeth Whitening</p>
+    <p class="card__description">Laser teeth whitening is a cosmetic treatment that uses laser technology to accelerate the bleaching process and lighten the color of teeth for a brighter smile.
+</p>
   </div>
 </div>
 </div>
     <div class="col-md-3"><div class="cardB">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+    <img src="assets/img/treat/25.png" alt="" class="imggg17">
+
   <div class="card__content">
-    <p class="card__title">Card Title</p>
-    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p class="card__title">Laser Gum Surgery</p>
+    <p class="card__description">Laser gum surgery employs focused laser light to treat gum disease, reduce inflammation, and promote healing with minimal discomfort and faster recovery.
+</p>
   </div>
 </div>
 </div>
 </div>
-<div class="row mt-5">
+<div class="row mt-5 tret">
     <div class="col-md-3"><div class="cardB">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+    <img src="assets/img/treat/26.png" alt="" class="imggg17">
+
   <div class="card__content">
-    <p class="card__title">Card Title</p>
-    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-  </div>
-</div>
-</div>
-    <div class="col-md-3"><div class="cardB">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
-  <div class="card__content">
-    <p class="card__title">Card Title</p>
-    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p class="card__title">Mouth Ulcers</p>
+    <p class="card__description">Mouth ulcers are painful, shallow sores that develop on the mucous membranes inside the mouth, often causing discomfort and difficulty eating or speaking.
+</p>
   </div>
 </div>
 </div>
     <div class="col-md-3"><div class="cardB">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+      <img src="assets/img/treat/18.png" alt="" class="imggg18">
+
   <div class="card__content">
-    <p class="card__title">Card Title</p>
-    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p class="card__title">Precancerous Lesion in Mouth</p>
+    <p class="card__description">A precancerous lesion in the mouth is an abnormal tissue change that may precede oral cancer, requiring monitoring and potential treatment to prevent progression.
+</p>
   </div>
 </div>
 </div>
     <div class="col-md-3"><div class="cardB">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5H4V19L13.2923 9.70649C13.6828 9.31595 14.3159 9.31591 14.7065 9.70641L20 15.0104V5ZM2 3.9934C2 3.44476 2.45531 3 2.9918 3H21.0082C21.556 3 22 3.44495 22 3.9934V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V3.9934ZM8 11C6.89543 11 6 10.1046 6 9C6 7.89543 6.89543 7 8 7C9.10457 7 10 7.89543 10 9C10 10.1046 9.10457 11 8 11Z"></path></svg>
+    <img src="assets/img/treat/10.png" alt="" class="imggg19">
+
   <div class="card__content">
-    <p class="card__title">Card Title</p>
-    <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <p class="card__title">Laser Crown Lengthening</p>
+    <p class="card__description">Laser crown lengthening uses laser technology to remove excess gum tissue, exposing more of the tooth's surface to enhance its appearance and facilitate restorative procedures.
+</p>
   </div>
 </div>
 </div>
+ 
 </div>
 
             </div>
