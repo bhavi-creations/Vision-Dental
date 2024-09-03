@@ -209,7 +209,7 @@
                                         </ul>
                                     </div>
                                     <div class="col-md-6">
-                                        <img src="assets/img/about/e.png" alt="" class="equipment-img">
+                                        <img src="assets/img/about/dental-chair.png" alt="" class="equipment-img img-fluid">
                                     </div>
                                 </div>
 
