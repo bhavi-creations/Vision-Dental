@@ -307,11 +307,6 @@
              <div class="custom-slide-content">
                  <div class="custom-card-wrapper swiper-wrapper py-5">
 
-
-
-
-              
-
                      <div class="custom-card custom_card_bg_one swiper-slide">
                          <div class="row">
                              <div class="col-6">
@@ -320,7 +315,7 @@
                                          Implant</h2>
                                      <p class="custom-description">Surgical placement of artificial tooth roots</p>
                                  </div>
-                                 <button class="custom-button">Read More</button>
+                                 <button class="custom-button"><a href="implants.php" class="service_btn_readmore"> Read More</a> </button>
                              </div>
                              <div class="col-6">
                                  <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
@@ -336,7 +331,57 @@
                                      Whitening</h2>
                                      <p class="custom-description">Cosmetic treatment to enhance the whiteness of teeth</p>
                                  </div>
-                                 <button class="custom-button">Read More</button>
+                                 <button class="custom-button"><a href="teeth.php" class="service_btn_readmore"> Read More</a> </button>
+                             </div>
+                             <div class="col-6">
+                                 <img src="assets/img/vision/text_doc_ldy.png" alt="" class="img-fluid custom-card-img ">
+                             </div>
+                         </div>
+                      </div>
+
+                     <div class="custom-card custom_card_bg_three swiper-slide">
+                         <div class="row">
+                             <div class="col-6">
+                                 <div class="custom-card-content">
+                                     <h2 class="custom-name">Teeth
+                                         Fillings</h2>
+                                     <p class="custom-description">Restorative procedures to repair cavities and damaged teeth</p>
+
+                                 </div>
+                                 <button class="custom-button"><a href="teeth.php" class="service_btn_readmore"> Read More</a> </button>
+                             </div>
+                             <div class="col-6">
+                                 <img src="assets/img/vision/test_doc.png" alt="" class="img-fluid custom-card-img ">
+                             </div>
+                         </div>
+                     </div>
+
+                     <div class="custom-card custom_card_bg_one swiper-slide">
+                         <div class="row">
+                             <div class="col-6">
+                                 <div class="custom-card-content">
+                                     <h2 class="custom-name">Root
+                                         Canal</h2>
+                                     <p class="custom-description">Effective root canal treatment to save your tooth</p>
+                                 </div>
+                                 <button class="custom-button"><a href="root.php" class="service_btn_readmore"> Read More</a> </button>
+                             </div>
+                             <div class="col-6">
+                                 <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
+                             </div>
+                         </div>
+                     </div>
+                     
+
+                     <div class="custom-card custom_card_bg_two swiper-slide">
+                         <div class="row">
+                             <div class="col-6">
+                                 <div class="custom-card-content">
+                                     <h2 class="custom-name ">Teeth
+                                     Braces</h2>
+                                     <p class="custom-description">Transform your smile with our expert teeth braces</p>
+                                 </div>
+                                 <button class="custom-button"><a href="braces.php" class="service_btn_readmore"> Read More</a> </button>
                              </div>
                              <div class="col-6">
                                  <img src="assets/img/vision/text_doc_ldy.png" alt="" class="img-fluid custom-card-img ">
@@ -348,16 +393,14 @@
                          <div class="row">
                              <div class="col-6">
                                  <div class="custom-card-content">
-                                     <h2 class="custom-name">Teeth
-                                         Fillings</h2>
-                                     <p class="custom-description">Restorative procedures to repair cavities and damaged teeth</p>
+                                     <h2 class="custom-name">Pediatric
+                                         Dentist</h2>
+                                     <p class="custom-description">Specialized care for children’s dental health and comfort</p>
 
                                  </div>
-                                 <button class="custom-button">Read More</button>
+                                 <button class="custom-button"><a href="pediatric.php" class="service_btn_readmore"> Read More</a> </button>
                              </div>
                              <div class="col-6">
-
-
 
                                  <img src="assets/img/vision/test_doc.png" alt="" class="img-fluid custom-card-img ">
 
@@ -373,17 +416,311 @@
                          <div class="row">
                              <div class="col-6">
                                  <div class="custom-card-content">
-                                     <h2 class="custom-name">Dental
-                                         Implant</h2>
-                                     <p class="custom-description">Surgical placement of artificial tooth roots</p>
+                                     <h2 class="custom-name">Clear
+                                         Aligners</h2>
+                                     <p class="custom-description">Clear aligners straighten teeth discreetly and comfortably without braces</p>
                                  </div>
-                                 <button class="custom-button">Read More</button>
+                                 <button class="custom-button"><a href="aligners.php" class="service_btn_readmore"> Read More</a> </button>
                              </div>
                              <div class="col-6">
                                  <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
                              </div>
                          </div>
                      </div>
+                     
+
+                     <div class="custom-card custom_card_bg_two swiper-slide">
+                         <div class="row">
+                             <div class="col-6">
+                                 <div class="custom-card-content">
+                                     <h2 class="custom-name ">Cosmetic
+                                     Dentistry</h2>
+                                     <p class="custom-description">Cosmetic dentistry offers personalized treatments to enhance and perfect your smile</p>
+                                 </div>
+                                 <button class="custom-button"><a href="cosmetic.php" class="service_btn_readmore"> Read More</a> </button>
+                             </div>
+                             <div class="col-6">
+                                 <img src="assets/img/vision/text_doc_ldy.png" alt="" class="img-fluid custom-card-img ">
+                             </div>
+                         </div>
+                     </div>
+
+                     <div class="custom-card custom_card_bg_three swiper-slide">
+                         <div class="row">
+                             <div class="col-6">
+                                 <div class="custom-card-content">
+                                     <h2 class="custom-name">Crowns &
+                                         Bridges</h2>
+                                     <p class="custom-description">Crowns and bridges restore function and enhance dental aesthetics</p>
+
+                                 </div>
+                                 <button class="custom-button"><a href="crowns.php" class="service_btn_readmore"> Read More</a> </button>
+                             </div>
+                             <div class="col-6">
+
+                                 <img src="assets/img/vision/test_doc.png" alt="" class="img-fluid custom-card-img ">
+
+
+                             </div>
+                         </div>
+
+
+
+                     </div>
+
+                     <div class="custom-card custom_card_bg_one swiper-slide">
+                         <div class="row">
+                             <div class="col-6">
+                                 <div class="custom-card-content">
+                                     <h2 class="custom-name">Dentures Treatment
+                                         </h2>
+                                     <p class="custom-description">Comfortable and natural-looking dentures for restored confidence</p>
+                                 </div>
+                                 <button class="custom-button"><a href="dentures.php" class="service_btn_readmore"> Read More</a> </button>
+                             </div>
+                             <div class="col-6">
+                                 <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
+                             </div>
+                         </div>
+                     </div>
+                     
+
+                     <div class="custom-card custom_card_bg_two swiper-slide">
+                         <div class="row">
+                             <div class="col-6">
+                                 <div class="custom-card-content">
+                                     <h2 class="custom-name ">
+                                     Invisalign</h2>
+                                     <p class="custom-description">Invisalign uses clear aligners to straighten teeth discreetly and effectively</p>
+                                 </div>
+                                 <button class="custom-button"><a href="invisalign.php" class="service_btn_readmore"> Read More</a> </button>
+                             </div>
+                             <div class="col-6">
+                                 <img src="assets/img/vision/text_doc_ldy.png" alt="" class="img-fluid custom-card-img ">
+                             </div>
+                         </div>
+                     </div>
+                     
+
+                     <div class="custom-card custom_card_bg_three swiper-slide">
+                         <div class="row">
+                             <div class="col-6">
+                                 <div class="custom-card-content">
+                                     <h2 class="custom-name">Jaw
+                                         Correction</h2>
+                                     <p class="custom-description">Effective jaw corrective treatments for improved function and alignment</p>
+
+                                 </div>
+                                 <button class="custom-button"><a href="jaw.php" class="service_btn_readmore"> Read More</a> </button>
+                             </div>
+                             <div class="col-6">
+
+                                 <img src="assets/img/vision/test_doc.png" alt="" class="img-fluid custom-card-img ">
+
+
+                             </div>
+                         </div>
+
+                     </div>
+
+                     <div class="custom-card custom_card_bg_one swiper-slide">
+                         <div class="row">
+                             <div class="col-6">
+                                 <div class="custom-card-content">
+                                     <h2 class="custom-name">Laser
+                                         & Gum</h2>
+                                     <p class="custom-description">Advanced laser treatments for healthier gums and precision</p>
+                                 </div>
+                                 <button class="custom-button"><a href="treatment.php" class="service_btn_readmore"> Read More</a> </button>
+                             </div>
+                             <div class="col-6">
+                                 <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
+                             </div>
+                         </div>
+                     </div>
+                     
+
+                     <div class="custom-card custom_card_bg_two swiper-slide">
+                         <div class="row">
+                             <div class="col-6">
+                                 <div class="custom-card-content">
+                                     <h2 class="custom-name ">Smile
+                                     Designing</h2>
+                                     <p class="custom-description">Custom smile designing for a radiant, confident appearance</p>
+                                 </div>
+                                 <button class="custom-button"><a href="smile.php" class="service_btn_readmore"> Read More</a> </button>
+                             </div>
+                             <div class="col-6">
+                                 <img src="assets/img/vision/text_doc_ldy.png" alt="" class="img-fluid custom-card-img ">
+                             </div>
+                         </div>
+                     </div>
+                     
+
+                     <div class="custom-card custom_card_bg_three swiper-slide">
+                         <div class="row">
+                             <div class="col-6">
+                                 <div class="custom-card-content">
+                                     <h2 class="custom-name">Smile
+                                         Makeover</h2>
+                                     <p class="custom-description">Complete smile makeover for a stunning, confident transformation</p>
+
+                                 </div>
+                                 <button class="custom-button"><a href="make.php" class="service_btn_readmore"> Read More</a> </button>
+                             </div>
+                             <div class="col-6">
+
+                                 <img src="assets/img/vision/test_doc.png" alt="" class="img-fluid custom-card-img ">
+
+
+                             </div>
+                         </div>
+
+                     </div>
+
+                     <div class="custom-card custom_card_bg_one swiper-slide">
+                         <div class="row">
+                             <div class="col-6">
+                                 <div class="custom-card-content">
+                                     <h2 class="custom-name">Teeth
+                                         Alignment</h2>
+                                     <p class="custom-description">Achieve perfect teeth alignment with advanced orthodontic solutions</p>
+                                 </div>
+                                 <button class="custom-button"><a href="teeth.php" class="service_btn_readmore"> Read More</a> </button>
+                             </div>
+                             <div class="col-6">
+                                 <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
+                             </div>
+                         </div>
+                     </div>
+                     
+
+                     <div class="custom-card custom_card_bg_two swiper-slide">
+                         <div class="row">
+                             <div class="col-6">
+                                 <div class="custom-card-content">
+                                     <h2 class="custom-name ">Tooth
+                                     Extraction</h2>
+                                     <p class="custom-description">Safe and efficient tooth extraction for optimal oral health</p>
+                                 </div>
+                                 <button class="custom-button"><a href="tooth.php" class="service_btn_readmore"> Read More</a> </button>
+                             </div>
+                             <div class="col-6">
+                                 <img src="assets/img/vision/text_doc_ldy.png" alt="" class="img-fluid custom-card-img ">
+                             </div>
+                         </div>
+                     </div>
+                     
+
+                     <div class="custom-card custom_card_bg_three swiper-slide">
+                         <div class="row">
+                             <div class="col-6">
+                                 <div class="custom-card-content">
+                                     <h2 class="custom-name">Tooth
+                                         Cleaning</h2>
+                                     <p class="custom-description">Thorough tooth cleaning for a healthier, brighter smile</p>
+
+                                 </div>
+                                 <button class="custom-button"><a href="laserTooth.php" class="service_btn_readmore"> Read More</a> </button>
+                             </div>
+                             <div class="col-6">
+
+                                 <img src="assets/img/vision/test_doc.png" alt="" class="img-fluid custom-card-img ">
+
+
+                             </div>
+                         </div>
+
+                     </div>
+
+                     <div class="custom-card custom_card_bg_one swiper-slide">
+                         <div class="row">
+                             <div class="col-6">
+                                 <div class="custom-card-content">
+                                     <h2 class="custom-name">
+                                     Gum Depigment</h2>
+                                     <p class="custom-description">Brighten your smile with effective gum depigmentation treatment</p>
+                                 </div>
+                                 <button class="custom-button"><a href="gum.php" class="service_btn_readmore"> Read More</a> </button>
+                             </div>
+                             <div class="col-6">
+                                 <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
+                             </div>
+                         </div>
+                     </div>
+                     
+
+                     <div class="custom-card custom_card_bg_two swiper-slide">
+                         <div class="row">
+                             <div class="col-6">
+                                 <div class="custom-card-content">
+                                     <h2 class="custom-name ">
+                                     Gum Surgery</h2>
+                                     <p class="custom-description">Gum surgery treats gum disease, reduces pain, and promotes healing</p>
+                                 </div>
+                                 <button class="custom-button"><a href="laserGum.php" class="service_btn_readmore"> Read More</a> </button>
+                             </div>
+                             <div class="col-6">
+                                 <img src="assets/img/vision/text_doc_ldy.png" alt="" class="img-fluid custom-card-img ">
+                             </div>
+                         </div>
+                     </div>
+                     
+
+                     <div class="custom-card custom_card_bg_three swiper-slide">
+                         <div class="row">
+                             <div class="col-6">
+                                 <div class="custom-card-content">
+                                     <h2 class="custom-name">Mouth
+                                         Ulcers</h2>
+                                     <p class="custom-description">Mouth ulcers cause discomfort, pain, and need effective treatment options</p>
+
+                                 </div>
+                                 <button class="custom-button"><a href="mouth.php" class="service_btn_readmore"> Read More</a> </button>
+                             </div>
+                             <div class="col-6">
+
+                                 <img src="assets/img/vision/test_doc.png" alt="" class="img-fluid custom-card-img ">
+
+
+                             </div>
+                         </div>
+
+                     </div>
+
+                     <div class="custom-card custom_card_bg_one swiper-slide">
+                         <div class="row">
+                             <div class="col-6">
+                                 <div class="custom-card-content">
+                                     <h2 class="custom-name">
+                                      Lesion</h2>
+                                     <p class="custom-description">Precancerous lesions require early detection and prompt treatment</p>
+                                 </div>
+                                 <button class="custom-button"><a href="lasion.php" class="service_btn_readmore"> Read More</a> </button>
+                             </div>
+                             <div class="col-6">
+                                 <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
+                             </div>
+                         </div>
+                     </div>
+                     
+
+                     <div class="custom-card custom_card_bg_two swiper-slide">
+                         <div class="row">
+                             <div class="col-6">
+                                 <div class="custom-card-content">
+                                     <h2 class="custom-name ">
+                                     Crown Lengthening</h2>
+                                     <p class="custom-description">Laser crown lengthening enhances tooth visibility and gum health</p>
+                                 </div>
+                                 <button class="custom-button"><a href="laserCrown.php" class="service_btn_readmore"> Read More</a> </button>
+                             </div>
+                             <div class="col-6">
+                                 <img src="assets/img/vision/text_doc_ldy.png" alt="" class="img-fluid custom-card-img ">
+                             </div>
+                         </div>
+                     </div>
+                    
                  </div>
              </div>
 
