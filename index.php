@@ -75,7 +75,7 @@
                          </a>
                          <ul class="dropdown-menu services_drop_menu service_width  mt-3" aria-labelledby="servicesDropdown" style="width:550px;">
                              <div class="row  ">
-                                 <div class="col-md-6">
+                                 <div class="col-md-6  ">
                                      <li><a class="dropdown-item services_drop" href="root.php">Root Canal</a></li>
                                      <li><a class="dropdown-item services_drop" href="braces.php">Braces for Teeth Alignment</a></li>
                                      <li><a class="dropdown-item services_drop" href="pediatric.php">Pediatric Dentist</a></li>
@@ -315,9 +315,9 @@
                                          Implant</h2>
                                      <p class="custom-description">Surgical placement of artificial tooth roots</p>
                                  </div>
-                                  
-                                     <a href="implants.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
-                                 
+
+                                 <a href="implants.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
+
                              </div>
                              <div class="col-6">
                                  <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
@@ -333,8 +333,8 @@
                                          Whitening</h2>
                                      <p class="custom-description">Cosmetic treatment to enhance the whiteness of teeth</p>
                                  </div>
-                                  
-                               <a href="teeth.php" class="service_btn_readmore">   <button class="custom-button">Read More</button></a>  
+
+                                 <a href="teeth.php" class="service_btn_readmore"> <button class="custom-button">Read More</button></a>
                              </div>
                              <div class="col-6">
                                  <img src="assets/img/vision/text_doc_ldy.png" alt="" class="img-fluid custom-card-img ">
@@ -351,7 +351,7 @@
                                      <p class="custom-description">Restorative procedures to repair cavities and damaged teeth</p>
 
                                  </div>
-                                <a href="teeth.php" class="service_btn_readmore">  <button class="custom-button">Read More </button></a>
+                                 <a href="teeth.php" class="service_btn_readmore"> <button class="custom-button">Read More </button></a>
                              </div>
                              <div class="col-6">
                                  <img src="assets/img/vision/test_doc.png" alt="" class="img-fluid custom-card-img ">
@@ -367,7 +367,7 @@
                                          Canal</h2>
                                      <p class="custom-description">Effective root canal treatment to save your tooth</p>
                                  </div>
-                              <a href="root.php" class="service_btn_readmore">   <button class="custom-button"> Read More</button></a> 
+                                 <a href="root.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
                              </div>
                              <div class="col-6">
                                  <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
@@ -401,7 +401,7 @@
                                      <p class="custom-description">Specialized care for children’s dental health and comfort</p>
 
                                  </div>
-                                <a href="pediatric.php" class="service_btn_readmore">  <button class="custom-button">Read More </button></a>
+                                 <a href="pediatric.php" class="service_btn_readmore"> <button class="custom-button">Read More </button></a>
                              </div>
                              <div class="col-6">
 
@@ -423,7 +423,7 @@
                                          Aligners</h2>
                                      <p class="custom-description">Clear aligners straighten teeth discreetly and comfortably without braces</p>
                                  </div>
-                                <a href="aligners.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+                                 <a href="aligners.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
                              </div>
                              <div class="col-6">
                                  <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
@@ -440,7 +440,7 @@
                                          Dentistry</h2>
                                      <p class="custom-description">Cosmetic dentistry offers personalized treatments to enhance and perfect your smile</p>
                                  </div>
-                                <a href="cosmetic.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+                                 <a href="cosmetic.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
                              </div>
                              <div class="col-6">
                                  <img src="assets/img/vision/text_doc_ldy.png" alt="" class="img-fluid custom-card-img ">
@@ -457,7 +457,7 @@
                                      <p class="custom-description">Crowns and bridges restore function and enhance dental aesthetics</p>
 
                                  </div>
-                               <a href="crowns.php" class="service_btn_readmore">  <button class="custom-button"> Read More </button></a>
+                                 <a href="crowns.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
                              </div>
                              <div class="col-6">
 
@@ -479,7 +479,7 @@
                                      </h2>
                                      <p class="custom-description">Comfortable and natural-looking dentures for restored confidence</p>
                                  </div>
-                               <a href="dentures.php" class="service_btn_readmore">  <button class="custom-button"> Read More</button></a> 
+                                 <a href="dentures.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
                              </div>
                              <div class="col-6">
                                  <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
@@ -496,7 +496,7 @@
                                          Invisalign</h2>
                                      <p class="custom-description">Invisalign uses clear aligners to straighten teeth discreetly and effectively</p>
                                  </div>
-                                <a href="invisalign.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+                                 <a href="invisalign.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
                              </div>
                              <div class="col-6">
                                  <img src="assets/img/vision/text_doc_ldy.png" alt="" class="img-fluid custom-card-img ">
@@ -514,7 +514,7 @@
                                      <p class="custom-description">Effective jaw corrective treatments for improved function and alignment</p>
 
                                  </div>
-                                <a href="jaw.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+                                 <a href="jaw.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
                              </div>
                              <div class="col-6">
 
@@ -534,7 +534,7 @@
                                          & Gum</h2>
                                      <p class="custom-description">Advanced laser treatments for healthier gums and precision</p>
                                  </div>
-                               <a href="treatment.php" class="service_btn_readmore">  <button class="custom-button"> Read More </button></a>
+                                 <a href="treatment.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
                              </div>
                              <div class="col-6">
                                  <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
@@ -551,7 +551,7 @@
                                          Designing</h2>
                                      <p class="custom-description">Custom smile designing for a radiant, confident appearance</p>
                                  </div>
-                                <a href="smile.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+                                 <a href="smile.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
                              </div>
                              <div class="col-6">
                                  <img src="assets/img/vision/text_doc_ldy.png" alt="" class="img-fluid custom-card-img ">
@@ -569,7 +569,7 @@
                                      <p class="custom-description">Complete smile makeover for a stunning, confident transformation</p>
 
                                  </div>
-                                <a href="make.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+                                 <a href="make.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
                              </div>
                              <div class="col-6">
 
@@ -589,7 +589,7 @@
                                          Alignment</h2>
                                      <p class="custom-description">Achieve perfect teeth alignment with advanced orthodontic solutions</p>
                                  </div>
-                               <a href="teeth.php" class="service_btn_readmore">  <button class="custom-button"> Read More</button></a> 
+                                 <a href="teeth.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
                              </div>
                              <div class="col-6">
                                  <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
@@ -606,7 +606,7 @@
                                          Extraction</h2>
                                      <p class="custom-description">Safe and efficient tooth extraction for optimal oral health</p>
                                  </div>
-                                <a href="tooth.php" class="service_btn_readmore">  <button class="custom-button">Read More </button></a>
+                                 <a href="tooth.php" class="service_btn_readmore"> <button class="custom-button">Read More </button></a>
                              </div>
                              <div class="col-6">
                                  <img src="assets/img/vision/text_doc_ldy.png" alt="" class="img-fluid custom-card-img ">
@@ -624,7 +624,7 @@
                                      <p class="custom-description">Thorough tooth cleaning for a healthier, brighter smile</p>
 
                                  </div>
-                                 <a href="laserTooth.php" class="service_btn_readmore"><button class="custom-button"> Read More</button></a> 
+                                 <a href="laserTooth.php" class="service_btn_readmore"><button class="custom-button"> Read More</button></a>
                              </div>
                              <div class="col-6">
 
@@ -661,7 +661,7 @@
                                          Gum Surgery</h2>
                                      <p class="custom-description">Gum surgery treats gum disease, reduces pain, and promotes healing</p>
                                  </div>
-                                 <a href="laserGum.php" class="service_btn_readmore"><button class="custom-button"> Read More</button></a> 
+                                 <a href="laserGum.php" class="service_btn_readmore"><button class="custom-button"> Read More</button></a>
                              </div>
                              <div class="col-6">
                                  <img src="assets/img/vision/text_doc_ldy.png" alt="" class="img-fluid custom-card-img ">
@@ -679,7 +679,7 @@
                                      <p class="custom-description">Mouth ulcers cause discomfort, pain, and need effective treatment options</p>
 
                                  </div>
-                                <a href="mouth.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a> 
+                                 <a href="mouth.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
                              </div>
                              <div class="col-6">
 
@@ -699,7 +699,7 @@
                                          Lesion</h2>
                                      <p class="custom-description">Precancerous lesions require early detection and prompt treatment</p>
                                  </div>
-                               <a href="lasion.php" class="service_btn_readmore">  <button class="custom-button"> Read More</button></a> 
+                                 <a href="lasion.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
                              </div>
                              <div class="col-6">
                                  <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
@@ -716,7 +716,7 @@
                                          Crown Lengthening</h2>
                                      <p class="custom-description">Laser crown lengthening enhances tooth visibility and gum health</p>
                                  </div>
-                               <a href="laserCrown.php" class="service_btn_readmore">  <button class="custom-button"> Read More </button></a>
+                                 <a href="laserCrown.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
                              </div>
                              <div class="col-6">
                                  <img src="assets/img/vision/text_doc_ldy.png" alt="" class="img-fluid custom-card-img ">
