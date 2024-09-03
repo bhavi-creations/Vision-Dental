@@ -150,12 +150,12 @@
             <div class="container">
                 <div class="row servSect">
                     <div class="abot mt-5">
-                        <h4 class="abh4">Smile Designing Treatments</h4>
+                        <h4 class="abh4">Smile Makeover Treatments</h4>
                         <p class="abP">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br>
                             Aenean commodo ligula aenean massa.</p>
                     </div>
                     <div class="col-md-6 dr_content_padding  order-1 order-md-1 treater">
-                        <h2 class="dr_welcome_text1 mt-4 mb-4">Smile Designing in  
+                        <h2 class="dr_welcome_text1 mt-4 mb-4">Smile Makeover in  
 
 
                              Guntur
@@ -168,7 +168,7 @@
                             <br> This article aims to provide insights into root canal treatments, explain why they are
                             necessary, highlight their benefits, and address common questions related to this procedure.
                         </p>
-                        <button class="appont">Book Appointment</button>
+                        <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
 
                     </div>
 

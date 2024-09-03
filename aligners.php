@@ -162,7 +162,7 @@
                         <p class="poetsen_font1">
                         Experience a discreet smile transformation with our custom-made clear aligners, offering comfort and convenience for your orthodontic journey at Vision Multispecialty Dental Hospital, the best dental hospital in Guntur. If you’re looking for a dental hospital near me with the best braces for teeth alignment treatment, our clear aligners are the ideal choice for achieving your perfect smile.
                         </p>
-                        <button class="appont">Book Appointment</button>
+                        <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
 
                     </div>
 

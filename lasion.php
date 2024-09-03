@@ -166,7 +166,7 @@
                             <br> This article aims to provide insights into root canal treatments, explain why they are
                             necessary, highlight their benefits, and address common questions related to this procedure.
                         </p>
-                        <button class="appont">Book Appointment</button>
+                        <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
 
                     </div>
 

@@ -162,7 +162,7 @@
                         Transform your smile with our expert cosmetic dentistry services at Vision Multispeciality Dental Hospital, recognized as the best dental hospital in Guntur. From teeth whitening to veneers, our best cosmetic dentistry treatment enhances your dental aesthetics for a confident, radiant appearance. If you're searching for a dental hospital near me that offers top-notch cosmetic care, we provide the best solutions to achieve your perfect smile.
 
                         </p>
-                        <button class="appont">Book Appointment</button>
+                        <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
 
                     </div>
 
