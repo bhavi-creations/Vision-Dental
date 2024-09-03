@@ -237,154 +237,173 @@
 
 
     </main>
-    <!-- <footer id="footer">
+    <footer id="footer" class="bg_color_footer">
         <div class="footer-top">
             <div class="container py-5">
                 <div class="row">
-                    <div class="col-12 col-md-6 col-lg-3 py-2">
-                        <a href="#"> <img src="assets/img/srinivasa/logo.png" class="img-fluid" alt=""></a>
-                        <p class="foot_para">Srinivasa Multispeciality Dental Hospital Jawahar street, Beside MRF
-                            showroom, opp Vivekananda statue- kulaicheruvu park Kakinada-1
-                        </p>
-                        <p class="foot_para"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17"
-                                viewBox="0 0 17 17" fill="none">
-                                <g clip-path="url(#clip0_94_738)">
-                                    <path
-                                        d="M11.5289 10.0012L9.15863 8.22346V4.60227C9.15863 4.23816 8.86432 3.94385 8.50021 3.94385C8.13611 3.94385 7.8418 4.23816 7.8418 4.60227V8.55271C7.8418 8.76009 7.93925 8.95566 8.10516 9.07944L10.7388 11.0547C10.8573 11.1435 10.9956 11.1863 11.1332 11.1863C11.334 11.1863 11.5315 11.0961 11.6606 10.9223C11.8792 10.6319 11.8199 10.2191 11.5289 10.0012Z"
-                                        fill="white" />
-                                    <path
-                                        d="M8.5 0C3.81281 0 0 3.81281 0 8.5C0 13.1872 3.81281 17 8.5 17C13.1872 17 17 13.1872 17 8.5C17 3.81281 13.1872 0 8.5 0ZM8.5 15.6832C4.5397 15.6832 1.3168 12.4603 1.3168 8.5C1.3168 4.5397 4.5397 1.3168 8.5 1.3168C12.461 1.3168 15.6832 4.5397 15.6832 8.5C15.6832 12.4603 12.4603 15.6832 8.5 15.6832Z"
-                                        fill="white" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_94_738">
-                                        <rect width="17" height="17" fill="white" />
-                                    </clipPath>
-                                </defs>
-                            </svg> &nbsp; &nbsp; Clinic Time <br>
-                            Mon-Sat – 9:00 AM To 8:30 PM <br> Sun – 9:00 AM To 1:00 PM</p>
-                        <p class="foot_para">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15"
-                                fill="none">
-                                <g clip-path="url(#clip0_94_734)">
-                                    <path
-                                        d="M13.6189 10.4377L11.6652 8.48393C10.9674 7.78617 9.7812 8.0653 9.50209 8.97237C9.29276 9.60038 8.595 9.94927 7.96701 9.80969C6.57148 9.4608 4.68751 7.64661 4.33863 6.18131C4.1293 5.55329 4.54796 4.85553 5.17595 4.64622C6.08304 4.36712 6.36215 3.18092 5.66439 2.48315L3.71064 0.529413C3.15243 0.0409771 2.31511 0.0409771 1.82668 0.529413L0.500926 1.85517C-0.824828 3.2507 0.640479 6.94885 3.91997 10.2283C7.19947 13.5078 10.8976 15.0429 12.2932 13.6474L13.6189 12.3216C14.1074 11.7634 14.1074 10.9261 13.6189 10.4377Z"
-                                        fill="white" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_94_734">
-                                        <rect width="14" height="14" fill="white" transform="translate(0 0.164062)" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
 
-                            +91-08842342346 
-                        </p>
-                        <p class="foot_para">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15"
-                                fill="none">
-                                <g clip-path="url(#clip0_94_734)">
-                                    <path
-                                        d="M13.6189 10.4377L11.6652 8.48393C10.9674 7.78617 9.7812 8.0653 9.50209 8.97237C9.29276 9.60038 8.595 9.94927 7.96701 9.80969C6.57148 9.4608 4.68751 7.64661 4.33863 6.18131C4.1293 5.55329 4.54796 4.85553 5.17595 4.64622C6.08304 4.36712 6.36215 3.18092 5.66439 2.48315L3.71064 0.529413C3.15243 0.0409771 2.31511 0.0409771 1.82668 0.529413L0.500926 1.85517C-0.824828 3.2507 0.640479 6.94885 3.91997 10.2283C7.19947 13.5078 10.8976 15.0429 12.2932 13.6474L13.6189 12.3216C14.1074 11.7634 14.1074 10.9261 13.6189 10.4377Z"
-                                        fill="white" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_94_734">
-                                        <rect width="14" height="14" fill="white" transform="translate(0 0.164062)" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
-
-                            +91-9290019948
-                        </p>
-                    </div>
-                    <div class="col-6 col-md-6 col-lg-3 py-2">
-                        <h1 class="foot_head">Helpfull Link</h1>
+                    <div class="col-6 col-md-6 col-lg-3 py-2   order-1 order-md-4 order-lg-1">
+                        <h1 class="foot_head_one">About</h1>
                         <a href="index.php">
-                            <p class="foot_para">Home</p>
-                        </a><a href="about.php">
 
-                            <p class="foot_para">About us</p>
-
-                        </a><a href="testimonials.php">
-                            <p class="foot_para">What Patients Say</p>
-                        </a><a href="blogs.php">
-                            <p class="foot_para">Blog</p>
-                        </a><a href="contact.php">
-                            <p class="foot_para">Contact</p>
+                            <p class="foot_para_one">Providing comprehensive dentalcare with expertise & compassion, ensuring healthy smiles & optimal oral health for all.</p>
                         </a>
 
                         <div class="d-flex">
-                            <a href="https://www.facebook.com/srinivasadentalkakinada/" target="_blank"> <img
-                                    src="assets/img/srinivasa/facebook.png" class="img-fluid" alt=""></a> &nbsp;&nbsp;
-                            <a href="https://www.instagram.com/srinivasadentalkakinada/" target="_blank"> <img
-                                    src="assets/img/srinivasa/instagram.png" class="img-fluid" alt=""></a> &nbsp;&nbsp;
+                            <a href="https://www.facebook.com/Visiondentalguntur/" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="23" height="24" viewBox="0 0 23 24" fill="none">
+                                    <path d="M11.3237 2.68884C6.13365 2.68884 1.88727 6.92579 1.88727 12.1441C1.88727 16.8623 5.34099 20.7784 9.85159 21.4862V14.8807H7.45474V12.1441H9.85159V10.0587C9.85159 7.69014 11.2576 6.38791 13.4185 6.38791C14.4471 6.38791 15.5229 6.5672 15.5229 6.5672V8.89799H14.3339C13.1638 8.89799 12.7957 9.6246 12.7957 10.3701V12.1441H15.4191L14.9944 14.8807H12.7957V21.4862C15.0194 21.135 17.0442 20.0004 18.5047 18.2873C19.9652 16.5741 20.7651 14.3953 20.7601 12.1441C20.7601 6.92579 16.5137 2.68884 11.3237 2.68884Z" fill="white" />
+                                </svg></a> &nbsp;&nbsp;
 
-                            <a href=" https://www.youtube.com/@srinivasadentalkakinada" target="_blank"> <img
-                                    src="assets/img/srinivasa/youtube.png" class="img-fluid" alt=""></a>
+                            <a href="https://www.instagram.com/visiondentalguntur/?fbclid=IwZXh0bgNhZW0CMTEAAR2aqGBtZfyPWuN3XH0k8T4GJpmsW2RcH1ba21er6_fQ8mlpvHl1pnwSuZ8_aem_9uX6XKTY-W6b8sM-F32ymA" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M5.99329 0.887085H13.9199C16.9395 0.887085 19.393 3.34055 19.393 6.3602V14.2868C19.393 15.7383 18.8163 17.1304 17.7899 18.1569C16.7635 19.1833 15.3714 19.7599 13.9199 19.7599H5.99329C2.97364 19.7599 0.520172 17.3064 0.520172 14.2868V6.3602C0.520172 4.90864 1.0968 3.51653 2.12321 2.49012C3.14962 1.46371 4.54173 0.887085 5.99329 0.887085ZM5.80456 2.77437C4.90359 2.77437 4.03952 3.13227 3.40244 3.76935C2.76536 4.40643 2.40745 5.2705 2.40745 6.17147V14.4755C2.40745 16.3533 3.92671 17.8726 5.80456 17.8726H14.1086C15.0096 17.8726 15.8736 17.5147 16.5107 16.8776C17.1478 16.2405 17.5057 15.3765 17.5057 14.4755V6.17147C17.5057 4.29363 15.9864 2.77437 14.1086 2.77437H5.80456ZM14.9107 4.18983C15.2235 4.18983 15.5235 4.3141 15.7448 4.53531C15.966 4.75652 16.0902 5.05654 16.0902 5.36938C16.0902 5.68221 15.966 5.98223 15.7448 6.20344C15.5235 6.42465 15.2235 6.54893 14.9107 6.54893C14.5978 6.54893 14.2978 6.42465 14.0766 6.20344C13.8554 5.98223 13.7311 5.68221 13.7311 5.36938C13.7311 5.05654 13.8554 4.75652 14.0766 4.53531C14.2978 4.3141 14.5978 4.18983 14.9107 4.18983ZM9.95657 5.60529C11.2079 5.60529 12.408 6.10238 13.2928 6.98721C14.1777 7.87205 14.6748 9.07214 14.6748 10.3235C14.6748 11.5748 14.1777 12.7749 13.2928 13.6598C12.408 14.5446 11.2079 15.0417 9.95657 15.0417C8.70523 15.0417 7.50514 14.5446 6.6203 13.6598C5.73547 12.7749 5.23837 11.5748 5.23837 10.3235C5.23837 9.07214 5.73547 7.87205 6.6203 6.98721C7.50514 6.10238 8.70523 5.60529 9.95657 5.60529ZM9.95657 7.49257C9.20577 7.49257 8.48571 7.79082 7.95481 8.32172C7.42391 8.85262 7.12565 9.57268 7.12565 10.3235C7.12565 11.0743 7.42391 11.7943 7.95481 12.3252C8.48571 12.8561 9.20577 13.1544 9.95657 13.1544C10.7074 13.1544 11.4274 12.8561 11.9583 12.3252C12.4892 11.7943 12.7875 11.0743 12.7875 10.3235C12.7875 9.57268 12.4892 8.85262 11.9583 8.32172C11.4274 7.79082 10.7074 7.49257 9.95657 7.49257Z" fill="white" />
+                                </svg></a>&nbsp;&nbsp;
+                            <!-- <a href="" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" fill="none">
+                                    <path d="M8.19649 10.1541L13.094 7.32313L8.19649 4.49221V10.1541ZM19.105 2.76535C19.2276 3.20886 19.3126 3.80335 19.3692 4.55827C19.4352 5.31318 19.4636 5.96429 19.4636 6.53047L19.5202 7.32313C19.5202 9.3897 19.3692 10.909 19.105 11.8809C18.8691 12.7302 18.3217 13.2775 17.4725 13.5134C17.029 13.6361 16.2174 13.721 14.9718 13.7776C13.7451 13.8437 12.6222 13.872 11.5842 13.872L10.0838 13.9286C6.12992 13.9286 3.66702 13.7776 2.69507 13.5134C1.84579 13.2775 1.29848 12.7302 1.06257 11.8809C0.939898 11.4374 0.85497 10.8429 0.798352 10.088C0.732297 9.33309 0.703988 8.68197 0.703988 8.11579L0.647369 7.32313C0.647369 5.25656 0.798352 3.7373 1.06257 2.76535C1.29848 1.91607 1.84579 1.36876 2.69507 1.13285C3.13858 1.01018 3.95011 0.925252 5.19571 0.868634C6.42245 0.802579 7.54538 0.77427 8.58338 0.77427L10.0838 0.717651C14.0376 0.717651 16.5005 0.868634 17.4725 1.13285C18.3217 1.36876 18.8691 1.91607 19.105 2.76535Z" fill="white" />
+                                </svg></a>  -->
+
+
+
+
 
                         </div>
 
 
                     </div>
-                    <div class="col-6 col-md-6 col-lg-3 py-2">
-                        <h1 class="foot_head">Treatments
-                        </h1>
-                        <p class="foot_para">Root Canal</p>
-                        <p class="foot_para">Dental Implants</p>
 
-                        <p class="foot_para">Teeth Filling</p>
-                        <p class="foot_para">Dental Braces</p>
-                        <p class="foot_para">Teeth Cleaning</p>
-                        <p class="foot_para">Teeth Whitening</p>
+                    <div class="col-6 col-md-4 col-lg-2 py-2   order-1 order-md-1 order-lg-1">
+                        <h1 class="foot_head">Quicklinks</h1>
+
+                        <ul>
+                            <li class="foot_para"><a href="index.php" style="color: #fff;">Home</a></li>
+                            <li class="foot_para"><a href="about.php" style="color: #fff;">About us</a></li>
+                            <li class="foot_para"><a href="testimonials.php" style="color: #fff;">Reviews</a></li>
+                            <li class="foot_para"><a href="blogs.php" style="color: #fff;">Blog</a></li>
+                            <li class="foot_para"><a href="gallery.php" style="color: #fff;">Smile Gallery</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2 py-2   order-1 order-md-2 order-lg-1">
+                        <h1 class="foot_head">Services</h1>
+
+                        <ul>
+                            <li class="foot_para"><a href="smile.php" style="color: #fff;">Smile Designing</a></li>
+                            <li class="foot_para"><a href="tooth.php" style="color: #fff;">Wisdom Tooth Extraction</a></li>
+                            <li class="foot_para"><a href="root.php" style="color: #fff;">Root Canal Treatments</a></li>
+                            <li class="foot_para"><a href="laserGum.php" style="color: #fff;">Gum Treatment</a></li>
+                            <li class="foot_para"><a href="paedodontist.php" style="color: #fff;">Children’s Dental</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-2 py-2   order-1 order-md-3 order-lg-1">
+                        <h1 class="foot_head">Clinic Hours
+                        </h1>
+                        <ul>
+                            <li class="foot_para"><a href="" style="color: #fff;">Monday To Saturday</a></li>
+                            <li class="foot_para" style="list-style-type: none;"> <a href="" style="color: #fff;"> 09.30 AM 9.00 PM</a></li>
+
+                        </ul>
 
 
                     </div>
-                    <div class="col-12 col-md-6 col-lg-3 py-2">
-                        <h1 class="foot_head">Treatments
-                        </h1>
-                        <p class="foot_para">Smile Makeover</p>
-                        <p class="foot_para">Tooth Crown & Bridges</p>
 
-                        <p class="foot_para">Dentures</p>
-                        <p class="foot_para">Tooth extraction</p>
-                        <p class="foot_para">Teeth Scaling</p>
-                        <p class="foot_para">Full Mouth Restoration</p>
+                    <div class="col-12 col-md-6 col-lg-3 py-2   order-1 order-md-5 order-lg-1">
+                        <h1 class="foot_head">Contact
+                        </h1>
+                        <p class="foot_para_last"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                <path d="M7 0C4.1055 0 1.75 2.37183 1.75 5.28792C1.75 9.43133 6.5065 13.7095 6.70892 13.8892C6.79233 13.9632 6.89617 14 7 14C7.10383 14 7.20767 13.9633 7.29108 13.8898C7.4935 13.7095 12.25 9.43133 12.25 5.28792C12.25 2.37183 9.8945 0 7 0ZM7 8.16667C5.39175 8.16667 4.08333 6.85825 4.08333 5.25C4.08333 3.64175 5.39175 2.33333 7 2.33333C8.60825 2.33333 9.91667 3.64175 9.91667 5.25C9.91667 6.85825 8.60825 8.16667 7 8.16667Z" fill="white" />
+                            </svg> Andhra Pradesh 522004</p>
+                        <p class="foot_para_last">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                <g clip-path="url(#clip0_122_1822)">
+                                    <path d="M11.0371 7.87663C10.3024 7.87663 9.58106 7.76172 8.89747 7.53581C8.5625 7.42156 8.15072 7.52638 7.94628 7.73634L6.597 8.75491C5.03222 7.91963 4.06834 6.95606 3.24447 5.40303L4.23306 4.08891C4.48991 3.83241 4.58203 3.45772 4.47166 3.10616C4.24478 2.41897 4.12953 1.69794 4.12953 0.962937C4.12956 0.431969 3.69759 0 3.16666 0H0.962906C0.431969 0 0 0.431969 0 0.962906C0 7.04884 4.95119 12 11.0371 12C11.5681 12 12 11.568 12 11.0371V8.8395C12 8.30859 11.568 7.87663 11.0371 7.87663Z" fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_122_1822">
+                                        <rect width="12" height="12" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg> +91 93914 57072
+                        </p>
+
+                        <p class="foot_para_last"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
+                                <g clip-path="url(#clip0_122_1826)">
+                                    <path d="M6.87603 8.14231C6.75325 8.21905 6.61511 8.24975 6.49233 8.24975C6.36954 8.24975 6.2314 8.21905 6.10862 8.14231L0 4.41268V9.37017C0 10.4292 0.859504 11.2887 1.91854 11.2887H11.0815C12.1405 11.2887 13 10.4292 13 9.37017V4.41268L6.87603 8.14231Z" fill="white" />
+                                    <path d="M11.0814 1.71122H1.91842C1.01287 1.71122 0.245459 2.35585 0.0612793 3.21536L6.50756 7.14452L12.9385 3.21536C12.7543 2.35585 11.9869 1.71122 11.0814 1.71122Z" fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_122_1826">
+                                        <rect width="13" height="13" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg> visiondentalguntur@gmail.com</p>
 
 
                     </div>
 
                 </div>
+
+                <hr class="footer_line_hr_last">
+                <div class="d-flex flex-row justify-content-center">
+                    <img src="assets/img/vision/footer_base.png" class="img-fluid footer_img_last_base" alt="">
+
+                </div>
+
             </div>
         </div>
 
-        <div class="footer-area-bottom theme-bg" style="background-color:  #000A2D;">
+        <div
+            class="footer-area-bottom theme-bg"
+            style="background-color: #000a2d">
             <div class="container">
                 <div class="row pt-4">
-                    <div class="col-xl-8 col-lg-9 col-md-12 col-12">
-                        <div class="footer-widget__copyright">
-                            <p class="mini_text last_text" style="color: #ffffff">
-                                ©2024 SRINIVASA DENTAL . All Rights Reserved. Designed &
-                                Developed by
-                                <a href="https://bhavicreations.com/" target="_blank"
-                                    style="text-decoration: none; color: #ffffff">Bhavi Creations</a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-3 col-md-12 col-12">
+
+                    <div class="  col-md-6 col-12">
                         <div class="footer-widget__copyright-info info-direction">
-                            <p class="mini_text last_text">
-                                <a href="terms.html" style="text-decoration: none; color: #ffffff">Terms & conditions
+                            <p class="  last_text">
+                                <a
+                                    href="terms.html"
+                                    style="text-decoration: none; color: #ffffff">Terms & conditions
                                 </a>
-                                <a href="privacy.html" style="text-decoration: none; color: #ffffff">
+                                <a
+                                    href="privacy.html"
+                                    style="text-decoration: none; color: #ffffff">
                                     Privacy & policy</a>
                             </p>
                         </div>
                     </div>
+
+                    <div class="col-md-6 col-12 second_divv_end_brand">
+                        <div class="footer-widget__copyright-info info-direction d-flex flex-row justify-content-end align-items-center">
+                            <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none; color: #ffffff; display: flex; align-items: center;">
+                                <p class="mini_text last_text mb-0">
+                                    Branding By @
+                                </p>
+                                <img src="assets/img/bhavi_logo/Bhavi_Branding_Stamp.png" class="img-fluid brand_image" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--  
+                      <div class="col-xl-8 col-lg-9 col-md-12 col-12">
+                          <div class="footer-widget__copyright">
+                              <p class="mini_text last_text" style="color: #ffffff">
+                                  ©2024 SRINIVASA DENTAL . All Rights Reserved. Designed &
+                                  Developed by
+                                  <a href="https://bhavicreations.com/" target="_blank"
+                                      style="text-decoration: none; color: #ffffff">Bhavi Creations</a>
+                              </p>
+                          </div>
+                      </div> -->
                 </div>
             </div>
         </div>
-    </footer> -->
+
+
+
+
+    </footer>
 
 
     <!-- Scroll Up Button  -->
