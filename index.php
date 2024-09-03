@@ -807,19 +807,39 @@
                      <div class="card swiper-slide card_border_radious">
 
                          <div class="card-content ">
-                             <h2 class="  text_card_head">Highly Recommend
+                             <h2 class="  text_card_head">Best Service
                              </h2>
-                             <p class="description_in_card">“I can confidently say they're the best! The staff is always welcoming, and Doctors are exceptionally skilled.”</p>
+                             <p class="description_in_card">“I had a wonderful experience at this dental hospital. The staff were incredibly...”</p>
 
 
                          </div>
                          <div class="d-flex profile_card_div_dp">
                              <div class="">
-                                 <img src="assets/img/vision/sample_img_dp.png" class="img-fluid dp_image_testmonials" alt="">
+                                 <img src="assets/img/vision/shesa reddy.png" class="img-fluid dp_image_testmonials" alt="">
                              </div>
                              <div class="">
-                                 <h3 class="revier_name">fdnglfdkng</h3>
-                                 <p class="revier_occuption">fjngjfkv</p>
+                                 <h3 class="revier_name">Sesha Reddy</h3>
+                                 <!-- <p class="revier_occuption">fjngjfkv</p> -->
+                             </div>
+                         </div>
+                     </div>
+                     <div class="card swiper-slide card_border_radious">
+
+                         <div class="card-content ">
+                             <h2 class="  text_card_head">Good Result
+                             </h2>
+                             <p class="description_in_card">“Started invisible braces, also known as aligners, six months ago. Treatment...”</p>
+
+
+                         </div>
+                         <div class="d-flex profile_card_div_dp">
+                             <div class="">
+                                 <img src="assets/img/vision/rohit.png" class="img-fluid dp_image_testmonials" alt="">
+                             </div>
+                             <div class="">
+                                 <h3 class="revier_name">Rohit Pawar
+                                 </h3>
+                                 <!-- <p class="revier_occuption">fjngjfkv</p> -->
                              </div>
                          </div>
                      </div>
@@ -828,55 +848,38 @@
                          <div class="card-content ">
                              <h2 class="  text_card_head">Highly Recommend
                              </h2>
-                             <p class="description_in_card">“I can confidently say they're the best! The staff is always welcoming, and Doctors are exceptionally skilled.”</p>
+                             <p class="description_in_card">“I had an exceptional experience at vision multi-speciality dental hospital . From...”</p>
 
 
                          </div>
                          <div class="d-flex profile_card_div_dp">
                              <div class="">
-                                 <img src="assets/img/vision/sample_img_dp.png" class="img-fluid dp_image_testmonials" alt="">
+                                 <img src="assets/img/vision/anand naidu.png" class="img-fluid dp_image_testmonials" alt="">
                              </div>
                              <div class="">
-                                 <h3 class="revier_name">fdnglfdkng</h3>
-                                 <p class="revier_occuption">fjngjfkv</p>
+                                 <h3 class="revier_name">Anand Naidu
+                                 </h3>
+                                 <!-- <p class="revier_occuption">fjngjfkv</p> -->
                              </div>
                          </div>
                      </div>
+
                      <div class="card swiper-slide card_border_radious">
 
                          <div class="card-content ">
-                             <h2 class="  text_card_head">Highly Recommend
+                             <h2 class="  text_card_head">Friendly Staff
                              </h2>
-                             <p class="description_in_card">“I can confidently say they're the best! The staff is always welcoming, and Doctors are exceptionally skilled.”</p>
+                             <p class="description_in_card">“Outstanding service and care at this dental hospital. The staff is professional...”</p>
 
 
                          </div>
                          <div class="d-flex profile_card_div_dp">
                              <div class="">
-                                 <img src="assets/img/vision/sample_img_dp.png" class="img-fluid dp_image_testmonials" alt="">
+                                 <img src="assets/img/vision/sangeetha.png" class="img-fluid dp_image_testmonials" alt="">
                              </div>
                              <div class="">
-                                 <h3 class="revier_name">fdnglfdkng</h3>
-                                 <p class="revier_occuption">fjngjfkv</p>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="card swiper-slide card_border_radious">
-
-                         <div class="card-content ">
-                             <h2 class="  text_card_head">Highly Recommend
-                             </h2>
-                             <p class="description_in_card">“I can confidently say they're the best! The staff is always welcoming, and Doctors are exceptionally skilled.”</p>
-
-
-                         </div>
-                         <div class="d-flex profile_card_div_dp">
-                             <div class="">
-                                 <img src="assets/img/vision/sample_img_dp.png" class="img-fluid dp_image_testmonials" alt="">
-                             </div>
-                             <div class="">
-                                 <h3 class="revier_name">fdnglfdkng</h3>
-                                 <p class="revier_occuption">fjngjfkv</p>
+                                 <h3 class="revier_name">Sangeetha</h3>
+                                 <!-- <p class="revier_occuption">fjngjfkv</p> -->
                              </div>
                          </div>
                      </div>
