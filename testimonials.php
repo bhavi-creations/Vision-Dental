@@ -165,21 +165,22 @@
                             <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
                             <h4 class="personame">Ravi Kumar</h4>
                         </div>
-                        <p class="testPara">"My experience at this dental hospital was outstanding. The team provided thorough, compassionate care and made sure I was comfortable throughout my visit. Highly recommended for quality dental care!</p>
+                        <p class="testPara">Actually I visited for root canal and fixing the new caps, I really like the process and they treat me well. They are very friendly and explained me everything. I'm really happy for now 😊.</p>
                     </div>
                     <div class="col-md-4">
                         <div class="tes">
                             <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
-                            <h4 class="personame">Anitha</h4>
+                            <h4 class="personame">Sesha Reddy</h4>
                         </div>
-                        <p class="testPara">"I had an exceptional experience at this dental hospital. The staff was incredibly professional, and the treatment was both effective and comfortable. Highly recommend for anyone looking for top-notch dental care!"</p>
+                        <p class="testPara">I had a wonderful experience at this dental hospital. The staff were incredibly professional and attentive, ensuring I was comfortable throughout my treatment.</p>
                     </div>
                     <div class="col-md-4">
                         <div class="tes">
                             <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
                             <h4 class="personame"> Murthy</h4>
                         </div>
-                        <p class="testPara">"Fantastic dental care at this hospital! The team is professional and made me feel at ease throughout my treatment. I’m very satisfied with the results and highly recommend their services." </p>
+                        <p class="testPara">Visited vision dental hospital for cavity filling underwent 6 teeth very smooth.
+                        Extremely hygienic and good experience.  </p>
                     </div>
 
 
@@ -188,23 +189,23 @@
                     <div class="col-md-4  ">
                         <div class="tes">
                             <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
-                            <h4 class="personame">Vijaya Lakshmi</h4>
+                            <h4 class="personame">Velpula Nageswararao</h4>
                         </div>
-                        <p class="testPara">"I had a wonderful experience at this dental hospital. The staff were incredibly professional and attentive, ensuring I was comfortable throughout my treatment. The high-quality care I received exceeded my expectations."</p>
+                        <p class="testPara">I'm so happy I chose vision Dental hospital for my root canal treatment! The Doctor abhilash sir and entire team is caring and professional, and they truly prioritize patient comfort.</p>
                     </div>
                     <div class="col-md-4  ">
                         <div class="tes">
                             <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
-                            <h4 class="personame">Sumathi</h4>
+                            <h4 class="personame">Rohit Pawar</h4>
                         </div>
-                        <p class="testPara">"Exceptional service and care at this dental hospital! The team was professional and made me feel at ease. I'm very pleased with my results and I highly recommend this clinic to anyone seeking exceptional dental services."</p>
+                        <p class="testPara">Started invisible braces, also known as aligners, six months ago. Treatment is almost finished, and I'm pleased with the comfort and experience. Highly Recommended!</p>
                     </div>
                     <div class="col-md-4">
                         <div class="tes">
                             <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
-                            <h4 class="personame">Rama Krishna</h4>
+                            <h4 class="personame">Shiva Ram</h4>
                         </div>
-                        <p class="testPara">"This dental hospital provided exceptional care from start to finish. The staff was friendly, professional, and made sure I was comfortable throughout my visit. I’m very pleased with the results and would highly recommend!"</p>
+                        <p class="testPara">I went to Vision Multispecialty Dental Hospital yesterday to replace my teeth. They offered me the option of an implant, which I accepted right away. It seems like a very happy, painless experience with excellent hospitality.</p>
                     </div>
 
 
@@ -213,23 +214,23 @@
                     <div class="col-md-4">
                         <div class="tes">
                             <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
-                            <h4 class="personame">Arjun</h4>
+                            <h4 class="personame">Anand Naidu</h4>
                         </div>
-                        <p class="testPara">"I am extremely impressed with the care I received at this dental hospital. The staff were not only highly skilled but also genuinely caring, ensuring a comfortable experience from start to finish."</p>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
-                            <h4 class="personame">Venkatesh</h4>
-                        </div>
-                        <p class="testPara">"This dental hospital exceeded all my expectations. The team was incredibly professional and made me feel at ease throughout my treatment. I’m extremely satisfied with the results."</p>
+                        <p class="testPara">I had an exceptional experience at vision multi-speciality dental hospital . From the friendly and professional front desk staff to the highly skilled dental team, every aspect of my visit was top-notch.</p>
                     </div>
                     <div class="col-md-4">
                         <div class="tes">
                             <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
                             <h4 class="personame">Sangeetha</h4>
                         </div>
-                        <p class="testPara">"Outstanding service and care at this dental hospital. The staff is professional and friendly, making each visit comfortable and stress-free. I highly recommend them for anyone in need of dental care." </p>
+                        <p class="testPara">Outstanding service and care at this dental hospital. The staff is professional and friendly, making each visit comfortable and stress-free. I highly recommend them for anyone in need of dental care.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="tes">
+                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
+                            <h4 class="personame">Meghana</h4>
+                        </div>
+                        <p class="testPara">I got my all wisdom teeth removed, safe to say its total painless during and after the process. I will recommend the clinic for painless treatments. I am extremely satisfied with the results. </p>
                     </div>
 
 
