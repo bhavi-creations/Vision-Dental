@@ -43,23 +43,16 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 </head>
-<style>
-@media (min-width:992px) {
 
-    .showthisdiv {
-        padding-left: 100px !important;
-    }
-}
-</style>
 
 <body>
- 
+
 
 <header id="header">
         <div class="container d-flex align-items-center onlypad  ">
             <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
                 <a href="index.php">
-                    <img src="assets/img/vision/large_icon.png" class="img-fluid  " alt="">
+                    <img src="assets/img/vision/large_icon.png" class="img-fluid nav_logo_image " alt="">
                 </a>
             </div>
 
@@ -68,9 +61,47 @@
                 <ul>
                     <li><a class="nav-link scrollto" href="index.php">Home</a></li>
                     <li><a class="nav-link scrollto" href="about.php">About</a></li>
-                    <li><a class="nav-link scrollto" href="treatment.php">Treatments</a></li>
-                    <li><a class="nav-link scrollto" href="equipment.php">equipment</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="treatment.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Treatments
+                        </a>
+                        <ul class="dropdown-menu services_drop_menu service_width  mt-3" aria-labelledby="servicesDropdown" style="width:550px;">
+                            <div class="row  ">
+                                <div class="col-md-6">
+                                    <li><a class="dropdown-item services_drop" href="root.php">Root Canal</a></li>
+                                    <li><a class="dropdown-item services_drop" href="braces.php">Braces for Teeth Alignment</a></li>
+                                    <li><a class="dropdown-item services_drop" href="pediatric.php">Pediatric Dentist</a></li>
+                                    <li><a class="dropdown-item services_drop" href="paedodontist.php">Paedodontist Doctors</a></li>
+                                    <li><a class="dropdown-item services_drop" href="aligners.php">Clear Aligners</a></li>
+                                    <li><a class="dropdown-item services_drop" href="cosmetic.php">Cosmetic Dentistry</a></li>
+                                    <li><a class="dropdown-item services_drop" href="crowns.php">Crowns and Bridges</a></li>
+                                    <li><a class="dropdown-item services_drop" href="implants.php">Dental Implants</a></li>
+                                    <li><a class="dropdown-item services_drop" href="dentures.php">Dentures Treatment</a></li>
+                                    <li><a class="dropdown-item services_drop" href="invisalign.php">Invisalign </a></li>
+                                    <li><a class="dropdown-item services_drop" href="jaw.php">Jaw Corrective</a></li>
+                                    <li><a class="dropdown-item services_drop" href="laser.php">Laser and Gum</a></li>
+                                </div>
+                                <div class="col-md-6">
 
+                                    <li><a class="dropdown-item services_drop" href="smile.php">Smile Designing</a></li>
+                                    <li><a class="dropdown-item services_drop" href="make.php">Smile Makeover</a></li>
+                                    <li><a class="dropdown-item services_drop" href="teeth.php">Teeth Alignment</a></li>
+                                    <li><a class="dropdown-item services_drop" href="tooth.php">Tooth Extraction</a></li>
+                                    <li><a class="dropdown-item services_drop" href="laserTooth.php">Laser Tooth Cleaning</a></li>
+                                    <li><a class="dropdown-item services_drop" href="gum.php">Gum Depigmentation</a></li>
+                                    <li><a class="dropdown-item services_drop" href="laserTeeth.php">Laser Teeth Whitening</a></li>
+                                    <li><a class="dropdown-item services_drop" href="laserGum.php">Laser Gum Surgery</a></li>
+                                    <li><a class="dropdown-item services_drop" href="mouth.php">Mouth Ulcers</a></li>
+                                    <li><a class="dropdown-item services_drop" href="lasion.php">Precancerous Lesion</a></li>
+                                    <li><a class="dropdown-item services_drop" href="laserCrown.php">Laser Crown Lengthening</a></li>
+                                </div>
+                                 
+                            </div>
+                        </ul>
+                    </li>
+
+
+                    <li><a class="nav-link scrollto" href="equipment.php">equipment</a></li>
                     <li><a class="nav-link" href="blogs.php">Blogs</a></li>
                     <li><a class="nav-link scrollto" href="testimonials.php">Reviews</a></li>
                     <li><a class="nav-link scrollto" href="gallery.php">Smile Gallery</a></li>
@@ -85,23 +116,39 @@
                 Appointment
             </a>
         </div>
+
+
+        <script>// jQuery needed to manage hover and click behavior
+            $(document).ready(function() {
+                // Ensure that the dropdown opens on hover
+                $('#servicesDropdown').hover(function() {
+                    $(this).dropdown('toggle');
+                });
+            
+                // Make sure the dropdown also works on click
+                $('#servicesDropdown').click(function(e) {
+                    e.stopPropagation(); // Prevents the click from closing the dropdown immediately
+                    window.location.href = $(this).attr('href'); // Redirect to the link
+                });
+            });
+            </script>
     </header>
 
 
 
     <main id="main">
 
-        <section class="sectionForm mt-5 pt-5">
+        <section class="sectionForm my-5 pt-5">
             <div class="container appointment_bg" style="  background-color: #E7F3FE80;">
 
-                <div class="section-title">
+                <div class="section-title text-center">
                     <h2 class=" pt-5 mb-4 contct_text">Make an Appointment</h2>
                 </div>
 
 
                 <div class="row">
                     <div class="col-md-6 d-none d-md-block">
-                        <img src="assets/img/oncoligist/BOOK APOINTMENT.png" class="img-fluid">
+                        <img src="assets/img/vision/appoitment_img.png" class="img-fluid">
                     </div>
 
 
@@ -144,7 +191,7 @@
                                         <option value="Tooth extraction">Tooth extraction</option>
                                         <option value="Teeth Scaling"> Teeth Scaling</option>
                                         <option value="Full Mouth Restoration">Full Mouth Restoration</option>
-                                         
+
 
 
 
@@ -339,74 +386,74 @@
 
     </footer>
 
-    
-  <!-- Scroll Up Button  -->
-  <button id="scrollBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up "></i></button>
 
-  <script>
-    // Function to scroll to the top of the page
-    function scrollToTop() {
-      window.scrollTo({
-        top: 0,
-        behavior: 'smooth' // Optional, smooth scrolling animation
-      });
-    }
+    <!-- Scroll Up Button  -->
+    <button id="scrollBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up "></i></button>
 
-    // Show scroll button when scrolling down
-    window.onscroll = function() {
-      scrollFunction()
-    };
+    <script>
+        // Function to scroll to the top of the page
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Optional, smooth scrolling animation
+            });
+        }
 
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("scrollBtn").style.display = "block";
-      } else {
-        document.getElementById("scrollBtn").style.display = "none";
-      }
-    }
-  </script>
+        // Show scroll button when scrolling down
+        window.onscroll = function() {
+            scrollFunction()
+        };
 
-  <style>
-    #scrollBtn {
-      display: none;
-      /* Initially hide the button */
-      position: fixed;
-      /* Fix the position of the button */
-      bottom: 20px;
-      /* Adjust the bottom distance */
-      right: 20px;
-      /* Adjust the right distance */
-      z-index: 999;
-      /* Set a high z-index to ensure the button is on top */
-      padding: 10px 15px;
-      background-color: #01539D;
-      ;
-      color: white;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-    }
-  </style>
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("scrollBtn").style.display = "block";
+            } else {
+                document.getElementById("scrollBtn").style.display = "none";
+            }
+        }
+    </script>
 
-  <a href="https://api.whatsapp.com/send?phone=918406907980" style="color: #fff;" class="whatsapp-link"
-    target="_blank">
-    <i class="fab fa-whatsapp"></i>
-  </a>
+    <style>
+        #scrollBtn {
+            display: none;
+            /* Initially hide the button */
+            position: fixed;
+            /* Fix the position of the button */
+            bottom: 20px;
+            /* Adjust the bottom distance */
+            right: 20px;
+            /* Adjust the right distance */
+            z-index: 999;
+            /* Set a high z-index to ensure the button is on top */
+            padding: 10px 15px;
+            background-color: #01539D;
+            ;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+    </style>
+
+    <a href="https://api.whatsapp.com/send?phone=919391457072" style="color: #fff;" class="whatsapp-link"
+        target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
 
-  <div id="preloader"></div>
-  <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
+    <div id="preloader"></div>
+    <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
- 
-  <script src="assets/js/main.js"></script>
- 
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>

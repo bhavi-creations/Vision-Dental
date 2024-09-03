@@ -41,13 +41,13 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 </head>
- 
+
 
 <body>
-   
 
 
- <header id="header">
+
+    <header id="header">
         <div class="container d-flex align-items-center onlypad  ">
             <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
                 <a href="index.php">
@@ -62,7 +62,7 @@
                     <li><a class="nav-link scrollto" href="about.php">About</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="treatment.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Treatments
+                            Treatments
                         </a>
                         <ul class="dropdown-menu services_drop_menu service_width  mt-3" aria-labelledby="servicesDropdown" style="width:550px;">
                             <div class="row  ">
@@ -94,7 +94,7 @@
                                     <li><a class="dropdown-item services_drop" href="lasion.php">Precancerous Lesion</a></li>
                                     <li><a class="dropdown-item services_drop" href="laserCrown.php">Laser Crown Lengthening</a></li>
                                 </div>
-                                 
+
                             </div>
                         </ul>
                     </li>
@@ -117,30 +117,31 @@
         </div>
 
 
-        <script>// jQuery needed to manage hover and click behavior
+        <script>
+            // jQuery needed to manage hover and click behavior
             $(document).ready(function() {
                 // Ensure that the dropdown opens on hover
                 $('#servicesDropdown').hover(function() {
                     $(this).dropdown('toggle');
                 });
-            
+
                 // Make sure the dropdown also works on click
                 $('#servicesDropdown').click(function(e) {
                     e.stopPropagation(); // Prevents the click from closing the dropdown immediately
                     window.location.href = $(this).attr('href'); // Redirect to the link
                 });
             });
-            </script>
+        </script>
     </header>
 
 
 
     <main id="main">
 
-        <section id="contact" class="contact">
+        <section id="contact" class="contact my-5">
             <div class="container">
 
-                <div class="section-title">
+                <div class="section-title text-center">
                     <h2 class="contct_text">Contact</h2>
                 </div>
 
@@ -175,14 +176,14 @@
                                 <div class="info-box mt-4">
                                     <i class="bx bx-envelope"></i>
                                     <h3 style="font-family:Mulish;">Email Us</h3>
-                                    <p style="font-family:Mulish;"> prabhaleo2003@gmail.com </p>
+                                    <p style="font-family:Mulish;"> visiondentalguntur@gmail.com</p>
                                 </div>
                             </div>
                             <div class="col-md-7">
                                 <div class="info-box mt-4">
                                     <i class="bx bx-phone-call"></i>
                                     <h3 style="font-family:Mulish;">Call Us</h3>
-                                    <p style="font-family:Mulish;"> +91 84069 07980 </p>
+                                    <p style="font-family:Mulish;"> +91 93914 57072 </p>
                                 </div>
                             </div>
                         </div>
@@ -214,7 +215,7 @@
                                 <div class="error-message"></div>
                                 <div class="sent-message">Your message has been sent. Thank you!</div>
                             </div>
-                            <div class="text-center"><button type="submit">Send Message</button></div>
+                            <div class="text-center"><button type="submit" class="list_cont_btn">Send Message</button></div>
                         </form>
                     </div>
 
@@ -444,7 +445,7 @@
         }
     </style>
 
-    <a href="https://api.whatsapp.com/send?phone=918406907980" style="color: #fff;" class="whatsapp-link" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=919391457072" style="color: #fff;" class="whatsapp-link" target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>
 

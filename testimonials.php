@@ -154,29 +154,29 @@
                     <p class="abP">"Discover what our patients have to say about their exceptional experiences and results at our dental hospital."</p>
                 </div>
 
-                <div class="abtt1 mt-4 mb-4">
+                <div class="abtt1 mt-4 mb-4 d-none d-md-block">
                     <h2 class="patients">What our Patient says</h2>
-                    <p class="ppaaatt mt-2">5,0 <span> <img src="assets/img/services/s3.png"
+                    <p class="ppaaatt mt-2">5.0 <span> <img src="assets/img/services/s3.png"
                                 class="img-fluid dr_img_padding servImgg" alt=""></span> Google Reviews</p>
                 </div>
                 <div class="row servSection mt-5">
                     <div class="col-md-4">
                         <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
+                            <img src="assets/img/vision/ravi.png" alt="" class="userImage img-fluid">
                             <h4 class="personame">Ravi Kumar</h4>
                         </div>
                         <p class="testPara">Actually I visited for root canal and fixing the new caps, I really like the process and they treat me well. They are very friendly and explained me everything. I'm really happy for now 😊.</p>
                     </div>
                     <div class="col-md-4">
                         <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
+                            <img src="assets/img/vision/shesa reddy.png" alt="" class="userImage img-fluid">
                             <h4 class="personame">Sesha Reddy</h4>
                         </div>
                         <p class="testPara">I had a wonderful experience at this dental hospital. The staff were incredibly professional and attentive, ensuring I was comfortable throughout my treatment.</p>
                     </div>
                     <div class="col-md-4">
                         <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
+                            <img src="assets/img/vision/murthy.png" alt="" class="userImage img-fluid">
                             <h4 class="personame"> Murthy</h4>
                         </div>
                         <p class="testPara">Visited vision dental hospital for cavity filling underwent 6 teeth very smooth.
@@ -188,21 +188,21 @@
                 <div class="row servSect">
                     <div class="col-md-4  ">
                         <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
+                            <img src="assets/img/vision/velpula.png" alt="" class="userImage img-fluid">
                             <h4 class="personame">Velpula Nageswararao</h4>
                         </div>
                         <p class="testPara">I'm so happy I chose vision Dental hospital for my root canal treatment! The Doctor abhilash sir and entire team is caring and professional, and they truly prioritize patient comfort.</p>
                     </div>
                     <div class="col-md-4  ">
                         <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
+                            <img src="assets/img/vision/rohit.png" alt="" class="userImage img-fluid">
                             <h4 class="personame">Rohit Pawar</h4>
                         </div>
                         <p class="testPara">Started invisible braces, also known as aligners, six months ago. Treatment is almost finished, and I'm pleased with the comfort and experience. Highly Recommended!</p>
                     </div>
                     <div class="col-md-4">
                         <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
+                            <img src="assets/img/vision/shiva.png" alt="" class="userImage img-fluid">
                             <h4 class="personame">Shiva Ram</h4>
                         </div>
                         <p class="testPara">I went to Vision Multispecialty Dental Hospital yesterday to replace my teeth. They offered me the option of an implant, which I accepted right away. It seems like a very happy, painless experience with excellent hospitality.</p>
@@ -213,21 +213,21 @@
                 <div class="row servSect">
                     <div class="col-md-4">
                         <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
+                            <img src="assets/img/vision/anand naidu.png" alt="" class="userImage img-fluid">
                             <h4 class="personame">Anand Naidu</h4>
                         </div>
                         <p class="testPara">I had an exceptional experience at vision multi-speciality dental hospital . From the friendly and professional front desk staff to the highly skilled dental team, every aspect of my visit was top-notch.</p>
                     </div>
                     <div class="col-md-4">
                         <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
+                            <img src="assets/img/vision/sangeetha.png" alt="" class="userImage img-fluid">
                             <h4 class="personame">Sangeetha</h4>
                         </div>
                         <p class="testPara">Outstanding service and care at this dental hospital. The staff is professional and friendly, making each visit comfortable and stress-free. I highly recommend them for anyone in need of dental care.</p>
                     </div>
                     <div class="col-md-4">
                         <div class="tes">
-                            <img src="assets/img/about/u1.png" alt="" class="userImage img-fluid">
+                            <img src="assets/img/vision/meghana.png" alt="" class="userImage img-fluid">
                             <h4 class="personame">Meghana</h4>
                         </div>
                         <p class="testPara">I got my all wisdom teeth removed, safe to say its total painless during and after the process. I will recommend the clinic for painless treatments. I am extremely satisfied with the results. </p>
@@ -434,18 +434,16 @@
             }
         }
     </script>
-    <script>
+    <!-- <script>
         let currentSlide = 0;
 
         function moveSlide(step) {
             const slides = document.querySelectorAll('.carousel .slide');
             const totalSlides = slides.length;
             currentSlide = (currentSlide + step + totalSlides) % totalSlides;
-            document.querySelector('.carousel').style.transform = translateX(-$ {
-                currentSlide * 100
-            } % );
+            document.querySelector('.carousel').style.transform = translateX(-$ { currentSlide * 100 } % );
         }
-    </script>
+    </script> -->
 
 
 
@@ -498,7 +496,7 @@
         }
     </style>
 
-    <a href="https://api.whatsapp.com/send?phone=918406907980" style="color: #fff;" class="whatsapp-link"
+    <a href="https://api.whatsapp.com/send?phone=919391457072" style="color: #fff;" class="whatsapp-link"
         target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>

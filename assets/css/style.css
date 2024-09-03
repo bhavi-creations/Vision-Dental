@@ -1661,7 +1661,9 @@ h6 {
 }
 
 .dp_image_testmonials {
-  margin-right: 15px;
+   
+  margin-right: -60px;
+  width: 100%;
 }
 
 .slide-container {
@@ -1826,11 +1828,12 @@ h6 {
 .revier_name {
   color: var(--Black, #000);
   font-family: "poppins";
-
   font-size: 16.293px;
   font-style: normal;
-  font-weight: 400;
+  font-weight:700;
   line-height: 23.534px;
+  margin-top: 20px;
+  margin-left: 10px;
   /* 144.444% */
 }
 
@@ -1948,6 +1951,7 @@ h6 {
 
   .ask_qus_sec {
     margin-top: 110px;
+    margin-bottom: 60px;
   }
 
 }
@@ -1957,6 +1961,8 @@ h6 {
 
   .ask_qus_sec {
     margin-top: 60px;
+    margin-bottom: 60px;
+
   }
 
 }
@@ -2142,11 +2148,20 @@ h6 {
 
 }
 
-@media (max-width:992px) {
+@media (min-width:768px) and (max-width:992px) {
 
   .faq-list {
     list-style-type: none;
     padding-left: 100px;
+  }
+
+}
+
+@media (max-width:768px) {
+
+  .faq-list {
+    list-style-type: none;
+    padding-left: 0px;
   }
 
 }
@@ -2229,7 +2244,7 @@ h6 {
   }
 }
 
-@media (max-width:992px) {
+@media (min-width:768px) and (max-width:992px) {
 
   .toggle_padding_icon_one {
     padding-left: 190px;
@@ -2252,6 +2267,35 @@ h6 {
   }
 }
 
+@media (max-width:768px) {
+
+  .list_p_tag {
+    margin-bottom: 0px !important;
+    letter-spacing: -1px;
+    font-size: 16px;
+
+  }
+
+  .toggle_padding_icon_one {
+    padding-left: 75px;
+
+  }
+
+  .toggle_padding_icon_two {
+    padding-left: 3px;
+
+  }
+
+  .toggle_padding_icon_three {
+    padding-left: 42px;
+
+  }
+
+  .toggle_padding_icon_four {
+    padding-left: 32px;
+
+  }
+}
 
 /* .padding_in_list{
   padding-left: 65px;
@@ -2416,17 +2460,316 @@ h6 {
 
 }
 
-.custom-name {
-  color: #1E1E1E;
 
-  font-family: Poppins;
-  font-size: 27px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 36px;
-  /* padding-left: 28px; */
+@media (min-width:1200px) {
 
+
+
+  .custom-name-implant,
+  .custom-name-whitening,
+  .custom-name-fillings,
+  .custom-name-root,
+  .custom-name-braces,
+  .custom-name-pediatric,
+  .custom-name-aligners,
+  .custom-name-cosnetic,
+  .custom-name-crowns,
+  .custom-name-dentues,
+  .custom-name-invisalign,
+  .custom-name-jaw,
+  .custom-name-laser,
+  .custom-name-designing,
+  .custom-name-makeover,
+  .custom-name-alignment,
+  .custom-name-extraction,
+  .custom-name-cleaning,
+
+  .custom-name-surgery,
+  .custom-name-ulcers {
+    color: #1E1E1E;
+
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    /* padding-left: 28px; */
+
+  }
+
+  .custom-name-depigment {
+    color: #1E1E1E;
+
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    padding-left: 28px;
+
+  }
+
+  .custom-name-lengthining {
+    color: #1E1E1E;
+
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    padding-left: 28px;
+
+  }
+
+  .custom-name-lesion {
+    color: #1E1E1E;
+
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    margin-left: -50px;
+
+  }
 }
+
+@media (min-width:992px) and (max-width:1200px) {
+
+
+
+  .custom-name-implant,
+  .custom-name-fillings,
+  .custom-name-root,
+  .custom-name-braces,
+  .custom-name-pediatric,
+  .custom-name-aligners,
+  .custom-name-cosnetic,
+  .custom-name-crowns,
+  .custom-name-invisalign,
+  .custom-name-laser,
+  .custom-name-cleaning,
+  .custom-name-surgery,
+  .custom-name-ulcers {
+    color: #1E1E1E;
+
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    /* padding-left: 28px; */
+
+  }
+
+  .custom-name-makeover,
+  .custom-name-alignment,
+  .custom-name-extraction,
+  .custom-name-designing {
+    color: #1E1E1E;
+
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    padding-left: 20px;
+  }
+
+  .custom-name-whitening {
+    color: #1E1E1E;
+
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    padding-left: 28px;
+  }
+
+  .custom-name-jaw {
+    color: #1E1E1E;
+
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    padding-left: 28px;
+  }
+
+  .custom-name-dentues {
+    color: #1E1E1E;
+
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    padding-left: 28px;
+  }
+
+  .custom-name-depigment {
+    color: #1E1E1E;
+
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    padding-left: 28px;
+
+  }
+
+  .custom-name-lengthining {
+    color: #1E1E1E;
+
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    padding-left: 50px;
+
+  }
+
+  .custom-name-lesion {
+    color: #1E1E1E;
+
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    margin-left: -30px;
+
+  }
+}
+
+
+
+@media (max-width:992px) {
+
+
+
+  .custom-name-implant,
+  .custom-name-fillings,
+  .custom-name-root,
+  .custom-name-braces,
+  .custom-name-pediatric,
+  .custom-name-aligners,
+  .custom-name-cosnetic,
+  .custom-name-crowns,
+  .custom-name-laser,
+  .custom-name-cleaning,
+  .custom-name-surgery,
+  .custom-name-ulcers {
+    color: #1E1E1E;
+
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    /* padding-left: 28px; */
+
+  }
+
+  .custom-name-makeover,
+  .custom-name-alignment,
+  .custom-name-extraction,
+  .custom-name-designing {
+    color: #1E1E1E;
+
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    padding-left: 0px;
+  }
+
+  .custom-name-whitening {
+    color: #1E1E1E;
+
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    padding-left: 0px;
+  }
+
+  .custom-name-invisalign {
+    color: #1E1E1E;
+
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    margin-left: -11px;
+  }
+
+  .custom-name-jaw {
+    color: #1E1E1E;
+
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    padding-left: 0px;
+  }
+
+  .custom-name-dentues {
+    color: #1E1E1E;
+
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    padding-left: 0px;
+  }
+
+  .custom-name-depigment {
+    color: #1E1E1E;
+
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    padding-left: 9px;
+
+  }
+
+  .custom-name-lengthining {
+    color: #1E1E1E;
+
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    padding-left: 25px;
+
+  }
+
+  .custom-name-lesion {
+    color: #1E1E1E;
+
+    font-family: Poppins;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    margin-left: -57px;
+
+  }
+}
+
 
 .custom-description {
   color: #1E1E1E;
@@ -2466,10 +2809,23 @@ h6 {
 
 .custom-button:hover {
 
-  color: white;
+  color: white !important;
 
   background: linear-gradient(95deg, #09A299 -1.58%, #0DABA0 100%);
 }
+
+.service_btn_readmore {
+  color: #1E1E1E;
+
+}
+
+.service_btn_readmore:hover {
+
+  color: white !important;
+
+  background: linear-gradient(95deg, #09A299 -1.58%, #0DABA0 100%);
+}
+
 
 .custom-swiper-navBtn {
   color: #6E93f7;
@@ -2574,6 +2930,7 @@ h6 {
     letter-spacing: -0.196px;
     text-transform: capitalize;
   }
+
   .foot_para_last {
     color: #FFF;
     font-family: Inter;
@@ -2614,6 +2971,7 @@ h6 {
     letter-spacing: -0.196px;
     text-transform: capitalize;
   }
+
   .foot_para_last {
     color: #FFF;
     font-family: Inter;
@@ -2723,6 +3081,236 @@ h6 {
 
 
 
-.chair_image{
+.chair_image {
   width: 70%;
+}
+
+
+.contact .info-box {
+  color: #444444;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(214, 215, 216, 0.5);
+  padding: 20px 0 30px 0;
+}/*--------------------------------------------------------------
+# Appointments
+--------------------------------------------------------------*/
+.appointment .php-email-form {
+  width: 100%;
+}
+
+.appointment .php-email-form .form-group {
+  padding-bottom: 8px;
+}
+
+.appointment .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.appointment .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #76dfbc;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.appointment .php-email-form .error-message br+br {
+  margin-top: 25px;
+}
+
+.appointment .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.appointment .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.appointment .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  animation: animate-loading 1s linear infinite;
+}
+
+.appointment .php-email-form input,
+.appointment .php-email-form textarea,
+.appointment .php-email-form select {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  padding: 10px !important;
+  font-family: "Mulish", sans-serif;
+}
+
+.appointment .php-email-form input:focus,
+.appointment .php-email-form textarea:focus,
+.appointment .php-email-form select:focus {
+  border-color: #01a084;
+}
+
+.appointment .php-email-form input,
+.appointment .php-email-form select {
+  height: 44px;
+}
+
+.appointment .php-email-form textarea {
+  padding: 10px 12px;
+}
+
+.appointment .php-email-form button[type="submit"] {
+  background: #01539d;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+  font-family: "Mulish", sans-serif;
+}
+
+.appointment .php-email-form button[type="submit"]:hover {
+  background: #0598d2;
+}
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .info-box {
+  color: #444444;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(214, 215, 216, 0.5);
+  padding: 20px 0 30px 0;
+}
+
+.contact .info-box i {
+  font-size: 32px;
+  color: #01539d;
+  border-radius: 50%;
+  padding: 8px;
+  border: 2px dotted #01539d;
+}
+
+.contact .info-box h3 {
+  font-size: 20px;
+  color: #777777;
+  font-weight: 700;
+  margin: 10px 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.contact .info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 900;
+}
+
+.contact .php-email-form {
+  box-shadow: 0 0 20px rgba(214, 215, 216, 0.5);
+  padding: 30px;
+}
+
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #60d8e0;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .error-message br+br {
+  margin-top: 25px;
+}
+
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+  border-radius: 4px;
+  box-shadow: none;
+  font-size: 14px;
+  font-family: "Mulish", sans-serif !important;
+}
+
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
+  border-color: #01a084;
+}
+
+.contact .php-email-form input {
+  padding: 10px 15px;
+}
+
+.contact .php-email-form textarea {
+  padding: 12px 15px;
+}
+
+.contact .php-email-form button[type="submit"] {
+  background: #01a084;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+  font-family: "Azeret Mono", monospace;
+}
+
+.contact .php-email-form button[type="submit"]:hover {
+  background: #0598d2;
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
