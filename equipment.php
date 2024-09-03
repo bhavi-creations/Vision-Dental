@@ -234,7 +234,7 @@
                                         </ul>
                                     </div>
                                     <div class="col-md-6">
-                                        <img src="assets/img/about/epng" alt="" class="equipment-img">
+                                        <img src="assets/img/vision/dental_laser.png" alt="" class="equipment-img">
                                     </div>
                                 </div>
 
