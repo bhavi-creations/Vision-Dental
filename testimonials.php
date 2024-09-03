@@ -154,9 +154,9 @@
                     <p class="abP">"Discover what our patients have to say about their exceptional experiences and results at our dental hospital."</p>
                 </div>
 
-                <div class="abtt1 mt-4 mb-4">
+                <div class="abtt1 mt-4 mb-4 d-none d-md-block">
                     <h2 class="patients">What our Patient says</h2>
-                    <p class="ppaaatt mt-2">5,0 <span> <img src="assets/img/services/s3.png"
+                    <p class="ppaaatt mt-2">5.0 <span> <img src="assets/img/services/s3.png"
                                 class="img-fluid dr_img_padding servImgg" alt=""></span> Google Reviews</p>
                 </div>
                 <div class="row servSection mt-5">
@@ -434,18 +434,16 @@
             }
         }
     </script>
-    <script>
+    <!-- <script>
         let currentSlide = 0;
 
         function moveSlide(step) {
             const slides = document.querySelectorAll('.carousel .slide');
             const totalSlides = slides.length;
             currentSlide = (currentSlide + step + totalSlides) % totalSlides;
-            document.querySelector('.carousel').style.transform = translateX(-$ {
-                currentSlide * 100
-            } % );
+            document.querySelector('.carousel').style.transform = translateX(-$ { currentSlide * 100 } % );
         }
-    </script>
+    </script> -->
 
 
 
@@ -498,7 +496,7 @@
         }
     </style>
 
-    <a href="https://api.whatsapp.com/send?phone=918406907980" style="color: #fff;" class="whatsapp-link"
+    <a href="https://api.whatsapp.com/send?phone=919391457072" style="color: #fff;" class="whatsapp-link"
         target="_blank">
         <i class="fab fa-whatsapp"></i>
     </a>
