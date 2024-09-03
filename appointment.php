@@ -197,7 +197,7 @@
                                          <option value="Tooth Extraction">Tooth Extraction</option>
                                          <option value="Laser Tooth Cleaning ">Laser Tooth Cleaning </option>
                                          <option value="Gum Depigmentation">Gum Depigmentation</option>
-                                         <option value="Laser Teeth Whitening"></option>
+                                         <option value="Laser Teeth Whitening">Laser Teeth Whitening</option>
                                          <option value="Laser Gum Surgery">Laser Gum Surgery</option>
                                          <option value="Mouth Ulcers">Mouth Ulcers</option>
                                          <option value="Precancerous Lesion">Precancerous Lesion</option>
