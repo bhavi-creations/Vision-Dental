@@ -67,7 +67,7 @@
              <nav id="navbar" class="  navbar_empyt navbar order-lg-0">
                  <i class="bi bi-list mobile-nav-toggle"></i>
                  <ul>
-                     <li><a class="nav-link scrollto" href="index.php">Home</a></li>
+                     <li class="nav-item active"><a class="nav-link scrollto" href="index.php">Home</a></li>
                      <li><a class="nav-link scrollto" href="about.php">About</a></li>
                      <li class="nav-item dropdown">
                          <a class="nav-link dropdown-toggle" href="treatment.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

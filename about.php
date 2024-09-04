@@ -44,12 +44,12 @@
 
 </head>
 <style>
-@media (min-width:992px) {
+    @media (min-width:992px) {
 
-    .showthisdiv {
-        padding-left: 100px !important;
+        .showthisdiv {
+            padding-left: 100px !important;
+        }
     }
-}
 </style>
 
 <body>
@@ -66,11 +66,14 @@
             <nav id="navbar" class="navbar order-lg-0">
                 <i class="bi bi-list mobile-nav-toggle"></i>
                 <ul>
-                    <li><a class="nav-link scrollto" href="index.php">Home</a></li>
-                    <li><a class="nav-link scrollto" href="about.php">About</a></li>
+                    <li><a class="nav-link scrollto " href="index.php">Home</a></li>
+                    <li class="nav-item active">
+                        <a class="nav-link scrollto" href="about.php">About</a>
+                    </li>
+
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="treatment.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Treatments
+                            Treatments
                         </a>
                         <ul class="dropdown-menu services_drop_menu service_width  mt-3" aria-labelledby="servicesDropdown" style="width:550px;">
                             <div class="row  ">
@@ -102,7 +105,7 @@
                                     <li><a class="dropdown-item services_drop" href="lasion.php">Precancerous Lesion</a></li>
                                     <li><a class="dropdown-item services_drop" href="laserCrown.php">Laser Crown Lengthening</a></li>
                                 </div>
-                                 
+
                             </div>
                         </ul>
                     </li>
@@ -125,20 +128,21 @@
         </div>
 
 
-        <script>// jQuery needed to manage hover and click behavior
+        <script>
+            // jQuery needed to manage hover and click behavior
             $(document).ready(function() {
                 // Ensure that the dropdown opens on hover
                 $('#servicesDropdown').hover(function() {
                     $(this).dropdown('toggle');
                 });
-            
+
                 // Make sure the dropdown also works on click
                 $('#servicesDropdown').click(function(e) {
                     e.stopPropagation(); // Prevents the click from closing the dropdown immediately
                     window.location.href = $(this).attr('href'); // Redirect to the link
                 });
             });
-            </script>
+        </script>
     </header>
 
 
@@ -193,7 +197,7 @@
                         <p class="abP">We use only the best quality materials on the market in order to provide the best
                             products to our patients.</p>
                     </div>
-                      <div class="col-md-5   mt-5">
+                    <div class="col-md-5   mt-5">
                         <img src="assets/img/about/a2.png" class="img-fluid dr_img_padding abouter" alt="">
                     </div>
                     <div class="col-md-7 dr_content_padding   ">
@@ -220,7 +224,7 @@
 
                     </div>
 
-                  
+
 
                     <div class="showthisdiv order-2  order-md-3" style="display:none ">
                         <p class="poetsen_font1">
@@ -236,7 +240,7 @@
                     <div class="col-md-3"></div>
                 </div>
                 <div class="row servSect mt-2">
-                <div class="col-md-5   mt-5">
+                    <div class="col-md-5   mt-5">
                         <img src="assets/img/about/a4.png" class="img-fluid dr_img_padding abouter" alt="">
                     </div>
                     <div class="col-md-7 dr_content_padding   ">
@@ -264,7 +268,7 @@
 
                     </div>
 
-                
+
 
                     <div class="showthisdiv1 order-2  order-md-3" style="display:none ">
                         <p class="poetsen_font1">
@@ -282,32 +286,32 @@
         </section>
 
         <script>
-        function toggleReadMore() {
-            var showThisDiv = document.querySelector('.showthisdiv');
-            var readMoreText = document.querySelector('.get_in_touch');
+            function toggleReadMore() {
+                var showThisDiv = document.querySelector('.showthisdiv');
+                var readMoreText = document.querySelector('.get_in_touch');
 
-            if (showThisDiv.style.display === "none") {
-                showThisDiv.style.display = "block";
-                readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-            } else {
-                showThisDiv.style.display = "none";
-                readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
+                if (showThisDiv.style.display === "none") {
+                    showThisDiv.style.display = "block";
+                    readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
+                } else {
+                    showThisDiv.style.display = "none";
+                    readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
+                }
             }
-        }
         </script>
         <script>
-        function toggleReadMore1() {
-            var showThisDiv = document.querySelector('.showthisdiv1');
-            var readMoreText = document.querySelector('.get_in_touch');
+            function toggleReadMore1() {
+                var showThisDiv = document.querySelector('.showthisdiv1');
+                var readMoreText = document.querySelector('.get_in_touch');
 
-            if (showThisDiv.style.display === "none") {
-                showThisDiv.style.display = "block";
-                readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-            } else {
-                showThisDiv.style.display = "none";
-                readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
+                if (showThisDiv.style.display === "none") {
+                    showThisDiv.style.display = "block";
+                    readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
+                } else {
+                    showThisDiv.style.display = "none";
+                    readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
+                }
             }
-        }
         </script>
 
     </main>
@@ -484,48 +488,48 @@
     <button id="scrollBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up "></i></button>
 
     <script>
-    // Function to scroll to the top of the page
-    function scrollToTop() {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth' // Optional, smooth scrolling animation
-        });
-    }
-
-    // Show scroll button when scrolling down
-    window.onscroll = function() {
-        scrollFunction()
-    };
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("scrollBtn").style.display = "block";
-        } else {
-            document.getElementById("scrollBtn").style.display = "none";
+        // Function to scroll to the top of the page
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Optional, smooth scrolling animation
+            });
         }
-    }
+
+        // Show scroll button when scrolling down
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("scrollBtn").style.display = "block";
+            } else {
+                document.getElementById("scrollBtn").style.display = "none";
+            }
+        }
     </script>
 
     <style>
-    #scrollBtn {
-        display: none;
-        /* Initially hide the button */
-        position: fixed;
-        /* Fix the position of the button */
-        bottom: 20px;
-        /* Adjust the bottom distance */
-        right: 20px;
-        /* Adjust the right distance */
-        z-index: 999;
-        /* Set a high z-index to ensure the button is on top */
-        padding: 10px 15px;
-        background-color: #01539D;
-        ;
-        color: white;
-        border: none;
-        border-radius: 50%;
-        cursor: pointer;
-    }
+        #scrollBtn {
+            display: none;
+            /* Initially hide the button */
+            position: fixed;
+            /* Fix the position of the button */
+            bottom: 20px;
+            /* Adjust the bottom distance */
+            right: 20px;
+            /* Adjust the right distance */
+            z-index: 999;
+            /* Set a high z-index to ensure the button is on top */
+            padding: 10px 15px;
+            background-color: #01539D;
+            ;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+        }
     </style>
 
     <a href="https://api.whatsapp.com/send?phone=919391457072" style="color: #fff;" class="whatsapp-link"
