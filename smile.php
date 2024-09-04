@@ -172,8 +172,8 @@
 
                     </div>
 
-                    <div class="col-md-6 order-3  order-md-2 mt-5">
-                        <img src="assets/img/about/t.png" class="img-fluid dr_img_padding abouter1" alt="">
+                    <div class="col-md-6 order-3  order-md-2 mt-5 text-center">
+                        <img src="assets/img/about/smile_design.webp" class="img-fluid dr_img_padding abouter1" alt="">
                     </div>
 
 
