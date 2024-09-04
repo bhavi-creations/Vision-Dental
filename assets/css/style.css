@@ -3396,3 +3396,28 @@ h6 {
 .blog_section {
   margin-top: 100px;
 }
+
+#last_footer_div_end{
+  padding-left: 87px  !important;
+}
+
+.social_meadia{
+  margin-top: 20px;
+}
+
+@media (min-width:768px) {
+  
+  
+  .foot_para_last_lats {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 171.429% */
+  letter-spacing: -0.196px;
+  text-transform: capitalize;
+}
+
+}
