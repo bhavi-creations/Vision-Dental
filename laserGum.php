@@ -151,8 +151,7 @@
                 <div class="row servSect">
                     <div class="abot mt-5">
                         <h4 class="abh4">Laser Gum Surgery Treatments</h4>
-                        <p class="abP">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br>
-                            Aenean commodo ligula aenean massa.</p>
+                        <p class="abP">Laser and gum therapy uses advanced laser technology to treat gum disease, reduce inflammation, and promote healing with minimal discomfort and recovery time.</p>
                     </div>
                     <div class="col-md-6 dr_content_padding  order-1 order-md-1 treater">
                         <h2 class="dr_welcome_text1 mt-4 mb-4">Laser Gum Surgery in  
@@ -162,12 +161,7 @@
                              Guntur
                         </h2>
                         <p class="poetsen_font1">
-                            Vision Multi Speciality Dental Hospital in Guntur is renowned for providing high-quality
-                            root canal treatments. With a team of experienced dental professionals and state-of-the-art
-                            facilities, they offer comprehensive solutions to individuals suffering from dental issues
-                            that require root canal therapy. <br>
-                            <br> This article aims to provide insights into root canal treatments, explain why they are
-                            necessary, highlight their benefits, and address common questions related to this procedure.
+                        Laser gum surgery at Vision Dentals in Guntur is an advanced dental procedure designed to treat various gum conditions with precision and minimal discomfort. This innovative technique uses a focused laser beam to target and remove infected or damaged gum tissue while preserving healthy tissue. Laser gum surgery is commonly used to address issues such as gum disease, periodontal pockets, and gingival overgrowth. The laser’s precision allows for the effective removal of bacteria and diseased tissue, promoting faster healing and reducing bleeding compared to traditional surgical methods. Additionally, the laser helps stimulate the regeneration of healthy gum tissue, leading to improved gum health and overall oral function. The procedure is minimally invasive, resulting in a quicker recovery time and less postoperative discomfort. By choosing laser gum surgery in Guntur, you benefit from cutting-edge technology and expert care that enhances your gum health, improves the appearance of your gums, and supports a more comfortable and efficient dental treatment experience. 
                         </p>
                         <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
 
@@ -194,12 +188,7 @@
 
                         </h2>
                         <p class="poetsen_font1">
-                            A root canal treatment, also known as endodontic therapy, is a dental procedure performed to
-                            save a severely decayed or infected tooth. The treatment involves removing the infected
-                            pulp, cleaning and disinfecting the root canals, and sealing them to prevent reinfection.
-
-                            This procedure not only relieves pain and discomfort but also preserves the natural tooth,
-                            eliminating the need for extraction and subsequent tooth replacement options.
+                        Laser gum surgery is a modern dental procedure that utilizes advanced laser technology to treat various gum conditions with high precision and minimal discomfort. At Vision Dentals, a leading dental hospital in Guntur, this technique is employed to address issues such as gum disease, periodontal pockets, and excessive gum tissue. 
                         </p>
 
 
@@ -211,19 +200,7 @@
 
 
                                 </h2>
-                                <p class="poetsen_font1">Root canal treatment is essential when the soft tissue inside
-                                    your
-                                    tooth, known as the pulp, becomes inflamed or infected due to deep decay, repeated
-                                    dental
-                                    procedures, or trauma. This treatment is vital to save the natural tooth and prevent
-                                    the
-                                    spread of infection to surrounding tissues. Without a root canal, the infection can
-                                    cause
-                                    severe pain, abscess formation, and eventually lead to tooth loss. By preserving the
-                                    natural
-                                    tooth, root canal treatment also helps maintain proper chewing function and prevents
-                                    the
-                                    misalignment of neighboring teeth, which can affect your overall oral health.
+                                <p class="poetsen_font1">Laser gum surgery in Guntur is an essential treatment option for effectively managing and improving various gum conditions with advanced technology. At Vision Dentals, a leading dental hospital in Guntur, laser gum surgery offers precise and minimally invasive care for issues such as gum disease, periodontal pockets, and excessive gum tissue. This procedure is particularly beneficial if you are experiencing symptoms like gum inflammation, bleeding, or infection that have not responded to traditional treatments. The laser’s ability to target and remove infected tissue while preserving healthy gum areas leads to faster healing, reduced discomfort, and minimal bleeding compared to conventional surgical methods. Additionally, laser gum surgery promotes the regeneration of healthy gum tissue, enhancing your overall gum health and oral function. By opting for laser gum surgery in Guntur, you benefit from cutting-edge technology and expert care that ensures a more comfortable and efficient treatment experience, ultimately improving your gum health and contributing to a healthier, more attractive smile. 
                                 </p>
                             </div>
                             <div class="col-md-6">
@@ -232,19 +209,7 @@
 
 
                                 </h2>
-                                <p class="poetsen_font1">Root canal treatment offers significant benefits, including
-                                    immediate pain relief from
-                                    infected or inflamed tooth pulp and the preservation of your natural tooth, which
-                                    helps
-                                    maintain proper chewing and bite function. It also prevents the spread of infection
-                                    to
-                                    surrounding tissues, reducing the risk of more severe complications. By saving the
-                                    tooth,
-                                    root canal treatment helps avoid the need for extraction and the potential shifting
-                                    of
-                                    neighboring teeth. Finally, the tooth can be restored to its natural appearance,
-                                    ensuring a
-                                    healthy and confident smile.
+                                <p class="poetsen_font1">Laser gum surgery in Guntur offers several significant benefits that enhance your overall gum health and dental experience. At Vision Dentals, a top dental hospital in Guntur, the use of advanced laser technology allows for precise, minimally invasive treatment of gum conditions such as gum disease and periodontal pockets. The key benefits include reduced bleeding and discomfort during the procedure, as the laser’s precision targets only the affected tissue while preserving healthy gum areas. The treatment promotes faster healing and recovery compared to traditional surgical methods, as the laser helps minimize trauma to surrounding tissues. Additionally, laser gum surgery effectively eradicates bacteria and reduces inflammation, leading to improved gum health and a more attractive gum line. By choosing laser gum surgery in Guntur, you gain access to cutting-edge technology and expert care that delivers effective results with minimal discomfort, ultimately supporting a healthier, more confident smile. 
                                 </p>
                             </div>
                         </div>

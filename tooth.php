@@ -151,8 +151,7 @@
                 <div class="row servSect">
                     <div class="abot mt-5">
                         <h4 class="abh4">Wisdom Tooth Extraction Treatments</h4>
-                        <p class="abP">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br>
-                            Aenean commodo ligula aenean massa.</p>
+                        <p class="abP">Tooth extraction is the removal of a tooth from its socket in the jawbone, typically due to damage, decay, or crowding.</p>
                     </div>
                     <div class="col-md-6 dr_content_padding  order-1 order-md-1 treater">
                         <h2 class="dr_welcome_text1 mt-4 mb-4">Wisdom Tooth Extraction in
@@ -162,12 +161,7 @@
                             Guntur
                         </h2>
                         <p class="poetsen_font1">
-                            Vision Multi Speciality Dental Hospital in Guntur is renowned for providing high-quality
-                            root canal treatments. With a team of experienced dental professionals and state-of-the-art
-                            facilities, they offer comprehensive solutions to individuals suffering from dental issues
-                            that require root canal therapy. <br>
-                            <br> This article aims to provide insights into root canal treatments, explain why they are
-                            necessary, highlight their benefits, and address common questions related to this procedure.
+                        Tooth extraction at Vision Dentals in Guntur is a carefully considered procedure used to remove teeth that are beyond repair or are causing significant dental issues. This procedure may be necessary for a variety of reasons, including severe tooth decay, advanced gum disease, overcrowding, or impacted wisdom teeth. Our experienced team at Vision Dentals uses state-of-the-art techniques and local anesthesia to ensure that the extraction process is as comfortable and efficient as possible. Following the extraction, we provide comprehensive care and guidance to facilitate proper healing and minimize discomfort. Tooth extraction can help alleviate pain, prevent the spread of infection, and create space for orthodontic treatments or other dental procedures. By choosing tooth extraction at our dental hospital in Guntur, you benefit from expert care and advanced methods designed to ensure a smooth and successful recovery, ultimately contributing to better overall oral health and comfort. 
                         </p>
                         <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
 
@@ -193,12 +187,7 @@
 
                         </h2>
                         <p class="poetsen_font1">
-                            A root canal treatment, also known as endodontic therapy, is a dental procedure performed to
-                            save a severely decayed or infected tooth. The treatment involves removing the infected
-                            pulp, cleaning and disinfecting the root canals, and sealing them to prevent reinfection.
-
-                            This procedure not only relieves pain and discomfort but also preserves the natural tooth,
-                            eliminating the need for extraction and subsequent tooth replacement options.
+                        Wisdom tooth extraction is a specialized dental procedure focused on removing one or more of the third molars, commonly known as wisdom teeth, from the back of the mouth. At Vision Dentals, a leading dental hospital in Guntur, this procedure is often recommended when wisdom teeth cause problems such as impaction, infection, overcrowding, or pain. 
                         </p>
 
 
@@ -210,19 +199,7 @@
 
 
                                 </h2>
-                                <p class="poetsen_font1">Root canal treatment is essential when the soft tissue inside
-                                    your
-                                    tooth, known as the pulp, becomes inflamed or infected due to deep decay, repeated
-                                    dental
-                                    procedures, or trauma. This treatment is vital to save the natural tooth and prevent
-                                    the
-                                    spread of infection to surrounding tissues. Without a root canal, the infection can
-                                    cause
-                                    severe pain, abscess formation, and eventually lead to tooth loss. By preserving the
-                                    natural
-                                    tooth, root canal treatment also helps maintain proper chewing function and prevents
-                                    the
-                                    misalignment of neighboring teeth, which can affect your overall oral health.
+                                <p class="poetsen_font1">Wisdom tooth extraction in Guntur is crucial for addressing potential issues associated with the third molars, which often emerge in late adolescence or early adulthood. At Vision Dentals, a leading dental hospital in Guntur, the extraction of wisdom teeth is recommended when they are impacted, misaligned, or causing significant problems such as pain, infection, or overcrowding. Wisdom teeth can be problematic because they may not have enough space to erupt properly, leading to potential complications like swelling, discomfort, and damage to adjacent teeth. By opting for wisdom tooth extraction in Guntur, you benefit from expert care and advanced techniques to alleviate these issues and prevent further dental complications. The procedure helps in relieving pain, reducing the risk of infection, and preventing crowding or misalignment of other teeth. Choosing a trusted local provider ensures that you receive high-quality care and effective treatment tailored to your specific needs, ultimately contributing to improved oral health and comfort. 
                                 </p>
                             </div>
                             <div class="col-md-6">
@@ -230,19 +207,7 @@
 
 
                                 </h2>
-                                <p class="poetsen_font1">Root canal treatment offers significant benefits, including
-                                    immediate pain relief from
-                                    infected or inflamed tooth pulp and the preservation of your natural tooth, which
-                                    helps
-                                    maintain proper chewing and bite function. It also prevents the spread of infection
-                                    to
-                                    surrounding tissues, reducing the risk of more severe complications. By saving the
-                                    tooth,
-                                    root canal treatment helps avoid the need for extraction and the potential shifting
-                                    of
-                                    neighboring teeth. Finally, the tooth can be restored to its natural appearance,
-                                    ensuring a
-                                    healthy and confident smile.
+                                <p class="poetsen_font1">Wisdom tooth extraction in Guntur offers several significant benefits that enhance your overall oral health and well-being. At Vision Dentals, a premier dental hospital in Guntur, extracting problematic wisdom teeth helps alleviate pain and discomfort associated with impaction or infection. The procedure can prevent complications such as gum disease, tooth decay, and damage to adjacent teeth caused by overcrowding or misalignment. By removing wisdom teeth that are likely to cause issues in the future, you reduce the risk of further dental problems and improve your oral hygiene. Additionally, wisdom tooth extraction can create space for proper alignment of other teeth, which is especially beneficial if you are undergoing orthodontic treatment. Opting for wisdom tooth extraction in Guntur ensures you receive expert care and advanced techniques, leading to a smoother recovery and long-term benefits for your dental health and comfort. 
                                 </p>
                             </div>
                         </div>

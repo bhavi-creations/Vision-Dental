@@ -151,8 +151,7 @@
                 <div class="row servSect">
                     <div class="abot mt-5">
                         <h4 class="abh4">Laser Crown Lengthening Treatments</h4>
-                        <p class="abP">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br>
-                            Aenean commodo ligula aenean massa.</p>
+                        <p class="abP">Laser crown lengthening uses laser technology to remove excess gum tissue, exposing more of the tooth's surface to enhance its appearance and facilitate restorative procedures.</p>
                     </div>
                     <div class="col-md-6 dr_content_padding  order-1 order-md-1 treater">
                         <h2 class="dr_welcome_text1 mt-4 mb-4">Laser Crown Lengthening In  
@@ -164,12 +163,7 @@
                             Guntur
                         </h2>
                         <p class="poetsen_font1">
-                            Vision Multi Speciality Dental Hospital in Guntur is renowned for providing high-quality
-                            root canal treatments. With a team of experienced dental professionals and state-of-the-art
-                            facilities, they offer comprehensive solutions to individuals suffering from dental issues
-                            that require root canal therapy. <br>
-                            <br> This article aims to provide insights into root canal treatments, explain why they are
-                            necessary, highlight their benefits, and address common questions related to this procedure.
+                        Laser crown lengthening is an advanced dental procedure at Vision Dentals in Guntur that involves using laser technology to adjust the gum line and expose more of the tooth structure. This technique is often employed to enhance the aesthetics of your smile or to prepare a tooth for a dental restoration, such as a crown. The procedure involves using a precise laser to remove excess gum tissue and, if necessary, a small amount of underlying bone to reveal a greater portion of the tooth. Unlike traditional methods, laser crown lengthening is minimally invasive, resulting in reduced bleeding, discomfort, and a quicker recovery time. The laser’s precision allows for a more controlled and accurate reshaping of the gum line, which can improve the overall appearance of your smile by creating a more balanced and proportionate look. Additionally, the procedure can facilitate better fit and function of dental restorations, ensuring optimal outcomes for long-term oral health. By choosing laser crown lengthening in Guntur, you benefit from cutting-edge technology and expert care that delivers effective and aesthetically pleasing results with minimal discomfort and downtime. 
                         </p>
                         <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
 
@@ -197,12 +191,7 @@
 
                         </h2>
                         <p class="poetsen_font1">
-                            A root canal treatment, also known as endodontic therapy, is a dental procedure performed to
-                            save a severely decayed or infected tooth. The treatment involves removing the infected
-                            pulp, cleaning and disinfecting the root canals, and sealing them to prevent reinfection.
-
-                            This procedure not only relieves pain and discomfort but also preserves the natural tooth,
-                            eliminating the need for extraction and subsequent tooth replacement options.
+                        Laser crown lengthening is a modern dental procedure designed to adjust the gum line and expose more of the tooth's surface using advanced laser technology. At Vision Dentals in Guntur, this procedure is used to enhance the appearance of your smile or to prepare a tooth for a dental restoration, such as a crown or filling. 
                         </p>
 
 
@@ -215,19 +204,7 @@
 
 
                                 </h2>
-                                <p class="poetsen_font1">Root canal treatment is essential when the soft tissue inside
-                                    your
-                                    tooth, known as the pulp, becomes inflamed or infected due to deep decay, repeated
-                                    dental
-                                    procedures, or trauma. This treatment is vital to save the natural tooth and prevent
-                                    the
-                                    spread of infection to surrounding tissues. Without a root canal, the infection can
-                                    cause
-                                    severe pain, abscess formation, and eventually lead to tooth loss. By preserving the
-                                    natural
-                                    tooth, root canal treatment also helps maintain proper chewing function and prevents
-                                    the
-                                    misalignment of neighboring teeth, which can affect your overall oral health.
+                                <p class="poetsen_font1">Laser crown lengthening in Guntur is essential for achieving both functional and aesthetic improvements in your smile. At Vision Dentals, a leading dental hospital in Guntur, this procedure is particularly beneficial if you need to address issues such as a "gummy" smile, where excessive gum tissue obscures the natural tooth structure, or if you require more tooth surface for a dental restoration like a crown or filling. The advanced laser technology used in crown lengthening provides precise and minimally invasive treatment, reducing discomfort and promoting quicker healing compared to traditional methods. By choosing laser crown lengthening in Guntur, you ensure that you receive cutting-edge care that enhances the appearance and functionality of your teeth, leading to a more balanced and attractive smile. The procedure also supports the successful placement of dental restorations, improving both the aesthetic outcomes and the longevity of your dental work. Overall, opting for laser crown lengthening in Guntur provides a modern solution to dental and cosmetic concerns, ensuring effective results with minimal impact on your daily life.
                                 </p>
                             </div>
                             <div class="col-md-6">
@@ -237,19 +214,7 @@
 
 
                                 </h2>
-                                <p class="poetsen_font1">Root canal treatment offers significant benefits, including
-                                    immediate pain relief from
-                                    infected or inflamed tooth pulp and the preservation of your natural tooth, which
-                                    helps
-                                    maintain proper chewing and bite function. It also prevents the spread of infection
-                                    to
-                                    surrounding tissues, reducing the risk of more severe complications. By saving the
-                                    tooth,
-                                    root canal treatment helps avoid the need for extraction and the potential shifting
-                                    of
-                                    neighboring teeth. Finally, the tooth can be restored to its natural appearance,
-                                    ensuring a
-                                    healthy and confident smile.
+                                <p class="poetsen_font1">Laser crown lengthening in Guntur provides numerous advantages that enhance both the aesthetic and functional aspects of your smile. At Vision Dentals, this procedure employs advanced laser technology to deliver precise, minimally invasive treatment, which results in several key benefits. It helps correct a "gummy" smile by removing excess gum tissue and revealing more of the tooth structure, creating a more balanced and attractive appearance. Additionally, the procedure improves the fit and longevity of dental restorations like crowns or fillings by exposing more tooth surface. The laser technique minimizes discomfort and bleeding, leading to a quicker recovery compared to traditional methods. With its precision and control, laser crown lengthening ensures effective results while preserving healthy tissue. By opting for this procedure in Guntur, you benefit from a modern solution that enhances both your smile's appearance and functionality with minimal impact on your daily life. 
                                 </p>
                             </div>
                         </div>

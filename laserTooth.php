@@ -151,8 +151,7 @@
                 <div class="row servSect">
                     <div class="abot mt-5">
                         <h4 class="abh4">Laser Tooth Cleaning Treatments</h4>
-                        <p class="abP">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br>
-                            Aenean commodo ligula aenean massa.</p>
+                        <p class="abP">Laser tooth cleaning uses focused laser technology to remove plaque, tartar, and bacteria from teeth and gums for a thorough and precise cleaning.</p>
                     </div>
                     <div class="col-md-6 dr_content_padding  order-1 order-md-1 treater">
                         <h2 class="dr_welcome_text1 mt-4 mb-4">Laser Tooth Cleaning in  
@@ -161,12 +160,7 @@
                              Guntur
                         </h2>
                         <p class="poetsen_font1">
-                            Vision Multi Speciality Dental Hospital in Guntur is renowned for providing high-quality
-                            root canal treatments. With a team of experienced dental professionals and state-of-the-art
-                            facilities, they offer comprehensive solutions to individuals suffering from dental issues
-                            that require root canal therapy. <br>
-                            <br> This article aims to provide insights into root canal treatments, explain why they are
-                            necessary, highlight their benefits, and address common questions related to this procedure.
+                        Laser tooth cleaning at Vision Dentals in Guntur is a modern, effective approach to maintaining oral health through advanced technology. This procedure uses a laser to remove plaque, tartar, and bacteria from the surfaces of your teeth and below the gumline with precision and minimal discomfort. Unlike traditional cleaning methods, laser tooth cleaning targets and eradicates buildup with a focused light beam, which helps reduce bleeding and promotes faster healing. The laser also stimulates the gums, encouraging the regeneration of healthy tissue and improving overall gum health. This minimally invasive technique is particularly beneficial for patients with sensitive teeth or gum issues, offering a more comfortable experience compared to conventional cleaning methods. By opting for laser tooth cleaning in Guntur, you benefit from cutting-edge technology that ensures a thorough, effective clean while enhancing your oral health and contributing to a more comfortable dental care experience. 
                         </p>
                         <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
 
@@ -192,12 +186,7 @@
 
                         </h2>
                         <p class="poetsen_font1">
-                            A root canal treatment, also known as endodontic therapy, is a dental procedure performed to
-                            save a severely decayed or infected tooth. The treatment involves removing the infected
-                            pulp, cleaning and disinfecting the root canals, and sealing them to prevent reinfection.
-
-                            This procedure not only relieves pain and discomfort but also preserves the natural tooth,
-                            eliminating the need for extraction and subsequent tooth replacement options.
+                        Laser-assisted tooth cleaning is a state-of-the-art dental procedure that utilizes laser technology to enhance the effectiveness and comfort of dental cleanings. At Vision Dentals, a leading dental hospital in Guntur, this advanced technique involves using a focused laser beam to precisely target and remove plaque, tartar, and bacteria from the surfaces of your teeth and below the gumline. 
                         </p>
 
 
@@ -209,19 +198,7 @@
 
 
                                 </h2>
-                                <p class="poetsen_font1">Root canal treatment is essential when the soft tissue inside
-                                    your
-                                    tooth, known as the pulp, becomes inflamed or infected due to deep decay, repeated
-                                    dental
-                                    procedures, or trauma. This treatment is vital to save the natural tooth and prevent
-                                    the
-                                    spread of infection to surrounding tissues. Without a root canal, the infection can
-                                    cause
-                                    severe pain, abscess formation, and eventually lead to tooth loss. By preserving the
-                                    natural
-                                    tooth, root canal treatment also helps maintain proper chewing function and prevents
-                                    the
-                                    misalignment of neighboring teeth, which can affect your overall oral health.
+                                <p class="poetsen_font1">Laser tooth cleaning in Guntur is essential for achieving a thorough and comfortable dental cleaning experience that addresses both visible and hidden areas of plaque and tartar. At Vision Dentals, a top dental hospital in Guntur, this advanced procedure offers several advantages over traditional cleaning methods. The precision of laser technology allows for the effective removal of hardened deposits and bacteria from both the tooth surface and below the gumline, reducing the risk of gum disease and cavities. Additionally, the minimally invasive nature of laser cleaning minimizes discomfort and promotes faster healing, making it particularly beneficial for patients with sensitive teeth or gum issues. By opting for laser tooth cleaning in Guntur, you benefit from cutting-edge technology that enhances the effectiveness of your oral hygiene routine, ensures a deeper clean, and contributes to a more comfortable and efficient dental care experience. This modern approach helps maintain optimal oral health and supports a brighter, healthier smile. 
                                 </p>
                             </div>
                             <div class="col-md-6">
@@ -230,19 +207,7 @@
 
 
                                 </h2>
-                                <p class="poetsen_font1">Root canal treatment offers significant benefits, including
-                                    immediate pain relief from
-                                    infected or inflamed tooth pulp and the preservation of your natural tooth, which
-                                    helps
-                                    maintain proper chewing and bite function. It also prevents the spread of infection
-                                    to
-                                    surrounding tissues, reducing the risk of more severe complications. By saving the
-                                    tooth,
-                                    root canal treatment helps avoid the need for extraction and the potential shifting
-                                    of
-                                    neighboring teeth. Finally, the tooth can be restored to its natural appearance,
-                                    ensuring a
-                                    healthy and confident smile.
+                                <p class="poetsen_font1">Laser tooth cleaning in Guntur offers a range of significant benefits that enhance your oral health and overall dental experience. At Vision Dentals, a leading dental hospital in Guntur, the use of advanced laser technology ensures a highly effective cleaning process by precisely targeting and removing plaque, tartar, and bacteria from both the tooth surface and beneath the gumline. This method improves oral hygiene and reduces the risk of gum disease and cavities. The minimally invasive nature of laser cleaning minimizes discomfort and reduces bleeding, promoting faster healing and making it an excellent option for patients with sensitive teeth or existing gum conditions. Additionally, laser tooth cleaning stimulates gum tissue regeneration, leading to improved gum health. By choosing laser tooth cleaning in Guntur, you benefit from a modern, efficient approach to dental care that delivers a deeper clean, enhances overall oral health, and provides a more comfortable and pleasant experience. 
                                 </p>
                             </div>
                         </div>
