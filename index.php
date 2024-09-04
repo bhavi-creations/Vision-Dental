@@ -967,6 +967,70 @@
          </div>
      </section>
 
+     <section class="blog_section ">
+         <div class="container">
+             <div class="section-title text-center">
+
+                 <h2 class="ask_heading mb-5">Blogs & articles </h2>
+
+
+
+
+             </div>
+         </div>
+         <div class="container">
+             <div class="row">
+
+
+
+
+                 <?php
+                    include './db.connection/db_connection.php';
+                    // Fetch latest 3 blogs
+                    $sql = "SELECT * FROM blog ORDER BY time DESC LIMIT 3";
+                    $result = $conn->query($sql);
+                    ?>
+
+                 <?php while ($row = $result->fetch_assoc()) : ?>
+                     <div class="col px-5 py-2">
+                         <div class="card h-100">
+                             <video class="custom-video" autoplay muted controls style="width: 100%; height: auto;">
+                                 <source src="admin/public/uploads/videos/<?php echo $row['video']; ?>"
+                                     type="video/mp4">
+                                 Your browser does not support the video tag.
+                             </video>
+                             <div class="card-body">
+
+
+                                 <h5 class="card-title"><?php echo $row['title']; ?></h5>
+
+                             </div>
+
+
+                             <div class="card-footer">
+                                 <small class="text-muted">Posted On:
+                                     <?php echo date("F j, Y, g:i a", strtotime($row['time'])); ?></small>
+                             </div>
+                         </div>
+                     </div>
+                 <?php endwhile; ?>
+
+                 <div class="mt-5 d-none d-md-block">
+                     <a href="blogs.php">
+                         <p class="view_more_btn mb-5 d-flex flex-row justify-content-start">View More<i
+                                 class="fa-solid fa-arrow-right mt-1"></i></p>
+                     </a>
+                 </div>
+
+                 <div class="d-flex flex-row justify-content-center mt-4">
+                     <a href="blogs.php">
+                         <p class="view_more_btn d-md-none">View More<i class="fa-solid fa-arrow-right"></i></p>
+                     </a>
+                 </div>
+
+             </div>
+         </div>
+     </section>
 
      <section class="ask_qus_sec">
          <div class="container  ">
@@ -1004,7 +1068,7 @@
                                      No, with modern anesthesia and techniques, root canal treatments are usually not painful.
                                  </div>
                              </li>
-                             
+
                          </ul>
                      </div>
                  </div>
@@ -1013,7 +1077,7 @@
 
                      <div class="faq">
                          <ul class="faq-list">
-                             
+
 
                              <li>
                                  <div class="question ">

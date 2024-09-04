@@ -97,7 +97,7 @@
                                     <li><a class="dropdown-item services_drop" href="tooth.php">Tooth Extraction</a></li>
                                     <li><a class="dropdown-item services_drop" href="laserTooth.php">Laser Tooth Cleaning</a></li>
                                     <li><a class="dropdown-item services_drop" href="gum.php">Gum Depigmentation</a></li>
-                                    <li><a class="dropdown-item services_drop" href="laserTeeth.php">Laser Teeth Whitening</a></li>
+                                    <li><a class="dropdown-item services_drop active" href="laserTeeth.php">Laser Teeth Whitening</a></li>
                                     <li><a class="dropdown-item services_drop" href="laserGum.php">Laser Gum Surgery</a></li>
                                     <li><a class="dropdown-item services_drop" href="mouth.php">Mouth Ulcers</a></li>
                                     <li><a class="dropdown-item services_drop" href="lasion.php">Precancerous Lesion</a></li>

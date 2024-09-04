@@ -76,7 +76,7 @@
                         <ul class="dropdown-menu services_drop_menu service_width  mt-3" aria-labelledby="servicesDropdown" style="width:550px;">
                             <div class="row  ">
                                 <div class="col-md-6">
-                                    <li><a class="dropdown-item services_drop" href="root.php">Root Canal</a></li>
+                                    <li><a class="dropdown-item services_drop active" href="root.php">Root Canal</a></li>
                                     <li><a class="dropdown-item services_drop" href="braces.php">Braces for Teeth Alignment</a></li>
                                     <li><a class="dropdown-item services_drop" href="pediatric.php">Pediatric Dentist</a></li>
                                     <li><a class="dropdown-item services_drop" href="paedodontist.php">Paedodontist Doctors</a></li>

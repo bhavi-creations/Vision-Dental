@@ -84,7 +84,7 @@
                                     <li><a class="dropdown-item services_drop" href="cosmetic.php">Cosmetic Dentistry</a></li>
                                     <li><a class="dropdown-item services_drop" href="crowns.php">Crowns and Bridges</a></li>
                                     <li><a class="dropdown-item services_drop" href="implants.php">Dental Implants</a></li>
-                                    <li><a class="dropdown-item services_drop" href="dentures.php">Dentures Treatment</a></li>
+                                    <li><a class="dropdown-item services_drop active" href="dentures.php">Dentures Treatment</a></li>
                                     <li><a class="dropdown-item services_drop" href="invisalign.php">Invisalign </a></li>
                                     <li><a class="dropdown-item services_drop" href="jaw.php">Jaw Corrective</a></li>
                                     <li><a class="dropdown-item services_drop" href="laser.php">Laser and Gum</a></li>

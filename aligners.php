@@ -80,7 +80,7 @@
                                     <li><a class="dropdown-item services_drop" href="braces.php">Braces for Teeth Alignment</a></li>
                                     <li><a class="dropdown-item services_drop" href="pediatric.php">Pediatric Dentist</a></li>
                                     <li><a class="dropdown-item services_drop" href="paedodontist.php">Paedodontist Doctors</a></li>
-                                    <li><a class="dropdown-item services_drop" href="aligners.php">Clear Aligners</a></li>
+                                    <li ><a class="dropdown-item services_drop active" href="aligners.php">Clear Aligners</a></li>
                                     <li><a class="dropdown-item services_drop" href="cosmetic.php">Cosmetic Dentistry</a></li>
                                     <li><a class="dropdown-item services_drop" href="crowns.php">Crowns and Bridges</a></li>
                                     <li><a class="dropdown-item services_drop" href="implants.php">Dental Implants</a></li>

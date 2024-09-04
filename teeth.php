@@ -93,7 +93,7 @@
 
                                     <li><a class="dropdown-item services_drop" href="smile.php">Smile Designing</a></li>
                                     <li><a class="dropdown-item services_drop" href="make.php">Smile Makeover</a></li>
-                                    <li><a class="dropdown-item services_drop" href="teeth.php">Teeth Alignment</a></li>
+                                    <li><a class="dropdown-item services_drop active" href="teeth.php">Teeth Alignment</a></li>
                                     <li><a class="dropdown-item services_drop" href="tooth.php">Tooth Extraction</a></li>
                                     <li><a class="dropdown-item services_drop" href="laserTooth.php">Laser Tooth Cleaning</a></li>
                                     <li><a class="dropdown-item services_drop" href="gum.php">Gum Depigmentation</a></li>

@@ -95,7 +95,7 @@
                                     <li><a class="dropdown-item services_drop" href="make.php">Smile Makeover</a></li>
                                     <li><a class="dropdown-item services_drop" href="teeth.php">Teeth Alignment</a></li>
                                     <li><a class="dropdown-item services_drop" href="tooth.php">Tooth Extraction</a></li>
-                                    <li><a class="dropdown-item services_drop" href="laserTooth.php">Laser Tooth Cleaning</a></li>
+                                    <li><a class="dropdown-item services_drop active" href="laserTooth.php">Laser Tooth Cleaning</a></li>
                                     <li><a class="dropdown-item services_drop" href="gum.php">Gum Depigmentation</a></li>
                                     <li><a class="dropdown-item services_drop" href="laserTeeth.php">Laser Teeth Whitening</a></li>
                                     <li><a class="dropdown-item services_drop" href="laserGum.php">Laser Gum Surgery</a></li>

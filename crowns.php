@@ -82,7 +82,7 @@
                                     <li><a class="dropdown-item services_drop" href="paedodontist.php">Paedodontist Doctors</a></li>
                                     <li><a class="dropdown-item services_drop" href="aligners.php">Clear Aligners</a></li>
                                     <li><a class="dropdown-item services_drop" href="cosmetic.php">Cosmetic Dentistry</a></li>
-                                    <li><a class="dropdown-item services_drop" href="crowns.php">Crowns and Bridges</a></li>
+                                    <li><a class="dropdown-item services_drop active" href="crowns.php">Crowns and Bridges</a></li>
                                     <li><a class="dropdown-item services_drop" href="implants.php">Dental Implants</a></li>
                                     <li><a class="dropdown-item services_drop" href="dentures.php">Dentures Treatment</a></li>
                                     <li><a class="dropdown-item services_drop" href="invisalign.php">Invisalign </a></li>

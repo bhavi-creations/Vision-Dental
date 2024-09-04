@@ -1297,7 +1297,7 @@ h6 {
 }
 
 .services_drop_menu {
- 
+
   display: block;
   position: absolute;
   left: 14px;
@@ -1314,9 +1314,9 @@ h6 {
   background: #e5f1f1 !important;
   border: 1px solid #0aa49b26;
   list-style: circle !important;
-   
+
 }
- 
+
 .someabout {
   display: flex;
   justify-content: center;
@@ -1676,7 +1676,7 @@ h6 {
 }
 
 .dp_image_testmonials {
-   
+
   margin-right: -60px;
   width: 100%;
 }
@@ -1845,7 +1845,7 @@ h6 {
   font-family: "poppins";
   font-size: 16.293px;
   font-style: normal;
-  font-weight:700;
+  font-weight: 700;
   line-height: 23.534px;
   margin-top: 20px;
   margin-left: 10px;
@@ -1961,11 +1961,34 @@ h6 {
   margin-top: 110px;
 }
 
+.tittle_text{
+  color: #000a2d;
+}
+@media (max-width:768px) {
+  
+  .view_more_btn {
+    color: #000a2d;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+}
+@media (min-width:768px) {
+  
+  .view_more_btn {
+    color: #000a2d;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 50px;
+  }
+
+}
 @media (min-width:992px) {
 
 
+
   .ask_qus_sec {
-    margin-top: 110px;
+    margin-top: 30px;
     margin-bottom: 60px;
   }
 
@@ -3106,7 +3129,9 @@ h6 {
   text-align: center;
   box-shadow: 0 0 20px rgba(214, 215, 216, 0.5);
   padding: 20px 0 30px 0;
-}/*--------------------------------------------------------------
+}
+
+/*--------------------------------------------------------------
 # Appointments
 --------------------------------------------------------------*/
 .appointment .php-email-form {
@@ -3204,6 +3229,7 @@ h6 {
 .appointment .php-email-form button[type="submit"]:hover {
   background: #0598d2;
 }
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -3328,7 +3354,9 @@ h6 {
   100% {
     transform: rotate(360deg);
   }
-}.navbar .dropdown ul {
+}
+
+.navbar .dropdown ul {
   display: block;
   position: absolute;
   left: 14px;
@@ -3349,14 +3377,22 @@ h6 {
 
 
 .navbar .nav-link.active {
-  color: #007bff; /* Example color */
+  color: #007bff;
+  /* Example color */
   font-weight: bold;
-  border-bottom: 2px solid #007bff; /* Example underline */
+  border-bottom: 2px solid #007bff;
+  /* Example underline */
 }
 
 .navbar .nav-item.active .nav-link {
-  color: #007bff; /* Example color */
+  color: #007bff;
+  /* Example color */
   font-weight: bold;
-  border-bottom: 2px solid #007bff; /* Example underline */
+  border-bottom: 2px solid #007bff;
+  /* Example underline */
 }
 
+
+.blog_section {
+  margin-top: 100px;
+}

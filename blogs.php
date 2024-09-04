@@ -140,7 +140,7 @@ $result = $conn->query($sql);
         <section id="blogs">
             <div class="container">
                 <div class="section-title">
-                    <h2>Blogs</h2>
+                    <h2 class="ask_heading">Blogs</h2>
                 </div>
 
                 <div class="row" id="blogRow">

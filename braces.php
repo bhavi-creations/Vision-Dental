@@ -77,7 +77,7 @@
                             <div class="row  ">
                                 <div class="col-md-6">
                                     <li><a class="dropdown-item services_drop" href="root.php">Root Canal</a></li>
-                                    <li><a class="dropdown-item services_drop" href="braces.php">Braces for Teeth Alignment</a></li>
+                                    <li><a class="dropdown-item services_drop active" href="braces.php">Braces for Teeth Alignment</a></li>
                                     <li><a class="dropdown-item services_drop" href="pediatric.php">Pediatric Dentist</a></li>
                                     <li><a class="dropdown-item services_drop" href="paedodontist.php">Paedodontist Doctors</a></li>
                                     <li><a class="dropdown-item services_drop" href="aligners.php">Clear Aligners</a></li>

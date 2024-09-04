@@ -101,7 +101,7 @@
                                     <li><a class="dropdown-item services_drop" href="laserGum.php">Laser Gum Surgery</a></li>
                                     <li><a class="dropdown-item services_drop" href="mouth.php">Mouth Ulcers</a></li>
                                     <li><a class="dropdown-item services_drop" href="lasion.php">Precancerous Lesion</a></li>
-                                    <li><a class="dropdown-item services_drop" href="laserCrown.php">Laser Crown Lengthening</a></li>
+                                    <li><a class="dropdown-item services_drop active" href="laserCrown.php">Laser Crown Lengthening</a></li>
                                 </div>
                                  
                             </div>
