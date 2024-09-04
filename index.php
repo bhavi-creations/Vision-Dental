@@ -320,7 +320,7 @@
 
                              </div>
                              <div class="col-6">
-                                 <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
+                                 <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
                              </div>
                          </div>
                      </div>
@@ -337,7 +337,7 @@
                                  <a href="teeth.php" class="service_btn_readmore"> <button class="custom-button">Read More</button></a>
                              </div>
                              <div class="col-6">
-                                 <img src="assets/img/vision/text_doc_ldy.png" alt="" class="img-fluid custom-card-img ">
+                                 <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
                              </div>
                          </div>
                      </div>
@@ -354,7 +354,7 @@
                                  <a href="teeth.php" class="service_btn_readmore"> <button class="custom-button">Read More </button></a>
                              </div>
                              <div class="col-6">
-                                 <img src="assets/img/vision/test_doc.png" alt="" class="img-fluid custom-card-img ">
+                                 <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
                              </div>
                          </div>
                      </div>
@@ -370,7 +370,7 @@
                                  <a href="root.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
                              </div>
                              <div class="col-6">
-                                 <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
+                                 <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
                              </div>
                          </div>
                      </div>
@@ -387,7 +387,7 @@
                                  <a href="braces.php" class="service_btn_readmore"><button class="custom-button"> Read More </button></a>
                              </div>
                              <div class="col-6">
-                                 <img src="assets/img/vision/text_doc_ldy.png" alt="" class="img-fluid custom-card-img ">
+                                 <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
                              </div>
                          </div>
                      </div>
@@ -405,7 +405,7 @@
                              </div>
                              <div class="col-6">
 
-                                 <img src="assets/img/vision/test_doc.png" alt="" class="img-fluid custom-card-img ">
+                                 <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
 
 
                              </div>
@@ -426,7 +426,7 @@
                                  <a href="aligners.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
                              </div>
                              <div class="col-6">
-                                 <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
+                                 <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
                              </div>
                          </div>
                      </div>
@@ -443,7 +443,7 @@
                                  <a href="cosmetic.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
                              </div>
                              <div class="col-6">
-                                 <img src="assets/img/vision/text_doc_ldy.png" alt="" class="img-fluid custom-card-img ">
+                                 <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
                              </div>
                          </div>
                      </div>
@@ -461,7 +461,7 @@
                              </div>
                              <div class="col-6">
 
-                                 <img src="assets/img/vision/test_doc.png" alt="" class="img-fluid custom-card-img ">
+                                 <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
 
 
                              </div>
@@ -482,7 +482,7 @@
                                  <a href="dentures.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
                              </div>
                              <div class="col-6">
-                                 <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
+                                 <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
                              </div>
                          </div>
                      </div>
@@ -499,7 +499,7 @@
                                  <a href="invisalign.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
                              </div>
                              <div class="col-6">
-                                 <img src="assets/img/vision/text_doc_ldy.png" alt="" class="img-fluid custom-card-img ">
+                                 <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
                              </div>
                          </div>
                      </div>
@@ -518,7 +518,7 @@
                              </div>
                              <div class="col-6">
 
-                                 <img src="assets/img/vision/test_doc.png" alt="" class="img-fluid custom-card-img ">
+                                 <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
 
 
                              </div>
@@ -537,7 +537,7 @@
                                  <a href="treatment.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
                              </div>
                              <div class="col-6">
-                                 <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
+                                 <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
                              </div>
                          </div>
                      </div>
@@ -554,7 +554,7 @@
                                  <a href="smile.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
                              </div>
                              <div class="col-6">
-                                 <img src="assets/img/vision/text_doc_ldy.png" alt="" class="img-fluid custom-card-img ">
+                                 <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
                              </div>
                          </div>
                      </div>
@@ -573,7 +573,7 @@
                              </div>
                              <div class="col-6">
 
-                                 <img src="assets/img/vision/test_doc.png" alt="" class="img-fluid custom-card-img ">
+                                 <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
 
 
                              </div>
@@ -592,7 +592,7 @@
                                  <a href="teeth.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
                              </div>
                              <div class="col-6">
-                                 <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
+                                 <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
                              </div>
                          </div>
                      </div>
@@ -609,7 +609,7 @@
                                  <a href="tooth.php" class="service_btn_readmore"> <button class="custom-button">Read More </button></a>
                              </div>
                              <div class="col-6">
-                                 <img src="assets/img/vision/text_doc_ldy.png" alt="" class="img-fluid custom-card-img ">
+                                 <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
                              </div>
                          </div>
                      </div>
@@ -628,7 +628,7 @@
                              </div>
                              <div class="col-6">
 
-                                 <img src="assets/img/vision/test_doc.png" alt="" class="img-fluid custom-card-img ">
+                                 <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
 
 
                              </div>
@@ -647,7 +647,7 @@
                                  <a href="gum.php" class="service_btn_readmore"><button class="custom-button"> Read More </button></a>
                              </div>
                              <div class="col-6">
-                                 <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
+                                 <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
                              </div>
                          </div>
                      </div>
@@ -664,7 +664,7 @@
                                  <a href="laserGum.php" class="service_btn_readmore"><button class="custom-button"> Read More</button></a>
                              </div>
                              <div class="col-6">
-                                 <img src="assets/img/vision/text_doc_ldy.png" alt="" class="img-fluid custom-card-img ">
+                                 <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
                              </div>
                          </div>
                      </div>
@@ -683,7 +683,7 @@
                              </div>
                              <div class="col-6">
 
-                                 <img src="assets/img/vision/test_doc.png" alt="" class="img-fluid custom-card-img ">
+                                 <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
 
 
                              </div>
@@ -702,7 +702,7 @@
                                  <a href="lasion.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
                              </div>
                              <div class="col-6">
-                                 <img src="assets/img/vision/test_docx.png" alt="" class="img-fluid custom-card-img ">
+                                 <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
                              </div>
                          </div>
                      </div>
@@ -719,7 +719,7 @@
                                  <a href="laserCrown.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
                              </div>
                              <div class="col-6">
-                                 <img src="assets/img/vision/text_doc_ldy.png" alt="" class="img-fluid custom-card-img ">
+                                 <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
                              </div>
                          </div>
                      </div>

@@ -191,7 +191,7 @@
                     </div>
 
                     <div class="col-lg-6">
-                        <form action="contactform .php" method="post" role="form" class="php-email-form">
+                        <form action="contactform.php" method="post" role="form" class="php-email-form">
                             <div class="row">
                                 <div class="col-md-6 form-group">
                                     <input type="text" name="contactname" class="form-control" id="name" placeholder="Your Name" required="" style="font-family:Mulish;">
@@ -224,6 +224,10 @@
                 </div>
 
             </div>
+        </section>
+
+        <section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d122541.36043442882!2d80.32915481184249!3d16.30159753632447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3a4a75e8e72e323b%3A0xc24e52047b5202de!2sNggo%E2%80%99s%20Colony%20Main%20Road%2C%20opposite%20prudhvi%20prisitine%2C%20Corner%2C%205th%20Line%2C%20Venkata%20Ramana%20Colony%2C%20Andhra%20Pradesh%20522004!3m2!1d16.3016135!2d80.4115566!5e0!3m2!1sen!2sin!4v1725432363027!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
 
