@@ -151,8 +151,7 @@
                 <div class="row servSect">
                     <div class="abot mt-5">
                         <h4 class="abh4">Dentures Treatments</h4>
-                        <p class="abP">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br>
-                            Aenean commodo ligula aenean massa.</p>
+                        <p class="abP">"Dentures are removable appliances designed to replace missing teeth and surrounding tissues, restoring function and aesthetics for individuals with tooth loss."</p>
                     </div>
                     <div class="col-md-6 dr_content_padding  order-1 order-md-1 treater">
                         <h2 class="dr_welcome_text1 mt-4 mb-4">Dentures Treatment in  
@@ -160,12 +159,9 @@
                             Guntur
                         </h2>
                         <p class="poetsen_font1">
-                            Vision Multi Speciality Dental Hospital in Guntur is renowned for providing high-quality
-                            root canal treatments. With a team of experienced dental professionals and state-of-the-art
-                            facilities, they offer comprehensive solutions to individuals suffering from dental issues
-                            that require root canal therapy. <br>
-                            <br> This article aims to provide insights into root canal treatments, explain why they are
-                            necessary, highlight their benefits, and address common questions related to this procedure.
+                        Dentures treatments at Vision Dentals, a leading dental hospital in Guntur, offer a reliable and effective solution for replacing missing teeth and restoring your smile. Our comprehensive denture services include complete dentures for cases where all teeth are missing, partial dentures to fill gaps between remaining teeth, and advanced implant-supported dentures for a more secure and natural-feeling fit.
+                        <br><br>
+                        Dentures not only enhance your ability to eat and speak comfortably but also improve your overall appearance by providing a natural-looking smile. With custom-fit options and modern materials, our denture treatments are designed to ensure maximum comfort and functionality. At Vision Dentals, we are committed to delivering high-quality denture solutions that cater to your unique needs, helping you regain confidence and enjoy a restored quality of life. 
                         </p>
                         <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
 
@@ -189,36 +185,19 @@
 
                         </h2>
                         <p class="poetsen_font1">
-                            A root canal treatment, also known as endodontic therapy, is a dental procedure performed to
-                            save a severely decayed or infected tooth. The treatment involves removing the infected
-                            pulp, cleaning and disinfecting the root canals, and sealing them to prevent reinfection.
-
-                            This procedure not only relieves pain and discomfort but also preserves the natural tooth,
-                            eliminating the need for extraction and subsequent tooth replacement options.
+                        Dentures are removable dental appliances designed to replace missing teeth and restore the function and appearance of your smile. They are custom-made to fit the contours of your mouth and are used when natural teeth are lost or need to be extracted. Dentures come in two main types: complete and partial. 
                         </p>
 
 
                         <div class="row">
                             <div class="col-md-6"> <h2 class="dr_welcome_text11 mt-4 mb-4">Why Do You Need Dentures Treatment in Guntur?
                             </h2>
-                        <p class="poetsen_font1">Root canal treatment is essential when the soft tissue inside your
-                            tooth, known as the pulp, becomes inflamed or infected due to deep decay, repeated dental
-                            procedures, or trauma. This treatment is vital to save the natural tooth and prevent the
-                            spread of infection to surrounding tissues. Without a root canal, the infection can cause
-                            severe pain, abscess formation, and eventually lead to tooth loss. By preserving the natural
-                            tooth, root canal treatment also helps maintain proper chewing function and prevents the
-                            misalignment of neighboring teeth, which can affect your overall oral health.
+                        <p class="poetsen_font1">Opting for dentures treatment in Guntur offers a practical solution for restoring missing teeth and enhancing your overall quality of life. At Vision Dentals, a leading dental hospital in Guntur, we provide expertly crafted dentures that are designed to meet your specific needs. Whether you require complete dentures to replace all missing teeth, partial dentures to fill gaps between existing teeth, or advanced implant-supported dentures for a more secure fit, our team delivers personalized care with a focus on comfort and functionality. Dentures not only improve your ability to eat and speak but also enhance your smile and boost your self-confidence. Choosing a reputable dental hospital in Guntur ensures access to high-quality materials and advanced techniques, helping you achieve a natural-looking and comfortable result. By addressing tooth loss with professional denture treatments, you can enjoy a restored smile and a better overall dental experience. 
                         </p></div>
                             <div class="col-md-6"> <h2 class="dr_welcome_text11 mt-4 mb-4">Benefits of Dentures Treatment in Guntur:
 
                         </h2>
-                        <p class="poetsen_font1">Root canal treatment offers significant benefits, including immediate pain relief from
-                            infected or inflamed tooth pulp and the preservation of your natural tooth, which helps
-                            maintain proper chewing and bite function. It also prevents the spread of infection to
-                            surrounding tissues, reducing the risk of more severe complications. By saving the tooth,
-                            root canal treatment helps avoid the need for extraction and the potential shifting of
-                            neighboring teeth. Finally, the tooth can be restored to its natural appearance, ensuring a
-                            healthy and confident smile.
+                        <p class="poetsen_font1"> Choosing dentures treatment in Guntur provides numerous benefits that can significantly enhance your oral health and quality of life. At Vision Dentals, a top dental hospital in Guntur, our denture solutions offer a range of advantages, including improved functionality and aesthetics. Dentures restore your ability to eat a variety of foods and speak clearly, which can be challenging with missing teeth. They also enhance your smile, giving you back your confidence and helping you feel more comfortable in social situations. By opting for dentures, you prevent the shifting of remaining teeth and maintain proper oral alignment. Our advanced denture treatments, including complete, partial, and implant-supported options, are customized to fit comfortably and naturally, ensuring a secure and effective solution. With high-quality materials and expert care provided by our team, choosing dentures in Guntur helps you achieve a functional, natural-looking smile and maintain your overall oral health. 
                         </p></div>
                         </div>
                        

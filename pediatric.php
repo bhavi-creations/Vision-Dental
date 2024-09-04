@@ -44,19 +44,19 @@
 
 </head>
 <style>
-@media (min-width:992px) {
+    @media (min-width:992px) {
 
-    .showthisdiv {
-        padding-left: 100px !important;
+        .showthisdiv {
+            padding-left: 100px !important;
+        }
     }
-}
 </style>
 
 <body>
 
 
 
-     <header id="header">
+    <header id="header">
         <div class="container d-flex align-items-center onlypad  ">
             <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
                 <a href="index.php">
@@ -71,7 +71,7 @@
                     <li><a class="nav-link scrollto" href="about.php">About</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="treatment.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Treatments
+                            Treatments
                         </a>
                         <ul class="dropdown-menu services_drop_menu service_width  mt-3" aria-labelledby="servicesDropdown" style="width:550px;">
                             <div class="row  ">
@@ -103,7 +103,7 @@
                                     <li><a class="dropdown-item services_drop" href="lasion.php">Precancerous Lesion</a></li>
                                     <li><a class="dropdown-item services_drop" href="laserCrown.php">Laser Crown Lengthening</a></li>
                                 </div>
-                                 
+
                             </div>
                         </ul>
                     </li>
@@ -126,20 +126,21 @@
         </div>
 
 
-        <script>// jQuery needed to manage hover and click behavior
+        <script>
+            // jQuery needed to manage hover and click behavior
             $(document).ready(function() {
                 // Ensure that the dropdown opens on hover
                 $('#servicesDropdown').hover(function() {
                     $(this).dropdown('toggle');
                 });
-            
+
                 // Make sure the dropdown also works on click
                 $('#servicesDropdown').click(function(e) {
                     e.stopPropagation(); // Prevents the click from closing the dropdown immediately
                     window.location.href = $(this).attr('href'); // Redirect to the link
                 });
             });
-            </script>
+        </script>
     </header>
 
 
@@ -151,21 +152,17 @@
                 <div class="row servSect">
                     <div class="abot mt-5">
                         <h4 class="abh4">Best Pediatric Dentist</h4>
-                        <p class="abP">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br>
-                            Aenean commodo ligula aenean massa.</p>
+                        <p class="abP">"A pediatric dentist specializes in the dental care of children, focusing on their unique oral health needs and providing a child-friendly environment."</p>
                     </div>
                     <div class="col-md-6 dr_content_padding  order-1 order-md-1 treater">
-                        <h2 class="dr_welcome_text1 mt-4 mb-4">Children Dental Hospital in Guntur |  <br> Best Pediatric Dentist
-                       
-                             
+                        <h2 class="dr_welcome_text1 mt-4 mb-4">Children Dental Hospital in Guntur | <br> Best Pediatric Dentist
+
+
                         </h2>
                         <p class="poetsen_font1">
-                            Vision Multi Speciality Dental Hospital in Guntur is renowned for providing high-quality
-                            root canal treatments. With a team of experienced dental professionals and state-of-the-art
-                            facilities, they offer comprehensive solutions to individuals suffering from dental issues
-                            that require root canal therapy. <br>
-                            <br> This article aims to provide insights into root canal treatments, explain why they are
-                            necessary, highlight their benefits, and address common questions related to this procedure.
+                            At Vision Dentals, we understand that a child’s smile is priceless. As the best dental hospital in Guntur, our specialized pediatric dentistry services ensure that your little one receives the best care in a comforting and fun environment. Whether it's a first dental visit or ongoing preventive care, we are committed to making every dental experience positive. The first dental visit is crucial for establishing a lifetime of good oral health. Our gentle and friendly team makes this experience pleasant and educational for both you and your child, focusing on building trust and ensuring your child feels comfortable.
+                            <br>
+                            Prevention is better than cure, which is why we offer comprehensive preventive care at our dental hospital in Guntur, including regular cleanings, fluoride treatments, and dental sealants to protect your child’s teeth from cavities and decay. We also provide personalized advice on maintaining oral hygiene at home. Routine cleanings and exams are essential for monitoring your child’s dental development, and our hygienists are specifically trained to work with children, ensuring their teeth and gums remain healthy and strong.
                         </p>
                         <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
 
@@ -190,40 +187,29 @@
 
                         </h2>
                         <p class="poetsen_font1">
-                            A root canal treatment, also known as endodontic therapy, is a dental procedure performed to
-                            save a severely decayed or infected tooth. The treatment involves removing the infected
-                            pulp, cleaning and disinfecting the root canals, and sealing them to prevent reinfection.
-
-                            This procedure not only relieves pain and discomfort but also preserves the natural tooth,
-                            eliminating the need for extraction and subsequent tooth replacement options.
+                        A Children’s Dental Hospital is a specialized facility dedicated exclusively to the dental care and oral health of infants, children, and adolescents, including those with special needs. Unlike general dental practices, a Children’s Dental Hospital is designed with young patients in mind, offering a child-friendly environment that makes visits comfortable and stress-free. The dental professionals at these hospitals are pediatric dentists, specialists who have undergone additional training to understand the unique dental needs of children at every stage of their development. 
                         </p>
 
 
                         <div class="row">
-                            <div class="col-md-6"> <h2 class="dr_welcome_text11 mt-4 mb-4">Why Do You Need a Children Dental Hospital in Guntur?
-                            </h2>
-                        <p class="poetsen_font1">Root canal treatment is essential when the soft tissue inside your
-                            tooth, known as the pulp, becomes inflamed or infected due to deep decay, repeated dental
-                            procedures, or trauma. This treatment is vital to save the natural tooth and prevent the
-                            spread of infection to surrounding tissues. Without a root canal, the infection can cause
-                            severe pain, abscess formation, and eventually lead to tooth loss. By preserving the natural
-                            tooth, root canal treatment also helps maintain proper chewing function and prevents the
-                            misalignment of neighboring teeth, which can affect your overall oral health.
-                        </p></div>
-                            <div class="col-md-6"> <h2 class="dr_welcome_text11 mt-4 mb-4">Benefits of Children’s Dental Hospital:
+                            <div class="col-md-6">
+                                <h2 class="dr_welcome_text11 mt-4 mb-4">Why Do You Need a Children Dental Hospital in Guntur?
+                                </h2>
+                                <p class="poetsen_font1">Choosing the right dental care for your child is one of the most important decisions you can make for their overall health. A Children’s Dental Hospital in Guntur, such as Vision Dentals, offers specialized care tailored to the unique needs of young patients. Unlike general dental practices, a Children’s Dental Hospital provides an environment specifically designed to make children feel comfortable and safe, reducing anxiety and creating positive dental experiences from an early age. 
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <h2 class="dr_welcome_text11 mt-4 mb-4">Benefits of Children’s Dental Hospital:
 
-                        </h2>
-                        <p class="poetsen_font1">Root canal treatment offers significant benefits, including immediate pain relief from
-                            infected or inflamed tooth pulp and the preservation of your natural tooth, which helps
-                            maintain proper chewing and bite function. It also prevents the spread of infection to
-                            surrounding tissues, reducing the risk of more severe complications. By saving the tooth,
-                            root canal treatment helps avoid the need for extraction and the potential shifting of
-                            neighboring teeth. Finally, the tooth can be restored to its natural appearance, ensuring a
-                            healthy and confident smile.
-                        </p></div>
+                                </h2>
+                                <p class="poetsen_font1">When it comes to your child’s dental health, choosing a specialized Children’s Dental Hospital in Guntur offers numerous advantages that go beyond what a general dental practice can provide. Vision Dentals, recognized as the best dental hospital in Guntur, is dedicated to creating a positive and comfortable experience for children, ensuring they receive the highest standard of care tailored to their unique needs. 
+
+ 
+                                </p>
+                            </div>
                         </div>
-                       
-                       
+
+
 
                     </div>
 
@@ -410,48 +396,48 @@
     <button id="scrollBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up "></i></button>
 
     <script>
-    // Function to scroll to the top of the page
-    function scrollToTop() {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth' // Optional, smooth scrolling animation
-        });
-    }
-
-    // Show scroll button when scrolling down
-    window.onscroll = function() {
-        scrollFunction()
-    };
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("scrollBtn").style.display = "block";
-        } else {
-            document.getElementById("scrollBtn").style.display = "none";
+        // Function to scroll to the top of the page
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Optional, smooth scrolling animation
+            });
         }
-    }
+
+        // Show scroll button when scrolling down
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("scrollBtn").style.display = "block";
+            } else {
+                document.getElementById("scrollBtn").style.display = "none";
+            }
+        }
     </script>
 
     <style>
-    #scrollBtn {
-        display: none;
-        /* Initially hide the button */
-        position: fixed;
-        /* Fix the position of the button */
-        bottom: 20px;
-        /* Adjust the bottom distance */
-        right: 20px;
-        /* Adjust the right distance */
-        z-index: 999;
-        /* Set a high z-index to ensure the button is on top */
-        padding: 10px 15px;
-        background-color: #01539D;
-        ;
-        color: white;
-        border: none;
-        border-radius: 50%;
-        cursor: pointer;
-    }
+        #scrollBtn {
+            display: none;
+            /* Initially hide the button */
+            position: fixed;
+            /* Fix the position of the button */
+            bottom: 20px;
+            /* Adjust the bottom distance */
+            right: 20px;
+            /* Adjust the right distance */
+            z-index: 999;
+            /* Set a high z-index to ensure the button is on top */
+            padding: 10px 15px;
+            background-color: #01539D;
+            ;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+        }
     </style>
 
     <a href="https://api.whatsapp.com/send?phone=919391457072" style="color: #fff;" class="whatsapp-link"
