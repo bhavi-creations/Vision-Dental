@@ -43,14 +43,7 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 </head>
-<style>
-@media (min-width:992px) {
-
-    .showthisdiv {
-        padding-left: 100px !important;
-    }
-}
-</style>
+ 
 
 <body>
 
@@ -69,44 +62,137 @@
                 <ul>
                     <li><a class="nav-link scrollto" href="index.php">Home</a></li>
                     <li><a class="nav-link scrollto" href="about.php">About</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="treatment.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Treatments
-                        </a>
-                        <ul class="dropdown-menu services_drop_menu service_width  mt-3" aria-labelledby="servicesDropdown" style="width:550px;">
-                            <div class="row  ">
-                                <div class="col-md-6">
-                                    <li><a class="dropdown-item services_drop active" href="root.php">Root Canal</a></li>
-                                    <li><a class="dropdown-item services_drop" href="braces.php">Braces for Teeth Alignment</a></li>
-                                    <li><a class="dropdown-item services_drop" href="pediatric.php">Pediatric Dentist</a></li>
-                                    <li><a class="dropdown-item services_drop" href="paedodontist.php">Paedodontist Doctors</a></li>
-                                    <li><a class="dropdown-item services_drop" href="aligners.php">Clear Aligners</a></li>
-                                    <li><a class="dropdown-item services_drop" href="cosmetic.php">Cosmetic Dentistry</a></li>
-                                    <li><a class="dropdown-item services_drop" href="crowns.php">Crowns and Bridges</a></li>
-                                    <li><a class="dropdown-item services_drop" href="implants.php">Dental Implants</a></li>
-                                    <li><a class="dropdown-item services_drop" href="dentures.php">Dentures Treatment</a></li>
-                                    <li><a class="dropdown-item services_drop" href="invisalign.php">Invisalign </a></li>
-                                    <li><a class="dropdown-item services_drop" href="jaw.php">Jaw Corrective</a></li>
-                                    <li><a class="dropdown-item services_drop" href="laser.php">Laser and Gum</a></li>
-                                </div>
-                                <div class="col-md-6">
+                    <li class="unique-nav-item " style="--i: 1.1s">
+              <a href="treatment.php" class="unique-nav-link"
+                >Treatments<i class="fas fa-caret-down"></i
+              ></a>
+              <div class="unique-dropdown" >
+                <ul class="unique-dropdown-list  new_nav_bg"  >
+                 
+                   
+                  <li class="unique-dropdown-item">
+                    <a href="#" class="unique-dropdown-link"
+                      >Pain Relief<i class="fas fa-caret-down"></i
+                    ></a>
+                    <div class="unique-dropdown second-level  nav_div_mrg nav_div_mrg_one"  >
+                      <ul class="unique-dropdown-list inside_nav_drop_down">
+                        <li class="unique-dropdown-item">
+                          <a href="root.php" class="unique-dropdown-link">Root Canal Treatment</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="tooth.php" class="unique-dropdown-link">  Wisdom Tooth Removel</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="jaw.php" class="unique-dropdown-link"> Jaw Pain / Correction</a>
+                        </li>
+                        
+                        <div class="unique-arrow"></div>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="unique-dropdown-item">
+                    <a href="#" class="unique-dropdown-link"
+                      >Teeth Replacement<i class="fas fa-caret-down"></i
+                    ></a>
+                    <div class="unique-dropdown second-level  nav_div_mrg nav_div_mrg_two">
+                      <ul class="unique-dropdown-list inside_nav_drop_down">
+                        <li class="unique-dropdown-item">
+                          <a href="dentures.php" class="unique-dropdown-link">Dentures</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="crowns.php" class="unique-dropdown-link">Crowns & Bridges</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="implants.php" class="unique-dropdown-link">Dental Implants</a>
+                        </li>
+                        
+                        <div class="unique-arrow"></div>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="unique-dropdown-item">
+                    <a href="#" class="unique-dropdown-link"
+                      >Laminate  Veneers<i class="fas fa-caret-down"></i
+                    ></a>
+                    <div class="unique-dropdown second-level  nav_div_mrg nav_div_mrg_three">
+                      <ul class="unique-dropdown-list inside_nav_drop_down">
+                        <li class="unique-dropdown-item">
+                          <a href="aligners.php" class="unique-dropdown-link"> Clear Aligners</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="braces.php" class="unique-dropdown-link">Braces</a>
+                        </li>
+                         <li class="unique-dropdown-item"> 
+                          <a href="cosmetic.php" class="unique-dropdown-link">Laminate  Veneers</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="smile.php" class="unique-dropdown-link"> Smile Designing</a>
+                        </li>
+                       
+                        <div class="unique-arrow"></div>
+                      </ul>
+                    </div>
+                  </li>
 
-                                    <li><a class="dropdown-item services_drop" href="smile.php">Smile Designing</a></li>
-                                    <li><a class="dropdown-item services_drop" href="make.php">Smile Makeover</a></li>
-                                    <li><a class="dropdown-item services_drop" href="teeth.php">Teeth Alignment</a></li>
-                                    <li><a class="dropdown-item services_drop" href="tooth.php">Tooth Extraction</a></li>
-                                    <li><a class="dropdown-item services_drop" href="laserTooth.php">Laser Tooth Cleaning</a></li>
-                                    <li><a class="dropdown-item services_drop" href="gum.php">Gum Depigmentation</a></li>
-                                    <li><a class="dropdown-item services_drop" href="laserTeeth.php">Laser Teeth Whitening</a></li>
-                                    <li><a class="dropdown-item services_drop" href="laserGum.php">Laser Gum Surgery</a></li>
-                                    <li><a class="dropdown-item services_drop" href="mouth.php">Mouth Ulcers</a></li>
-                                    <li><a class="dropdown-item services_drop" href="lasion.php">Precancerous Lesion</a></li>
-                                    <li><a class="dropdown-item services_drop" href="laserCrown.php">Laser Crown Lengthening</a></li>
-                                </div>
-                                 
-                            </div>
-                        </ul>
-                    </li>
+                  <li class="unique-dropdown-item">
+                    <a href="#" class="unique-dropdown-link"
+                      >Laser Veda<i class="fas fa-caret-down"></i
+                    ></a>
+                    <div class="unique-dropdown second-level  nav_div_mrg nav_div_mrg_four">
+                      <ul class="unique-dropdown-list inside_nav_drop_down">
+                        <li class="unique-dropdown-item">
+                          <a href="laserTooth.php" class="unique-dropdown-link"> Laser assisted Teeth Cleaning</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="gum" class="unique-dropdown-link">  Gum Depigmentation</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="laserTeeth.php" class="unique-dropdown-link">  Laser Teeth Whitening</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="laserGum.php" class="unique-dropdown-link"> Laser Gum Surgeries</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="mouth.php" class="unique-dropdown-link"> Mouth Ulcers</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="lasion.php" class="unique-dropdown-link">  Precancerous Lesion in Mouth</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="laserCrown.php" class="unique-dropdown-link"> Laser Crown Lengthening</a>
+                        </li>
+                        
+                        
+                        <div class="unique-arrow"></div>
+                      </ul>
+                    </div>
+                  </li>
+
+                  
+                  <li class="unique-dropdown-item">
+                    <a href="#" class="unique-dropdown-link"
+                      >   Child Dentistry<i class="fas fa-caret-down"></i
+                    ></a>
+                    <div class="unique-dropdown second-level nav_div_mrg nav_div_mrg_five" >
+                      <ul class="unique-dropdown-list inside_nav_drop_down">
+                        <li class="unique-dropdown-item">
+                          <a href="pediatric.php" class="unique-dropdown-link">Pediatric Dentist</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="paedodontist.php" class="unique-dropdown-link">Paedodontist Doctors</a>
+                        </li>
+                     
+                        
+                        <div class="unique-arrow"></div>
+                      </ul>
+                    </div>
+                  </li>
+
+                   
+                  <div class="unique-arrow"></div>
+                </ul>
+              </div>
+            </li>
 
 
                     <li><a class="nav-link scrollto" href="equipment.php">equipment</a></li>
@@ -283,7 +369,7 @@
                 </li>
                 <li class="foot_para">
                   <a href="cosmetic.php" style="color: #fff"
-                    >Cosmetic Dentistry</a
+                    >Laminate  Veneers</a
                   >
                 </li>
                 <li class="foot_para">

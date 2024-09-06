@@ -43,14 +43,7 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 </head>
-<style>
-@media (min-width:992px) {
-
-    .showthisdiv {
-        padding-left: 100px !important;
-    }
-}
-</style>
+ 
 
 <body>
 
@@ -69,45 +62,137 @@
                 <ul>
                     <li><a class="nav-link scrollto" href="index.php">Home</a></li>
                     <li><a class="nav-link scrollto" href="about.php">About</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="treatment.php" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Treatments
-                        </a>
-                        <ul class="dropdown-menu services_drop_menu service_width  mt-3" aria-labelledby="servicesDropdown" style="width:550px;">
-                            <div class="row  ">
-                                <div class="col-md-6">
-                                    <li><a class="dropdown-item services_drop" href="root.php">Root Canal</a></li>
-                                    <li><a class="dropdown-item services_drop" href="braces.php">Braces for Teeth Alignment</a></li>
-                                    <li><a class="dropdown-item services_drop" href="pediatric.php">Pediatric Dentist</a></li>
-                                    <li><a class="dropdown-item services_drop" href="paedodontist.php">Paedodontist Doctors</a></li>
-                                    <li><a class="dropdown-item services_drop" href="aligners.php">Clear Aligners</a></li>
-                                    <li><a class="dropdown-item services_drop active" href="cosmetic.php">Cosmetic Dentistry</a></li>
-                                    <li><a class="dropdown-item services_drop" href="crowns.php">Crowns and Bridges</a></li>
-                                    <li><a class="dropdown-item services_drop" href="implants.php">Dental Implants</a></li>
-                                    <li><a class="dropdown-item services_drop" href="dentures.php">Dentures Treatment</a></li>
-                                    <li><a class="dropdown-item services_drop" href="invisalign.php">Invisalign </a></li>
-                                    <li><a class="dropdown-item services_drop" href="jaw.php">Jaw Corrective</a></li>
-                                    <li><a class="dropdown-item services_drop" href="laser.php">Laser and Gum</a></li>
-                                </div>
-                                <div class="col-md-6">
+                    <li class="unique-nav-item " style="--i: 1.1s">
+              <a href="treatment.php" class="unique-nav-link"
+                >Treatments<i class="fas fa-caret-down"></i
+              ></a>
+              <div class="unique-dropdown" >
+                <ul class="unique-dropdown-list  new_nav_bg"  >
+                 
+                   
+                  <li class="unique-dropdown-item">
+                    <a href="#" class="unique-dropdown-link"
+                      >Pain Relief<i class="fas fa-caret-down"></i
+                    ></a>
+                    <div class="unique-dropdown second-level  nav_div_mrg nav_div_mrg_one"  >
+                      <ul class="unique-dropdown-list inside_nav_drop_down">
+                        <li class="unique-dropdown-item">
+                          <a href="root.php" class="unique-dropdown-link">Root Canal Treatment</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="tooth.php" class="unique-dropdown-link">  Wisdom Tooth Removel</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="jaw.php" class="unique-dropdown-link"> Jaw Pain / Correction</a>
+                        </li>
+                        
+                        <div class="unique-arrow"></div>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="unique-dropdown-item">
+                    <a href="#" class="unique-dropdown-link"
+                      >Teeth Replacement<i class="fas fa-caret-down"></i
+                    ></a>
+                    <div class="unique-dropdown second-level  nav_div_mrg nav_div_mrg_two">
+                      <ul class="unique-dropdown-list inside_nav_drop_down">
+                        <li class="unique-dropdown-item">
+                          <a href="dentures.php" class="unique-dropdown-link">Dentures</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="crowns.php" class="unique-dropdown-link">Crowns & Bridges</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="implants.php" class="unique-dropdown-link">Dental Implants</a>
+                        </li>
+                        
+                        <div class="unique-arrow"></div>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="unique-dropdown-item">
+                    <a href="#" class="unique-dropdown-link"
+                      >Laminate  Veneers<i class="fas fa-caret-down"></i
+                    ></a>
+                    <div class="unique-dropdown second-level  nav_div_mrg nav_div_mrg_three">
+                      <ul class="unique-dropdown-list inside_nav_drop_down">
+                        <li class="unique-dropdown-item">
+                          <a href="aligners.php" class="unique-dropdown-link"> Clear Aligners</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="braces.php" class="unique-dropdown-link">Braces</a>
+                        </li>
+                         <li class="unique-dropdown-item"> 
+                          <a href="cosmetic.php" class="unique-dropdown-link">Laminate  Veneers</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="smile.php" class="unique-dropdown-link"> Smile Designing</a>
+                        </li>
+                       
+                        <div class="unique-arrow"></div>
+                      </ul>
+                    </div>
+                  </li>
 
-                                    <li><a class="dropdown-item services_drop" href="smile.php">Smile Designing</a></li>
-                                    <li><a class="dropdown-item services_drop" href="make.php">Smile Makeover</a></li>
-                                    <li><a class="dropdown-item services_drop" href="teeth.php">Teeth Alignment</a></li>
-                                    <li><a class="dropdown-item services_drop" href="tooth.php">Tooth Extraction</a></li>
-                                    <li><a class="dropdown-item services_drop" href="laserTooth.php">Laser Tooth Cleaning</a></li>
-                                    <li><a class="dropdown-item services_drop" href="gum.php">Gum Depigmentation</a></li>
-                                    <li><a class="dropdown-item services_drop" href="laserTeeth.php">Laser Teeth Whitening</a></li>
-                                    <li><a class="dropdown-item services_drop" href="laserGum.php">Laser Gum Surgery</a></li>
-                                    <li><a class="dropdown-item services_drop" href="mouth.php">Mouth Ulcers</a></li>
-                                    <li><a class="dropdown-item services_drop" href="lasion.php">Precancerous Lesion</a></li>
-                                    <li><a class="dropdown-item services_drop" href="laserCrown.php">Laser Crown Lengthening</a></li>
-                                </div>
-                                 
-                            </div>
-                        </ul>
-                    </li>
+                  <li class="unique-dropdown-item">
+                    <a href="#" class="unique-dropdown-link"
+                      >Laser Veda<i class="fas fa-caret-down"></i
+                    ></a>
+                    <div class="unique-dropdown second-level  nav_div_mrg nav_div_mrg_four">
+                      <ul class="unique-dropdown-list inside_nav_drop_down">
+                        <li class="unique-dropdown-item">
+                          <a href="laserTooth.php" class="unique-dropdown-link"> Laser assisted Teeth Cleaning</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="gum" class="unique-dropdown-link">  Gum Depigmentation</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="laserTeeth.php" class="unique-dropdown-link">  Laser Teeth Whitening</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="laserGum.php" class="unique-dropdown-link"> Laser Gum Surgeries</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="mouth.php" class="unique-dropdown-link"> Mouth Ulcers</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="lasion.php" class="unique-dropdown-link">  Precancerous Lesion in Mouth</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="laserCrown.php" class="unique-dropdown-link"> Laser Crown Lengthening</a>
+                        </li>
+                        
+                        
+                        <div class="unique-arrow"></div>
+                      </ul>
+                    </div>
+                  </li>
 
+                  
+                  <li class="unique-dropdown-item">
+                    <a href="#" class="unique-dropdown-link"
+                      >   Child Dentistry<i class="fas fa-caret-down"></i
+                    ></a>
+                    <div class="unique-dropdown second-level nav_div_mrg nav_div_mrg_five" >
+                      <ul class="unique-dropdown-list inside_nav_drop_down">
+                        <li class="unique-dropdown-item">
+                          <a href="pediatric.php" class="unique-dropdown-link">Pediatric Dentist</a>
+                        </li>
+                        <li class="unique-dropdown-item">
+                          <a href="paedodontist.php" class="unique-dropdown-link">Paedodontist Doctors</a>
+                        </li>
+                     
+                        
+                        <div class="unique-arrow"></div>
+                      </ul>
+                    </div>
+                  </li>
+
+                   
+                  <div class="unique-arrow"></div>
+                </ul>
+              </div>
+            </li>
 
                     <li><a class="nav-link scrollto" href="equipment.php">equipment</a></li>
                     <li><a class="nav-link" href="blogs.php">Blogs</a></li>
@@ -150,17 +235,16 @@
             <div class="container">
                 <div class="row servSect">
                     <div class="abot mt-5">
-                        <h4 class="abh4">Cosmetic Dentistry Treatments</h4>
-                        <p class="abP">"Enhance your smile with our expert cosmetic dentistry treatments for a radiant and confident look."</p>
+                        <h4 class="abh4"> Laminate Veneers</h4>
+                        <p class="abP">"Revitalize Your Smile with Custom Laminate Veneers."</p>
                     </div>
                     <div class="col-md-6 dr_content_padding  order-1 order-md-1 treater">
-                        <h2 class="dr_welcome_text1 mt-4 mb-4">Cosmetic Dentistry in  
+                        <h2 class="dr_welcome_text1 mt-4 mb-4">Laminate Veneers in  
                         <br>
                             Guntur
                         </h2>
                         <p class="poetsen_font1">
-                        Transform your smile with our expert cosmetic dentistry services at Vision Multispeciality Dental Hospital, recognized as the best dental hospital in Guntur. From teeth whitening to veneers, our best cosmetic dentistry treatment enhances your dental aesthetics for a confident, radiant appearance. If you're searching for a dental hospital near me that offers top-notch cosmetic care, we provide the best solutions to achieve your perfect smile.
-
+                        At Vision Dental Hospital, the best hospital in Guntur for Laminate  Veneers, we offer top-of-the-line laminate veneers to help you achieve a beautiful, natural smile. Located conveniently near you, our hospital provides advanced dental treatments with a focus on quality and patient care. Laminate veneers are thin, custom-made shells designed to cover the front surface of teeth, perfect for addressing issues such as chipped, stained, or misaligned teeth. Our expert team ensures that these veneers not only look natural but are also durable and long-lasting, giving you a seamless and confident smile makeover. At Vision Dental Hospital, we combine cutting-edge technology with personalized care to provide exceptional dental solutions right here in Guntur.
                         </p>
                         <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
 
@@ -180,24 +264,23 @@
                 <div class="row servSect">
 
                     <div class="col-md-12 dr_content_padding  order-1 order-md-1  ">
-                        <h2 class="dr_welcome_text1 mt-4 mb-4">What is Cosmetic Dentistry?
+                        <h2 class="dr_welcome_text1 mt-4 mb-4">What is Laminate veneers?
 
                         </h2>
                         <p class="poetsen_font1">
-                        Cosmetic dentistry focuses on improving the appearance of your teeth, gums, and smile. Treatments include procedures like teeth whitening, veneers, crowns, and bonding to enhance the look of your teeth, correct imperfections, and achieve a more attractive smile. These treatments not only boost your confidence but also can improve overall dental health and function.
-
+                        Laminate veneers are a popular Laminate  Veneers solution designed to enhance the appearance of teeth by covering imperfections like discoloration, stains, chips, minor misalignments, or gaps. These thin, custom-made shells, typically crafted from porcelain or composite resin, are bonded to the front surface of the teeth, providing a natural and aesthetically pleasing look. One of the key benefits of porcelain veneers is their ability to closely mimic the light-reflecting properties of natural teeth, ensuring a natural look and feel. Additionally, veneers are known for their durability and longevity—porcelain veneers can last between 10-15 years, while composite veneers last about 5-7 years with proper care. The procedure for applying veneers is minimally invasive, involving the removal of a small amount of enamel to ensure a perfect fit. Moreover, porcelain veneers are highly stain-resistant, helping maintain a bright smile over the years. Being highly customizable, laminate veneers are tailored to fit each patient’s unique teeth structure, shade, shape, and size, making them an excellent choice for a personalized smile makeover.
                         </p>
 
 
                         <div class="row">
-                            <div class="col-md-6"> <h2 class="dr_welcome_text11 mt-4 mb-4">Why Do You Need Cosmetic Dentistry in Guntur?
+                            <div class="col-md-6"> <h2 class="dr_welcome_text11 mt-4 mb-4">Why Do You Need Laminate veneers in Guntur?
                             </h2>
-                        <p class="poetsen_font1">You may need cosmetic dentistry treatment in Guntur to enhance the appearance of your smile, correct imperfections, and boost your confidence. Whether it's whitening discoloured teeth, fixing gaps, or addressing misalignment, cosmetic treatments can improve the look of your teeth and overall smile. These enhancements not only help you feel better about your appearance but can also contribute to better oral health and function.
+                        <p class="poetsen_font1">Laminate veneers are a highly effective solution for addressing various cosmetic dental issues such as discolored, chipped, cracked, or slightly misaligned teeth. They are thin, custom-made shells crafted from porcelain or composite resin that cover the front surface of the teeth, providing a flawless and natural appearance. By choosing laminate veneers in Guntur, you gain access to high-quality dental care with advanced treatments offered by reputable dental hospitals, such as Vision Dental Hospital, known for their expertise in Laminate  Veneers.
                         </p></div>
-                            <div class="col-md-6"> <h2 class="dr_welcome_text11 mt-4 mb-4">Benefits of Cosmetic Dentistry in Guntur:
+                            <div class="col-md-6"> <h2 class="dr_welcome_text11 mt-4 mb-4">Benefits of Laminate veneers in Guntur:
 
                         </h2>
-                        <p class="poetsen_font1">The best cosmetic dentistry treatment in Guntur offers several significant benefits. It enhances the appearance of your teeth, providing you with a brighter, more attractive smile that boosts your confidence. This top-tier cosmetic dentistry treatment effectively addresses various concerns such as gaps, stains, and misalignment, correcting imperfections that may affect your smile. In addition to aesthetic improvements, some of the best cosmetic procedures also contribute to better oral health and function. Each treatment is personalised to meet your specific needs, ensuring that you receive tailored solutions for the best results.
+                        <p class="poetsen_font1">Getting laminate veneers in Guntur comes with several benefits that make them a popular choice for those looking to enhance their smiles. Firstly, laminate veneers provide a natural and aesthetically pleasing appearance by covering imperfections such as discoloration, chips, cracks, or minor misalignments. Made from high-quality porcelain or composite resin, they closely mimic the light-reflecting properties of natural teeth, ensuring a seamless look. Secondly, Guntur is home to experienced dental professionals and well-equipped hospitals, like Vision Dental Hospital, which offer advanced, minimally invasive procedures to apply veneers, often requiring just a few visits. The durability and stain resistance of porcelain veneers mean they can last 10-15 years with proper care, providing a long-term solution for maintaining a bright, beautiful smile. Additionally, customization options are available to perfectly match the shape, size, and shade of your existing teeth, ensuring a personalized smile makeover. With affordable and accessible dental care available in Guntur, laminate veneers are an excellent investment in your confidence and oral health.
 
                         </p></div>
                         </div>
@@ -267,7 +350,7 @@
                 </li>
                 <li class="foot_para">
                   <a href="cosmetic.php" style="color: #fff"
-                    >Cosmetic Dentistry</a
+                    >Laminate  Veneers</a
                   >
                 </li>
                 <li class="foot_para">
