@@ -704,17 +704,7 @@
               </div>
             </div>
 
-            <!--  
-                   <div class="col-xl-8 col-lg-9 col-md-12 col-12">
-                       <div class="footer-widget__copyright">
-                           <p class="mini_text last_text" style="color: #ffffff">
-                               ©2024 SRINIVASA DENTAL . All Rights Reserved. Designed &
-                               Developed by
-                               <a href="https://bhavicreations.com/" target="_blank"
-                                   style="text-decoration: none; color: #ffffff">Bhavi Creations</a>
-                           </p>
-                       </div>
-                   </div> -->
+         
           </div>
         </div>
       </div>
