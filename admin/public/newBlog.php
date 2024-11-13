@@ -68,7 +68,7 @@
                                             <select id="service" name="service" class="form-control" required>
                                                 <option value="">Select a Service</option>
                                                 <option value="Root Canal">Root Canal</option>
-                                                <option value="Teeth  Braces">Teeth  Braces</option>
+                                                <option value="Teeth Braces">Teeth Braces</option>
                                                 <option value="Pediatric Dentist">Pediatric Dentist</option>
                                                 <option value="Paedodontist Doctors">Paedodontist Doctors </option>     
                                                 <option value="Clear Aligners">Clear Aligners</option>
