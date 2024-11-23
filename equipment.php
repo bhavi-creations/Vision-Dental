@@ -4,11 +4,15 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-    <title>Vision Dentals</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
-
+    <title>Vision Multispecialty Dental Hospital in Guntur</title>
+     <meta content="Vision Multispecialty Dental Hospital in Guntur provides expert dental care, offering dental implants, root canals, pediatric dentistry, and cosmetic treatments." name="description">
+     <meta content="dentist in Guntur ,
+       best dental hospital in Guntur,
+       dentist near me, 
+       Dental Implants in Guntur, 
+       best dental clinic in Guntur, 
+       dental doctors in Guntur" 
+       name="keywords">
     <!-- Favicons -->
     <link href="assets/img/vision/fav.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -253,19 +257,24 @@
                                 aria-label="Slide 2"></button>
                             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
                                 aria-label="Slide 3"></button>
+
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                                
                         </div>
                         <div class="carousel-inner mb-5">
                             <div class="carousel-item active" data-bs-interval="10000">
 
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <h2 class="dr_welcome_text1 mt-4 mb-4">Dental Handpieces
+                                        <!-- <h2 class="dr_welcome_text1 mt-4 mb-4">Dental Handpieces
                                         </h2>
-                                        <p class="poetsen_font1">
+                                         <p class="poetsen_font1">
                                             Dental handpieces, also known as dental drills, are essential tools used by
                                             dentists, hygienists, specialists, and lab technicians for a variety of
                                             dental procedures
-                                        </p>
+                                        </p> 
+                                      
                                         <ul>
                                             <li>Drilling: Preparing teeth for fillings </li>
                                             <li>Removing decay: Removing decay from teeth </li>
@@ -273,11 +282,24 @@
                                             <li>Laminate  Veneers: Performing Laminate  Veneers </li>
                                             <li>Altering prostheses: Altering prostheses </li>
                                             <li>Root canal treatments: Cleaning and shaping canals during root canal treatments </li>
-                                            <li>Dental implants: Performing dental implant procedures </li>
-                                        </ul>
+                                            <li>Dental implants: Performing dental implant procedures </li> 
+                                        </ul>-->
+                                 <h2 class="dr_welcome_text1 mt-4 mb-4">CBCT Machine
+                                       </h2>
+                   <p class="poetsen_font1">
+                      Discover premium dental care at Vision Multispeciality Dental Hospital, Guntur! 🌟 Proud to be the ONLY dental clinic in Guntur equipped with an advanced CBCT machine for precise 3D X-rays. 🦷💎 Experience top-notch diagnostics and personalized treatment under one roof. Your smile, our priority! 😊 #DentalCareGuntur #CBCT3DXray #VisionDentalGuntur"
+                   </p>
+                   <p class="poetsen_font1">
+                      At Vision Multispeciality Dental Hospital, Guntur, we are proud to offer cutting-edge diagnostics with our advanced CBCT (Cone Beam Computed Tomography) machine. This state-of-the-art technology provides highly detailed 3D imaging for precise diagnosis and treatment planning. As the only dental clinic in Guntur with an in-house CBCT machine, we ensure accurate, efficient, and comfortable care for all your dental needs."
+                    </p>
+                    <!-- <p class="poetsen_font1">
+                         Opg machine"Vision Multispeciality Dental Hospital in Guntur is equipped with an advanced OPG (Orthopantomogram) machine, providing panoramic X-rays for a comprehensive view of your teeth, jaws, and surrounding structures. This cutting-edge technology ensures accurate diagnosis and effective treatment planning, making us a trusted choice for exceptional dental care."
+                    </p> -->
+
                                     </div>
                                     <div class="col-md-6">
-                                        <img src="assets/img/about/e.png" alt="" class="equipment-img">
+                                        <!-- <img src="assets/img/about/e.png" alt="" class="equipment-img"> -->
+                                           <img src="assets/img/vision/cbct.png" alt="" class="equipment-img"> 
                                     </div>
                                 </div>
 
@@ -286,12 +308,12 @@
                             <div class="carousel-item" data-bs-interval="2000">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <h2 class="dr_welcome_text1 mt-4 mb-4">Dental Chair
+                                        <!-- <h2 class="dr_welcome_text1 mt-4 mb-4">Dental Chair -->
                                         </h2>
-                                        <p class="poetsen_font1">
+                                        <!-- <p class="poetsen_font1">
                                             Our dental chairs offer exceptional comfort and ergonomic support, ensuring a relaxed experience. Equipped with the latest technology, they enhance both patient comfort and treatment precision.
-                                        </p>
-                                        <ul>
+                                        </p> -->
+                                        <!-- <ul>
                                             <li>Adjustable Headrest: Customizes patient positioning for optimal comfort. </li>
                                             <li>Ergonomic Armrests: Enhances patient relaxation during treatment. </li>
                                             <li>Lumbar Support: Provides additional lower back comfort. </li>
@@ -299,10 +321,16 @@
                                             <li>Durable Upholstery: Ensures easy cleaning and hygiene.</li>
                                             <li>Hydraulic Lift System: Allows smooth and precise height adjustments. </li>
                                             <li>Foot Control: Enables hands-free chair adjustments. </li>
-                                        </ul>
+                                        </ul> -->
+                                        <h2 class="dr_welcome_text1 mt-4 mb-4">
+                                        World Class Laser Technology
+                                        </h2>
+                                       <p class="poetsen_font1">
+                                        "Experience advanced dental care at Vision Multispeciality Dental Hospital, Guntur, with world-class laser technology. Our cutting-edge lasers offer painless, precise, and efficient dental treatments, including gum surgeries, cavity fillings, and teeth whitening. We also specialize in photomedicine, harnessing the power of light for faster healing and enhanced oral health. Redefining dental care with innovation and excellence!"
+                                        </p>
                                     </div>
                                     <div class="col-md-6">
-                                        <img src="assets/img/about/dental-chair.png" alt="" class="chair_image img-fluid">
+                                        <img src="assets/img/vision/laser.png" alt="" class="chair_image img-fluid">
                                     </div>
                                 </div>
 
@@ -310,28 +338,81 @@
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <h2 class="dr_welcome_text1 mt-4 mb-4">Dental Laser
+                                        <!-- <h2 class="dr_welcome_text1 mt-4 mb-4">Dental Laser
+                                        </h2> -->
+                                        <h2 class="dr_welcome_text1 mt-4 mb-4">Highest Standarad Sterilization protocols 
                                         </h2>
-                                        <p class="poetsen_font1">
+
+                                        <!-- <p class="poetsen_font1">
                                             Dental lasers offer a precise and minimally invasive approach to a variety of dental procedures, including cavity treatment and gum therapy. Advanced controls and cooling systems ensure optimal safety and effectiveness during use.
+                                        </p> -->
+                                        <p class="poetsen_font1">
+                                        "Our Class B Autoclave at Vision Multispeciality Dental Hospital ensures the highest level of sterilization, meeting international standards. With advanced vacuum technology, it effectively sterilizes all dental instruments, including complex and hollow tools, ensuring a safe and hygienic environment for every patient. Your safety is our priority!"
+                                        </p>
+                                        <p class="poetsen_font1">
+                                        At Vision Multispeciality Dental Hospital, we follow a rigorous 5-step sterilization protocol to ensure maximum safety:
                                         </p>
                                         <ul>
+                                          <li> Pre-cleaning: Manual cleaning to remove debris from instruments.</li>
+                                          <li> Ultrasonic Cleaning: Deep cleaning using ultrasonic waves to eliminate residues.</li>
+                                          <li>Packaging: Instruments are sealed in sterilization pouches.</li>
+                                          <li> Autoclaving: High-pressure steam sterilization using a Class B autoclave for complete disinfection.</li>
+                                          <li>Storage: Sterilized instruments are safely stored in a sterile environment until use.</li>
+                                        </ul>
+                                        <!-- <ul>
                                             <li>Laser Handpiece: Delivers precise, controlled laser energy for targeted treatment. </li>
                                             <li>Foot Pedal: Controls laser activation and intensity for hands-free operation. </li>
                                             <li>Cooling System: Regulates temperature to ensure safe and effective laser use. </li>
                                             <li>Display Panel: Allows for easy adjustment of settings and monitoring of treatment parameters. </li>
-                                            <!-- <li>Altering prostheses: Altering prostheses </li>
+                                             <li>Altering prostheses: Altering prostheses </li>
                                             <li>Root canal treatments: Cleaning and shaping canals during root canal treatments </li>
-                                            <li>Dental implants: Performing dental implant procedures </li> -->
-                                        </ul>
-                                    </div>
+                                            <li>Dental implants: Performing dental implant procedures </li> 
+                                        </ul> -->
+                                     </div>
                                     <div class="col-md-6">
-                                        <img src="assets/img/vision/dental_laser.png" alt="" class="equipment-img">
+                                        <!-- <img src="assets/img/vision/dental_laser.png" alt="" class="equipment-img"> -->
+                                        <img src="assets/img/vision/sterlization.png" alt="" class="equipment-img">
+
                                     </div>
                                 </div>
 
                             </div>
-                        </div>
+                       
+                        <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <!-- <h2 class="dr_welcome_text1 mt-4 mb-4">Dental Laser
+                                        </h2> -->
+                                        <h2 class="dr_welcome_text1 mt-4 mb-4">3D intra oral scanner 
+                                        </h2>
+
+                                        <!-- <p class="poetsen_font1">
+                                            Dental lasers offer a precise and minimally invasive approach to a variety of dental procedures, including cavity treatment and gum therapy. Advanced controls and cooling systems ensure optimal safety and effectiveness during use.
+                                        </p> -->
+                                        <p class="poetsen_font1">
+                                        At Vision Multispeciality Dental Hospital, Guntur, we utilize advanced 3D Intraoral Scanner technology for precise, comfortable, and quick digital impressions. This cutting-edge device eliminates the need for traditional molds, offering enhanced accuracy for crowns, bridges, aligners, and other treatments. Experience modern dentistry at its finest!"
+                                        </p>
+                                
+                                 
+                                        <!-- <ul>
+                                            <li>Laser Handpiece: Delivers precise, controlled laser energy for targeted treatment. </li>
+                                            <li>Foot Pedal: Controls laser activation and intensity for hands-free operation. </li>
+                                            <li>Cooling System: Regulates temperature to ensure safe and effective laser use. </li>
+                                            <li>Display Panel: Allows for easy adjustment of settings and monitoring of treatment parameters. </li>
+                                             <li>Altering prostheses: Altering prostheses </li>
+                                            <li>Root canal treatments: Cleaning and shaping canals during root canal treatments </li>
+                                            <li>Dental implants: Performing dental implant procedures </li> 
+                                        </ul> -->
+                                     </div>
+                                    <div class="col-md-6">
+                                        <!-- <img src="assets/img/vision/dental_laser.png" alt="" class="equipment-img"> -->
+                                        <img src="assets/img/vision/3d intra.png" alt="" class="equipment-img">
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        
                         <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -342,11 +423,12 @@
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button> -->
+                      
                     </div>
 
 
                 </div>
-            </div>
+            </div> 
         </section>
 
         <script>

@@ -5,9 +5,18 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Vision Dentals</title>
+    <!-- <title>Vision Dentals</title>
     <meta content="" name="description">
-    <meta content="" name="keywords">
+    <meta content="" name="keywords"> -->
+    <title>Vision Multispecialty Dental Hospital in Guntur</title>
+     <meta content="Vision Multispecialty Dental Hospital in Guntur provides expert dental care, offering dental implants, root canals, pediatric dentistry, and cosmetic treatments." name="description">
+     <meta content="dentist in Guntur ,
+       best dental hospital in Guntur,
+       dentist near me, 
+       Dental Implants in Guntur, 
+       best dental clinic in Guntur, 
+       dental doctors in Guntur" 
+       name="keywords">
 
     <!-- Favicons -->
     <link href="assets/img/vision/fav.png" rel="icon">
