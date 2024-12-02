@@ -15,6 +15,7 @@
        best dental clinic in Guntur, 
        dental doctors in Guntur" 
        >
+       <link ref="canonical"  href="https://visiondentalguntur.com/" />
 
      <!-- Favicons -->
      <link href="assets/img/vision/fav.png" rel="icon">
