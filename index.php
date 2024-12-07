@@ -466,7 +466,7 @@
              </div>
            </div>
 
-           <div class="custom-card custom_card_bg_three swiper-slide">
+           <!-- <div class="custom-card custom_card_bg_three swiper-slide">
              <div class="row">
                <div class="col-6">
                  <div class="custom-card-content">
@@ -481,7 +481,7 @@
                  <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
                </div>
              </div>
-           </div>
+           </div> -->
 
            <div class="custom-card custom_card_bg_one swiper-slide">
              <div class="row">
@@ -555,7 +555,7 @@
              </div>
            </div>
 
-
+<!-- 
            <div class="custom-card custom_card_bg_two swiper-slide">
              <div class="row">
                <div class="col-6">
@@ -570,7 +570,7 @@
                  <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
                </div>
              </div>
-           </div>
+           </div> -->
 
            <div class="custom-card custom_card_bg_three swiper-slide">
              <div class="row">
@@ -658,7 +658,7 @@
                      & Gum</h2>
                    <p class="custom-description">Advanced laser treatments for healthier gums and precision</p>
                  </div>
-                 <a href="treatment.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+                 <a href="laser.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
                </div>
                <div class="col-6">
                  <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -832,7 +832,7 @@
            </div>
 
 
-           <div class="custom-card custom_card_bg_two swiper-slide">
+           <!-- <div class="custom-card custom_card_bg_two swiper-slide">
              <div class="row">
                <div class="col-6">
                  <div class="custom-card-content">
@@ -846,7 +846,7 @@
                  <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
                </div>
              </div>
-           </div>
+           </div> -->
 
          </div>
        </div>
