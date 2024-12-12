@@ -65,15 +65,15 @@
        "description": "Vision Dental Guntur offers comprehensive dental care.",
        "address": {
          "@type": "PostalAddress",
-         "streetAddress": "123 Main Road, Guntur",
+         "streetAddress": "Ngo’s Colony Main Road, Corner, 5th Line, opposite prudhvi prisitine, Venkata Ramana Colony, Guntur",
          "addressLocality": "Guntur",
          "addressRegion": "Andhra Pradesh",
-         "postalCode": "522001",
+         "postalCode": "522004",
          "addressCountry": "IN"
        },
        "contactPoint": {
          "@type": "ContactPoint",
-         "telephone": "+91-1234567890",
+         "telephone": "+91-93914 57072",
          "contactType": "customer service",
          "areaServed": "IN"
        },
@@ -83,6 +83,9 @@
        ]
      }
    </script>
+
+
+
 
 
 
@@ -1315,7 +1318,7 @@
 
 
 
- 
+
    <?php include('./footer.php'); ?>
 
    <script>

@@ -249,15 +249,7 @@
                   <i class="bx bx-map"></i>
                   <h3>Our Address</h3>
                   <p>
-                    <!-- 2-56-5,
-                    SANTHI NAGAR,ROAD NO.1,<br>
-                    100 BUILDING CENTER,<br>
-                    HOUSING BOARD COLONY<br>
-                    OPP. CHRISTIAN COMMUNITY HALL<br>
-                    KAKINADA-533003 <br>
-                    Andhra Pradesh, India
-                    <br><br> -->
-
+                     
                     Ngo’s Colony Main Road, Corner, 5th Line, <br>  opposite prudhvi prisitine, Venkata Ramana Colony, <br> Guntur, Andhra Pradesh 522004
                   </p>
                 </div>
