@@ -4066,3 +4066,40 @@ background-color: #94beeb;
     height: 317px !important;
   }
 }
+
+
+
+
+/* vodeo tags code */
+.only_first {
+  padding: 0px !important;
+}
+
+.first_section{
+  margin-top:50px ;
+}
+
+
+@media (max-width:768px){
+  .sectionForm{
+    margin-bottom: 220px !important;
+  }
+}
+
+@media (min-width:768px) and (max-width:998px){
+  .sectionForm{
+    margin-bottom: 250px !important;
+  }
+}
+
+@media (min-width:998px) and (max-width:1200px){
+  .sectionForm{
+    margin-bottom: 170px !important;
+  }
+}
+
+@media (min-width:1200px) and (max-width:1400px){
+  .sectionForm{
+    margin-bottom: 120px !important;
+  }
+}
