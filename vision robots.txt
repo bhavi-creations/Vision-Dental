@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /private-directory/
+Allow: /public-directory/
+Sitemap: https://visiondentalguntur.com/sitemap.xml
