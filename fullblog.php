@@ -32,6 +32,7 @@ $conn->close();
     <meta content="" name="description">
     <meta content="" name="keywords"> -->
     <title>Vision Multispecialty Dental Hospital in Guntur</title>
+    <meta name="google-site-verification" content="H2SztZ2bMfGjPtPTvWlAPlclCAJWgBeVrfyf3ZXvADM" />
      <meta content="Vision Multispecialty Dental Hospital in Guntur provides expert dental care, offering dental implants, root canals, pediatric dentistry, and cosmetic treatments." name="description">
      <meta content="dentist in Guntur ,
        best dental hospital in Guntur,

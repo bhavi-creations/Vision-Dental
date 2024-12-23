@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Vision Multispecialty Dental Hospital in Guntur</title>
+  <meta name="google-site-verification" content="H2SztZ2bMfGjPtPTvWlAPlclCAJWgBeVrfyf3ZXvADM" />
   <meta content="Vision Multispecialty Dental Hospital in Guntur provides expert dental care, offering dental implants, root canals, pediatric dentistry, and cosmetic treatments." name="description">
   <meta content="dentist in Guntur ,
        best dental hospital in Guntur,
