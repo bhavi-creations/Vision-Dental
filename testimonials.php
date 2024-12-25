@@ -200,7 +200,7 @@
           </li>
 
 
-          <li><a class="nav-link scrollto" href="equipment.php">equipment</a></li>
+          <li><a class="nav-link scrollto" href="equipment.php">Equipment</a></li>
           <li><a class="nav-link" href="blogs.php">Blogs</a></li>
           <li class="nav-item active"><a class="nav-link scrollto" href="testimonials.php">Reviews</a></li>
           <li><a class="nav-link scrollto" href="gallery.php">Smile Gallery</a></li>

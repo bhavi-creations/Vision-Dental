@@ -240,7 +240,7 @@
            </li>
 
 
-           <li><a class="nav-link scrollto" href="equipment.php">equipment</a></li>
+           <li><a class="nav-link scrollto" href="equipment.php">Equipment</a></li>
            <li><a class="nav-link" href="blogs.php">Blogs</a></li>
            <li><a class="nav-link scrollto" href="testimonials.php">Reviews</a></li>
            <li><a class="nav-link scrollto" href="gallery.php">Smile Gallery</a></li>
@@ -344,11 +344,11 @@
            <image href="assets/img/vision/appoit_icon.png" class="teeth_icon" />
 
 
-           <text class="teeth_heading" x="50%" y="30%" text-anchor="middle" fill="#333" dy=".3em">Online Appointment </text>
+           <text class="teeth_heading" x="50%" y="30%"  text-anchor="middle" fill="#333" dy=".3em"><a  href="appointment.php">  Online Appointment </a> </text>
 
-           <text class="teeth_first_para_card" x="50%" y="45%" text-anchor="middle" fill="#333" dy=".3em">Vision Multispeciality Dental </text>
+           <text class="teeth_first_para_card" x="50%"  y="45%" text-anchor="middle" fill="#333" dy=".3em"><a  href="appointment.php">  Vision Multispeciality Dental  </a> </text>
 
-           <text class="teeth_sub_heading" x="50%" y="60%" text-anchor="middle" fill="#333" dy=".3em">Make a appointment </text>
+           <text class="teeth_sub_heading" x="50%"  y="60%" text-anchor="middle" fill="#333" dy=".3em"><a href="appointment.php" >  Make a appointment  </a></text>
 
            <defs>
              <filter id="filter0_d_122_1295" x="0.400002" y="0.982377" width="430.2" height="430.2" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
@@ -376,12 +376,12 @@
            <image href="assets/img/vision/emergrncy_icon.png" class="teeth_icon" />
 
 
-           <text class="teeth_heading" x="50%" y="30%" text-anchor="middle" fill="#333" dy=".3em">Emergency Call</text>
-           <text class="teeth_first_para_card" x="50%" y="40%" text-anchor="middle" fill="#333" dy=".3em">Vision Multispeciality Dental </text>
-
-           <text class="teeth_para_card" x="50%" y="50%" text-anchor="middle" fill="#2B93B8" dy=".3em"> +919391457072</text>
-           <text class="teeth_sub_heading" x="50%" y="60%" text-anchor="middle" fill="#333" dy=".3em">Contact Us</text>
-
+           <text class="teeth_heading" x="50%" y="30%" text-anchor="middle" fill="#333" dy=".3em"> <a href="contact.php">  Emergency Call</a></text>
+           <text class="teeth_first_para_card" x="50%" y="40%" text-anchor="middle" fill="#333" dy=".3em"> <a href="contact.php"> Vision Multispeciality Dental </a></text>
+>
+           <text class="teeth_para_card" x="50%" y="50%" text-anchor="middle" fill="#2B93B8" dy=".3em"> <a href="contact.php">  +919391457072</a></text>
+           <text class="teeth_sub_heading" x="50%" y="60%" text-anchor="middle" fill="#333" dy=".3em"> <a href="contact.php"> Contact Us</a></text>
+>
 
            <defs>
              <filter id="filter0_d_122_1295" x="0.400002" y="0.982377" width="430.2" height="430.2" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
@@ -408,11 +408,11 @@
            <image href="assets/img/vision/doc_icon.png" class="teeth_icon" />
 
 
-           <text class="teeth_heading" x="50%" y="30%" text-anchor="middle" fill="#333" dy=".3em">Our Doctors</text>
+           <text class="teeth_heading" x="50%" y="30%" text-anchor="middle" fill="#333" dy=".3em"><a href="about.php"> Our Doctors </a></text>
 
-           <text class="teeth_first_para_card" x="50%" y="45%" text-anchor="middle" fill="#333" dy=".3em">Vision Multispeciality Dental </text>
+           <text class="teeth_first_para_card" x="50%" y="45%" text-anchor="middle" fill="#333" dy=".3em"> <a href="about.php"> Vision Multispeciality Dental </a></text>
 
-           <text class="teeth_sub_heading" x="50%" y="60%" text-anchor="middle" fill="#333" dy=".3em">Doctors </text>
+           <text class="teeth_sub_heading" x="50%" y="60%" text-anchor="middle" fill="#333" dy=".3em"><a href="about.php">  Doctors </a></text>
 
 
            <defs>
