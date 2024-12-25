@@ -26,6 +26,9 @@
                         <li class="foot_para">
                             <a href="contact.php" style="color: #fff">Contact Us</a>
                         </li>
+                        <li class="foot_para">
+                            <a href="equipment.php" style="color: #fff">Equipment </a>
+                        </li>
                     </ul>
                 </div>
 
