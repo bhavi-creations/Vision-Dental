@@ -69,34 +69,16 @@
 
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
 
-   <script>
-     {
-       "@context": "https://schema.org",
-       "@type": "Dentist",
-       "name": "Vision Dental Guntur",
-       "url": "https://visiondentalguntur.com",
-       "logo": "https://visiondentalguntur.com/logo.png",
-       "description": "Vision Dental Guntur offers comprehensive dental care.",
-       "address": {
-         "@type": "PostalAddress",
-         "streetAddress": "Ngo’s Colony Main Road, Corner, 5th Line, opposite prudhvi prisitine, Venkata Ramana Colony, Guntur",
-         "addressLocality": "Guntur",
-         "addressRegion": "Andhra Pradesh",
-         "postalCode": "522004",
-         "addressCountry": "IN"
-       },
-       "contactPoint": {
-         "@type": "ContactPoint",
-         "telephone": "+91-93914 57072",
-         "contactType": "customer service",
-         "areaServed": "IN"
-       },
-       "sameAs": [
-         "https://www.facebook.com/VisionDentalGuntur",
-         "https://www.instagram.com/VisionDentalGuntur"
-       ]
-     }
-   </script>
+   <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10932795730">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-10932795730');
+</script>
 
 
 
