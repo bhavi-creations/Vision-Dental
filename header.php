@@ -66,6 +66,12 @@
 
    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
+
+
+
+<!-- ask oncologist  -->
+<link rel="stylesheet" href="https://askoncologist.com/">
+
    <!-- Bootstrap CSS -->
    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
 
@@ -332,3 +338,8 @@ $schema_data = [
 <?= json_encode($schema_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES); ?>
 </script>
    </header>
+
+
+
+
+   
