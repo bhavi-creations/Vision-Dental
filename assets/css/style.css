@@ -2310,16 +2310,6 @@ h6 {
   }
 }
 
-
-
-.list_p_tag,
-.list_p_tag {
-  margin-bottom: 0px !important;
-
-}
-
-
-
 @media (max-width:768px) {
 
   .list_p_tag {
@@ -2328,39 +2318,6 @@ h6 {
     font-size: 16px;
 
   }
-
-  @media (max-width:768px) {
-
-    .list_p_tag_section {
-      margin-bottom: 0px !important;
-      letter-spacing: -1px;
-      font-size: 16px;
-  
-    }
-
-
-  }
-
-
-
-
-  @media (max-width:768px) and (max-width:1600px) {
-
-    .list_p_tag_section {
-      margin-bottom: 0px !important;
-      letter-spacing: -1px;
-      /* font-size: 20px !important; */
-      font-size: 1rem; /* You can adjust the value as needed (e.g., 0.95rem, 14px, etc.) */
-
-
-
-
-  }
-
-
-
-
-
 
   .toggle_padding_icon_one {
     padding-left: 75px;
