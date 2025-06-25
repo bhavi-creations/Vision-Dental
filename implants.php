@@ -3,37 +3,7 @@
 
 
 
-<script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [{
-                "@type": "Question",
-                "name": "What is a dental implant?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A dental implant is a titanium post that is surgically placed into the jawbone to replace a missing tooth root. It supports a crown, bridge, or denture for a natural-looking and long-lasting tooth replacement."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Is the dental implant procedure painful?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "No, the procedure is done under local anesthesia and is relatively painless. Mild discomfort after surgery is normal and can be managed with medication."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How long do dental implants last?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "With proper oral hygiene and regular check-ups, dental implants can last 15 to 25 years or even a lifetime."
-                }
-            }
-        ]
-    }
-</script>
+
 
 
 <main id="main">
