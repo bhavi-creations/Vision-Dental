@@ -106,48 +106,46 @@
 
 
 
-
-
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{
-          "@type": "Question",
-          "name": "Who is the best dentist in Guntur?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Dr. Abhilash and Dr. Lathasree at Vision Multi Specialty Dental Hospital are widely regarded as two of the best dentists in Guntur. With years of experience and expertise in advanced dental treatments, they offer personalized, painless care for all age groups."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What dental treatments are available at Vision Dental Hospital?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "At Vision Multi Specialty Dental Hospital in Guntur, we offer a full range of treatments including dental implants, root canal therapy, braces, teeth whitening, crowns, bridges, pediatric dentistry, and smile designing."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Which is the best dental hospital in Guntur?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Vision Multi Specialty Dental Hospital is considered the best dental hospital in Guntur for its modern technology, experienced dental team, and patient-centered approach. Led by Dr. Abhilash and Dr. Lathasree, the hospital provides comprehensive dental solutions including implants, root canals, braces, and cosmetic dentistry."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why should I choose Vision Dental Hospital in Guntur?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Patients choose Vision Dental Hospital for its strong reputation, experienced doctors like Dr. Abhilash and Dr. Lathasree, affordable pricing, and advanced treatment options. Whether it’s preventive care or smile makeovers, the hospital ensures quality and comfort."
-          }
-        }
-      ]
-    }
-  </script>
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dentist",
+  "name": "Vision Multispecialty Dental Hospital",
+  "url": "https://visiondentalguntur.com/",
+  "logo": "https://visiondentalguntur.com/logo.png",
+  "description": "Vision Multispecialty Dental Hospital offers expert dental care with advanced treatments in Guntur, Andhra Pradesh.",
+  "telephone": ["+91 93914 57072"],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Ngo’s Colony Main Road, Corner, 5th Line, opposite Prudhvi Prisitine, Venkata Ramana Colony",
+    "addressLocality": "Guntur",
+    "addressRegion": "Andhra Pradesh",
+    "postalCode": "522004",
+    "addressCountry": "India"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 16.2997,
+    "longitude": 80.4573
+  },
+  "medicalSpecialty": [
+    "Dentistry",
+    "Orthodontics",
+    "Cosmetic Dentistry",
+    "Implant Dentistry"
+  ],
+  "openingHours": [
+    "Monday-Saturday 09:30-21:00",
+    "Sunday 09:30-14:00"
+  ],
+  "priceRange": "₹₹",
+  "sameAs": [
+    "https://www.facebook.com/VisionDentalGuntur",
+    "https://www.instagram.com/VisionDentalGuntur",
+    "https://g.co/kgs/YQpLG4o"
+  ]
+}
+</script>
 
 
 
