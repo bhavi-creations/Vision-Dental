@@ -177,13 +177,13 @@
           <li class="unique-nav-item " style="--i: 1.1s">
             <a href="treatment.php" class="unique-nav-link">Treatments<i class="fas fa-caret-down"></i></a>
             <div class="unique-dropdown">
-              <ul class="unique-dropdown-list  new_nav_bg">
+              <ul class="unique-dropdown-list  new_nav_bg navbar_new_section">
 
 
                 <li class="unique-dropdown-item">
                   <a href="#" class="unique-dropdown-link">Pain Relief<i class="fas fa-caret-down"></i></a>
                   <div class="unique-dropdown second-level  nav_div_mrg nav_div_mrg_one">
-                    <ul class="unique-dropdown-list inside_nav_drop_down">
+                    <ul class="unique-dropdown-list inside_nav_drop_down sub_section1">
                       <li class="unique-dropdown-item">
                         <a href="root.php" class="unique-dropdown-link">Root Canal Treatment</a>
                       </li>
@@ -201,7 +201,7 @@
                 <li class="unique-dropdown-item">
                   <a href="#" class="unique-dropdown-link">Teeth Replacement<i class="fas fa-caret-down"></i></a>
                   <div class="unique-dropdown second-level  nav_div_mrg nav_div_mrg_two">
-                    <ul class="unique-dropdown-list inside_nav_drop_down">
+                    <ul class="unique-dropdown-list inside_nav_drop_down sub_section1">
                       <li class="unique-dropdown-item">
                         <a href="dentures.php" class="unique-dropdown-link">Dentures</a>
                       </li>
@@ -219,7 +219,7 @@
                 <li class="unique-dropdown-item">
                   <a href="#" class="unique-dropdown-link">Laminate Veneers<i class="fas fa-caret-down"></i></a>
                   <div class="unique-dropdown second-level  nav_div_mrg nav_div_mrg_three">
-                    <ul class="unique-dropdown-list inside_nav_drop_down">
+                    <ul class="unique-dropdown-list inside_nav_drop_down  sub_section1">
                       <li class="unique-dropdown-item">
                         <a href="aligners.php" class="unique-dropdown-link"> Clear Aligners</a>
                       </li>
@@ -241,7 +241,7 @@
                 <li class="unique-dropdown-item">
                   <a href="#" class="unique-dropdown-link">Laser Veda<i class="fas fa-caret-down"></i></a>
                   <div class="unique-dropdown second-level  nav_div_mrg nav_div_mrg_four">
-                    <ul class="unique-dropdown-list inside_nav_drop_down">
+                    <ul class="unique-dropdown-list inside_nav_drop_down sub_section1 ">
                       <li class="unique-dropdown-item">
                         <a href="laserTooth.php" class="unique-dropdown-link"> Laser assisted Teeth Cleaning</a>
                       </li>
@@ -274,7 +274,7 @@
                 <li class="unique-dropdown-item">
                   <a href="#" class="unique-dropdown-link"> Child Dentistry<i class="fas fa-caret-down"></i></a>
                   <div class="unique-dropdown second-level nav_div_mrg nav_div_mrg_five">
-                    <ul class="unique-dropdown-list inside_nav_drop_down">
+                    <ul class="unique-dropdown-list inside_nav_drop_down sub_section1">
                       <li class="unique-dropdown-item">
                         <a href="pediatric.php" class="unique-dropdown-link">Pediatric Dentist</a>
                       </li>
@@ -385,4 +385,37 @@
     <script type="application/ld+json">
       <?= json_encode($schema_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES); ?>
     </script>
+
+
+
+
+
+
+
+
+
+
+    <script>
+  $(document).ready(function () {
+    // Only apply this on screen widths < 992px
+    if ($(window).width() < 992) {
+      // Toggle first-level dropdown
+      $('.unique-nav-link').click(function (e) {
+        e.preventDefault();
+        $(this).next('.unique-dropdown').slideToggle();
+        $(this).parent().siblings().find('.unique-dropdown').slideUp(); // close others
+      });
+
+      // Toggle second-level dropdown
+      $('.unique-dropdown-link').click(function (e) {
+        if ($(this).next('.second-level').length) {
+          e.preventDefault();
+          $(this).next('.second-level').slideToggle();
+          $(this).parent().siblings().find('.second-level').slideUp(); // close others
+        }
+      });
+    }
+  });
+</script>
+
   </header>

@@ -951,3 +951,63 @@ button.reader {
   border-radius: 3px;
   margin-top: 10px;
 }
+
+.only_first video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  pointer-events: none;
+  z-index: 0;
+  position: relative;
+}
+
+#header {
+  z-index: 1000;
+  position: relative;
+}
+
+.unique-dropdown,
+.unique-dropdown-list,
+.second-level {
+  z-index: 1001;
+  position: absolute;
+  /* background-color: rgba(245, 0, 0, 0.95); */
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+
+
+
+@media (max-width: 991px) {
+  .unique-dropdown,
+  .second-level {
+    display: none; /* Hide by default on mobile */
+  }
+}
+
+
+@media (min-width:1024px) and (max-width:1600px){
+  .sub_section1{
+    left: -10px !important;
+  }
+}
+
+
+
+@media (min-width:375px) and (max-width:992px) {
+
+  .navbar_new_section{
+
+    height: 300px !important;
+  }
+  
+.sub_section1{
+  width: 300px !important;
+  height:200px !important;
+}
+
+
+
+
+
+}
