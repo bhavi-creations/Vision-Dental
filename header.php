@@ -106,47 +106,136 @@
 
 
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Dentist",
-  "name": "Vision Multispecialty Dental Hospital",
-  "url": "https://visiondentalguntur.com/",
-  "logo": "https://visiondentalguntur.com/logo.png",
-  "description": "Vision Multispecialty Dental Hospital offers expert dental care with advanced treatments in Guntur, Andhra Pradesh.",
-  "telephone": ["+91 93914 57072"],
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Ngo’s Colony Main Road, Corner, 5th Line, opposite Prudhvi Prisitine, Venkata Ramana Colony",
-    "addressLocality": "Guntur",
-    "addressRegion": "Andhra Pradesh",
-    "postalCode": "522004",
-    "addressCountry": "India"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 16.2997,
-    "longitude": 80.4573
-  },
-  "medicalSpecialty": [
-    "Dentistry",
-    "Orthodontics",
-    "Cosmetic Dentistry",
-    "Implant Dentistry"
-  ],
-  "openingHours": [
-    "Monday-Saturday 09:30-21:00",
-    "Sunday 09:30-14:00"
-  ],
-  "priceRange": "₹₹",
-  "sameAs": [
-    "https://www.facebook.com/VisionDentalGuntur",
-    "https://www.instagram.com/VisionDentalGuntur",
-    "https://g.co/kgs/YQpLG4o"
-  ]
-}
-</script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Dentist",
+      "name": "Vision Multispecialty Dental Hospital",
+      "url": "https://visiondentalguntur.com/",
+      "logo": "https://visiondentalguntur.com/logo.png",
+      "description": "Vision Multispecialty Dental Hospital offers expert dental care with advanced treatments in Guntur, Andhra Pradesh.",
+      "telephone": ["+91 93914 57072"],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Ngo’s Colony Main Road, Corner, 5th Line, opposite Prudhvi Prisitine, Venkata Ramana Colony",
+        "addressLocality": "Guntur",
+        "addressRegion": "Andhra Pradesh",
+        "postalCode": "522004",
+        "addressCountry": "India"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 16.2997,
+        "longitude": 80.4573
+      },
+      "medicalSpecialty": [
+        "Dentistry",
+        "Orthodontics",
+        "Cosmetic Dentistry",
+        "Implant Dentistry"
+      ],
+      "openingHours": [
+        "Monday-Saturday 09:30-21:00",
+        "Sunday 09:30-14:00"
+      ],
+      "priceRange": "₹₹",
+      "sameAs": [
+        "https://www.facebook.com/VisionDentalGuntur",
+        "https://www.instagram.com/VisionDentalGuntur",
+        "https://g.co/kgs/YQpLG4o"
+      ]
+    }
+  </script>
 
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+          "@type": "Question",
+          "name": "Who is the best dentist in Guntur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At Vision Multispeciality Dental Hospital, Dr. Abhilash and Dr. Lathasree are among the most trusted and experienced dentists in Guntur, offering top-quality dental care with a focus on patient comfort and precision."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which is the best dental hospital in Guntur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vision Dental Guntur is one of the best dental hospitals in Guntur, known for advanced treatments, experienced dentists, and patient-friendly services across all age groups."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What treatments are offered at Vision Dental Hospital?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We provide comprehensive dental care including root canal treatment, clear aligners, pediatric dentistry, braces, implants, teeth whitening, and smile designing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why should I choose Vision Dental Hospital in Guntur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Patients choose us for our advanced dental technology, skilled dentists, hygienic environment, and commitment to pain-free, affordable treatments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Vision Dental Guntur open on weekends?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, our dental clinic is open on Saturdays and available for appointments on Sundays with prior booking for emergency and scheduled cases."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the cost of root canal treatment in Guntur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Root canal treatment at our clinic is affordable and varies based on the case. Visit our root canal treatment page for more information or book a consultation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer invisible aligners or braces in Guntur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, we offer both metal braces and clear aligners like Invisalign to help patients achieve a confident smile with modern, discreet solutions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are there pediatric dental specialists at Vision Dental?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Our pediatric dentistry team provides gentle, effective dental care tailored for children, ensuring comfort and long-term dental health."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are patients saying about Vision Dental Guntur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our patients consistently call us the best dental clinic in Guntur for our compassionate staff, painless treatment approach, and excellent results."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I book an appointment at Vision Dental Guntur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can easily book an appointment online or call us directly during clinic hours. Walk-ins are also welcome for general check-ups."
+          }
+        }
+      ]
+    }
+  </script>
 
 
 
@@ -396,26 +485,26 @@
 
 
     <script>
-  $(document).ready(function () {
-    // Only apply this on screen widths < 992px
-    if ($(window).width() < 992) {
-      // Toggle first-level dropdown
-      $('.unique-nav-link').click(function (e) {
-        e.preventDefault();
-        $(this).next('.unique-dropdown').slideToggle();
-        $(this).parent().siblings().find('.unique-dropdown').slideUp(); // close others
-      });
+      $(document).ready(function() {
+        // Only apply this on screen widths < 992px
+        if ($(window).width() < 992) {
+          // Toggle first-level dropdown
+          $('.unique-nav-link').click(function(e) {
+            e.preventDefault();
+            $(this).next('.unique-dropdown').slideToggle();
+            $(this).parent().siblings().find('.unique-dropdown').slideUp(); // close others
+          });
 
-      // Toggle second-level dropdown
-      $('.unique-dropdown-link').click(function (e) {
-        if ($(this).next('.second-level').length) {
-          e.preventDefault();
-          $(this).next('.second-level').slideToggle();
-          $(this).parent().siblings().find('.second-level').slideUp(); // close others
+          // Toggle second-level dropdown
+          $('.unique-dropdown-link').click(function(e) {
+            if ($(this).next('.second-level').length) {
+              e.preventDefault();
+              $(this).next('.second-level').slideToggle();
+              $(this).parent().siblings().find('.second-level').slideUp(); // close others
+            }
+          });
         }
       });
-    }
-  });
-</script>
+    </script>
 
   </header>

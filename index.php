@@ -939,11 +939,10 @@
 
 </section>
 
-<section class="ask_qus_sec">
+<!-- <section class="ask_qus_sec">
   <div class="container  ">
     <div class="text-center">
       <h1 class="ask_heading">Frequently Ask Question</h1>
-      <!-- <p class="ask_para">Lorem ipsum dolor sit amet consectetur. Molestie sagittis sit habitasse vivamus vulputate lectus pharetra nibh diam. </p> -->
     </div>
     <div class="row mt-5">
 
@@ -954,7 +953,6 @@
           <ul class="faq-list">
             <li class="padding_in_list">
               <div class="question ">
-                <!-- <p class="list_p_tag"><span class="list_type_style">. </span>Is a root canal treatment painful? -->
                 <p class="list_p_tag"><span class="list_type_style">. </span>Who is the best dentist in Guntur?
 
                   <span class="toggle-icon toggle_padding_icon_one">+</span>
@@ -962,25 +960,71 @@
               </div>
 
               <div class="answer">
-                <!-- No, with modern anesthesia and techniques, root canal treatments are usually not painful. -->
-                Dr. Abhilash and Dr. Lathasree at Vision Multi Specialty Dental Hospital are widely regarded as two of the best dentists in Guntur. With years of experience and expertise in advanced dental treatments, they offer personalized, painless care for all age groups
+                At Vision Multispeciality Dental Hospital, Dr. Abhilash and Dr. Lathasree are among the most trusted and experienced dentists in Guntur, offering top-quality dental care with a focus on patient comfort and precision.
               </div>
             </li>
             <hr class="hr_line">
             <li>
               <div class="question ">
-                <!-- <p class="list_p_tag"><span class="list_type_style">. </span> How long does a root canal treatment take? -->
-                <p class="list_p_tag"><span class="list_type_style">. </span>What treatments are offered at Hospital?
+                <p class="list_p_tag"><span class="list_type_style">. </span>Which is the best dental hospital in Guntur?
 
                   <span class="toggle-icon toggle_padding_icon_two">+</span>
                 </p>
               </div>
 
               <div class="answer">
-                <!-- No, with modern anesthesia and techniques, root canal treatments are usually not painful. -->
-                At Vision Multi Specialty Dental Hospital in Guntur, we offer a full range of treatments including dental implants, root canal therapy, braces, teeth whitening, crowns, bridges, pediatric dentistry, and smile designing
+                Vision Dental Guntur is one of the best dental hospitals in Guntur, known for advanced treatments, experienced dentists, and patient-friendly services across all age groups.
               </div>
             </li>
+            <hr class="hr_line">
+
+
+            <li class="padding_in_list">
+              <div class="question ">
+                <p class="list_p_tag"><span class="list_type_style">. </span>What treatments are offered at Vision?
+
+                  <span class="toggle-icon toggle_padding_icon_one">+</span>
+                </p>
+              </div>
+
+              <div class="answer">
+                We provide comprehensive dental care including root canal treatment, clear aligners, pediatric dentistry, braces, implants, teeth whitening, and smile designing.
+              </div>
+            </li>
+            <hr class="hr_line">
+
+
+            <li class="padding_in_list">
+              <div class="question ">
+                <p class="list_p_tag"><span class="list_type_style">. </span>Why should I choose Vision Dental Hospital in Guntur?
+
+                  <span class="toggle-icon toggle_padding_icon_one">+</span>
+                </p>
+              </div>
+
+              <div class="answer">
+                Patients choose us for our advanced dental technology, skilled dentists, hygienic environment, and commitment to pain-free, affordable treatments.
+              </div>
+            </li>
+            <hr class="hr_line">
+            <li class="padding_in_list">
+              <div class="question ">
+                <p class="list_p_tag"><span class="list_type_style">. </span> Is Vision Dental Guntur open on weekends?
+
+                  <span class="toggle-icon toggle_padding_icon_one">+</span>
+                </p>
+              </div>
+
+              <div class="answer">
+                Yes, our dental clinic is open on Saturdays and available for appointments on Sundays with prior booking for emergency and scheduled cases.
+              </div>
+            </li>
+
+
+
+
+
+
 
           </ul>
         </div>
@@ -994,33 +1038,83 @@
 
             <li>
               <div class="question ">
-                <!-- <p class="list_p_tag"><span class="list_type_style">. </span> Are root canal treatments expensive? -->
-                <p class="list_p_tag"><span class="list_type_style">. </span>Which is the best dental hospital in Guntur?
+                <p class="list_p_tag"><span class="list_type_style">. </span>What is the cost of root canal treatment in Guntur?
                   <span class="toggle-icon toggle_padding_icon_three">+</span>
                 </p>
               </div>
 
               <div class="answer">
-                <!-- No, with modern anesthesia and techniques, root canal treatments are usually not painful. -->
 
-                Vision Multi Specialty Dental Hospital is considered the best dental hospital in Guntur for its modern technology, experienced dental team, and patient-centered approach. Led by Dr. Abhilash and Dr. Lathasree, the hospital provides comprehensive dental solutions including implants, root canals, braces, and cosmetic dentistr
+                Root canal treatment at our clinic is affordable and varies based on the case. Visit our root canal treatment page for more information or book a consultation.
               </div>
             </li>
             <hr class="hr_line">
 
             <li>
               <div class="question ">
-                <!-- <p class="list_p_tag"><span class="list_type_style">. </span>Can I drive after a root canal treatment? -->
-                <p class="list_p_tag"><span class="list_type_style">. </span>Why I choose Vision Dental Hospital in Guntur?
+                <p class="list_p_tag"><span class="list_type_style">. </span>Do you offer invisible aligners or braces in Guntur?
                   <span class="toggle-icon toggle_padding_icon_four">+</span>
                 </p>
               </div>
 
               <div class="answer">
-                <!-- No, with modern anesthesia and techniques, root canal treatments are usually not painful. -->
-                Patients choose Vision Dental Hospital for its strong reputation, experienced doctors like Dr. Abhilash and Dr. Lathasree, affordable pricing, and advanced treatment options. Whether it’s preventive care or smile makeovers, the hospital ensures quality and comfort
+                Yes, we offer both metal braces and clear aligners like Invisalign to help patients achieve a confident smile with modern, discreet solutions.
               </div>
             </li>
+
+
+
+
+            <hr class="hr_line">
+
+            <li>
+              <div class="question ">
+                <p class="list_p_tag"><span class="list_type_style">. </span>Are there pediatric dental specialists at Vision Dental?
+                  <span class="toggle-icon toggle_padding_icon_four">+</span>
+                </p>
+              </div>
+
+              <div class="answer">
+                Absolutely. Our pediatric dentistry team provides gentle, effective dental care tailored for children, ensuring comfort and long-term dental health.
+              </div>
+            </li>
+            <hr class="hr_line">
+
+            <li>
+              <div class="question ">
+                <p class="list_p_tag"><span class="list_type_style">. </span>What are patients saying about Vision Dental Guntur?
+                  <span class="toggle-icon toggle_padding_icon_four">+</span>
+                </p>
+              </div>
+
+              <div class="answer">
+                Our patients consistently call us the best dental clinic in Guntur for our compassionate staff, painless treatment approach, and excellent results. Check out reviews on Google or visit our clinic to experience it yourself.
+              </div>
+            </li>
+            <hr class="hr_line">
+
+            <li>
+              <div class="question ">
+                <p class="list_p_tag"><span class="list_type_style">. </span>How do I book an appointment at Vision Dental Guntur?
+                  <span class="toggle-icon toggle_padding_icon_four">+</span>
+                </p>
+              </div>
+
+              <div class="answer">
+                You can easily book an appointment here, or call us directly during clinic hours. Walk-ins are also welcome for general check-ups.
+              </div>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
           </ul>
         </div>
       </div>
@@ -1051,7 +1145,209 @@
   </script>
 
 
+</section> -->
+
+
+
+
+
+<section>
+  <div class="container">
+
+    <h1 class="text-center">Frequently Ask Question (FAQ)</h1>
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <div class="accordion">
+          <!-- Accordion 1 -->
+          <div class="faq_section">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <h2 class="faq_heading_section"> Who is the best dentist in Guntur?
+              </h2>
+              <h2 class="accordion-icon">+</h2>
+            </div>
+            <div class="accordion-content">
+              <p>
+              At Vision Multispeciality Dental Hospital, Dr. Abhilash and Dr. Lathasree are among the most trusted and experienced dentists in Guntur, offering top-quality dental care with a focus on patient comfort and precision.            </div>
+          </div>
+
+
+
+          <!-- Accordion 2 -->
+          <div class="faq_section">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <h2 class="faq_heading_section">Which is the best dental hospital in Guntur?
+
+              </h2>
+              <h2 class="accordion-icon">+</h2>
+            </div>
+            <div class="accordion-content">
+              <p>
+              Vision Dental Guntur is one of the best dental hospitals in Guntur, known for advanced treatments, experienced dentists, and patient-friendly services across all age groups.            </div>
+          </div>
+
+
+
+
+
+
+
+
+          <!-- Accordion 3 -->
+          <div class="faq_section">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <h2 class="faq_heading_section"> What treatments are offered at Vision Dental Hospital?
+              </h2>
+              <h2 class="accordion-icon">+</h2>
+            </div>
+            <div class="accordion-content">
+              <p>
+              We provide comprehensive dental care including root canal treatment, clear aligners, pediatric dentistry, braces, implants, teeth whitening, and smile designing.            </div>
+          </div>
+
+          <!-- Accordion 4 -->
+          <div class="faq_section">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <h2 class="faq_heading_section">Why should I choose Vision Dental Hospital in Guntur?
+
+              </h2>
+              <h2 class="accordion-icon">+</h2>
+            </div>
+            <div class="accordion-content">
+              <p>
+              Patients choose us for our advanced dental technology, skilled dentists, hygienic environment, and commitment to pain-free, affordable treatments.
+              </p>
+            </div>
+          </div>
+          <!-- Accordion 5 -->
+           <div class="faq_section">
+              <div class="accordion-header" onclick="toggleAccordion(this)">
+                <h2 class="faq_heading_section">Is Vision Dental Guntur open on weekends?
+                </h2>
+                <h2 class="accordion-icon">+</h2>
+              </div>
+              <div class="accordion-content">
+                <p>
+                Yes, our dental clinic is open on Saturdays and available for appointments on Sundays with prior booking for emergency and scheduled cases.                </p>
+              </div> 
+            </div>
+
+        </div>
+
+      </div>
+      <div class="col-12 col-md-6">
+
+
+        <div class="accordion">
+
+
+          <!-- Accordion 1 -->
+          <div class="faq_section">
+
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <h2 class="faq_heading_section">What is the cost of root canal treatment in Guntur?
+
+              </h2>
+              <h2 class="accordion-icon">+</h2>
+            </div>
+            <div class="accordion-content">
+              <p>
+              Root canal treatment at our clinic is affordable and varies based on the case. Visit our root canal treatment page for more information or book a consultation.            </div>
+          </div>
+
+
+          <!-- Accordion 2 -->
+          <div class="faq_section">
+
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <h2 class="faq_heading_section"> Do you offer invisible aligners or braces in Guntur?
+              </h2>
+              <h2 class="accordion-icon">+</h2>
+            </div>
+            <div class="accordion-content">
+              <p>
+              Yes, we offer both metal braces and clear aligners like Invisalign to help patients achieve a confident smile with modern, discreet solutions.            </div>
+          </div>
+
+
+          <!-- Accordion 3 -->
+          <div class="faq_section">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <h2 class="faq_heading_section">Are there pediatric dental specialists at Vision Dental?
+
+              </h2>
+              <h2 class="accordion-icon">+</h2>
+            </div>
+            <div class="accordion-content">
+              <p>
+              Absolutely. Our pediatric dentistry team provides gentle, effective dental care tailored for children, ensuring comfort and long-term dental health.            </div>
+          </div>
+          <!-- Accordion 4 -->
+          <div class="faq_section">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <h2 class="faq_heading_section">What are patients saying about Vision Dental Guntur?</h2>
+              <h2 class="accordion-icon">+</h2>
+            </div>
+            <div class="accordion-content">
+              <p>
+              Our patients consistently call us the best dental clinic in Guntur for our compassionate staff, painless treatment approach, and excellent results. Check out reviews on Google or visit our clinic to experience it yourself.            </div>
+          </div>
+          <!-- Accordion 5 -->
+          <div class="faq_section">
+              <div class="accordion-header" onclick="toggleAccordion(this)">
+                <h2 class="faq_heading_section"> How do I book an appointment at Vision Dental Guntur?
+                </h2>
+                <h2 class="accordion-icon">+</h2>
+              </div>
+              <div class="accordion-content">
+                <p>
+                You can easily book an appointment here, or call us directly during clinic hours. Walk-ins are also welcome for general check-ups.                </p>
+              </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
+
+
+
+
+
+
+<script>
+  function toggleAccordion(header) {
+    const content = header.nextElementSibling;
+    const icon = header.querySelector(".accordion-icon");
+
+    // Close all open accordions if only one should be open at a time
+    document.querySelectorAll('.accordion-content').forEach(el => {
+      if (el !== content) el.classList.remove('open');
+    });
+    document.querySelectorAll('.accordion-icon').forEach(el => {
+      if (el !== icon) {
+        el.classList.remove('rotate');
+        el.textContent = '+';
+      }
+    });
+
+    // Toggle current
+    content.classList.toggle("open");
+    icon.classList.toggle("rotate");
+
+    icon.textContent = content.classList.contains("open") ? "−" : "+";
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
 
 
 
