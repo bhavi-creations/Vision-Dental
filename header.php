@@ -335,7 +335,7 @@
                         <a href="laserTooth.php" class="unique-dropdown-link"> Laser assisted Teeth Cleaning</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="gum" class="unique-dropdown-link"> Gum Depigmentation</a>
+                        <a href="gum.php" class="unique-dropdown-link"> Gum Depigmentation</a>
                       </li>
                       <li class="unique-dropdown-item">
                         <a href="laserTeeth.php" class="unique-dropdown-link"> Laser Teeth Whitening</a>
