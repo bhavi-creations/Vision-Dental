@@ -665,7 +665,7 @@
         <h1 class="why_choose_head">Why Choose 
           Vision Multi speciality
           Dental</h1>
-        <p class="why_choose_para">"We provide comprehensive dental care, from routine check-ups to advanced procedures, all in one place. Our skilled team offers personalized treatment for your best oral health. Visit the Best Dentist in Guntur."</p>
+        <p class="why_choose_para">"We provide a full range of dental services—from routine check-ups to advanced treatments—all conveniently available under one roof. At our trusted dental clinic in Guntur, our experienced team is committed to delivering personalized care tailored to your individual needs. Whether you're seeking preventive care, cosmetic improvements, or restorative dentistry, we’re here to support you every step of the way on your journey to better oral health. Visit one of Guntur’s top-rated dentists and experience the quality care you deserve"</p>
         <button class="view_all_buttton"><a href="equipment.php" style="color: #fff;">View all</a> </button>
       </div>
       <div class="col-md-7">
@@ -1167,7 +1167,8 @@
             </div>
             <div class="accordion-content">
               <p>
-              At Vision Multispeciality Dental Hospital, Dr. Abhilash and Dr. Lathasree are among the most trusted and experienced dentists in Guntur, offering top-quality dental care with a focus on patient comfort and precision.            </div>
+                At Vision Multispeciality Dental Hospital, Dr. Abhilash and Dr. Lathasree are among the most trusted and experienced dentists in Guntur, offering top-quality dental care with a focus on patient comfort and precision.
+            </div>
           </div>
 
 
@@ -1182,7 +1183,8 @@
             </div>
             <div class="accordion-content">
               <p>
-              Vision Dental Guntur is one of the best dental hospitals in Guntur, known for advanced treatments, experienced dentists, and patient-friendly services across all age groups.            </div>
+                Vision Dental Guntur is one of the best dental hospitals in Guntur, known for advanced treatments, experienced dentists, and patient-friendly services across all age groups.
+            </div>
           </div>
 
 
@@ -1201,7 +1203,8 @@
             </div>
             <div class="accordion-content">
               <p>
-              We provide comprehensive dental care including root canal treatment, clear aligners, pediatric dentistry, braces, implants, teeth whitening, and smile designing.            </div>
+                We provide comprehensive dental care including root canal treatment, clear aligners, pediatric dentistry, braces, implants, teeth whitening, and smile designing.
+            </div>
           </div>
 
           <!-- Accordion 4 -->
@@ -1214,22 +1217,22 @@
             </div>
             <div class="accordion-content">
               <p>
-              Patients choose us for our advanced dental technology, skilled dentists, hygienic environment, and commitment to pain-free, affordable treatments.
+                Patients choose us for our advanced dental technology, skilled dentists, hygienic environment, and commitment to pain-free, affordable treatments.
               </p>
             </div>
           </div>
           <!-- Accordion 5 -->
-           <div class="faq_section">
-              <div class="accordion-header" onclick="toggleAccordion(this)">
-                <h2 class="faq_heading_section">Is Vision Dental Guntur open on weekends?
-                </h2>
-                <h2 class="accordion-icon">+</h2>
-              </div>
-              <div class="accordion-content">
-                <p>
-                Yes, our dental clinic is open on Saturdays and available for appointments on Sundays with prior booking for emergency and scheduled cases.                </p>
-              </div> 
+          <div class="faq_section">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <h2 class="faq_heading_section">Is Vision Dental Guntur open on weekends?
+              </h2>
+              <h2 class="accordion-icon">+</h2>
             </div>
+            <div class="accordion-content">
+              <p>
+                Yes, our dental clinic is open on Saturdays and available for appointments on Sundays with prior booking for emergency and scheduled cases. </p>
+            </div>
+          </div>
 
         </div>
 
@@ -1251,7 +1254,8 @@
             </div>
             <div class="accordion-content">
               <p>
-              Root canal treatment at our clinic is affordable and varies based on the case. Visit our root canal treatment page for more information or book a consultation.            </div>
+                Root canal treatment at our clinic is affordable and varies based on the case. Visit our root canal treatment page for more information or book a consultation.
+            </div>
           </div>
 
 
@@ -1265,7 +1269,8 @@
             </div>
             <div class="accordion-content">
               <p>
-              Yes, we offer both metal braces and clear aligners like Invisalign to help patients achieve a confident smile with modern, discreet solutions.            </div>
+                Yes, we offer both metal braces and clear aligners like Invisalign to help patients achieve a confident smile with modern, discreet solutions.
+            </div>
           </div>
 
 
@@ -1279,7 +1284,8 @@
             </div>
             <div class="accordion-content">
               <p>
-              Absolutely. Our pediatric dentistry team provides gentle, effective dental care tailored for children, ensuring comfort and long-term dental health.            </div>
+                Absolutely. Our pediatric dentistry team provides gentle, effective dental care tailored for children, ensuring comfort and long-term dental health.
+            </div>
           </div>
           <!-- Accordion 4 -->
           <div class="faq_section">
@@ -1289,20 +1295,21 @@
             </div>
             <div class="accordion-content">
               <p>
-              Our patients consistently call us the best dental clinic in Guntur for our compassionate staff, painless treatment approach, and excellent results. Check out reviews on Google or visit our clinic to experience it yourself.            </div>
+                Our patients consistently call us the best dental clinic in Guntur for our compassionate staff, painless treatment approach, and excellent results. Check out reviews on Google or visit our clinic to experience it yourself.
+            </div>
           </div>
           <!-- Accordion 5 -->
           <div class="faq_section">
-              <div class="accordion-header" onclick="toggleAccordion(this)">
-                <h2 class="faq_heading_section"> How do I book an appointment at Vision Dental Guntur?
-                </h2>
-                <h2 class="accordion-icon">+</h2>
-              </div>
-              <div class="accordion-content">
-                <p>
-                You can easily book an appointment here, or call us directly during clinic hours. Walk-ins are also welcome for general check-ups.                </p>
-              </div>
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+              <h2 class="faq_heading_section"> How do I book an appointment at Vision Dental Guntur?
+              </h2>
+              <h2 class="accordion-icon">+</h2>
             </div>
+            <div class="accordion-content">
+              <p>
+                You can easily book an appointment here, or call us directly during clinic hours. Walk-ins are also welcome for general check-ups. </p>
+            </div>
+          </div>
 
         </div>
       </div>
