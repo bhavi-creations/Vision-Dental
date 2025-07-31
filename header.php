@@ -388,6 +388,8 @@
           <li><a class="nav-link" href="blogs.php">Blogs</a></li>
           <li><a class="nav-link scrollto" href="testimonials.php">Reviews</a></li>
           <li><a class="nav-link scrollto" href="gallery.php">Smile Gallery</a></li>
+          <!-- <li><a class="nav-link scrollto d-none -d-lg- d-xl-none" href="contact.php">Contact us</a></li> -->
+          <li><a class="nav-link scrollto d-block d-lg-none d-xl-block" href="contact.php">Contact us</a></li>
 
           <li><a href="appointment.php" class="appointment-btn scrollto d-lg-none" style="z-index: 999;">
               Appointment
@@ -395,7 +397,7 @@
         </ul>
       </nav>
 
-      <a href="appointment.php" class="appointment-btn scrollto d-none d-lg-block" style="z-index: 999;">
+      <a href="appointment.php" class="appointment-btn scrollto d-none d-lg-block d-flex justify-content-center" style="z-index: 999;">
         Appointment
       </a>
     </div>

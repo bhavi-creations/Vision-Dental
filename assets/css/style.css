@@ -363,7 +363,7 @@ h6 {
     height: Hug (45px) px;
     top: 68px;
     left: 1103px;
-    padding: 10px 4px 10px 23px;
+    padding: 10px 17px 10px 17px;
     gap: 10px;
     border-radius: 30px;
     opacity: 0px;
@@ -4192,4 +4192,12 @@ h6 {
   .accordion-icon {
     font-size: 20px;
   }
+}
+
+
+@media (min-width:992px) and (max-width:1199px) {
+  .contact_form{
+    display: none;
+  }
+  
 }
