@@ -8,7 +8,7 @@
     <source src="assets/img/treat/vision.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <!-- <button id="unmuteButton">Unmute</button> -->
+  
 </section>
 
 <script>
@@ -939,6 +939,8 @@
 
 </section>
 
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis consequuntur distinctio culpa quo, non consequatur tenetur ipsum delectus! Quidem quae voluptatem quo ut velit fugiat doloribus dolor unde cupiditate?
 <!-- <section class="ask_qus_sec">
   <div class="container  ">
     <div class="text-center">
