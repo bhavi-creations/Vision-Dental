@@ -346,11 +346,11 @@ if ($blog_id > 0) {
 
         <section class="ul-service-details  second_section_blogs  d-none  d-lg-block">
             <div class="container-fluid">
-                <d class="row g-xl-5 g-4 mx-3">
+                <div class="row g-xl-5 g-4 mx-3">
 
                     <div class="col-lg-2 col-md-2 blogs_side_branding">
 
-                        <img src="./assets/img/service_side_image1.jpg" alt="" style="height:280px; width: 330px;">
+                        <img src="./assets/img/imgimgimg.png" alt="" class="img-fluid" >
 
 
 
@@ -440,23 +440,25 @@ if ($blog_id > 0) {
                                     <?php endif; ?>
                                 </div> -->
 
-                                <div class="row mb-3">
-                                    <?php if (!empty($blog['main_image'])): ?>
-                                        <div class="col-12 col-lg-6 mb-3 mb-md-0 text-center">
-                                            <img src="./admin/uploads/photos/<?php echo htmlspecialchars($blog['main_image']); ?>"
-                                                alt="Main Image" class="img-fluid" style="max-height:200px; width:auto; object-fit:cover;">
-                                        </div>
-                                    <?php endif; ?>
 
-                                    <?php if (!empty($blog['video'])): ?>
-                                        <div class="col-12 col-lg-6 text-center  blog_video_section">
-                                            <video src="./admin/uploads/videos/<?php echo htmlspecialchars($blog['video']); ?>"
-                                                controls style="max-height:200px; width:auto; object-fit:cover;"></video>
-                                            <!-- controls style="max-height:200px; width:auto; object-fit:cover;"></video> -->
-                                        </div>
-                                    <?php endif; ?>
+                                <div class="container">
+                                    <div class="row mb-3">
+                                        <?php if (!empty($blog['main_image'])): ?>
+                                            <div class="col-12 col-lg-6 mb-3 mb-md-0 text-center">
+                                                <img src="./admin/uploads/photos/<?php echo htmlspecialchars($blog['main_image']); ?>"
+                                                    alt="Main Image" class="img-fluid" style="max-height:200px; width:auto; object-fit:cover;">
+                                            </div>
+                                        <?php endif; ?>
+
+                                        <?php if (!empty($blog['video'])): ?>
+                                            <div class="col-12 col-lg-6 text-center  blog_video_section  ">
+                                                <video src="./admin/uploads/videos/<?php echo htmlspecialchars($blog['video']); ?>"
+                                                    controls style="max-height:200px; width:auto; object-fit:cover;"></video>
+                                                <!-- controls style="max-height:200px; width:auto; object-fit:cover;"></video> -->
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
                                 </div>
-
 
 
 
@@ -683,8 +685,6 @@ if ($blog_id > 0) {
 
                                 <!-- Display Comments -->
                                 <?php
-
-
                                 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                     $comment_id = intval($_POST['comment_id']);
                                     $type = $_POST['type'];
@@ -726,9 +726,6 @@ if ($blog_id > 0) {
                                 }
                                 ?>
 
-
-
-
                                 <div class="comment-list">
                                     <h4>📝 Latest Comments</h4>
                                     <div class="row">
@@ -742,27 +739,51 @@ if ($blog_id > 0) {
                                                 $comment_id = $row['id'];
                                                 $user_name  = htmlspecialchars($row['user_name']);
                                                 $comment    = htmlspecialchars($row['comment']);
+                                                $reply_text = htmlspecialchars($row['reply_text']);
                                                 $likes      = (int)$row['likes'];
                                                 $dislikes   = (int)$row['dislikes'];
 
                                                 echo "
-                                                    <div class='col-md-6 mb-3'>
-                                                        <div class='comment-item p-3 border rounded shadow-sm h-100'>
-                                                            <strong>$user_name</strong>
-                                                            <p class='mb-0'>$comment</p>
+                                        <div class='col-md-6 mb-3'>
+                                            <div class='comment-item p-3 border rounded shadow-sm h-100'>
+                                                <p><strong>Name:</strong> $user_name</p>
+                                                <p><strong>Comment:</strong> $comment</p>";
 
-                                                            <!-- Like / Dislike buttons -->
-                                                            <div class='mt-2 d-flex justify-content-between'>
-                                                                <button class='btn btn-sm btn-outline-success' onclick='updateReaction($comment_id, \"like\")'>
-                                                                    👍 Like (<span id='like-count-$comment_id'>$likes</span>)
-                                                                </button>
-                                                                <button class='btn btn-sm btn-outline-danger' onclick='updateReaction($comment_id, \"dislike\")'>
-                                                                    👎 Dislike (<span id='dislike-count-$comment_id'>$dislikes</span>)
-                                                                </button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    ";
+                                                // ✅ If reply exists, show replies count (split by || for multiple replies)
+                                                if (!empty($reply_text)) {
+                                                    $replies = explode("||", $reply_text); // multiple replies stored as text separated by ||
+                                                    $reply_count = count($replies);
+
+                                                    echo "
+                                                <a href='javascript:void(0)' class='text-primary small' onclick='toggleReply($comment_id)'>
+                                                    $reply_count Reply" . ($reply_count > 1 ? "ies" : "") . "
+                                                </a>
+                                                <div id='reply-box-$comment_id' class='mt-2' style='display:none;'>";
+
+                                                    foreach ($replies as $reply) {
+                                                        $reply = htmlspecialchars(trim($reply));
+                                                        echo "
+                                                    <div class='p-2 mb-1 bg-light border rounded'>
+                                                        <strong>Vision Dental Hospital :</strong> $reply
+                                                    </div>";
+                                                    }
+
+                                                    echo "</div>";
+                                                }
+
+                                                echo "
+                                                <!-- Like / Dislike buttons -->
+                                                <div class='mt-2 d-flex justify-content-between'>
+                                                    <button class='btn btn-sm btn-outline-success' onclick='updateReaction($comment_id, \"like\")'>
+                                                        👍 Like (<span id='like-count-$comment_id'>$likes</span>)
+                                                    </button>
+                                                    <button class='btn btn-sm btn-outline-danger' onclick='updateReaction($comment_id, \"dislike\")'>
+                                                        👎 Dislike (<span id='dislike-count-$comment_id'>$dislikes</span>)
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        ";
                                             }
                                         } else {
                                             echo "<div class='col-12'><p>No comments yet. Be the first to comment!</p></div>";
@@ -770,6 +791,15 @@ if ($blog_id > 0) {
                                         ?>
                                     </div>
                                 </div>
+
+                                <script>
+                                    function toggleReply(commentId) {
+                                        let replyBox = document.getElementById("reply-box-" + commentId);
+                                        replyBox.style.display = (replyBox.style.display === "none") ? "block" : "none";
+                                    }
+                                </script>
+
+
 
 
                                 <script>
@@ -795,6 +825,7 @@ if ($blog_id > 0) {
                                         xhr.send("comment_id=" + commentId + "&type=" + type);
                                     }
                                 </script>
+
 
 
 
@@ -855,7 +886,7 @@ if ($blog_id > 0) {
                     <div class="col-lg-2 col-md-2">
 
 
-                        <img src="./assets/img/service_side_image2.jpg" alt="" style="height: 280px; width: 330px;">
+                        <img src="./assets/img/imgimgimg.png" alt="" class="img-fluid">
 
 
                         <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:20px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
@@ -877,7 +908,7 @@ if ($blog_id > 0) {
 
 
                     </div>
-            </div>
+                </div>
             </div>
             </div>
         </section>
@@ -1242,27 +1273,51 @@ if ($blog_id > 0) {
                                                 $comment_id = $row['id'];
                                                 $user_name  = htmlspecialchars($row['user_name']);
                                                 $comment    = htmlspecialchars($row['comment']);
+                                                $reply_text = htmlspecialchars($row['reply_text']);
                                                 $likes      = (int)$row['likes'];
                                                 $dislikes   = (int)$row['dislikes'];
 
                                                 echo "
-                    <div class='col-md-6 mb-3'>
-                        <div class='comment-item p-3 border rounded shadow-sm h-100'>
-                            <strong>$user_name</strong>
-                            <p class='mb-0'>$comment</p>
+                                        <div class='col-md-6 mb-3'>
+                                            <div class='comment-item p-3 border rounded shadow-sm h-100'>
+                                                <p><strong>Name:</strong> $user_name</p>
+                                                <p><strong>Comment:</strong> $comment</p>";
 
-                            <!-- Like / Dislike buttons -->
-                            <div class='mt-2 d-flex justify-content-between'>
-                                <button class='btn btn-sm btn-outline-success' onclick='updateReaction($comment_id, \"like\")'>
-                                    👍 Like (<span id='like-count-$comment_id'>$likes</span>)
-                                </button>
-                                <button class='btn btn-sm btn-outline-danger' onclick='updateReaction($comment_id, \"dislike\")'>
-                                    👎 Dislike (<span id='dislike-count-$comment_id'>$dislikes</span>)
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    ";
+                                                // ✅ If reply exists, show replies count (split by || for multiple replies)
+                                                if (!empty($reply_text)) {
+                                                    $replies = explode("||", $reply_text); // multiple replies stored as text separated by ||
+                                                    $reply_count = count($replies);
+
+                                                    echo "
+                                                <a href='javascript:void(0)' class='text-primary small' onclick='toggleReply($comment_id)'>
+                                                    $reply_count Reply" . ($reply_count > 1 ? "ies" : "") . "
+                                                </a>
+                                                <div id='reply-box-$comment_id' class='mt-2' style='display:none;'>";
+
+                                                    foreach ($replies as $reply) {
+                                                        $reply = htmlspecialchars(trim($reply));
+                                                        echo "
+                                                    <div class='p-2 mb-1 bg-light border rounded'>
+                                                        <strong>Vision Dental Hospital :</strong> $reply
+                                                    </div>";
+                                                    }
+
+                                                    echo "</div>";
+                                                }
+
+                                                echo "
+                                                <!-- Like / Dislike buttons -->
+                                                <div class='mt-2 d-flex justify-content-between'>
+                                                    <button class='btn btn-sm btn-outline-success' onclick='updateReaction($comment_id, \"like\")'>
+                                                        👍 Like (<span id='like-count-$comment_id'>$likes</span>)
+                                                    </button>
+                                                    <button class='btn btn-sm btn-outline-danger' onclick='updateReaction($comment_id, \"dislike\")'>
+                                                        👎 Dislike (<span id='dislike-count-$comment_id'>$dislikes</span>)
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        ";
                                             }
                                         } else {
                                             echo "<div class='col-12'><p>No comments yet. Be the first to comment!</p></div>";
@@ -1353,7 +1408,7 @@ if ($blog_id > 0) {
 
                     <div class=" col-md-6 blogs_side_branding ">
 
-                        <img src="./assets/img/service_side_image1.jpg" alt="" style="height:280px; width: 330px;">
+                        <img src="./assets/img/imgimgimg.png" alt="" class="">
 
 
 
@@ -1394,7 +1449,7 @@ if ($blog_id > 0) {
                     <div class=" col-md-6  blogs_side_branding">
 
 
-                        <img src="./assets/img/service_side_image2.jpg" alt="" style="height: 280px; width: 330px;">
+                        <img src="./assets/img/imgimgimg.png" alt="" class="img-fluid"  style="height:280px; width: 330px;">
 
 
                         <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:20px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
