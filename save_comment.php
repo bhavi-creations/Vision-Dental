@@ -3,7 +3,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db   = "vision"; 
+$db   = "visiondentalguntur"; 
 $conn = new mysqli($host, $user, $pass, $db);
 
 if ($conn->connect_error) {
