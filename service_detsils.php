@@ -348,7 +348,7 @@ if ($blog_id > 0) {
             <div class="container-fluid">
                 <div class="row g-xl-5 g-4 mx-3">
 
-                    <div class="col-lg-2 col-md-2 blogs_side_branding">
+                    <div class="col-lg-2 col-md-2 blogs_side_branding  ">
 
                         <img src="./assets/img/service_side_image1.png" alt="" class="img-fluid">
 
@@ -357,7 +357,7 @@ if ($blog_id > 0) {
 
 
 
-                        <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:20px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
+                        <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:8px 5px 5px 0px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
 
                             <!-- <h3 class="mani" style="color:#333; font-weight:600; margin-bottom:10px;">
                                 Contact Us
@@ -440,25 +440,31 @@ if ($blog_id > 0) {
                                     <?php endif; ?>
                                 </div> -->
 
-
                                 <div class="container">
-                                    <div class="row mb-3">
+                                    <div class="row mb-3 justify-content-center align-items-stretch">
+
                                         <?php if (!empty($blog['main_image'])): ?>
-                                            <div class="col-12 col-lg-6 mb-3 mb-md-0 text-center">
+                                            <div class="col-12 col-md-6 mb-3 text-center d-flex">
                                                 <img src="./admin/uploads/photos/<?php echo htmlspecialchars($blog['main_image']); ?>"
-                                                    alt="Main Image" class="img-fluid" style="max-height:200px; width:auto; object-fit:cover;">
+                                                    alt="Main Image"
+                                                    class="img-fluid rounded shadow-sm w-100"
+                                                    style="max-height: 300px; object-fit: cover;">
                                             </div>
                                         <?php endif; ?>
 
                                         <?php if (!empty($blog['video'])): ?>
-                                            <div class="col-12 col-lg-6 text-center  blog_video_section  ">
-                                                <video src="./admin/uploads/videos/<?php echo htmlspecialchars($blog['video']); ?>"
-                                                    controls style="max-height:200px; width:auto; object-fit:cover;"></video>
-                                                <!-- controls style="max-height:200px; width:auto; object-fit:cover;"></video> -->
+                                            <div class="col-12 col-md-6 mb-3 text-center d-flex">
+                                                <video class="rounded shadow-sm w-100"
+                                                    src="./admin/uploads/videos/<?php echo htmlspecialchars($blog['video']); ?>"
+                                                    controls
+                                                    style="max-height: 300px; object-fit: cover;">
+                                                </video>
                                             </div>
                                         <?php endif; ?>
+
                                     </div>
                                 </div>
+
 
 
 
@@ -889,7 +895,7 @@ if ($blog_id > 0) {
                         <img src="./assets/img/service_side_image2.jpg" alt="" class="img-fluid">
 
 
-                        <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:20px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
+                        <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:8px 5px 5px 0px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
 
 
 
@@ -972,23 +978,31 @@ if ($blog_id > 0) {
                                 </div> -->
 
                                 <div class="container">
-                                    <div class="row mb-3">
+                                    <div class="row mb-3 justify-content-center align-items-stretch">
+
                                         <?php if (!empty($blog['main_image'])): ?>
-                                            <div class="col-12 col-lg-6 mb-3 mb-md-0 text-center">
+                                            <div class="col-12 col-md-6 mb-3 text-center d-flex">
                                                 <img src="./admin/uploads/photos/<?php echo htmlspecialchars($blog['main_image']); ?>"
-                                                    alt="Main Image" class="img-fluid" style="max-height:200px; width:auto; object-fit:cover;">
+                                                    alt="Main Image"
+                                                    class="img-fluid rounded shadow-sm w-100"
+                                                    style="max-height: 300px; object-fit: cover;">
                                             </div>
                                         <?php endif; ?>
 
                                         <?php if (!empty($blog['video'])): ?>
-                                            <div class="col-12 col-lg-6 text-center  blog_video_section">
-                                                <video src="./admin/uploads/videos/<?php echo htmlspecialchars($blog['video']); ?>"
-                                                    controls style="max-height:200px; width:auto; object-fit:cover;"></video>
-                                                <!-- controls style="max-height:200px; width:auto; object-fit:cover;"></video> -->
+                                            <div class="col-12 col-md-6 mb-3 text-center d-flex">
+                                                <video class="rounded shadow-sm w-100"
+                                                    src="./admin/uploads/videos/<?php echo htmlspecialchars($blog['video']); ?>"
+                                                    controls
+                                                    style="max-height: 300px; object-fit: contain;">
+                                                </video>
                                             </div>
                                         <?php endif; ?>
+
                                     </div>
                                 </div>
+
+
 
 
 
@@ -1410,33 +1424,33 @@ if ($blog_id > 0) {
 
                     <div class=" col-md-6 blogs_side_branding ">
 
-                        <img src="./assets/img/service_side_image1.jpg" alt="" class="img-fluid">
+                        <img src="./assets/img/small_device_image2.png" alt="" class="img-fluid">
 
 
 
 
 
 
-                        <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:20px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
+                        <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:8px 5px 5px 0px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
 
-                            <!-- <h3 class="mani" style="color:#333; font-weight:600; margin-bottom:10px;">
-                                Contact Us
-                            </h3> -->
+                                <!-- <h3 class="mani" style="color:#333; font-weight:600; margin-bottom:10px;">
+                                    Contact Us
+                                </h3> -->
 
-                            <p style="font-size:18px; margin:5px 0; color:#444;">
-                                Clear Aligners
-                            </p>
+                                <p style="font-size:18px; margin:5px 0; color:#444;">
+                                    Clear Aligners
+                                </p>
 
-                            <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
-                                Starting at <span style="color:#e63946;">₹9,999</span>
-                            </p>
+                                <p style="font-size:20px; font-weight:600; color:#28a745; margin:8px 0;">
+                                    Starting at <span style="color:#e63946;">₹9,999</span>
+                                </p>
 
-                            <!-- <strong>
-                                <a href="tel:+919290019948"
-                                    style="text-decoration:none; color:#fff; background:#007bff; padding:10px 18px; border-radius:8px; font-size:16px; display:inline-block; margin-top:10px; transition:0.3s;">
-                                    📞 Call Now: +91 9290019948
-                                </a>
-                            </strong> -->
+                                <!-- <strong>
+                                    <a href="tel:+919290019948"
+                                        style="text-decoration:none; color:#fff; background:#007bff; padding:10px 18px; border-radius:8px; font-size:16px; display:inline-block; margin-top:10px; transition:0.3s;">
+                                        📞 Call Now: +91 9290019948
+                                    </a>
+                                </strong> -->
                         </div>
 
 
@@ -1451,10 +1465,10 @@ if ($blog_id > 0) {
                     <div class=" col-md-6  blogs_side_branding">
 
 
-                        <img src="./assets/img/service_side_image2.jpg" alt="" class="img-fluid">
+                        <img src="./assets/img/small_device_image3.png" alt="" class="img-fluid">
 
 
-                        <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:20px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
+                        <div class="card aligner-card" style="display:flex; justify-content:center; align-items:center; flex-direction:column; padding:8px 5px 5px 0px; border-radius:12px; background:linear-gradient(135deg, #f1f5ff, #ffffff); box-shadow:0 4px 12px rgba(0,0,0,0.1); text-align:center;">
 
 
 
