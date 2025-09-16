@@ -940,7 +940,6 @@
 </section>
 
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis consequuntur distinctio culpa quo, non consequatur tenetur ipsum delectus! Quidem quae voluptatem quo ut velit fugiat doloribus dolor unde cupiditate?
 <!-- <section class="ask_qus_sec">
   <div class="container  ">
     <div class="text-center">

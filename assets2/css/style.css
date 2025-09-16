@@ -48,6 +48,10 @@ CSS INDEX
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 :root {
   --black: #000;
   --white: #fff;
@@ -6747,9 +6751,10 @@ button {
 .blog-sidebar-list {
   /* background: #b6d1ec !important; */
 
-  background-image: radial-gradient(circle, #e8f2f9, #dcedf9, #d0e8f9, #c4e3f9, #b7def9, #b1dcf9, #abd9f9, #a5d7f9, #a5d7f9, #a5d7f9, #a5d7f9, #a5d7f9) !important;
+  /* background-image: radial-gradient(circle, #e8f2f9, #dcedf9, #d0e8f9, #c4e3f9, #b7def9, #b1dcf9, #abd9f9, #a5d7f9, #a5d7f9, #a5d7f9, #a5d7f9, #a5d7f9) !important; */
   /* background: #f8f9fa; */
 
+  color:'';
 
   /* light gray */
   padding: 10px;
@@ -6993,4 +6998,10 @@ margin-top: 100px !important;
     margin-top: 15px;
   }
   
+}
+
+.ul-service-details-title,
+.ul-service-details-full-content,
+.ul-service-details-descr{
+  font-family: "Roboto", sans-serif !important;
 }
