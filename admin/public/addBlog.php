@@ -4,49 +4,54 @@ include '../../db.connection/db_connection.php';
 // Allowed image formats
 $allowedImageFormats = ['jpg', 'jpeg', 'png', 'gif', 'webp'];
 
-// Generate unique filename
+// ✅ Generate unique filename
 function generateUniqueFileName($fileName) {
     $ext = pathinfo($fileName, PATHINFO_EXTENSION);
     return uniqid('file_') . '_' . time() . '.' . $ext;
 }
 
-// Upload file function
+// ✅ Universal upload function
 function uploadFile($fileKey, $uploadDir, $allowedFormats = []) {
     if (!empty($_FILES[$fileKey]['name'])) {
 
-        // Ensure directory ends with slash
-        if (substr($uploadDir, -1) !== '/') {
-            $uploadDir .= '/';
-        }
+        // Normalize directory separator
+        $uploadDir = rtrim($uploadDir, '/') . '/';
 
-        // Ensure upload directory exists
+        // ✅ Create folder if missing
         if (!is_dir($uploadDir)) {
-            if (!mkdir($uploadDir, 0777, true)) {
-                die("Error: Cannot create upload directory $uploadDir");
+            if (!mkdir($uploadDir, 0775, true)) {
+                die("❌ Error: Cannot create upload directory $uploadDir");
             }
         }
 
+        // Validate file extension
         $ext = strtolower(pathinfo($_FILES[$fileKey]['name'], PATHINFO_EXTENSION));
         if (!empty($allowedFormats) && !in_array($ext, $allowedFormats)) {
-            die("Error: Invalid file format for $fileKey ($ext not allowed)");
+            die("❌ Invalid format for $fileKey ($ext not allowed)");
         }
 
+        // Check for upload errors
         if ($_FILES[$fileKey]['error'] !== UPLOAD_ERR_OK) {
-            die("Upload error for $fileKey: " . $_FILES[$fileKey]['error']);
+            die("❌ Upload error for $fileKey: " . $_FILES[$fileKey]['error']);
         }
 
+        // Prepare destination path
         $fileName = generateUniqueFileName($_FILES[$fileKey]['name']);
         $targetPath = $uploadDir . $fileName;
 
+        // ✅ Move uploaded file
         if (move_uploaded_file($_FILES[$fileKey]['tmp_name'], $targetPath)) {
-            return $fileName;
+            // Return RELATIVE path for database (not full system path)
+            return 'uploads/photos/' . $fileName;
         } else {
-            die("Error uploading $fileKey to $targetPath");
+            die("❌ Error: Failed to move uploaded $fileKey → $targetPath (check folder permissions)");
         }
     }
+
     return '';
 }
 
+// ✅ Handle form submission
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $blog_id      = isset($_POST['id']) ? intval($_POST['id']) : 0;
@@ -56,27 +61,29 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $service      = trim($_POST['service'] ?? '');
 
     if (empty($title) || empty($main_content) || empty($full_content) || empty($service)) {
-        die("Error: Title, Main Content, Full Content, and Service cannot be empty.");
+        die("❌ Error: Title, Main Content, Full Content, and Service cannot be empty.");
     }
 
-    // ✅ Correct relative upload directories
-    $uploadsDir = __DIR__ . "/../uploads/photos/";
-    $videosDir  = __DIR__ . "/../uploads/videos/";
+    // ✅ FIXED PATHS (realpath ensures clean absolute directory)
+    $rootPath = realpath(__DIR__ . '/../../'); // points to /home/visiondentalguntur/public_html/admin
+    $uploadsDir = $rootPath . '/../uploads/photos';
+    $videosDir  = $rootPath . '/../uploads/videos';
 
-    // Upload main files
+    // ✅ Upload main files
     $main_image_path  = uploadFile('main_image', $uploadsDir, $allowedImageFormats);
     $video_path       = uploadFile('video', $videosDir);
     $title_image_path = uploadFile('title_image', $uploadsDir, $allowedImageFormats);
 
-    // Sections content & images
+    // ✅ Section content & images
     $section_contents = [];
     $section_images   = [];
+
     for ($i = 1; $i <= 3; $i++) {
         $section_contents[$i] = $_POST["section{$i}_content"] ?? '';
         $section_images[$i] = uploadFile("section{$i}_image", $uploadsDir, $allowedImageFormats);
     }
 
-    // Preserve existing files if editing
+    // ✅ Preserve existing files when editing
     if ($blog_id > 0) {
         $existing = $conn->query("SELECT * FROM blogs WHERE id=$blog_id")->fetch_assoc();
 
@@ -89,8 +96,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     }
 
+    // ✅ INSERT OR UPDATE DATABASE
     if ($blog_id > 0) {
-        // UPDATE BLOG
         $stmt = $conn->prepare("UPDATE blogs 
             SET title=?, main_content=?, full_content=?, title_image=?, main_image=?, video=?, service=?,
                 section1_content=?, section1_image=?, 
@@ -117,7 +124,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         );
 
     } else {
-        // INSERT NEW BLOG
         $stmt = $conn->prepare("INSERT INTO blogs 
             (title, main_content, full_content, title_image, main_image, video, service,
              section1_content, section1_image,
@@ -147,7 +153,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         header("Location: allBlog.php");
         exit();
     } else {
-        die("Execute Error: " . $stmt->error);
+        die("❌ Database Error: " . $stmt->error);
     }
 
     $stmt->close();
