@@ -1300,6 +1300,8 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
 
                                 <!-- option images   -->
 
+                                <!-- option images   -->
+
                                 <?php if (!empty($blog['section1_content'])): ?>
                                     <div class="section1-content mt-3" style="font-size: 18px;">
                                         <?php echo $blog['section1_content']; // HTML content 
@@ -1309,16 +1311,16 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
 
 
 
-                                <?php if (!empty($blog['section1_image'])): ?>
-                                    <div class="div" style="width: 100%; max-width: 500px; height: auto; margin: auto; border:1px solid #ddd; border-radius:8px; overflow:hidden;">
-                                        <img src="/krishna_dental/admin/uploads/photos/<?php echo htmlspecialchars($blog['section1_image']); ?>"
+                                <?php
+                                $section1_image_path = './admin/uploads/photos/' . $blog['section1_image'];
+
+                                if (!empty($blog['section1_image']) && file_exists($section1_image_path)): ?>
+                                    <div style="display:flex; justify-content:center; align-items:center; width:500px; height:500px; margin:auto; overflow:hidden; border:1px solid #ddd; border-radius:8px;">
+                                        <img src="<?php echo htmlspecialchars($section1_image_path); ?>"
                                             alt="Section 1 Image"
-                                            class="img-fluid rounded shadow-sm w-100"
-                                            style="width:400px; height: 400px; object-fit: cover;">
+                                            style="width:100%; height:100%; object-fit:cover;">
                                     </div>
                                 <?php endif; ?>
-
-
 
 
 
@@ -1331,20 +1333,16 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
                                     </div>
                                 <?php endif; ?>
 
+                                <?php
+                                $section2_image_path = './admin/uploads/photos/' . $blog['section2_image'];
 
-
-
-
-                                <?php if (!empty($blog['section2_image'])): ?>
-                                    <div class="d-flex justify-content-center align-items-center mb-3"
-                                        style="width: 100%; max-width: 500px; height: auto; margin: auto; border:1px solid #ddd; border-radius:8px; overflow:hidden;">
-                                        <img src="/krishna_dental/admin/uploads/photos/<?php echo htmlspecialchars($blog['section2_image']); ?>"
+                                if (!empty($blog['section2_image']) && file_exists($section2_image_path)): ?>
+                                    <div style="display:flex; justify-content:center; align-items:center; width:500px; height:500px; margin:auto; overflow:hidden; border:1px solid #ddd; border-radius:8px;">
+                                        <img src="<?php echo htmlspecialchars($section2_image_path); ?>"
                                             alt="Section 2 Image"
-                                            style="width: 100%; height: auto; object-fit: cover;">
+                                            style="width:100%; height:100%; object-fit:cover;">
                                     </div>
                                 <?php endif; ?>
-
-
 
 
 
@@ -1354,19 +1352,16 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
                                     </div>
                                 <?php endif; ?>
 
+                                <?php
+                                $section3_image_path = './admin/uploads/photos/' . $blog['section3_image'];
 
-
-
-
-                                <?php if (!empty($blog['section3_image'])): ?>
-                                    <div class="d-flex justify-content-center align-items-center mb-3"
-                                        style="width: 100%; max-width: 500px; height: auto; margin: auto; border:1px solid #ddd; border-radius:8px; overflow:hidden;">
-                                        <img src="/krishna_dental/admin/uploads/photos/<?php echo htmlspecialchars($blog['section3_image']); ?>"
+                                if (!empty($blog['section3_image']) && file_exists($section3_image_path)): ?>
+                                    <div style="display:flex; justify-content:center; align-items:center; width:500px; height:500px; margin:auto; overflow:hidden; border:1px solid #ddd; border-radius:8px;">
+                                        <img src="<?php echo htmlspecialchars($section3_image_path); ?>"
                                             alt="Section 3 Image"
-                                            style="width: 100%; height: auto; object-fit: cover;">
+                                            style="width:100%; height:100%; object-fit:cover;">
                                     </div>
                                 <?php endif; ?>
-
 
 
 

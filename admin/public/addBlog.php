@@ -5,30 +5,21 @@ include '../../db.connection/db_connection.php';
 $allowedImageFormats = ['jpg', 'jpeg', 'png', 'gif', 'webp'];
 
 // Generate unique filename
-function generateUniqueFileName($fileName)
-{
+function generateUniqueFileName($fileName) {
     $ext = pathinfo($fileName, PATHINFO_EXTENSION);
     return uniqid('file_') . '_' . time() . '.' . $ext;
 }
 
 // Upload file function
-function uploadFile($fileKey, $uploadDir, $allowedFormats = [])
-{
+function uploadFile($fileKey, $uploadDir, $allowedFormats = []) {
     if (!empty($_FILES[$fileKey]['name'])) {
 
-        // Ensure directory ends with slash
-        $uploadDir = rtrim($uploadDir, '/') . '/';
-
-        // Create folder if missing
-        if (!is_dir($uploadDir)) {
-            if (!mkdir($uploadDir, 0775, true)) {
-                die("Error: Cannot create upload directory $uploadDir");
-            }
-        }
+        // Ensure directory exists
+        if (!is_dir($uploadDir)) mkdir($uploadDir, 0777, true);
 
         $ext = strtolower(pathinfo($_FILES[$fileKey]['name'], PATHINFO_EXTENSION));
         if (!empty($allowedFormats) && !in_array($ext, $allowedFormats)) {
-            die("Error: Invalid file format for $fileKey ($ext not allowed)");
+            die("Error: Invalid file format for $fileKey.");
         }
 
         if ($_FILES[$fileKey]['error'] !== UPLOAD_ERR_OK) {
@@ -39,10 +30,9 @@ function uploadFile($fileKey, $uploadDir, $allowedFormats = [])
         $targetPath = $uploadDir . $fileName;
 
         if (move_uploaded_file($_FILES[$fileKey]['tmp_name'], $targetPath)) {
-            // Return relative path for DB
-            return 'uploads/photos/' . $fileName;
+            return $fileName; // store only filename in DB
         } else {
-            die("Error uploading $fileKey to $targetPath — check folder permissions");
+            die("Error uploading $fileKey.");
         }
     }
     return '';
@@ -60,11 +50,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         die("Error: Title, Main Content, Full Content, and Service cannot be empty.");
     }
 
-    // ✅ Correct absolute upload directories
-    // $uploadsDir = '/home/visiondentalguntur/public_html/admin/uploads/photos/';
-    // $videosDir  = '/home/visiondentalguntur/public_html/admin/uploads/videos/';
-    $main_image_directory = __DIR__ . "./../uploads/photos/";
-    $video_directory = __DIR__ . "./../uploads/videos/";
+    // Correct upload directories
+    $uploadsDir = __DIR__ . "/../uploads/photos/";  // photos
+    $videosDir  = __DIR__ . "/../uploads/videos/";  // videos
 
     // Upload main files
     $main_image_path  = uploadFile('main_image', $uploadsDir, $allowedImageFormats);
@@ -91,14 +79,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     }
 
+    // SQL Queries
     if ($blog_id > 0) {
-        // UPDATE BLOG
+        // UPDATE
         $stmt = $conn->prepare("UPDATE blogs 
             SET title=?, main_content=?, full_content=?, title_image=?, main_image=?, video=?, service=?,
                 section1_content=?, section1_image=?, 
                 section2_content=?, section2_image=?,
                 section3_content=?, section3_image=?
             WHERE id=?");
+
+        if (!$stmt) die("Prepare failed: " . $conn->error);
 
         $stmt->bind_param(
             "sssssssssssssi",
@@ -118,13 +109,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $blog_id
         );
     } else {
-        // INSERT NEW BLOG
+        // INSERT
         $stmt = $conn->prepare("INSERT INTO blogs 
             (title, main_content, full_content, title_image, main_image, video, service,
              section1_content, section1_image,
              section2_content, section2_image,
              section3_content, section3_image, created_at)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW())");
+
+        if (!$stmt) die("Prepare failed: " . $conn->error);
 
         $stmt->bind_param(
             "sssssssssssss",
@@ -144,6 +137,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         );
     }
 
+    // Execute and redirect
     if ($stmt->execute()) {
         header("Location: allBlog.php");
         exit();
@@ -154,3 +148,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $stmt->close();
     $conn->close();
 }
+?>
