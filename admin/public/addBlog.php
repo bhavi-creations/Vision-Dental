@@ -7,17 +7,28 @@ $allowedImageFormats = ['jpg', 'jpeg', 'png', 'gif', 'webp'];
 // Generate unique filename
 function generateUniqueFileName($fileName) {
     $ext = pathinfo($fileName, PATHINFO_EXTENSION);
-    return uniqid() . '_' . time() . '.' . $ext;
+    return uniqid('file_') . '_' . time() . '.' . $ext;
 }
 
 // Upload file function
 function uploadFile($fileKey, $uploadDir, $allowedFormats = []) {
     if (!empty($_FILES[$fileKey]['name'])) {
-        if (!is_dir($uploadDir)) mkdir($uploadDir, 0777, true);
+
+        // Ensure directory ends with slash
+        if (substr($uploadDir, -1) !== '/') {
+            $uploadDir .= '/';
+        }
+
+        // Ensure upload directory exists
+        if (!is_dir($uploadDir)) {
+            if (!mkdir($uploadDir, 0777, true)) {
+                die("Error: Cannot create upload directory $uploadDir");
+            }
+        }
 
         $ext = strtolower(pathinfo($_FILES[$fileKey]['name'], PATHINFO_EXTENSION));
-        if(!empty($allowedFormats) && !in_array($ext, $allowedFormats)) {
-            die("Error: Invalid file format for $fileKey.");
+        if (!empty($allowedFormats) && !in_array($ext, $allowedFormats)) {
+            die("Error: Invalid file format for $fileKey ($ext not allowed)");
         }
 
         if ($_FILES[$fileKey]['error'] !== UPLOAD_ERR_OK) {
@@ -25,10 +36,12 @@ function uploadFile($fileKey, $uploadDir, $allowedFormats = []) {
         }
 
         $fileName = generateUniqueFileName($_FILES[$fileKey]['name']);
-        if(move_uploaded_file($_FILES[$fileKey]['tmp_name'], $uploadDir . $fileName)) {
+        $targetPath = $uploadDir . $fileName;
+
+        if (move_uploaded_file($_FILES[$fileKey]['tmp_name'], $targetPath)) {
             return $fileName;
         } else {
-            die("Error uploading $fileKey.");
+            die("Error uploading $fileKey to $targetPath");
         }
     }
     return '';
@@ -46,8 +59,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         die("Error: Title, Main Content, Full Content, and Service cannot be empty.");
     }
 
-    $uploadsDir = $_SERVER['DOCUMENT_ROOT'] . "/krishna_dental/admin/uploads/photos/";
-    $videosDir  = $_SERVER['DOCUMENT_ROOT'] . "/krishna_dental/admin/uploads/videos/";
+    // ✅ Correct relative upload directories
+    $uploadsDir = __DIR__ . "/../uploads/photos/";
+    $videosDir  = __DIR__ . "/../uploads/videos/";
 
     // Upload main files
     $main_image_path  = uploadFile('main_image', $uploadsDir, $allowedImageFormats);
@@ -57,7 +71,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Sections content & images
     $section_contents = [];
     $section_images   = [];
-    for($i=1; $i<=3; $i++){
+    for ($i = 1; $i <= 3; $i++) {
         $section_contents[$i] = $_POST["section{$i}_content"] ?? '';
         $section_images[$i] = uploadFile("section{$i}_image", $uploadsDir, $allowedImageFormats);
     }
@@ -69,7 +83,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $main_image_path  = $main_image_path  ?: ($existing['main_image'] ?? '');
         $video_path       = $video_path       ?: ($existing['video'] ?? '');
         $title_image_path = $title_image_path ?: ($existing['title_image'] ?? '');
-        for($i=1;$i<=3;$i++){
+
+        for ($i = 1; $i <= 3; $i++) {
             $section_images[$i] = $section_images[$i] ?: ($existing["section{$i}_image"] ?? '');
         }
     }
