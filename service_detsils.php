@@ -626,7 +626,7 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
                                 $section1_image_path = './admin/uploads/photos/' . $blog['section1_image'];
 
                                 if (!empty($blog['section1_image']) && file_exists($section1_image_path)): ?>
-                                    <div style="display:flex; justify-content:center; align-items:center; width:500px; height:500px; margin:auto; overflow:hidden; border:1px solid #ddd; border-radius:8px;">
+                                    <div style="display:flex; justify-content:center; align-items:center; margin:auto; overflow:hidden; border:1px solid #ddd; border-radius:8px;">
                                         <img src="<?php echo htmlspecialchars($section1_image_path); ?>"
                                             alt="Section 1 Image"
                                             style="width:100%; height:100%; object-fit:cover;">
@@ -648,7 +648,7 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
                                 $section2_image_path = './admin/uploads/photos/' . $blog['section2_image'];
 
                                 if (!empty($blog['section2_image']) && file_exists($section2_image_path)): ?>
-                                    <div style="display:flex; justify-content:center; align-items:center; width:500px; height:500px; margin:auto; overflow:hidden; border:1px solid #ddd; border-radius:8px;">
+                                    <div style="display:flex; justify-content:center; align-items:center;  margin:auto; overflow:hidden; border:1px solid #ddd; border-radius:8px;">
                                         <img src="<?php echo htmlspecialchars($section2_image_path); ?>"
                                             alt="Section 2 Image"
                                             style="width:100%; height:100%; object-fit:cover;">
@@ -667,7 +667,7 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
                                 $section3_image_path = './admin/uploads/photos/' . $blog['section3_image'];
 
                                 if (!empty($blog['section3_image']) && file_exists($section3_image_path)): ?>
-                                    <div style="display:flex; justify-content:center; align-items:center; width:500px; height:500px; margin:auto; overflow:hidden; border:1px solid #ddd; border-radius:8px;">
+                                    <div style="display:flex; justify-content:center; align-items:center;  margin:auto; overflow:hidden; border:1px solid #ddd; border-radius:8px;">
                                         <img src="<?php echo htmlspecialchars($section3_image_path); ?>"
                                             alt="Section 3 Image"
                                             style="width:100%; height:100%; object-fit:cover;">
@@ -858,12 +858,12 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
 
 
                                 <!-- Write Comment Button -->
-                                <button class="show-comment-btn mt-5" onclick="toggleCommentBox()">✍️ Write a Comment</button>
+                                <button class="show-comment-btn mt-5" onclick="toggleCommentBox_3()">✍️ Write a Comment</button>
 
                                 <!-- Comment Form Popup -->
-                                <div id="comment-overlay" class="comment-overlay" style="display:none;">
+                                <div id="comment-overlay_3" class="comment-overlay" style="display:none;">
                                     <div class="comment-box">
-                                        <span class="close-btn" onclick="toggleCommentBox()">&times;</span>
+                                        <span class="close-btn" onclick="toggleCommentBox_3()">&times;</span>
                                         <h3>💬 Leave a Comment</h3>
                                         <form action="save_comment.php" method="POST">
                                             <input type="hidden" name="blog_id" value="<?php echo $blog_id; ?>">
@@ -1027,8 +1027,8 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
 
                                 <!-- JS -->
                                 <script>
-                                    function toggleCommentBox() {
-                                        var overlay = document.getElementById("comment-overlay");
+                                    function toggleCommentBox_3() {
+                                        var overlay = document.getElementById("comment-overlay_3");
                                         if (overlay.style.display === "none" || overlay.style.display === "") {
                                             overlay.style.display = "flex"; // show
                                         } else {
@@ -1539,12 +1539,12 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
 
 
                                 <!-- Write Comment Button -->
-                                <button class="show-comment-btn mt-5" onclick="toggleCommentBox()">✍️ Write a Comment</button>
+                                <button class="show-comment-btn mt-5" onclick="toggleCommentBox_1()">✍️ Write a Comment</button>
 
                                 <!-- Comment Form Popup -->
-                                <div id="comment-overlay" class="comment-overlay" style="display:none;">
+                                <div id="comment-overlay_1" class="comment-overlay" style="display:none;">
                                     <div class="comment-box">
-                                        <span class="close-btn" onclick="toggleCommentBox()">&times;</span>
+                                        <span class="close-btn" onclick="toggleCommentBox_1()">&times;</span>
                                         <h3>💬 Leave a Comment</h3>
                                         <form action="save_comment.php" method="POST">
                                             <input type="hidden" name="blog_id" value="<?php echo $blog_id; ?>">
@@ -1708,8 +1708,8 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
 
                                 <!-- JS -->
                                 <script>
-                                    function toggleCommentBox() {
-                                        var overlay = document.getElementById("comment-overlay");
+                                    function toggleCommentBox_1() {
+                                        var overlay = document.getElementById("comment-overlay_1");
                                         if (overlay.style.display === "none" || overlay.style.display === "") {
                                             overlay.style.display = "flex"; // show
                                         } else {
@@ -2149,12 +2149,12 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
 
 
                                 <!-- Write Comment Button -->
-                                <button class="show-comment-btn mt-5" onclick="toggleCommentBox()">✍️ Write a Comment</button>
+                                <button class="show-comment-btn mt-5" onclick="toggleCommentBox_2()">✍️ Write a Comment</button>
 
                                 <!-- Comment Form Popup -->
-                                <div id="comment-overlay" class="comment-overlay" style="display:none;">
+                                <div id="comment-overlay_2" class="comment-overlay" style="display:none;">
                                     <div class="comment-box">
-                                        <span class="close-btn" onclick="toggleCommentBox()">&times;</span>
+                                        <span class="close-btn" onclick="toggleCommentBox_2()">&times;</span>
                                         <h3>💬 Leave a Comment</h3>
                                         <form action="save_comment.php" method="POST">
                                             <input type="hidden" name="blog_id" value="<?php echo $blog_id; ?>">
@@ -2313,8 +2313,8 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
 
                                 <!-- JS -->
                                 <script>
-                                    function toggleCommentBox() {
-                                        var overlay = document.getElementById("comment-overlay");
+                                    function toggleCommentBox_2() {
+                                        var overlay = document.getElementById("comment-overlay_2");
                                         if (overlay.style.display === "none" || overlay.style.display === "") {
                                             overlay.style.display = "flex"; // show
                                         } else {

@@ -1,0 +1,10 @@
+[11-Oct-2025 07:28:32 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'visiondentalguntur'@'localhost' (using password: YES) in C:\xampp\htdocs\Vision-Dental\save_comment.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Vision-Dental\save_comment.php(14): mysqli->__construct('localhost', 'visiondentalgun...', Object(SensitiveParameterValue), 'visiondentalgun...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Vision-Dental\save_comment.php on line 14
+[11-Oct-2025 09:01:34 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'visiondentalguntur'@'localhost' (using password: YES) in C:\xampp\htdocs\Vision-Dental\save_comment.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Vision-Dental\save_comment.php(14): mysqli->__construct('localhost', 'visiondentalgun...', Object(SensitiveParameterValue), 'visiondentalgun...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Vision-Dental\save_comment.php on line 14
