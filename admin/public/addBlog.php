@@ -1,11 +1,11 @@
 <?php
 // ======================================
-// 🧩 ENABLE SAFE ERROR LOGGING (FOR LIVE SERVER)
+// 🧩 ENABLE SAFE ERROR LOGGING
 // ======================================
 ini_set('log_errors', 1);
-ini_set('error_log', __DIR__ . '/php_error.log'); // Logs all errors to this file
+ini_set('error_log', __DIR__ . '/php_error.log'); 
 error_reporting(E_ALL);
-ini_set('display_errors', 1); // Set to 0 on production if you don’t want to show errors
+ini_set('display_errors', 1); // Set to 0 on production
 
 // ======================================
 // 🧩 DATABASE CONNECTION
@@ -20,26 +20,38 @@ $allowedImageFormats = ['jpg', 'jpeg', 'png', 'gif', 'webp'];
 // ======================================
 // 🧩 FUNCTION: Generate Unique File Name
 // ======================================
-function generateUniqueFileName($fileName)
-{
+function generateUniqueFileName($fileName) {
     $ext = pathinfo($fileName, PATHINFO_EXTENSION);
     return uniqid('file_') . '_' . time() . '.' . $ext;
 }
 
 // ======================================
+// 🧩 FUNCTION: Ensure Directory Exists and Writable
+// ======================================
+function ensureWritableDirectory($dir) {
+    if (!is_dir($dir)) {
+        if (!mkdir($dir, 0777, true) && !is_dir($dir)) {
+            error_log("Failed to create directory: " . $dir);
+            die("Error: Failed to create upload directory ($dir).");
+        }
+    }
+
+    if (!is_writable($dir)) {
+        @chmod($dir, 0777);
+        clearstatcache();
+        if (!is_writable($dir)) {
+            error_log("Directory not writable: " . $dir);
+            die("Error: Upload directory ($dir) is not writable. Please check folder permissions.");
+        }
+    }
+}
+
+// ======================================
 // 🧩 FUNCTION: Upload File
 // ======================================
-function uploadFile($fileKey, $uploadDir, $allowedFormats = [])
-{
+function uploadFile($fileKey, $uploadDir, $allowedFormats = []) {
     if (!empty($_FILES[$fileKey]['name'])) {
-
-        // Ensure directory exists
-        if (!is_dir($uploadDir)) {
-            if (!mkdir($uploadDir, 0777, true) && !is_dir($uploadDir)) {
-                error_log("Failed to create directory: " . $uploadDir);
-                die("Error: Failed to create upload directory.");
-            }
-        }
+        ensureWritableDirectory($uploadDir);
 
         $ext = strtolower(pathinfo($_FILES[$fileKey]['name'], PATHINFO_EXTENSION));
         if (!empty($allowedFormats) && !in_array($ext, $allowedFormats)) {
@@ -54,10 +66,10 @@ function uploadFile($fileKey, $uploadDir, $allowedFormats = [])
         $targetPath = $uploadDir . $fileName;
 
         if (move_uploaded_file($_FILES[$fileKey]['tmp_name'], $targetPath)) {
-            return $fileName; // store only filename in DB
+            return $fileName; 
         } else {
             error_log("Failed to move uploaded file for $fileKey to $targetPath");
-            die("Error uploading $fileKey.");
+            die("Error uploading $fileKey. Check folder permissions for: " . $uploadDir);
         }
     }
     return '';
@@ -79,11 +91,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         die("Error: Title, Main Content, Full Content, and Service cannot be empty.");
     }
 
-    // Directories (absolute path)
+    // Directories
     $uploadsDir = __DIR__ . "/../uploads/photos/";
     $videosDir  = __DIR__ . "/../uploads/videos/";
 
-    // Upload main files
+    // Upload files
     $main_image_path  = uploadFile('main_image', $uploadsDir, $allowedImageFormats);
     $video_path       = uploadFile('video', $videosDir);
     $title_image_path = uploadFile('title_image', $uploadsDir, $allowedImageFormats);
@@ -114,7 +126,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // ======================================
-    // 🧩 SQL QUERIES
+    // SQL QUERIES
     // ======================================
     if ($blog_id > 0) {
         // UPDATE
@@ -124,11 +136,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 section2_content=?, section2_image=?,
                 section3_content=?, section3_image=?
             WHERE id=?");
-
-        if (!$stmt) {
-            error_log("Prepare failed (UPDATE): " . $conn->error);
-            die("Prepare failed: " . $conn->error);
-        }
+        if (!$stmt) { die("Prepare failed: " . $conn->error); }
 
         $stmt->bind_param(
             "sssssssssssssi",
@@ -156,11 +164,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
              section2_content, section2_image,
              section3_content, section3_image, created_at)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW())");
-
-        if (!$stmt) {
-            error_log("Prepare failed (INSERT): " . $conn->error);
-            die("Prepare failed: " . $conn->error);
-        }
+        if (!$stmt) { die("Prepare failed: " . $conn->error); }
 
         $stmt->bind_param(
             "sssssssssssss",
@@ -181,7 +185,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // ======================================
-    // 🧩 EXECUTE AND REDIRECT
+    // EXECUTE AND REDIRECT
     // ======================================
     if ($stmt->execute()) {
         header("Location: allBlog.php");
