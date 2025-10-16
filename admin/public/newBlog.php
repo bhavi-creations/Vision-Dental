@@ -64,39 +64,39 @@
                                         </div>
 
                                         <!-- Select Service -->
+                                        <!-- <div class="filter-section mb-3"> -->
+                                        <!-- <label class="form-label text-primary">Select Service:</label> -->
                                         <div class="filter-section mb-3">
-                                            <label class="form-label text-primary">Select Service:</label>
-                                            <div class="filter-section mb-3">
-                                                <label for="service" class="form-label text-primary">Select Service:</label>
-                                                <select id="service" name="service" class="form-control" required>
-                                                    <option value="">Select a Service</option>
-                                                    <option value="Root Canal">Root Canal</option>
-                                                    <option value="Teeth Braces">Teeth Braces</option>
-                                                    <option value="Pediatric Dentist">Pediatric Dentist</option>
-                                                    <option value="Paedodontist Doctors">Paedodontist Doctors </option>
-                                                    <option value="Clear Aligners">Clear Aligners</option>
-                                                    <option value="Laminate Veneers">Laminate Veneers</option>
-                                                    <option value="Crown Bridge">Crown & Bridge</option>
-                                                    <option value="Dental Implants">Dental Implants</option>
-                                                    <option value="Dentures Treatment">Dentures</option>
-                                                    <option value="Invisalign">Invisalign </option>
-                                                    <option value="Jaw Corrective">Jaw Corrective</option>
-                                                    <option value="Laser Gum">Laser & Gum</option>
-                                                    <option value="Smile Designing">Smile Designing</option>
-                                                    <option value="Smile Makeover">Smile Makeover</option>
-                                                    <option value="Teeth Alignment">Teeth Alignment</option>
-                                                    <option value="Tooth Extraction">Tooth Extraction</option>
-                                                    <option value="Tooth Cleaning">Teeth Cleaning</option>
-                                                    <option value="Gum Depigment">Gum Depigment</option>
-                                                    <option value="Teeth Whitening">Teeth Whitening</option>
-                                                    <option value="Laser Gum Surgery">Laser Gum Surgery </option>
-                                                    <option value="Mouth Ulcers">Mouth Ulcers </option>
-                                                    <option value="Precancerous Lesion">Precancerous Lesion</option>
-                                                    <option value="Laser Crown Lengthening">Laser Crown Lengthening</option>
+                                            <label for="service" class="form-label text-primary">Select Service:</label>
+                                            <select id="service" name="service" class="form-control" required>
+                                                <option value="">Select a Service</option>
+                                                <option value="Root Canal">Root Canal</option>
+                                                <option value="Teeth Braces">Teeth Braces</option>
+                                                <option value="Pediatric Dentist">Pediatric Dentist</option>
+                                                <option value="Paedodontist Doctors">Paedodontist Doctors </option>
+                                                <option value="Clear Aligners">Clear Aligners</option>
+                                                <option value="Laminate Veneers">Laminate Veneers</option>
+                                                <option value="Crown Bridge">Crown & Bridge</option>
+                                                <option value="Dental Implants">Dental Implants</option>
+                                                <option value="Dentures Treatment">Dentures</option>
+                                                <option value="Invisalign">Invisalign </option>
+                                                <option value="Jaw Corrective">Jaw Corrective</option>
+                                                <option value="Laser Gum">Laser & Gum</option>
+                                                <option value="Smile Designing">Smile Designing</option>
+                                                <option value="Smile Makeover">Smile Makeover</option>
+                                                <option value="Teeth Alignment">Teeth Alignment</option>
+                                                <option value="Tooth Extraction">Tooth Extraction</option>
+                                                <option value="Tooth Cleaning">Teeth Cleaning</option>
+                                                <option value="Gum Depigment">Gum Depigment</option>
+                                                <option value="Teeth Whitening">Teeth Whitening</option>
+                                                <option value="Laser Gum Surgery">Laser Gum Surgery </option>
+                                                <option value="Mouth Ulcers">Mouth Ulcers </option>
+                                                <option value="Precancerous Lesion">Precancerous Lesion</option>
+                                                <option value="Laser Crown Lengthening">Laser Crown Lengthening</option>
 
-                                                </select>
-                                            </div>
+                                            </select>
                                         </div>
+                                        <!-- </div> -->
 
                                         <!-- Main Content -->
                                         <div class="mb-3">
@@ -176,29 +176,103 @@
                                     </form>
 
                                     <!-- Include Quill -->
+                                    <!-- Quill CSS & JS -->
                                     <link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.snow.css" rel="stylesheet">
                                     <script src="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.js"></script>
 
                                     <script>
-                                        // Initialize Quill editors
+                                        // Custom handler to make links clickable inside editor
+                                        function enableClickableLinks(quillInstance) {
+                                            quillInstance.root.addEventListener('click', function(e) {
+                                                if (e.target.tagName === 'A') {
+                                                    e.preventDefault();
+                                                    const url = e.target.getAttribute('href');
+                                                    if (url) {
+                                                        window.open(url, '_blank'); // opens link in a new tab
+                                                    }
+                                                }
+                                            });
+                                        }
+
+                                        // Initialize editors
                                         const quillMain = new Quill('#mainEditor', {
                                             theme: 'snow',
-                                            placeholder: 'Enter main content...'
+                                            placeholder: 'Enter main content...',
+                                            modules: {
+                                                toolbar: [
+                                                    ['bold', 'italic', 'underline', 'strike'],
+                                                    ['link', 'blockquote', 'code-block', 'image'],
+                                                    [{
+                                                        'list': 'ordered'
+                                                    }, {
+                                                        'list': 'bullet'
+                                                    }],
+                                                    [{
+                                                        'header': [1, 2, 3, false]
+                                                    }],
+                                                    [{
+                                                        'align': []
+                                                    }],
+                                                    ['clean']
+                                                ]
+                                            }
                                         });
+
                                         const quillFull = new Quill('#fullEditor', {
                                             theme: 'snow',
-                                            placeholder: 'Enter full content...'
+                                            placeholder: 'Enter full content...',
+                                            modules: {
+                                                toolbar: [
+                                                    ['bold', 'italic', 'underline', 'strike'],
+                                                    ['link', 'blockquote', 'code-block', 'image'],
+                                                    [{
+                                                        'list': 'ordered'
+                                                    }, {
+                                                        'list': 'bullet'
+                                                    }],
+                                                    [{
+                                                        'header': [1, 2, 3, false]
+                                                    }],
+                                                    [{
+                                                        'align': []
+                                                    }],
+                                                    ['clean']
+                                                ]
+                                            }
                                         });
 
                                         const sections = [];
                                         for (let i = 1; i <= 3; i++) {
                                             sections[i] = new Quill('#editor' + i, {
                                                 theme: 'snow',
-                                                placeholder: 'Enter content for section ' + i
+                                                placeholder: 'Enter content for section ' + i,
+                                                modules: {
+                                                    toolbar: [
+                                                        ['bold', 'italic', 'underline', 'strike'],
+                                                        ['link', 'blockquote', 'code-block', 'image'],
+                                                        [{
+                                                            'list': 'ordered'
+                                                        }, {
+                                                            'list': 'bullet'
+                                                        }],
+                                                        [{
+                                                            'header': [1, 2, 3, false]
+                                                        }],
+                                                        [{
+                                                            'align': []
+                                                        }],
+                                                        ['clean']
+                                                    ]
+                                                }
                                             });
+                                            enableClickableLinks(sections[i]);
                                         }
 
-                                        // On submit, copy HTML to hidden inputs
+                                        // Enable clickable links on main editors too
+                                        enableClickableLinks(quillMain);
+                                        enableClickableLinks(quillFull);
+
+                                        // On form submit — copy editor HTML to hidden inputs
                                         document.querySelector('#addblogform').onsubmit = function() {
                                             document.querySelector('#mainContentData').value = quillMain.root.innerHTML;
                                             document.querySelector('#fullContentData').value = quillFull.root.innerHTML;
@@ -208,6 +282,7 @@
                                             }
                                         }
                                     </script>
+
 
 
 
