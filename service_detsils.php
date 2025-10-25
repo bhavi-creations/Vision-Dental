@@ -104,11 +104,16 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
 
     <!-- custom CSS -->
     <link rel="stylesheet" href="assets2/css/style.css">
+
+
+      <!-- Favicons -->
+  <link href="assets/img/vision/fav.png" rel="icon">
 </head>
 
 <body>
     <div class="preloader" id="preloader">
-        <div class="loader"></div>
+        <!-- <div class="loader"></div> -->
+           <img src="assets/img/vision/large_icon.png" >
     </div>
 
     <!-- SIDEBAR SECTION START -->
