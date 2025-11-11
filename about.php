@@ -1,188 +1,221 @@
-<?php include 'header.php';?>
+<?php include 'header.php'; ?>
 
 
 
-  <main id="main">
+<main id="main">
 
-    <section class="sectionForm">
-      <div class="container">
-        <div class="row servSect">
-          <div class="abot mt-5">
-            <h4 class="abh4">About Vision Dental – <br>
-              Best Dental Clinic In Guntur</h4>
-            <p class="abP">"Welcome to Vision Dental, where advanced dental care meets compassionate service to give you a healthy, confident smile."</p>
-          </div>
-          <div class="col-md-6 dr_content_padding  order-1 order-md-1">
-            <h2 class="dr_welcome_text1 mt-4 mb-4">Vision Multi Speciality
-              Dental Hospital Guntur
-              Best Dental Clinic In
-              Guntur
-            </h2>
-            <p class="poetsen_font1">
-              Vision Multispeciality Dental Hospital is dedicated to providing comprehensive dental care
+  <section class="sectionForm">
+    <div class="container">
+      <div class="row servSect">
+        <div class="abot mt-5">
+          <h4 class="abh4">About Vision Dental – <br>
+            Best Dental Clinic In Guntur</h4>
+          <p class="abP">"Welcome to Vision Dental, where advanced dental care meets compassionate service to give you a healthy, confident smile."</p>
+        </div>
+        <div class="col-md-6 dr_content_padding  order-1 order-md-1">
+          <h2 class="dr_welcome_text1 mt-4 mb-4">Vision Multi Speciality
+            Dental Hospital Guntur
+            Best Dental Clinic In
+            Guntur
+          </h2>
+          <p class="poetsen_font1">
+            <!-- Vision Multispeciality Dental Hospital is dedicated to providing comprehensive dental care
               in a modern and compassionate environment. With a team of skilled dentists and
               state-of-the-art technology, we deliver personalized treatment plans for optimal oral
-              health.
-
-              <br>
+              health. -->
 
 
-
-              From routine check-ups to advanced procedures, our focus is on exceptional patient care and
-              creating confident smiles. Trust us for all your dental needs and experience the highest
-              standard of dental excellence.
-            </p>
+            At Vision Multispeciality Dental Hospital, we are committed to providing ethical, evidence-based, and expert dental care in a modern, patient-friendly environment. Our team of experienced and highly qualified dentists combines advanced dental technology with personalized treatment plans to ensure the best outcomes for your oral health.
 
 
+            <br>
+
+
+
+            <!-- From routine check-ups to advanced procedures, our focus is on exceptional patient care and
+            creating confident smiles. Trust us for all your dental needs and experience the highest 
+            standard of dental excellence. -->
+
+            Whether you need routine dental check-ups, cavity and  <a href="root.php">root canal treatments</a> ,     <a href="braces.php">braces</a>    ,  <a href="implants.php"> implants</a>    ,   or    <a href="smile.php"> smile makeovers</a>, our focus is on delivering safe, precise, and compassionate care for every patient.
+
+
+
+            <br>
+
+            With a proven reputation as one of the best dental hospitals in Guntur, Vision Dental upholds the highest standards of hygiene, transparency, and clinical excellence.
+            <br>
+            Experience the perfect blend of expertise, empathy, and advanced dentistry — because your smile deserves nothing less than the best.
+          </p>
+
+
+        </div>
+
+        <div class="col-md-6 order-3  order-md-2 mt-5">
+          <img src="assets/img/about/a1.png" class="img-fluid dr_img_padding abouter" alt="">
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <section class="sectionForm">
+    <div class="container">
+      <div class="row servSect">
+        <div class="abot mt-5">
+          <h4 class="abh4">Meet our specialists</h4>
+          <p class="abP">We use only the best quality materials on the market in order to provide the best
+            products to our patients.</p>
+        </div>
+        <div class="col-md-5   mt-5">
+          <img src="assets/img/about/a2.png" class="img-fluid dr_img_padding abouter" alt="">
+        </div>
+        <div class="col-md-7 dr_content_padding   ">
+          <h5 class="poetsen_font11">Dr. Abhilash <span class="spanabout"> (Founder & Chief Doctor, Vision Multispeciality Dental Hospital, Guntur)</span></h5>
+          <p class="poetsen_font1">
+            <!-- Welcome to Vision Multispeciality Dental Hospital, Guntur, where Dr. Abhilash, our founder
+            and chief doctor, leads a dedicated team committed to providing top-notch dental care. With
+            over 8 years of experience, Dr. Abhilash is highly skilled in implant surgeries, laser
+            photomedicine, and full mouth rehabilitations. -->
+
+            Welcome to Vision Multispeciality Dental Hospital, Guntur — a center of excellence in modern dentistry led by Dr. Abhilash, our esteemed Founder and Chief Doctor. With over 8 years of clinical experience, Dr. Abhilash is renowned for his expertise in dental implant surgeries, laser photomedicine, and full mouth rehabilitations
+
+            <br>
+            <br>
+            <!-- Dr. Abhilash's expertise ensures that every patient receives personalized and effective
+            treatment. He combines advanced technology with a patient-centered approach, focusing on
+            comfort, precision, and long-lasting results. Whether you're looking for secure dental
+            implants, minimally invasive laser treatments, or comprehensive full mouth rehabilitation,
+            Dr. Abhilash and his team are here to help you achieve a healthy and confident smile. -->
+
+            Driven by a passion for precision and patient care, Dr. Abhilash combines advanced dental technology with evidence-based techniques to deliver safe, aesthetic, and long-lasting results. His approach is rooted in ethics, empathy, and excellence, ensuring every patient receives a personalized treatment plan tailored to their unique needs.
+
+
+          </p>
+          <div class="d-flex flex-row justify-content-start">
+            <p class="get_in_touch" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore()">
+              Read More <i class="fa-solid fa-arrow-right"></i></p>
           </div>
 
-          <div class="col-md-6 order-3  order-md-2 mt-5">
-            <img src="assets/img/about/a1.png" class="img-fluid dr_img_padding abouter" alt="">
-          </div>
+        </div>
 
+
+
+        <div class="showthisdiv order-2  order-md-3" style="display:none ">
+          <p class="poetsen_font1">
+            <!-- At Vision Multispeciality Dental Hospital, we prioritize your well-being and strive to make
+            every visit a positive experience. Experience exceptional dental care with Dr. Abhilash,
+            where your comfort and satisfaction are our top priorities. -->
+
+
+            Whether you require secure dental implants, painless laser treatments, or a complete smile transformation, Dr. Abhilash and his team are dedicated to helping you regain confidence in your smile. <br>
+            At Vision Multispeciality Dental Hospital, we believe that your comfort, safety, and satisfaction come first. Experience the perfect blend of clinical expertise and compassionate care — because your smile deserves nothing less than the best.
+
+          </p>
 
         </div>
       </div>
-    </section>
-    <section class="sectionForm">
-      <div class="container">
-        <div class="row servSect">
-          <div class="abot mt-5">
-            <h4 class="abh4">Meet our specialists</h4>
-            <p class="abP">We use only the best quality materials on the market in order to provide the best
-              products to our patients.</p>
-          </div>
-          <div class="col-md-5   mt-5">
-            <img src="assets/img/about/a2.png" class="img-fluid dr_img_padding abouter" alt="">
-          </div>
-          <div class="col-md-7 dr_content_padding   ">
-            <h5 class="poetsen_font11">Dr. Abhilash <span class="spanabout">(  Founder and Chief Doctor
-                )</span></h5>
-            <p class="poetsen_font1">
-              Welcome to Vision Multispeciality Dental Hospital, Guntur, where Dr. Abhilash, our founder
-              and chief doctor, leads a dedicated team committed to providing top-notch dental care. With
-              over 8 years of experience, Dr. Abhilash is highly skilled in implant surgeries, laser
-              photomedicine, and full mouth rehabilitations.
-
-              <br>
-              <br>
-              Dr. Abhilash's expertise ensures that every patient receives personalized and effective
-              treatment. He combines advanced technology with a patient-centered approach, focusing on
-              comfort, precision, and long-lasting results. Whether you're looking for secure dental
-              implants, minimally invasive laser treatments, or comprehensive full mouth rehabilitation,
-              Dr. Abhilash and his team are here to help you achieve a healthy and confident smile.
-            </p>
-            <div class="d-flex flex-row justify-content-start">
-              <p class="get_in_touch" style="color: #474FA0; cursor: pointer;" onclick="toggleReadMore()">
-                Read More <i class="fa-solid fa-arrow-right"></i></p>
-            </div>
-
-          </div>
-
-
-
-          <div class="showthisdiv order-2  order-md-3" style="display:none ">
-            <p class="poetsen_font1">
-              At Vision Multispeciality Dental Hospital, we prioritize your well-being and strive to make
-              every visit a positive experience. Experience exceptional dental care with Dr. Abhilash,
-              where your comfort and satisfaction are our top priorities.</p>
-          </div>
+      <div class="row imgGap mt-5">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 someabout"> <img src="assets/img/about/a3.png" class="img-fluid dr_img_paddinger" alt="">
         </div>
-        <div class="row imgGap mt-5">
-          <div class="col-md-3"></div>
-          <div class="col-md-6 someabout"> <img src="assets/img/about/a3.png" class="img-fluid dr_img_paddinger" alt="">
-          </div>
-          <div class="col-md-3"></div>
+        <div class="col-md-3"></div>
+      </div>
+      <div class="row servSect mt-2">
+        <div class="col-md-5   mt-5">
+          <img src="assets/img/about/a4.png" class="img-fluid dr_img_padding abouter" alt="">
         </div>
-        <div class="row servSect mt-2">
-          <div class="col-md-5   mt-5">
-            <img src="assets/img/about/a4.png" class="img-fluid dr_img_padding abouter" alt="">
-          </div>
-          <div class="col-md-7 dr_content_padding   ">
-            <h5 class="poetsen_font11">Dr. Lathasree <span class="spanabout">(  Co-Founder and Senior
-                Dentist )</span></h5>
-            <p class="poetsen_font1">
-              Meet Dr. Lathasree, the co-founder and senior dentist at Vision Multispeciality Dental
-              Hospital, Guntur. With 4 years of valuable clinical experience in some of the country’s
-              leading corporate hospitals, Dr. Lathasree brings a wealth of knowledge and expertise to our
-              practice.
+        <div class="col-md-7 dr_content_padding   ">
+          <h5 class="poetsen_font11">Dr. Lathasree <span class="spanabout">( Co-Founder & Senior Dentist, Vision Multispeciality Dental Hospital, Guntur )</span></h5>
+          <p class="poetsen_font1">
+            <!-- Meet Dr. Lathasree, the co-founder and senior dentist at Vision Multispeciality Dental
+            Hospital, Guntur. With 4 years of valuable clinical experience in some of the country’s
+            leading corporate hospitals, Dr. Lathasree brings a wealth of knowledge and expertise to our
+            practice. -->
+            Meet Dr. Lathasree, the Co-Founder and Senior Dentist at Vision Multispeciality Dental Hospital, Guntur. With over 4 years of hands-on clinical experience across some of India’s leading corporate dental hospitals, she brings deep expertise, precision, and compassion to every patient she treats.
 
-              <br>
-              <br>
-              As the wife of Dr. Abhilash, Dr. Lathasree shares his commitment to delivering exceptional
-              dental care. Her extensive experience in diverse clinical settings has equipped her with a
-              comprehensive understanding of advanced dental procedures and patient management. Her
-              dedication to patient-centered care ensures that each individual receives personalized
-              attention
-            </p>
-            <div class="d-flex flex-row justify-content-start">
-              <p class="get_in_touch" style="color: #474FA0; cursor: pointer;"
-                onclick="toggleReadMore1()">
-                Read More <i class="fa-solid fa-arrow-right"></i></p>
-            </div>
+            <br>
+            <br>
+            <!-- As the wife of Dr. Abhilash, Dr. Lathasree shares his commitment to delivering exceptional
+            dental care. Her extensive experience in diverse clinical settings has equipped her with a
+            comprehensive understanding of advanced dental procedures and patient management. Her
+            dedication to patient-centered care ensures that each individual receives personalized
+            attention -->
 
+            As the wife and professional partner of Dr. Abhilash, Dr. Lathasree shares his unwavering commitment to clinical excellence and patient satisfaction. Her extensive exposure to advanced dental procedures and patient care systems enables her to deliver safe, personalized, and result-driven treatments.
+          </p>
+          <div class="d-flex flex-row justify-content-start">
+            <p class="get_in_touch" style="color: #474FA0; cursor: pointer;"
+              onclick="toggleReadMore1()">
+              Read More <i class="fa-solid fa-arrow-right"></i></p>
           </div>
 
+        </div>
 
 
-          <div class="showthisdiv1 order-2  order-md-3" style="display:none ">
-            <p class="poetsen_font1">
+
+        <div class="showthisdiv1 order-2  order-md-3" style="display:none ">
+          <p class="poetsen_font1">
 
 
-              At Vision Multispeciality Dental Hospital, Dr. Lathasree
-              plays a pivotal role in maintaining the highest standards of clinical excellence. Her
-              collaborative approach and compassionate demeanor create a reassuring environment for all
-              patients. Together with Dr. Abhilash, she strives to provide innovative and effective dental
-              solutions, making Vision Multispeciality Dental Hospital a trusted choice for comprehensive
-              dental care.</p>
-          </div>
+            <!-- At Vision Multispeciality Dental Hospital, Dr. Lathasree
+            plays a pivotal role in maintaining the highest standards of clinical excellence. Her
+            collaborative approach and compassionate demeanor create a reassuring environment for all
+            patients. Together with Dr. Abhilash, she strives to provide innovative and effective dental
+            solutions, making Vision Multispeciality Dental Hospital a trusted choice for comprehensive
+            dental care. -->
+
+            Known for her gentle approach and empathetic communication, Dr. Lathasree ensures every patient feels comfortable, informed, and confident throughout their dental journey.   <br>
+
+            At Vision Multispeciality Dental Hospital, she plays a key role in upholding the hospital’s reputation for trust, transparency, and top-quality care. Together, Dr. Lathasree and Dr. Abhilash lead a skilled team dedicated to transforming smiles with innovation, integrity, and advanced technology.
+          </p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <script>
-      function toggleReadMore() {
-        var showThisDiv = document.querySelector('.showthisdiv');
-        var readMoreText = document.querySelector('.get_in_touch');
+  <script>
+    function toggleReadMore() {
+      var showThisDiv = document.querySelector('.showthisdiv');
+      var readMoreText = document.querySelector('.get_in_touch');
 
-        if (showThisDiv.style.display === "none") {
-          showThisDiv.style.display = "block";
-          readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-        } else {
-          showThisDiv.style.display = "none";
-          readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
-        }
+      if (showThisDiv.style.display === "none") {
+        showThisDiv.style.display = "block";
+        readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
+      } else {
+        showThisDiv.style.display = "none";
+        readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
       }
-    </script>
-    <script>
-      function toggleReadMore1() {
-        var showThisDiv = document.querySelector('.showthisdiv1');
-        var readMoreText = document.querySelector('.get_in_touch');
+    }
+  </script>
+  <script>
+    function toggleReadMore1() {
+      var showThisDiv = document.querySelector('.showthisdiv1');
+      var readMoreText = document.querySelector('.get_in_touch');
 
-        if (showThisDiv.style.display === "none") {
-          showThisDiv.style.display = "block";
-          readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
-        } else {
-          showThisDiv.style.display = "none";
-          readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
-        }
+      if (showThisDiv.style.display === "none") {
+        showThisDiv.style.display = "block";
+        readMoreText.innerHTML = 'Read Less <i class="fa-solid fa-arrow-up"></i>';
+      } else {
+        showThisDiv.style.display = "none";
+        readMoreText.innerHTML = 'Read More <i class="fa-solid fa-arrow-right"></i>';
       }
-    </script>
+    }
+  </script>
 
-  </main>
-  <?php include('./footer.php'); ?>
+</main>
+<?php include('./footer.php'); ?>
 
-  <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
+<!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+<!-- Vendor JS Files -->
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <script src="assets/js/main.js"></script>
+<script src="assets/js/main.js"></script>
 
 </body>
 
