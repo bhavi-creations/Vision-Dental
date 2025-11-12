@@ -170,7 +170,7 @@
         <h1 class="doc_head_text">
           Vision Multispeciality Dental Hospital Dentist In Guntur</h1>
         <p class="doc_para_text">Welcome to Vision Multispeciality Dental Hospital, Guntur, where Dr. Abhilash, our esteemed founder and chief doctor, leads our dedicated team. With over 8 years of extensive experience in the field of dentistry,
-          Dr. Abhilash is renowned for his expertise in implant surgeries, laser photomedicines, and full mouth rehabilitations.</p>
+             <a href="https://visionmultispecialtydental.blogspot.com/2025/11/dr-abhilash-vision-multi-speciality.html" target="_blank"> Dr. Abhilash</a>  is renowned for his expertise in implant surgeries, laser photomedicines, and full mouth rehabilitations.</p>
         <button class="read_more_btn_vision"><a href="about.php" style="color: white;"> Read More</a></button>
       </div>
 
