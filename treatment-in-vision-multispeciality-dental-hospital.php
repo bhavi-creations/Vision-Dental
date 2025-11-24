@@ -14,7 +14,7 @@
 
           </div>
           <div class="col-md-3 mt-5">
-            <a href="root_canal_treatments">
+            <a href="root-canal-treatments">
               <div class="cardB">
                 <img src="assets/img/treat/0.png" alt="" class="imggg1">
                 <div class="card__content">

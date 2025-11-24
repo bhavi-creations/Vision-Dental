@@ -365,7 +365,7 @@
                             <img
                                 src="assets/img/bhavi_logo/Bhavi_Branding_Stamp.png"
                                 class="img-fluid brand_image"
-                                alt="" />
+                                alt="bhavi creations stamp logo" />
                         </a>
                     </div>
                 </div>
