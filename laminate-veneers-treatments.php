@@ -6,6 +6,7 @@
 
     <section class="sectionForm">
       <div class="container">
+      <p class="mt-5">Treatments/ Laminate Veneers/ Laminate Veneers</p>
         <div class="row servSect">
           <div class="abot mt-5">
             <h4 class="abh4"> Laminate Veneers</h4>
@@ -19,7 +20,7 @@
             <p class="poetsen_font1">
               At Vision Dental Hospital, the best hospital in Guntur for Laminate Veneers, we offer top-of-the-line laminate veneers to help you achieve a beautiful, natural smile. Located conveniently near you, our hospital provides advanced dental treatments with a focus on quality and patient care. Laminate veneers are thin, custom-made shells designed to cover the front surface of teeth, perfect for addressing issues such as chipped, stained, or misaligned teeth. Our expert team ensures that these veneers not only look natural but are also durable and long-lasting, giving you a seamless and confident smile makeover. At Vision Dental Hospital, we combine cutting-edge technology with personalized care to provide exceptional dental solutions right here in Guntur.
             </p>
-            <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
+            <a href="appointment-for-vision-multispeciality-dental-hospital"> <button class="appont">Book Appointment</button></a>
 
           </div>
 

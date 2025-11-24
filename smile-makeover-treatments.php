@@ -21,7 +21,7 @@
             <p class="poetsen_font1">
               A smile makeover at Vision Dentals in Guntur is a transformative cosmetic dental procedure designed to enhance the overall appearance of your smile through a combination of advanced treatments tailored to your unique needs and goals. This comprehensive approach addresses various aesthetic concerns, such as teeth discoloration, misalignment, gaps, and worn or damaged teeth, to create a harmonious and beautiful smile. A smile makeover typically involves a combination of procedures, including teeth whitening, dental veneers, bonding, crowns, and orthodontics, all carefully selected to achieve the desired results. Our expert team uses state-of-the-art technology and digital imaging to plan and visualize the outcome, ensuring that each treatment complements your facial features and dental structure. The result is a radiant, confident smile that not only enhances your appearance but also boosts your self-esteem. By choosing a smile makeover at our dental hospital in Guntur, you benefit from personalized care and cutting-edge techniques that deliver a stunning, customized smile and improve your overall dental health.
             </p>
-            <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
+            <a href="appointment-for-vision-multispeciality-dental-hospital"> <button class="appont">Book Appointment</button></a>
 
           </div>
 

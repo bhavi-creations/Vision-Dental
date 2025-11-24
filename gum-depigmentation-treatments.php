@@ -6,6 +6,7 @@
 
         <section class="sectionForm">
             <div class="container">
+            <p class="mt-5">Treatments/ Laser Veda/ Gum Depigmentation</p>
                 <div class="row servSect">
                     <div class="abot mt-5">
                         <h4 class="abh4">Gum Depigmentation Treatments</h4>
@@ -21,7 +22,7 @@
                         <p class="poetsen_font1">
                         Gum depigmentation at Vision Dentals in Guntur is a specialized cosmetic procedure designed to address and reduce the dark pigmentation on the gums, enhancing the overall appearance of your smile. This treatment is ideal for individuals with naturally dark or unevenly pigmented gums caused by factors such as smoking, certain medications, or genetic predispositions. The procedure involves using advanced techniques, including laser therapy or chemical treatments, to remove or lighten the pigmented areas on the gum tissue. Laser gum depigmentation is particularly effective, as it targets the melanin responsible for the discoloration with precision, promoting the regeneration of healthier, more evenly colored gum tissue. The treatment is minimally invasive and generally involves a quick recovery period, with patients often experiencing improved aesthetics and enhanced confidence in their smile. By opting for gum depigmentation in Guntur, you benefit from cutting-edge technology and expert care that helps achieve a more attractive and uniform gum color, contributing to a more vibrant and pleasing smile. 
                         </p>
-                        <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
+                        <a href="appointment-for-vision-multispeciality-dental-hospital"> <button class="appont">Book Appointment</button></a>
 
                     </div>
 

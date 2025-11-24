@@ -86,7 +86,7 @@ You agree that the original English text shall prevail in the case of a dispute.
 <h2>Contact Us</h2>
 <p>If you have any questions about these Terms and Conditions, You can contact us:</p>
 <ul>
-<li>By visiting this page on our website: <a href="https://visiondentalguntur.com/contact.php" rel="external nofollow noopener" target="_blank">https://visiondentalguntur.com/contact.php</a></li>
+<li>By visiting this page on our website: <a href="https://visiondentalguntur.com/contact-us-vision-multispeciality-dental-hospital" rel="external nofollow noopener" target="_blank">https://visiondentalguntur.com/contact-us-vision-multispeciality-dental-hospital</a></li>
 </ul>
             </div>
           </div>

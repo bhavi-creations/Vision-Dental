@@ -6,6 +6,7 @@
 
     <section class="sectionForm">
       <div class="container">
+      <p class="mt-5">Treatments/ Laser Veda/ Precancerous Lesion in Mouth</p>
         <div class="row servSect">
           <div class="abot mt-5">
             <h4 class="abh4">Precancerous Lesion in Mouth Treatments</h4>
@@ -18,7 +19,7 @@
             <p class="poetsen_font1">
               Precancerous lesions in the mouth are abnormal changes in the oral tissues that have the potential to develop into oral cancer if left untreated. These lesions, often identified during routine dental examinations at Vision Dentals in Guntur, may appear as white or red patches, sores that do not heal, or unusual growths on the gums, tongue, or inside the cheeks. Factors such as tobacco use, excessive alcohol consumption, and certain viral infections, such as human papillomavirus (HPV), can increase the risk of these lesions. Early detection and treatment are crucial for preventing progression to oral cancer. At Vision Dentals, our expert team employs advanced diagnostic techniques, including biopsies and imaging, to assess the nature of these lesions. We provide targeted treatment options and ongoing monitoring to address precancerous conditions effectively, ensuring the best possible outcomes and safeguarding your oral health. By seeking timely care for precancerous lesions in Guntur, you benefit from expert evaluation and comprehensive management that helps prevent serious complications and supports overall oral well-being.
             </p>
-            <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
+            <a href="appointment-for-vision-multispeciality-dental-hospital"> <button class="appont">Book Appointment</button></a>
 
           </div>
 

@@ -9,25 +9,25 @@
 
                     <ul>
                         <li class="foot_para">
-                            <a href="index.php" style="color: #fff">Home</a>
+                            <a href="https://visiondentalguntur.com/" style="color: #fff">Home</a>
                         </li>
                         <li class="foot_para">
-                            <a href="about.php" style="color: #fff">About us</a>
+                            <a href="about-vision-dental-best-dental-clinic-in-guntur" style="color: #fff">About us</a>
                         </li>
                         <li class="foot_para">
-                            <a href="testimonials.php" style="color: #fff">Reviews</a>
+                            <a href="reviews-testimonials" style="color: #fff">Reviews</a>
                         </li>
                         <li class="foot_para">
-                            <a href="blogs.php" style="color: #fff">Blog</a>
+                            <a href="blogs" style="color: #fff">Blog</a>
                         </li>
                         <li class="foot_para">
-                            <a href="gallery.php" style="color: #fff">Smile Gallery</a>
+                            <a href="smile-gallery" style="color: #fff">Smile Gallery</a>
                         </li>
                         <li class="foot_para">
-                            <a href="contact.php" style="color: #fff">Contact Us</a>
+                            <a href="contact-us-vision-multispeciality-dental-hospital" style="color: #fff">Contact Us</a>
                         </li>
                         <li class="foot_para">
-                            <a href="equipment.php" style="color: #fff">Equipment </a>
+                            <a href="equipment-in-vision-multispeciality-dental-hospital-in-guntur" style="color: #fff">Equipment </a>
                         </li>
 
                         <li class="foot_para">
@@ -40,28 +40,28 @@
                     <h1 class="foot_head">Treatments</h1>
                     <ul>
                         <li class="foot_para">
-                            <a href="root.php" style="color: #fff">Root Canal </a>
+                            <a href="root_canal_treatments" style="color: #fff">Root Canal </a>
                         </li>
                         <li class="foot_para">
-                            <a href="braces.php" style="color: #fff"> Teeth Braces </a>
+                            <a href="braces-treatments" style="color: #fff"> Teeth Braces </a>
                         </li>
                         <li class="foot_para">
-                            <a href="pediatric.php" style="color: #fff">Pediatric Dentist</a>
+                            <a href="pediatric-dentist-treatments" style="color: #fff">Pediatric Dentist</a>
                         </li>
                         <li class="foot_para">
-                            <a href="paedodontist.php" style="color: #fff">Paedodontist Doctors</a>
+                            <a href="paedodontist-doctors-treatments" style="color: #fff">Paedodontist Doctors</a>
                         </li>
                         <li class="foot_para">
-                            <a href="aligners.php" style="color: #fff">Clear Aligners</a>
+                            <a href="clear-aligners-treatment" style="color: #fff">Clear Aligners</a>
                         </li>
                         <li class="foot_para">
-                            <a href="cosmetic.php" style="color: #fff">Laminate Veneers</a>
+                            <a href="laminate-veneers-treatments" style="color: #fff">Laminate Veneers</a>
                         </li>
                         <li class="foot_para">
-                            <a href="crowns.php" style="color: #fff">Crowns & Bridges</a>
+                            <a href="crowns-bridges-treatments" style="color: #fff">Crowns & Bridges</a>
                         </li>
                         <li class="foot_para">
-                            <a href="implants.php" style="color: #fff">Dental Implants</a>
+                            <a href="dental-implants-treatments" style="color: #fff">Dental Implants</a>
                         </li>
                     </ul>
                 </div>
@@ -70,29 +70,29 @@
                     <h1 class="foot_head">Treatments</h1>
                     <ul>
                         <li class="foot_para">
-                            <a href="dentures.php" style="color: #fff">Dentures Treatment
+                            <a href="dentures-treatments" style="color: #fff">Dentures Treatment
                             </a>
                         </li>
                         <li class="foot_para">
-                            <a href="invisalign.php" style="color: #fff"> Invisalign </a>
+                            <a href="invisalign-treatments" style="color: #fff"> Invisalign </a>
                         </li>
                         <li class="foot_para">
-                            <a href="jaw.php" style="color: #fff">Jaw Corrective</a>
+                            <a href="jaw-pain-correction-treatments" style="color: #fff">Jaw Corrective</a>
                         </li>
                         <li class="foot_para">
-                            <a href="laser.php" style="color: #fff">Laser & Gum</a>
+                            <a href="laser-gum-treatments" style="color: #fff">Laser & Gum</a>
                         </li>
                         <li class="foot_para">
-                            <a href="smile.php" style="color: #fff">Smile Designing</a>
+                            <a href="smile-designing-treatments" style="color: #fff">Smile Designing</a>
                         </li>
                         <li class="foot_para">
-                            <a href="make.php" style="color: #fff">Smile Makeover</a>
+                            <a href="smile-makeover-treatments" style="color: #fff">Smile Makeover</a>
                         </li>
                         <li class="foot_para">
-                            <a href="teeth.php" style="color: #fff">Teeth Alignment</a>
+                            <a href="teeth-alignment-treatments" style="color: #fff">Teeth Alignment</a>
                         </li>
                         <li class="foot_para">
-                            <a href="tooth.php" style="color: #fff">Tooth Extraction </a>
+                            <a href="wisdom-tooth-removel" style="color: #fff">Tooth Extraction </a>
                         </li>
                     </ul>
                 </div>
@@ -101,28 +101,28 @@
                     <h1 class="foot_head">Treatments</h1>
                     <ul>
                         <li class="foot_para">
-                            <a href="laserTooth.php" style="color: #fff">
+                            <a href="laser-assisted-teeth-cleaning-treatments" style="color: #fff">
                                 Tooth Cleaning
                             </a>
                         </li>
                         <li class="foot_para">
-                            <a href="gum.php" style="color: #fff">Gum Depigment</a>
+                            <a href="gum-depigmentation-treatments" style="color: #fff">Gum Depigment</a>
                         </li>
                         <li class="foot_para">
-                            <a href="laserTeeth.php" style="color: #fff">
+                            <a href="laser-teeth-whitening-treatments" style="color: #fff">
                                 Teeth Whitening</a>
                         </li>
                         <li class="foot_para">
-                            <a href="laserGum.php" style="color: #fff">Laser Gum Surgery</a>
+                            <a href="laser-gum-surgeries-treatments" style="color: #fff">Laser Gum Surgery</a>
                         </li>
                         <li class="foot_para">
-                            <a href="mouth.php" style="color: #fff">Mouth Ulcers</a>
+                            <a href="mouth-ulcers-treatments" style="color: #fff">Mouth Ulcers</a>
                         </li>
                         <li class="foot_para">
-                            <a href="lasion.php" style="color: #fff">Precancerous Lesion</a>
+                            <a href="precancerous-lesion-in-mouth-treatments" style="color: #fff">Precancerous Lesion</a>
                         </li>
                         <li class="foot_para">
-                            <a href="laserCrown.php" style="color: #fff">Laser Crown Lengthening</a>
+                            <a href="laser-crown-lengthening-treatments" style="color: #fff">Laser Crown Lengthening</a>
                         </li>
                     </ul>
                 </div>
@@ -132,11 +132,11 @@
                       <h1 class="foot_head">Services</h1>
 
                       <ul>
-                          <li class="foot_para"><a href="smile.php" style="color: #fff;">Smile Designing</a></li>
-                          <li class="foot_para"><a href="tooth.php" style="color: #fff;">Wisdom Tooth Extraction</a></li>
-                          <li class="foot_para"><a href="root.php" style="color: #fff;">Root Canal Treatments</a></li>
-                          <li class="foot_para"><a href="laserGum.php" style="color: #fff;">Gum Treatment</a></li>
-                          <li class="foot_para"><a href="paedodontist.php" style="color: #fff;">Children’s Dental</a></li>
+                          <li class="foot_para"><a href="smile" style="color: #fff;">Smile Designing</a></li>
+                          <li class="foot_para"><a href="tooth" style="color: #fff;">Wisdom Tooth Extraction</a></li>
+                          <li class="foot_para"><a href="root" style="color: #fff;">Root Canal Treatments</a></li>
+                          <li class="foot_para"><a href="laserGum" style="color: #fff;">Gum Treatment</a></li>
+                          <li class="foot_para"><a href="paedodontist" style="color: #fff;">Children’s Dental</a></li>
                       </ul>
 
                   </div> -->
@@ -338,11 +338,11 @@
                     <div class="footer-widget__copyright-info info-direction">
                         <p class="last_text">
                             <a
-                                href="terms.php"
+                                href="terms"
                                 style="text-decoration: none; color: #ffffff">Terms & conditions
                             </a>
                             <a
-                                href="privacy.php"
+                                href="privacy"
                                 style="text-decoration: none; color: #ffffff">
                                 Privacy & policy</a>
                         </p>
@@ -379,6 +379,7 @@
 
 <!-- Scroll Up Button  -->
 <button id="scrollBtn" onclick="scrollToTop()"><i class="fa-solid fa-arrow-up "></i></button>
+
 
 <script>
     // Function to scroll to the top of the page
@@ -431,6 +432,14 @@
 <a href="https://api.whatsapp.com/send?phone=919391457072" style="color: #fff;" class="whatsapp-link"
     target="_blank">
     <i class="fab fa-whatsapp"></i>
+</a>
+
+
+
+
+<a href="tel:+919391457072" style="color: #fff;" class="call_link  " 
+    target="_blank" >
+    <img src="./assets/img/phone-call.png" alt="" style="width:50px;  height:50px;" ;>
 </a>
 
 

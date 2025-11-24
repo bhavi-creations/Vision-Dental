@@ -12,6 +12,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt->bind_param("isss", $blog_id, $name, $email, $text);
         $stmt->execute();
     }
-    header("Location: service_detsils.php?id=".$blog_id);
+    header("Location: service_detsils?id=".$blog_id);
     exit;
 }

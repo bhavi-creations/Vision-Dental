@@ -7,6 +7,7 @@
 
     <section class="sectionForm">
       <div class="container">
+      <p class="mt-5">Treatments/Pain Relief/ Wisdom Tooth Removel</p>
         <div class="row servSect">
           <div class="abot mt-5">
             <h4 class="abh4">Wisdom Tooth Extraction Treatments</h4>
@@ -22,7 +23,7 @@
             <p class="poetsen_font1">
               Tooth extraction at Vision Dentals in Guntur is a carefully considered procedure used to remove teeth that are beyond repair or are causing significant dental issues. This procedure may be necessary for a variety of reasons, including severe tooth decay, advanced gum disease, overcrowding, or impacted wisdom teeth. Our experienced team at Vision Dentals uses state-of-the-art techniques and local anesthesia to ensure that the extraction process is as comfortable and efficient as possible. Following the extraction, we provide comprehensive care and guidance to facilitate proper healing and minimize discomfort. Tooth extraction can help alleviate pain, prevent the spread of infection, and create space for orthodontic treatments or other dental procedures. By choosing tooth extraction at our dental hospital in Guntur, you benefit from expert care and advanced methods designed to ensure a smooth and successful recovery, ultimately contributing to better overall oral health and comfort.
             </p>
-            <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
+            <a href="appointment-for-vision-multispeciality-dental-hospital"> <button class="appont">Book Appointment</button></a>
 
           </div>
 

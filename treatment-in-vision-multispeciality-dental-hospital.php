@@ -14,7 +14,7 @@
 
           </div>
           <div class="col-md-3 mt-5">
-            <a href="root.php">
+            <a href="root_canal_treatments">
               <div class="cardB">
                 <img src="assets/img/treat/0.png" alt="" class="imggg1">
                 <div class="card__content">
@@ -27,7 +27,7 @@
 
           </div>
           <div class="col-md-3 mt-5">
-            <a href="braces.php">
+            <a href="braces-treatments">
               <div class="cardB">
                 <img src="assets/img/treat/23.png" alt="" class="imggg2">
                 <div class="card__content">
@@ -43,7 +43,7 @@
 
           </div>
           <div class="col-md-3 mt-5">
-            <a href="pediatric.php">
+            <a href="pediatric-dentist-treatments">
               <div class="cardB">
                 <img src="assets/img/treat/17.png" alt="" class="imggg3">
                 <div class="card__content">
@@ -64,7 +64,7 @@
 
           </div>
           <div class="col-md-3 mt-5">
-            <a href="paedodontist.php">
+            <a href="paedodontist-doctors-treatments">
               <div class="cardB">
                 <img src="assets/img/treat/8.png" alt="" class="imggg4">
                 <div class="card__content">
@@ -89,7 +89,7 @@
                 <div class="row mt-5"> -->
           <div class="col-md-3 mt-5">
 
-            <a href="aligners.php">
+            <a href="clear-aligners-treatment">
               <div class="cardB">
                 <img src="assets/img/treat/16.png" alt="" class="imggg5">
                 <div class="card__content">
@@ -109,7 +109,7 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="cosmetic.php">
+            <a href="laminate-veneers-treatments">
               <div class="cardB">
                 <img src="assets/img/treat/3.png" alt="" class="imggg6">
                 <div class="card__content">
@@ -129,7 +129,7 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="crowns.php">
+            <a href="crowns-bridges-treatments">
               <div class="cardB">
                 <img src="assets/img/treat/9.png" alt="" class="imggg7">
                 <div class="card__content">
@@ -149,7 +149,7 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="implants.php">
+            <a href="dental-implants-treatments">
               <div class="cardB">
                 <img src="assets/img/treat/22.png" alt="" class="imggg8">
                 <div class="card__content">
@@ -171,7 +171,7 @@
           <!-- </div>
                 <div class="row mt-5"> -->
           <div class="col-md-3 mt-5">
-            <a href="dentures.php">
+            <a href="dentures-treatments">
               <div class="cardB">
                 <img src="assets/img/treat/21.png" alt="" class="imggg9">
 
@@ -192,7 +192,7 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="invisalign.php">
+            <a href="invisalign-treatments">
               <div class="cardB">
                 <img src="assets/img/treat/11.png" alt="" class="imggg9">
 
@@ -207,7 +207,7 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="jaw.php">
+            <a href="jaw-pain-correction-treatments">
               <div class="cardB">
                 <img src="assets/img/treat/24.png" alt="" class="imggg10">
 
@@ -221,7 +221,7 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="laser.php">
+            <a href="laser-gum-treatments">
               <div class="cardB">
                 <img src="assets/img/treat/5.png" alt="" class="imggg11">
 
@@ -237,7 +237,7 @@
           <!-- </div>
                 <div class="row mt-5"> -->
           <div class="col-md-3 mt-5">
-            <a href="smile.php">
+            <a href="smile-designing-treatments">
               <div class="cardB">
                 <img src="assets/img/treat/15.png" alt="" class="imggg12">
 
@@ -251,7 +251,7 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="make.php">
+            <a href="smile-makeover-treatments">
               <div class="cardB">
                 <img src="assets/img/treat/12.png" alt="" class="imggg12">
 
@@ -268,7 +268,7 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="teeth.php">
+            <a href="teeth-alignment-treatments">
               <div class="cardB">
                 <img src="assets/img/treat/13.png" alt="" class="imggg13">
 
@@ -282,7 +282,7 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="tooth.php">
+            <a href="wisdom-tooth-removel-treatments">
               <div class="cardB">
                 <img src="assets/img/treat/20.png" alt="" class="imggg14">
 
@@ -298,7 +298,7 @@
           <!-- </div>
                 <div class="row mt-5"> -->
           <div class="col-md-3 mt-5">
-            <a href="laserTooth.php">
+            <a href="laser-assisted-teeth-cleaning-treatments">
               <div class="cardB">
                 <img src="assets/img/treat/6.png" alt="" class="imggg15">
 
@@ -312,7 +312,7 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="gum.php">
+            <a href="gum-depigmentation-treatments">
               <div class="cardB">
                 <img src="assets/img/treat/19.png" alt="" class="imggg16">
 
@@ -326,7 +326,7 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="laserTeeth.php">
+            <a href="laser-teeth-whitening-treatments">
               <div class="cardB">
                 <img src="assets/img/treat/14.png" alt="" class="imggg17">
 
@@ -340,7 +340,7 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="laserGum.php">
+            <a href="laser-gum-surgeries-treatments">
               <div class="cardB">
                 <img src="assets/img/treat/25.png" alt="" class="imggg17">
 
@@ -356,7 +356,7 @@
           <!-- </div> -->
           <div class="row   tret">
             <div class="col-md-3 mt-5">
-              <a href="mouth.php">
+              <a href="mouth-ulcers-treatments">
                 <div class="cardB">
                   <img src="assets/img/treat/26.png" alt="" class="imggg17">
 
@@ -370,7 +370,7 @@
               </a>
             </div>
             <div class="col-md-3 mt-5">
-              <a href="lasion.php">
+              <a href="precancerous-lesion-in-mouth-treatments">
                 <div class="cardB">
                   <img src="assets/img/treat/18.png" alt="" class="imggg18">
 
@@ -384,7 +384,7 @@
               </a>
             </div>
             <div class="col-md-3 mt-5">
-              <a href="laserCrown.php">
+              <a href="laser-crown-lengthening-treatments">
                 <div class="cardB">
                   <img src="assets/img/treat/10.png" alt="" class="imggg19">
 

@@ -3,9 +3,12 @@
 
 
   <main id="main">
+  
+  
 
     <section class="sectionForm">
       <div class="container">
+      <p class="mt-5">Treatments/ Child Dentistry/ Pediatric Dentist</p>
         <div class="row servSect">
           <div class="abot mt-5">
             <h4 class="abh4">Best Pediatric Dentist</h4>
@@ -21,7 +24,7 @@
               <br>
               Prevention is better than cure, which is why we offer comprehensive preventive care at our dental hospital in Guntur, including regular cleanings, fluoride treatments, and dental sealants to protect your child’s teeth from cavities and decay. We also provide personalized advice on maintaining oral hygiene at home. Routine cleanings and exams are essential for monitoring your child’s dental development, and our hygienists are specifically trained to work with children, ensuring their teeth and gums remain healthy and strong.
             </p>
-            <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
+            <a href="appointment-for-vision-multispeciality-dental-hospital"> <button class="appont">Book Appointment</button></a>
 
           </div>
 

@@ -180,11 +180,16 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
+  position: fixed;
   transition: all 0.5s;
   z-index: 997;
   /* padding: 20px 0; */
   /* top: 40px; */
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  /* position: absolute; */
+
+
+  
 }
 
 #header1 {
@@ -489,7 +494,8 @@ h6 {
     white-space: nowrap;
     transition: 0.3s;
     font-weight: 800;
-    padding: 0px 22px 0px 22px !important;
+    padding: 0px 12px 0px 12px !important;
+    /* padding: 0px 22px 0px 22px !important; */
   }
 }
 
@@ -501,12 +507,13 @@ h6 {
     align-items: center;
     justify-content: space-between;
     font-family: "Mulish", sans-serif;
-    font-size: 16px;
+    font-size: 4;
     color: #011632;
     white-space: nowrap;
     transition: 0.3s;
     font-weight: 800;
-    padding: 0px 22px 0px 10px !important;
+    padding: 0px 10px 0px 10px !important;
+    /* padding: 0px 22px 0px 10px !important; */
   }
 }
 
@@ -3119,6 +3126,22 @@ h6 {
   text-align: center;
 }
 
+.call_link{
+  
+  position: fixed;
+  bottom: 160px;
+  right: 20px;
+  /* background-color: #25d366; */
+  color: #fff;
+  /* padding: 5px; */
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 35px;
+  text-align: center;
+}
+
+
+
 /* footer end  */
 
 
@@ -4201,3 +4224,9 @@ h6 {
   }
   
 }
+
+
+
+/* service click stylings  */
+
+
