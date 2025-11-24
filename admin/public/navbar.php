@@ -3,7 +3,7 @@ session_start();
 
 // Check if the user is logged in
 if (!isset($_SESSION['username'])) {
-    header("Location: login.php");
+    header("Location: login");
     exit();
 }
 ?>
@@ -187,7 +187,7 @@ if (!isset($_SESSION['username'])) {
         <!-- Dropdown - User Information -->
         <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
             aria-labelledby="userDropdown">
-      <a class="dropdown-item" href="profile.php">
+      <a class="dropdown-item" href="profile">
                 <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                 Profile
             </a>  

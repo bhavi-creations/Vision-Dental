@@ -188,7 +188,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // EXECUTE AND REDIRECT
     // ======================================
     if ($stmt->execute()) {
-        header("Location: allBlog.php");
+        header("Location: allBlog");
         exit();
     } else {
         error_log("Execute error: " . $stmt->error);

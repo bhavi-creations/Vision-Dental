@@ -9,7 +9,7 @@
 
   <meta name="google-site-verification" content="H2SztZ2bMfGjPtPTvWlAPlclCAJWgBeVrfyf3ZXvADM" />
   <meta name="title" content="Vision Multispecialty Dental Hospital in Guntur | Best Dental Hospital in Guntur">
-  <meta name="description" content="Vision Multispecialty Dental Hospital in Guntur provides expert dental care, offering dental implants, root canals, pediatric dentistry, and cosmetic treatments.">
+  <meta name="description" content="Vision Multispecialty Dental Hospital in Guntur provides expert dental care, offering Dental implants, Root canal, Pediatric dentistry, and Cosmetic treatments.">
   <meta name="keywords" content="dentist in Guntur ,
        best dental hospital in Guntur,
        dentist near me, 
@@ -253,7 +253,7 @@
   <header id="header">
     <div class="container d-flex align-items-center onlypad  ">
       <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
-        <a href="index">
+        <a href="https://visiondentalguntur.com/">
           <img src="assets/img/vision/large_icon.png" class="img-fluid nav_logo_image " alt="">
         </a>
       </div>
@@ -275,7 +275,7 @@
                 <li class="unique-dropdown-item">
                   <a href="#" class="unique-dropdown-link">Pain Relief<i class="fas fa-caret-down"></i></a>
                   <div class="unique-dropdown second-level  nav_div_mrg nav_div_mrg_one">
-                    <ul class="unique-dropdown-list inside_nav_drop_down sub_section1">
+                    <ul class="unique-dropdown-list inside_nav_drop_down sub_section1 pain_relieft_sub_service">
                       <li class="unique-dropdown-item">
                         <a href="root-canal-treatments" class="unique-dropdown-link">Root Canal Treatment</a>
                       </li>
@@ -337,7 +337,7 @@
                 <li class="unique-dropdown-item">
                   <a href="#" class="unique-dropdown-link">Laser Veda<i class="fas fa-caret-down"></i></a>
                   <div class="unique-dropdown second-level  nav_div_mrg nav_div_mrg_four">
-                    <ul class="unique-dropdown-list inside_nav_drop_down sub_section1 ">
+                    <ul class="unique-dropdown-list inside_nav_drop_down sub_section1  pain_relieft_sub_service">
                       <li class="unique-dropdown-item">
                         <a href="laser-assisted-teeth-cleaning-treatments" class="unique-dropdown-link"> Laser assisted Teeth Cleaning</a>
                       </li>
@@ -370,7 +370,7 @@
                 <li class="unique-dropdown-item">
                   <a href="#" class="unique-dropdown-link"> Child Dentistry<i class="fas fa-caret-down"></i></a>
                   <div class="unique-dropdown second-level nav_div_mrg nav_div_mrg_five">
-                    <ul class="unique-dropdown-list inside_nav_drop_down sub_section1">
+                    <ul class="unique-dropdown-list inside_nav_drop_down sub_section1 pain_relieft_sub_service">
                       <li class="unique-dropdown-item">
                         <a href="pediatric-dentist-treatments" class="unique-dropdown-link">Pediatric Dentist</a>
                       </li>
@@ -400,9 +400,9 @@
           <li><a class="nav-link scrollto d-block d-lg-none d-xl-block" href="appointment-for-vision-multispeciality-dental-hospital">Appointment</a></li>
 
 
-          <li class="call-nav">
+          <li class="call-nav ">
             <a href="tel:+919391457072" class="text-dark text-decoration-none">
-              <div class="rounded-4 p-2 text-center" style="background:#6a2d5f; ">
+              <div class="rounded-4  text-center" style="background:#6a2d5f; ">
                 <div class="rounded-4 p-2" style="background: rgba(255,255,255,0.95);">
                   <!-- Icon + Text -->
                   <div class="d-flex align-items-center justify-content-center gap-1 mb-2">

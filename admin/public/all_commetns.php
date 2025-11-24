@@ -25,7 +25,7 @@ $result = $conn->query($sql);
 
 <body id="page-top">
     <div id="wrapper">
-        <?php include 'sidebar.php'; ?>
+        <?php include 'sidebar'; ?>
 
         <div id="content-wrapper" class="d-flex flex-column">
             <div id="content">

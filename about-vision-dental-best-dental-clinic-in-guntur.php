@@ -51,7 +51,8 @@
         </div>
 
         <div class="col-md-6 order-3  order-md-2 mt-5">
-          <img src="assets/img/about/a1.png" class="img-fluid dr_img_padding abouter" alt="">
+          <img src="assets/img/about/a11.png" class="img-fluid dr_img_padding abouter" alt="" style="border-radius: 4px;">
+          <!-- <img src="assets/img/about/a1.png" class="img-fluid dr_img_padding abouter" alt=""> -->
         </div>
 
 

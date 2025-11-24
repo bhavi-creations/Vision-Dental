@@ -472,12 +472,12 @@ h6 {
     align-items: center;
     justify-content: space-between;
     font-family: "Mulish", sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     color: #011632;
     white-space: nowrap;
     transition: 0.3s;
     font-weight: 800;
-    padding: 10px 10px 10px 15px !important;
+    padding: 10px 6px 10px 8px !important;
   }
 }
 
@@ -4230,3 +4230,8 @@ h6 {
 /* service click stylings  */
 
 
+@media (min-width:1400px) {
+  .pain_relieft_sub_service{
+    margin-left: -30px !important;
+  }
+}
