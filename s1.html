@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Navigation Fix</title>
+  <style>
+    /* Add this CSS to your existing stylesheet */
+    
+    /* Mobile Navigation Styles */
+    @media (max-width: 991px) {
+      .unique-nav-item .unique-nav-link {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 15px;
+      }
+      
+      .unique-nav-item .unique-nav-link i {
+        transition: transform 0.3s ease;
+      }
+      
+      .unique-nav-item.active > .unique-nav-link i {
+        transform: rotate(180deg);
+      }
+      
+      .unique-dropdown {
+        display: none;
+        padding-left: 15px;
+      }
+      
+      .unique-dropdown.show {
+        display: block;
+      }
+      
+      .unique-dropdown-item .unique-dropdown-link {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 15px;
+      }
+      
+      .unique-dropdown-item.active > .unique-dropdown-link i {
+        transform: rotate(180deg);
+      }
+      
+      .second-level {
+        display: none;
+        padding-left: 15px;
+      }
+      
+      .second-level.show {
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<script>
+// Add this JavaScript to your existing script section or create a new one
+// Make sure jQuery is loaded before this script
+
+$(document).ready(function() {
+  // Only apply mobile navigation behavior on screens smaller than 992px
+  function initMobileNav() {
+    if ($(window).width() < 992) {
+      
+      // Handle first-level dropdown (Treatments)
+      $('.unique-nav-item > .unique-nav-link').off('click').on('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        var $parent = $(this).parent();
+        var $dropdown = $(this).next('.unique-dropdown');
+        
+        // Check if already open
+        var isOpen = $parent.hasClass('active');
+        
+        // Close other first-level dropdowns
+        $('.unique-nav-item').not($parent).removeClass('active')
+          .find('.unique-dropdown').removeClass('show').slideUp(300);
+        
+        // Close all second-level dropdowns
+        $('.second-level').removeClass('show').slideUp(300);
+        $('.unique-dropdown-item').removeClass('active');
+        
+        // Toggle current dropdown
+        if (isOpen) {
+          $parent.removeClass('active');
+          $dropdown.removeClass('show').slideUp(300);
+        } else {
+          $parent.addClass('active');
+          $dropdown.addClass('show').slideDown(300);
+        }
+      });
+      
+      // Handle second-level dropdown (Pain Relief, Teeth Replacement, etc.)
+      $('.unique-dropdown-item > .unique-dropdown-link').off('click').on('click', function(e) {
+        var $secondLevel = $(this).next('.second-level');
+        
+        // If there's a second level dropdown, prevent default and toggle it
+        if ($secondLevel.length > 0) {
+          e.preventDefault();
+          e.stopPropagation();
+          
+          var $parent = $(this).parent();
+          
+          // Check if already open
+          var isOpen = $parent.hasClass('active');
+          
+          // Close other second-level dropdowns at the same level
+          $parent.siblings('.unique-dropdown-item').removeClass('active')
+            .find('.second-level').removeClass('show').slideUp(300);
+          
+          // Toggle current second-level dropdown
+          if (isOpen) {
+            $parent.removeClass('active');
+            $secondLevel.removeClass('show').slideUp(300);
+          } else {
+            $parent.addClass('active');
+            $secondLevel.addClass('show').slideDown(300);
+          }
+        }
+        // If no second level, let the link work normally (it will navigate)
+      });
+      
+    } else {
+      // Remove mobile click handlers on desktop
+      $('.unique-nav-item > .unique-nav-link').off('click');
+      $('.unique-dropdown-item > .unique-dropdown-link').off('click');
+      
+      // Remove all mobile classes
+      $('.unique-nav-item, .unique-dropdown-item').removeClass('active');
+      $('.unique-dropdown, .second-level').removeClass('show').removeAttr('style');
+    }
+  }
+  
+  // Initialize on page load
+  initMobileNav();
+  
+  // Reinitialize on window resize
+  var resizeTimer;
+  $(window).on('resize', function() {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function() {
+      initMobileNav();
+    }, 250);
+  });
+});
+</script>
+
+<!-- 
+INSTRUCTIONS:
+1. Add the CSS styles above to your existing CSS file (style.css or style1.css)
+2. Add the JavaScript code above to your page, after jQuery is loaded
+3. Make sure this script runs after the DOM is ready
+4. The script will automatically handle mobile vs desktop navigation
+
+The solution:
+- On mobile (< 992px): Clicking "Treatments" will show sub-services, clicking sub-services will show sub-sub-services
+- On desktop (>= 992px): Normal hover behavior is maintained
+- No color changes, only functionality improvements
+-->
+
+</body>
+</html>

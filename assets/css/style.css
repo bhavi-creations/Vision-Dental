@@ -4235,3 +4235,55 @@ h6 {
     margin-left: -30px !important;
   }
 }
+
+
+
+
+
+@media (max-width: 991px) {
+  .unique-nav-item .unique-nav-link {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+  }
+  
+  .unique-nav-item .unique-nav-link i {
+    transition: transform 0.3s ease;
+  }
+  
+  .unique-nav-item.active > .unique-nav-link i {
+    transform: rotate(180deg);
+  }
+  
+  .unique-dropdown {
+    display: none;
+    padding-left: 15px;
+  }
+  
+  .unique-dropdown.show {
+    display: block;
+  }
+  
+  .unique-dropdown-item .unique-dropdown-link {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 15px;
+  }
+  
+  .unique-dropdown-item.active > .unique-dropdown-link i {
+    transform: rotate(180deg);
+  }
+  
+  .second-level {
+    display: none;
+    padding-left: 15px;
+  }
+  
+  .second-level.show {
+    display: block;
+  }
+}

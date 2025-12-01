@@ -520,31 +520,99 @@
 
 
 
+    <script>
+// Add this JavaScript to your existing script section or create a new one
+// Make sure jQuery is loaded before this script
 
-
-
-    <!-- <script>
-      $(document).ready(function() {
-        // Only apply this on screen widths < 992px
-        if ($(window).width() < 992) {
-          // Toggle first-level dropdown
-          $('.unique-nav-link').click(function(e) {
-            e.preventDefault();
-            $(this).next('.unique-dropdown').slideToggle();
-            $(this).parent().siblings().find('.unique-dropdown').slideUp(); // close others
-          });
-
-          // Toggle second-level dropdown
-          $('.unique-dropdown-link').click(function(e) {
-            if ($(this).next('.second-level').length) {
-              e.preventDefault();
-              $(this).next('.second-level').slideToggle();
-              $(this).parent().siblings().find('.second-level').slideUp(); // close others
-            }
-          });
+$(document).ready(function() {
+  // Only apply mobile navigation behavior on screens smaller than 992px
+  function initMobileNav() {
+    if ($(window).width() < 992) {
+      
+      // Handle first-level dropdown (Treatments)
+      $('.unique-nav-item > .unique-nav-link').off('click').on('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        
+        var $parent = $(this).parent();
+        var $dropdown = $(this).next('.unique-dropdown');
+        
+        // Check if already open
+        var isOpen = $parent.hasClass('active');
+        
+        // Close other first-level dropdowns
+        $('.unique-nav-item').not($parent).removeClass('active')
+          .find('.unique-dropdown').removeClass('show').slideUp(300);
+        
+        // Close all second-level dropdowns
+        $('.second-level').removeClass('show').slideUp(300);
+        $('.unique-dropdown-item').removeClass('active');
+        
+        // Toggle current dropdown
+        if (isOpen) {
+          $parent.removeClass('active');
+          $dropdown.removeClass('show').slideUp(300);
+        } else {
+          $parent.addClass('active');
+          $dropdown.addClass('show').slideDown(300);
         }
       });
-    </script> -->
+      
+      // Handle second-level dropdown (Pain Relief, Teeth Replacement, etc.)
+      $('.unique-dropdown-item > .unique-dropdown-link').off('click').on('click', function(e) {
+        var $secondLevel = $(this).next('.second-level');
+        
+        // If there's a second level dropdown, prevent default and toggle it
+        if ($secondLevel.length > 0) {
+          e.preventDefault();
+          e.stopPropagation();
+          
+          var $parent = $(this).parent();
+          
+          // Check if already open
+          var isOpen = $parent.hasClass('active');
+          
+          // Close other second-level dropdowns at the same level
+          $parent.siblings('.unique-dropdown-item').removeClass('active')
+            .find('.second-level').removeClass('show').slideUp(300);
+          
+          // Toggle current second-level dropdown
+          if (isOpen) {
+            $parent.removeClass('active');
+            $secondLevel.removeClass('show').slideUp(300);
+          } else {
+            $parent.addClass('active');
+            $secondLevel.addClass('show').slideDown(300);
+          }
+        }
+        // If no second level, let the link work normally (it will navigate)
+      });
+      
+    } else {
+      // Remove mobile click handlers on desktop
+      $('.unique-nav-item > .unique-nav-link').off('click');
+      $('.unique-dropdown-item > .unique-dropdown-link').off('click');
+      
+      // Remove all mobile classes
+      $('.unique-nav-item, .unique-dropdown-item').removeClass('active');
+      $('.unique-dropdown, .second-level').removeClass('show').removeAttr('style');
+    }
+  }
+  
+  // Initialize on page load
+  initMobileNav();
+  
+  // Reinitialize on window resize
+  var resizeTimer;
+  $(window).on('resize', function() {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function() {
+      initMobileNav();
+    }, 250);
+  });
+});
+</script>
+
 
 
 
