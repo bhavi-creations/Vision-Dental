@@ -542,19 +542,19 @@ $(document).ready(function() {
         
         // Close other first-level dropdowns
         $('.unique-nav-item').not($parent).removeClass('active')
-          .find('.unique-dropdown').removeClass('show').slideUp(300);
+          .find('.unique-dropdown').removeClass('show').hide();
         
         // Close all second-level dropdowns
-        $('.second-level').removeClass('show').slideUp(300);
+        $('.second-level').removeClass('show').hide();
         $('.unique-dropdown-item').removeClass('active');
         
         // Toggle current dropdown
         if (isOpen) {
           $parent.removeClass('active');
-          $dropdown.removeClass('show').slideUp(300);
+          $dropdown.removeClass('show').hide();
         } else {
           $parent.addClass('active');
-          $dropdown.addClass('show').slideDown(300);
+          $dropdown.addClass('show').css('display', 'block');
         }
       });
       
@@ -574,15 +574,15 @@ $(document).ready(function() {
           
           // Close other second-level dropdowns at the same level
           $parent.siblings('.unique-dropdown-item').removeClass('active')
-            .find('.second-level').removeClass('show').slideUp(300);
+            .find('.second-level').removeClass('show').hide();
           
           // Toggle current second-level dropdown
           if (isOpen) {
             $parent.removeClass('active');
-            $secondLevel.removeClass('show').slideUp(300);
+            $secondLevel.removeClass('show').hide();
           } else {
             $parent.addClass('active');
-            $secondLevel.addClass('show').slideDown(300);
+            $secondLevel.addClass('show').css('display', 'block');
           }
         }
         // If no second level, let the link work normally (it will navigate)
