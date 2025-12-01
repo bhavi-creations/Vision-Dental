@@ -64,11 +64,11 @@
     <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsefour" aria-expanded="true" aria-controls="collapsefour">
             <i class="fas fa-fw fa-blog"></i>
-            <span>Commetns</span>
+            <span>Gallery</span>
         </a>
         <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <h6 class="collapse-header">NEW BLOG</h6>
+                <h6 class="collapse-header">NEW Gallery</h6>
                 <a class="collapse-item" href="newgallery.php"> <i class="fas fa-fw fa-blog"></i> Gallery</a>
                 <a class="collapse-item" href="gallery_list.php"> <i class="fas fa-fw fa-edit"></i> All Gallery</a>
             </div>

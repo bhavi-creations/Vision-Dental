@@ -1,53 +1,65 @@
 <?php
-include '../../db.connection/db_connection.php';
+// DB Connection
+$host = "localhost";
+$user = "root";
+$pass = "";
+$db   = "vision";
+$conn = new mysqli($host, $user, $pass, $db);
 
-if (!isset($_GET['id'])) {
-    die("Invalid request");
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 }
 
-$id = intval($_GET['id']);
+// Get ID
+$id = $_GET['id'] ?? 0;
 
-// Fetch current data
-$result = $conn->query("SELECT * FROM gallery WHERE id=$id");
-if ($result->num_rows == 0) {
-    die("Image not found");
-}
-
+// Fetch existing record
+$sql = "SELECT * FROM gallery WHERE id = $id";
+$result = $conn->query($sql);
 $row = $result->fetch_assoc();
 
-// Update logic
+// Update Form Submit
 if (isset($_POST['submit'])) {
     $title = $_POST['title'];
-    $image_path = $row['image'];
 
-    if (isset($_FILES['image']) && $_FILES['image']['error'] == 0) {
+    $new_filename = $row['image']; // keep old image by default
+
+    // If new image uploaded
+    if (isset($_FILES['image']) && $_FILES['image']['error'] === 0) {
+        
         $img_name = $_FILES['image']['name'];
         $tmp_name = $_FILES['image']['tmp_name'];
-        $upload_dir = "uploads/gallery/";
 
-        if (!is_dir($upload_dir)) {
-            mkdir($upload_dir, 0777, true);
-        }
+        // Upload directory
+        $upload_dir = __DIR__ . "/../uploads/gallery/";
 
-        $new_img_name = time() . '_' . basename($img_name);
-        $new_img_path = $upload_dir . $new_img_name;
+        // Generate unique name
+        $unique_name = time() . "_" . basename($img_name);
 
-        if (move_uploaded_file($tmp_name, $new_img_path)) {
-            // Delete old image if exists
-            if (file_exists($image_path)) {
-                unlink($image_path);
+        // Final upload path
+        $full_path = $upload_dir . $unique_name;
+
+        // Upload file
+        if (move_uploaded_file($tmp_name, $full_path)) {
+
+            // Delete old file
+            if (!empty($row['image']) && file_exists($upload_dir . $row['image'])) {
+                unlink($upload_dir . $row['image']);
             }
-            $image_path = $new_img_path;
+
+            // Save only filename to DB
+            $new_filename = $unique_name;
         }
     }
 
-    // Update database
+    // Update query
     $stmt = $conn->prepare("UPDATE gallery SET title=?, image=? WHERE id=?");
-    $stmt->bind_param("ssi", $title, $image_path, $id);
+    $stmt->bind_param("ssi", $title, $new_filename, $id);
+
     if ($stmt->execute()) {
         echo "<script>alert('Gallery updated successfully'); window.location='gallery_list.php';</script>";
     } else {
-        echo "Database error: " . $stmt->error;
+        echo "Database Update Failed: " . $stmt->error;
     }
 }
 ?>
@@ -57,50 +69,52 @@ if (isset($_POST['submit'])) {
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Edit Gallery Image</title>
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
 </head>
 
-<body id="page-top">
+<body>
+
 <div id="wrapper">
-    <!-- Sidebar -->
+
     <?php include 'sidebar.php'; ?>
-    <!-- End of Sidebar -->
 
     <div id="content-wrapper" class="d-flex flex-column">
         <div id="content">
-            <!-- Topbar -->
+
             <?php include 'navbar.php'; ?>
-            <!-- End of Topbar -->
 
             <div class="container-fluid">
-                <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                    <h1 class="h3 mb-0 text-gray-800">Edit Gallery Image</h1>
-                </div>
+
+                <h1 class="h3 mb-4 text-gray-800">Edit Gallery Image</h1>
 
                 <div class="row">
                     <div class="col-xl-8">
                         <div class="card shadow mb-4">
+
                             <div class="card-header py-3">
                                 <h6 class="m-0 font-weight-bold text-success">Update Image Details</h6>
                             </div>
+
                             <div class="card-body">
                                 <form method="post" enctype="multipart/form-data">
+
                                     <!-- Title -->
                                     <div class="mb-3">
                                         <label class="form-label text-primary">Image Title</label>
-                                        <input type="text" class="form-control" name="title" 
+                                        <input type="text" class="form-control" 
+                                               name="title"
                                                value="<?php echo htmlspecialchars($row['title']); ?>" required>
                                     </div>
 
                                     <!-- Current Image -->
                                     <div class="mb-3">
                                         <label class="form-label text-primary">Current Image</label><br>
+
                                         <?php if (!empty($row['image'])) { ?>
-                                            <img src="<?php echo $row['image']; ?>" style="max-width:200px;" class="img-thumbnail">
+                                            <img src="../uploads/gallery/<?php echo $row['image']; ?>" 
+                                                 style="max-width:200px;" 
+                                                 class="img-thumbnail">
                                         <?php } ?>
                                     </div>
 
@@ -111,27 +125,24 @@ if (isset($_POST['submit'])) {
                                     </div>
 
                                     <div class="row p-3">
-                                        <div class="col-xl-6"></div>
-                                        <button type="reset" class="btn btn-danger mx-1 col-xl-2">Clear</button>
-                                        <button type="submit" name="submit" class="btn btn-success mx-1 col-xl-2">Update</button>
+                                        <button type="reset" class="btn btn-danger mx-2 col-xl-2">Clear</button>
+                                        <button type="submit" name="submit" class="btn btn-success mx-2 col-xl-2">Update</button>
                                     </div>
+
                                 </form>
                             </div>
+
                         </div>
                     </div>
                 </div>
+
             </div>
+
         </div>
 
-        <!-- Footer -->
-        <!-- End of Footer -->
     </div>
+
 </div>
 
-<!-- Bootstrap core JavaScript-->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-<script src="js/sb-admin-2.min.js"></script>
 </body>
 </html>
