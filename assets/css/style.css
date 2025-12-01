@@ -4260,10 +4260,17 @@ h6 {
   .unique-dropdown {
     display: none;
     padding-left: 15px;
+    max-height: none !important;
+    overflow: visible !important;
   }
   
   .unique-dropdown.show {
     display: block;
+  }
+  
+  .unique-dropdown-list {
+    max-height: none !important;
+    overflow: visible !important;
   }
   
   .unique-dropdown-item .unique-dropdown-link {
@@ -4281,9 +4288,36 @@ h6 {
   .second-level {
     display: none;
     padding-left: 15px;
+    max-height: none !important;
+    overflow: visible !important;
+    position: static !important;
   }
   
   .second-level.show {
     display: block;
+  }
+  
+  /* Fix for small devices (below 375px) */
+  @media (max-width: 374px) {
+    #navbar {
+      max-height: calc(100vh - 60px) !important;
+      overflow-y: auto !important;
+      overflow-x: hidden !important;
+    }
+    
+    .navbar ul {
+      max-height: none !important;
+      overflow: visible !important;
+    }
+    
+    .unique-dropdown,
+    .second-level,
+    .unique-dropdown-list,
+    .inside_nav_drop_down {
+      position: static !important;
+      max-height: none !important;
+      overflow: visible !important;
+      height: auto !important;
+    }
   }
 }
