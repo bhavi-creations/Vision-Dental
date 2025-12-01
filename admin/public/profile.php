@@ -74,7 +74,7 @@
 
 
 
-                    <form class="user" action="profileUpdate" method="POST">
+                    <form class="user" action="profileUpdate.php" method="POST">
                         <div class="form-group row">
                             <div class="col-md-6 mb-3 ">
                                 <input type="text" class="form-control form-control-user" id="username" name="username" placeholder="User Name" value=<?php echo $user['first_name'];  ?>>
@@ -146,7 +146,7 @@
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="logout">Logout</a>
+                    <a class="btn btn-primary" href="logout.php">Logout</a>
                 </div>
             </div>
         </div>

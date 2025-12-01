@@ -1,7 +1,7 @@
 <ul class="navbar-nav   sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color: #A9A8D4;">
 
     <!-- Sidebar - Brand -->
-    <a class="sidebar-brand d-flex align-items-center justify-content-center  bg-light text-primary" href="./index">
+    <a class="sidebar-brand d-flex align-items-center justify-content-center  bg-light text-primary" href="./index.php">
         <div class="sidebar-brand-icon  ">
             <i class="fas fa-stethoscope"></i>
         </div>
@@ -13,7 +13,7 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
-        <a class="nav-link" href="index">
+        <a class="nav-link" href="index.php">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span></a>
     </li>
@@ -35,8 +35,8 @@
         <div id="collapsethree" class="collapse" aria-labelledby="headingthree" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">NEW BLOG</h6>
-                <a class="collapse-item" href="newBlog"> <i class="fas fa-fw fa-blog"></i> CREATE BLOG</a>
-                <a class="collapse-item" href="allBlog"> <i class="fas fa-fw fa-edit"></i> All BLOGS</a>
+                <a class="collapse-item" href="newBlog.php"> <i class="fas fa-fw fa-blog"></i> CREATE BLOG</a>
+                <a class="collapse-item" href="allBlog.php"> <i class="fas fa-fw fa-edit"></i> All BLOGS</a>
             </div>
         </div>
     </li>
@@ -53,12 +53,27 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">NEW BLOG</h6>
-                <a class="collapse-item" href="all_commetns"> <i class="fas fa-fw fa-blog"></i> Commetns</a>
+                <a class="collapse-item" href="all_commetns.php"> <i class="fas fa-fw fa-blog"></i> Commetns</a>
                 <!-- <a class="collapse-item" href="allBlog.php"> <i class="fas fa-fw fa-edit"></i> All BLOGS</a> -->
             </div>
         </div>
     </li>
 
+
+
+    <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsefour" aria-expanded="true" aria-controls="collapsefour">
+            <i class="fas fa-fw fa-blog"></i>
+            <span>Commetns</span>
+        </a>
+        <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+                <h6 class="collapse-header">NEW BLOG</h6>
+                <a class="collapse-item" href="newgallery.php"> <i class="fas fa-fw fa-blog"></i> Gallery</a>
+                <a class="collapse-item" href="gallery_list.php"> <i class="fas fa-fw fa-edit"></i> All Gallery</a>
+            </div>
+        </div>
+    </li>
 
 
 

@@ -55,125 +55,30 @@
                                 </div>
                                 <!-- Card Body -->
                                 <div class="card-body">
-                                    <form style="color:black;" id="addblogform" action="addBlog.php" method="POST" enctype="multipart/form-data">
+                                <form style="color:black;" id="addGalleryForm" action="addGallery.php" method="POST" enctype="multipart/form-data">
 
-                                        <!-- Blog Title -->
-                                        <div class="mb-3">
-                                            <label class="form-label text-primary">ENTER TITLE</label>
-                                            <input type="text" class="form-control text-grey-900" name="title" placeholder="Title" required>
-                                        </div>
+    <!-- Gallery Title -->
+    <div class="mb-3">
+        <label class="form-label text-primary">ENTER IMAGE TITLE</label>
+        <input type="text" class="form-control text-grey-900" name="title" placeholder="Enter title" required>
+    </div>
 
-                                        <!-- Select Service -->
-                                        <!-- <div class="filter-section mb-3"> -->
-                                        <!-- <label class="form-label text-primary">Select Service:</label> -->
-                                        <div class="filter-section mb-3">
-                                            <label for="service" class="form-label text-primary">Select Service:</label>
-                                            <select id="service" name="service" class="form-control" required>
-                                                <option value="">Select a Service</option>
-                                                <option value="Root Canal">Root Canal</option>
-                                                <option value="Teeth Braces">Teeth Braces</option>
-                                                <option value="Pediatric Dentist">Pediatric Dentist</option>
-                                                <option value="Paedodontist Doctors">Paedodontist Doctors </option>
-                                                <option value="Clear Aligners">Clear Aligners</option>
-                                                <option value="Laminate Veneers">Laminate Veneers</option>
-                                                <option value="Crown Bridge">Crown & Bridge</option>
-                                                <option value="Dental Implants">Dental Implants</option>
-                                                <option value="Dentures Treatment">Dentures</option>
-                                                <option value="Invisalign">Invisalign </option>
-                                                <option value="Jaw Corrective">Jaw Corrective</option>
-                                                <option value="Laser Gum">Laser & Gum</option>
-                                                <option value="Smile Designing">Smile Designing</option>
-                                                <option value="Smile Makeover">Smile Makeover</option>
-                                                <option value="Teeth Alignment">Teeth Alignment</option>
-                                                <option value="Tooth Extraction">Tooth Extraction</option>
-                                                <option value="Tooth Cleaning">Teeth Cleaning</option>
-                                                <option value="Gum Depigment">Gum Depigment</option>
-                                                <option value="Teeth Whitening">Teeth Whitening</option>
-                                                <option value="Laser Gum Surgery">Laser Gum Surgery </option>
-                                                <option value="Mouth Ulcers">Mouth Ulcers </option>
-                                                <option value="Precancerous Lesion">Precancerous Lesion</option>
-                                                <option value="Laser Crown Lengthening">Laser Crown Lengthening</option>
+    <!-- Gallery Image -->
+    <div class="mb-3">
+        <label class="form-label text-primary">CHOOSE IMAGE</label>
+        <input class="form-control" name="image" type="file" required>
+    </div>
 
-                                            </select>
-                                        </div>
-                                        <!-- </div> -->
+    <!-- Optional Description (like main content) -->
+    <div class="mb-3">
+        <label class="form-label text-primary">OPTIONAL DESCRIPTION</label>
+        <div id="descEditor" style="height: 200px;"></div>
+        <input type="hidden" name="description" id="descContentData">
+    </div>
 
-                                        <!-- Main Content -->
-                                        <div class="mb-3">
-                                            <label class="form-label text-primary">ENTER MAIN CONTENT</label>
-                                            <div id="mainEditor" style="height: 200px;"></div>
-                                            <input type="hidden" name="main_content" id="mainContentData">
-                                        </div>
-
-                                        <!-- Main Image -->
-                                        <div class="mb-3">
-                                            <label class="form-label text-primary my-2">Choose Main Image</label>
-                                            <input class="form-control" name="main_image" type="file">
-                                        </div>
-
-                                        <!-- Video -->
-                                        <div class="mb-3">
-                                            <label class="form-label text-primary">Choose Video</label>
-                                            <input class="form-control" name="video" type="file">
-                                        </div>
-
-                                        <!-- Full Content Quill Editor -->
-                                        <div class="mb-3">
-                                            <label class="form-label text-primary">ENTER FULL CONTENT</label>
-                                            <div id="fullEditor" style="height: 400px;"></div>
-                                            <input type="hidden" name="full_content" id="fullContentData">
-                                        </div>
-
-                                        <!-- Repeatable Sections: Section 1,2,3 -->
-                                        <!-- <?php for ($i = 1; $i <= 3; $i++): ?>
-                                            <div class="mb-3">
-                                                <label class="form-label text-primary">Section <?php echo $i; ?> Content</label>
-                                                <div id="editor<?php echo $i; ?>" style="height: 200px;"></div>
-                                                <input type="hidden" name="section<?php echo $i; ?>_content" id="sectionContent<?php echo $i; ?>">
-                                            </div>
-                                            <div class="mb-3">
-                                                <label class="form-label text-primary">Section <?php echo $i; ?> Image (optional)</label>
-                                                <input class="form-control" name="section<?php echo $i; ?>_image" type="file">
-                                            </div>
-                                        <?php endfor; ?> -->
-
-                                        <!-- Section 1 -->
-                                        <div class="mb-3">
-                                            <label class="form-label text-primary">Section 1 Content</label>
-                                            <div id="editor1" style="height: 200px;"></div>
-                                            <input type="hidden" name="section1_content" id="sectionContent1">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label class="form-label text-primary">Section 1 Image (optional)</label>
-                                            <input class="form-control" name="section1_image" type="file">
-                                        </div>
-
-                                        <!-- Section 2 -->
-                                        <div class="mb-3">
-                                            <label class="form-label text-primary">Section 2 Content</label>
-                                            <div id="editor2" style="height: 200px;"></div>
-                                            <input type="hidden" name="section2_content" id="sectionContent2">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label class="form-label text-primary">Section 2 Image (optional)</label>
-                                            <input class="form-control" name="section2_image" type="file">
-                                        </div>
-
-                                        <!-- Section 3 -->
-                                        <div class="mb-3">
-                                            <label class="form-label text-primary">Section 3 Content</label>
-                                            <div id="editor3" style="height: 200px;"></div>
-                                            <input type="hidden" name="section3_content" id="sectionContent3">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label class="form-label text-primary">Section 3 Image (optional)</label>
-                                            <input class="form-control" name="section3_image" type="file">
-                                        </div>
-
-
-                                        <button type="reset" class="btn btn-danger">Clear</button>
-                                        <button type="submit" class="btn btn-success">Publish</button>
-                                    </form>
+    <button type="reset" class="btn btn-danger">Clear</button>
+    <button type="submit" class="btn btn-success">Upload</button>
+</form>
 
                                     <!-- Include Quill -->
                                     <!-- Quill CSS & JS -->

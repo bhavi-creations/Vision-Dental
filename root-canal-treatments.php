@@ -8,7 +8,7 @@
 
     <section class="sectionForm">
       <div class="container">
-      <p class="mt-5">Treatments/Pain Relief/ Root Canal Treatment</p>
+      <p class="mt-5">Treatments < Pain Relief < Root Canal Treatment</p>
         <div class="row servSect">
           <div class="abot mt-5">
             <h4 class="abh4">Root Canal Treatments</h4>

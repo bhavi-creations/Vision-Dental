@@ -7,7 +7,7 @@
 
     <section class="sectionForm">
       <div class="container"> 
-      <p class="mt-5">Treatments/ Teeth Replacement/ Dentures</p>
+      <p class="mt-5">Treatments < Teeth Replacement < Dentures</p>
      
 
 

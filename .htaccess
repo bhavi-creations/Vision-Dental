@@ -1,10 +1,19 @@
 RewriteEngine On
 
-# Redirect direct .php access to clean URL
+# ============================
+# 1) Skip admin folder (VERY IMPORTANT)
+# ============================
+RewriteRule ^admin/ - [L]
+
+# ============================
+# 2) Redirect direct .php to clean URL (frontend only)
+# ============================
 RewriteCond %{THE_REQUEST} \s/([^.]+)\.php[\s?] [NC]
 RewriteRule ^ %1 [R=301,L]
 
-# Internally rewrite clean URL to .php files
+# ============================
+# 3) Internal rewrite clean URL → .php (frontend only)
+# ============================
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^([a-zA-Z0-9_-]+)/?$ $1.php [L]

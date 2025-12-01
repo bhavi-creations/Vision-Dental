@@ -6,7 +6,7 @@
 
     <section class="sectionForm">
       <div class="container">
-      <p class="mt-5">Treatments/ Laminate Veneers/ Laminate Veneers</p>
+      <p class="mt-5">Treatments < Laminate Veneers < Laminate Veneers</p>
         <div class="row servSect">
           <div class="abot mt-5">
             <h4 class="abh4"> Laminate Veneers</h4>

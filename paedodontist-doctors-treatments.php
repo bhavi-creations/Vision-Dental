@@ -6,7 +6,7 @@
   <main id="main">
     <section class="sectionForm">
       <div class="container">
-      <p class="mt-5">Treatments/ Child Dentistry/ Paedodontist Doctors
+      <p class="mt-5">Treatments < Child Dentistry < Paedodontist Doctors
       </p>
         <div class="row servSect">
           <div class="abot mt-5">

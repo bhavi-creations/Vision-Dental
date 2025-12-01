@@ -6,7 +6,7 @@
 
     <section class="sectionForm">
       <div class="container">
-      <p class="mt-5">Treatments/ Laser Veda/ Precancerous Lesion in Mouth</p>
+      <p class="mt-5">Treatments < Laser Veda < Precancerous Lesion in Mouth</p>
         <div class="row servSect">
           <div class="abot mt-5">
             <h4 class="abh4">Precancerous Lesion in Mouth Treatments</h4>

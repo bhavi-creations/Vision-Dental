@@ -7,7 +7,7 @@
 
     <section class="sectionForm">
       <div class="container">
-      <p class="mt-5">Treatments/Pain Relief/ Wisdom Tooth Removel</p>
+      <p class="mt-5">Treatments < Pain Relief < Wisdom Tooth Removel</p>
         <div class="row servSect">
           <div class="abot mt-5">
             <h4 class="abh4">Wisdom Tooth Extraction Treatments</h4>

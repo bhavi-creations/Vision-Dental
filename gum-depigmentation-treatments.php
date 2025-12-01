@@ -6,7 +6,7 @@
 
         <section class="sectionForm">
             <div class="container">
-            <p class="mt-5">Treatments/ Laser Veda/ Gum Depigmentation</p>
+            <p class="mt-5">Treatments < Laser Veda < Gum Depigmentation</p>
                 <div class="row servSect">
                     <div class="abot mt-5">
                         <h4 class="abh4">Gum Depigmentation Treatments</h4>

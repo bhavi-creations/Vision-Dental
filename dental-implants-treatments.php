@@ -10,7 +10,7 @@
 
     <section class="sectionForm">
         <div class="container">
-        <p class="mt-5">Treatments/ Teeth Replacement/ Dental Implants</p>
+        <p class="mt-5">Treatments < Teeth Replacement < Dental Implants</p>
             <div class="row servSect">
                 <div class="abot mt-5">
                     <h4 class="abh4">Dental Implants Treatments</h4>
