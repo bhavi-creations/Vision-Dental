@@ -8,7 +8,7 @@
 
     <section class="sectionForm">
       <div class="container">
-      <p class="mt-5">Treatments < Laminate Veneers < Clear Aligners</p>
+      <p class="mt-5">Treatments < Teeth Alignment < Clear Aligners</p>
 
         <div class="row servSect">
           <div class="abot mt-5">

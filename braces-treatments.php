@@ -6,7 +6,7 @@
 
     <section class="sectionForm">
       <div class="container">
-      <p class="mt-5">Treatments < Laminate Veneers < Braces</p>
+      <p class="mt-5">Treatments < Teeth Alignment < Braces</p>
 
         <div class="row servSect">
           <div class="abot mt-5">
