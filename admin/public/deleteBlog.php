@@ -14,7 +14,7 @@ if (isset($_GET['id'])) {
     if ($stmt->execute()) {
         echo "Blog post deleted successfully.";
         // Redirect to the blogs page
-        header("Location: allBlo.php");
+        header("Location: allBlog");
     } else {
         echo "Error deleting blog post: " . $stmt->error;
     }

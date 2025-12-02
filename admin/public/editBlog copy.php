@@ -61,7 +61,7 @@ $conn->close();
                                     <h6 class="m-0 font-weight-bold text-success">EDIT CONTENT</h6>
                                 </div>
                                 <div class="card-body">
-                                    <form style='color:black;' id="editblogform" action="addBlog.php" method="POST" enctype="multipart/form-data">
+                                    <form style='color:black;' id="editblogform" action="addBlog" method="POST" enctype="multipart/form-data">
                                         <!-- Title Input -->
                                         <div class="mb-3">
                                             <label for="exampleFormControlInput1" class="form-label text-primary">ENTER TITLE</label>

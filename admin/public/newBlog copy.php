@@ -55,7 +55,7 @@
                                 </div>
                                 <!-- Card Body -->
                                 <div class="card-body">
-                                    <form style='color:black;' id="addblogform" action="addBlog.php" method="POST" enctype="multipart/form-data">
+                                    <form style='color:black;' id="addblogform" action="addBlog" method="POST" enctype="multipart/form-data">
 
                                         <div class="mb-3">
                                             <label for="exampleFormControlInput1" class="form-label text-primary">ENTER TITLE</label>
