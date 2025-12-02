@@ -49,191 +49,69 @@
                     <div class="row">
                         <div class="col-xl-11">
                             <div class="card shadow mb-4">
-                                <!-- Card Header - Dropdown -->
-                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                    <h6 class="m-0 font-weight-bold text-success">CREATE CONTENT</h6>
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-success">Add Gallery Image</h6>
                                 </div>
-                                <!-- Card Body -->
                                 <div class="card-body">
-                                <form style="color:black;" id="addGalleryForm" action="addGallery" method="POST" enctype="multipart/form-data">
+                                    <form action="addGallery" method="POST" enctype="multipart/form-data">
 
-    <!-- Gallery Title -->
-    <div class="mb-3">
-        <label class="form-label text-primary">ENTER IMAGE TITLE</label>
-        <input type="text" class="form-control text-grey-900" name="title" placeholder="Enter title" required>
-    </div>
+                                        <!-- Image Title -->
+                                        <div class="mb-3">
+                                            <label class="form-label text-primary">Image Title</label>
+                                            <input type="text" name="title" class="form-control" placeholder="Enter Image Title" required>
+                                        </div>
 
-    <!-- Gallery Image -->
-    <div class="mb-3">
-        <label class="form-label text-primary">CHOOSE IMAGE</label>
-        <input class="form-control" name="image" type="file" required>
-    </div>
+                                        <!-- Upload Image -->
+                                        <div class="mb-3">
+                                            <label class="form-label text-primary">Choose Image</label>
+                                            <input type="file" name="image" class="form-control" accept="image/*" required>
+                                        </div>
 
-    <!-- Optional Description (like main content) -->
-    <div class="mb-3">
-        <label class="form-label text-primary">OPTIONAL DESCRIPTION</label>
-        <div id="descEditor" style="height: 200px;"></div>
-        <input type="hidden" name="description" id="descContentData">
-    </div>
+                                        <button type="reset" class="btn btn-danger">Clear</button>
+                                        <button type="submit" class="btn btn-success">Upload</button>
+                                    </form>
+                                </div>
+                            </div>
 
-    <button type="reset" class="btn btn-danger">Clear</button>
-    <button type="submit" class="btn btn-success">Upload</button>
-</form>
+                        </div>
 
-                                    <!-- Include Quill -->
-                                    <!-- Quill CSS & JS -->
-                                    <link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.snow.css" rel="stylesheet">
-                                    <script src="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.js"></script>
+                        <!-- /.container-fluid -->
+                    </div>
+                    <!-- End of Main Content -->
 
-                                    <script>
-                                        // Custom handler to make links clickable inside editor
-                                        function enableClickableLinks(quillInstance) {
-                                            quillInstance.root.addEventListener('click', function(e) {
-                                                if (e.target.tagName === 'A') {
-                                                    e.preventDefault();
-                                                    const url = e.target.getAttribute('href');
-                                                    if (url) {
-                                                        window.open(url, '_blank'); // opens link in a new tab
-                                                    }
-                                                }
-                                            });
-                                        }
-
-                                        // Initialize editors
-                                        const quillMain = new Quill('#mainEditor', {
-                                            theme: 'snow',
-                                            placeholder: 'Enter main content...',
-                                            modules: {
-                                                toolbar: [
-                                                    ['bold', 'italic', 'underline', 'strike'],
-                                                    ['link', 'blockquote', 'code-block', 'image'],
-                                                    [{
-                                                        'list': 'ordered'
-                                                    }, {
-                                                        'list': 'bullet'
-                                                    }],
-                                                    [{
-                                                        'header': [1, 2, 3, false]
-                                                    }],
-                                                    [{
-                                                        'align': []
-                                                    }],
-                                                    ['clean']
-                                                ]
-                                            }
-                                        });
-
-                                        const quillFull = new Quill('#fullEditor', {
-                                            theme: 'snow',
-                                            placeholder: 'Enter full content...',
-                                            modules: {
-                                                toolbar: [
-                                                    ['bold', 'italic', 'underline', 'strike'],
-                                                    ['link', 'blockquote', 'code-block', 'image'],
-                                                    [{
-                                                        'list': 'ordered'
-                                                    }, {
-                                                        'list': 'bullet'
-                                                    }],
-                                                    [{
-                                                        'header': [1, 2, 3, false]
-                                                    }],
-                                                    [{
-                                                        'align': []
-                                                    }],
-                                                    ['clean']
-                                                ]
-                                            }
-                                        });
-
-                                        const sections = [];
-                                        for (let i = 1; i <= 3; i++) {
-                                            sections[i] = new Quill('#editor' + i, {
-                                                theme: 'snow',
-                                                placeholder: 'Enter content for section ' + i,
-                                                modules: {
-                                                    toolbar: [
-                                                        ['bold', 'italic', 'underline', 'strike'],
-                                                        ['link', 'blockquote', 'code-block', 'image'],
-                                                        [{
-                                                            'list': 'ordered'
-                                                        }, {
-                                                            'list': 'bullet'
-                                                        }],
-                                                        [{
-                                                            'header': [1, 2, 3, false]
-                                                        }],
-                                                        [{
-                                                            'align': []
-                                                        }],
-                                                        ['clean']
-                                                    ]
-                                                }
-                                            });
-                                            enableClickableLinks(sections[i]);
-                                        }
-
-                                        // Enable clickable links on main editors too
-                                        enableClickableLinks(quillMain);
-                                        enableClickableLinks(quillFull);
-
-                                        // On form submit — copy editor HTML to hidden inputs
-                                        document.querySelector('#addblogform').onsubmit = function() {
-                                            document.querySelector('#mainContentData').value = quillMain.root.innerHTML;
-                                            document.querySelector('#fullContentData').value = quillFull.root.innerHTML;
-
-                                            for (let i = 1; i <= 3; i++) {
-                                                document.querySelector('#sectionContent' + i).value = sections[i].root.innerHTML;
-                                            }
-                                        }
-                                    </script>
-
-
-
-
-
+                    <!-- Footer -->
+                    <footer class="sticky-footer bg-white">
+                        <div class="container my-auto">
+                            <div class="copyright text-center my-auto">
+                                <div class="footer-widget__copyright">
+                                    <p class="mini_text" style="color:black"> ©2024 VisionDentalhospital . All Rights Reserved. Designed & Developed by <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none;color:black">Bhavi Creations</a></p>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </footer>
+                    <!-- End of Footer -->
 
-                    <!-- /.container-fluid -->
                 </div>
-                <!-- End of Main Content -->
 
-                <!-- Footer -->
-                <footer class="sticky-footer bg-white">
-                    <div class="container my-auto">
-                        <div class="copyright text-center my-auto">
-                            <div class="footer-widget__copyright">
-                                <p class="mini_text" style="color:black"> ©2024 VisionDentalhospital . All Rights Reserved. Designed & Developed by <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none;color:black">Bhavi Creations</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-                <!-- End of Footer -->
+                <!-- End of Content Wrapper -->
 
             </div>
+            <!-- End of Page Wrapper -->
 
-            <!-- End of Content Wrapper -->
+            <!-- Scroll to Top Button-->
+            <a class="scroll-to-top rounded" href="#page-top">
+                <i class="fas fa-angle-up"></i>
+            </a>
 
-        </div>
-        <!-- End of Page Wrapper -->
+            <!-- Bootstrap core JavaScript-->
+            <script src="vendor/jquery/jquery.min.js"></script>
+            <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-        <!-- Scroll to Top Button-->
-        <a class="scroll-to-top rounded" href="#page-top">
-            <i class="fas fa-angle-up"></i>
-        </a>
+            <!-- Core plugin JavaScript-->
+            <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-        <!-- Bootstrap core JavaScript-->
-        <script src="vendor/jquery/jquery.min.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-        <!-- Core plugin JavaScript-->
-        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-        <!-- Custom scripts for all pages-->
-        <script src="js/sb-admin-2.min.js"></script>
+            <!-- Custom scripts for all pages-->
+            <script src="js/sb-admin-2.min.js"></script>
 
 </body>
 

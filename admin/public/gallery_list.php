@@ -2,10 +2,14 @@
 <html lang="en">
 
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Vision Dental - Gallery</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Vision Dental - Gallery Dashboard</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -18,55 +22,61 @@
         .card-custom {
             margin: 6px;
         }
-        .card-img-top {
-            height: 200px;
-            object-fit: cover;
-        }
     </style>
+
 </head>
 
 <body id="page-top">
 
+    <!-- Page Wrapper -->
     <div id="wrapper">
 
+        <!-- Sidebar -->
         <?php include 'sidebar.php'; ?>
+        <!-- End of Sidebar -->
 
+        <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
 
+            <!-- Main Content -->
             <div id="content">
 
+                <!-- Topbar -->
                 <?php include 'navbar.php'; ?>
+                <!-- End of Topbar -->
 
+                <!-- Begin Page Content -->
                 <div class="container-fluid">
 
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h2 class="h2 mb-0 text-info mx-2">Gallery Images</h2>
-                        <a href="newgallery" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
-                            <i class="fas fa-plus fa-sm text-white-50"></i> Add Image
+                        <h2 class="h2 mb-0 text-info mx-2">Gallery Items</h2>
+                        <a href="newGallery" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+                            <i class="fas fa-plus fa-sm text-white-50"></i> Add New Image
                         </a>
                     </div>
 
                     <div class="row row-custom no-gutters">
                         <?php
+                        // Database connection
                         include '../../db.connection/db_connection.php';
 
-                        $sql = "SELECT id, title, image FROM gallery ORDER BY id DESC";
+                        // Fetch gallery data
+                        $sql = "SELECT id, title, image FROM gallery ORDER BY created_at DESC";
                         $result = $conn->query($sql);
 
-                        if ($result && $result->num_rows > 0) {
+                        if ($result->num_rows > 0) {
                             while ($row = $result->fetch_assoc()) {
-                                // Updated path for your setup
                                 $image_path = !empty($row['image']) ? "../uploads/gallery/{$row['image']}" : "https://via.placeholder.com/300x200.png?text=No+Image";
 
                                 echo "
                                 <div class='col-12 col-md-4 col-custom'>
                                     <div class='card card-custom'>
-                                        <img src='{$image_path}' class='card-img-top' alt='Gallery Image'>
+                                        <img src='{$image_path}' class='card-img-top' alt='Gallery Image' style='height:200px; object-fit:cover;'>
                                         <div class='card-body'>
                                             <h5 class='card-title' style='color:black;'>{$row['title']}</h5>
                                             <div class='row'>
                                                 <a href='editGallery?id={$row['id']}' class='btn btn-warning col-xl-4 mx-3 my-2'>Edit</a>
-                                                <a href='deleteGallery?id={$row['id']}' class='btn btn-danger col-xl-4 mx-3 my-2'>Delete</a>
+                                                <a href='deleteGallery?id={$row['id']}' class='col-xl-4 btn btn-danger mx-3 my-2'>Delete</a>
                                             </div>
                                         </div>
                                     </div>
@@ -74,7 +84,7 @@
                                 ";
                             }
                         } else {
-                            echo "<p>No gallery images found.</p>";
+                            echo "<p>No gallery items found.</p>";
                         }
 
                         $conn->close();
@@ -82,50 +92,45 @@
                     </div>
 
                 </div>
+                <!-- /.container-fluid -->
 
             </div>
+            <!-- End of Main Content -->
 
+            <!-- Footer -->
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <p class="mini_text" style="color:black">©2024 Vision Dental. All Rights Reserved. Designed & Developed by 
-                            <a href="https://bhavicreations.com/" target="_blank" style="text-decoration:none;color:black;">Bhavi Creations</a>
+                        <p class="mini_text" style="color:black">
+                            ©2024 Vision Dental. All Rights Reserved. Designed & Developed by 
+                            <a href="https://bhavicreations.com/" target="_blank" style="text-decoration: none;color:black">Bhavi Creations</a>
                         </p>
                     </div>
                 </div>
             </footer>
+            <!-- End of Footer -->
 
         </div>
+        <!-- End of Content Wrapper -->
 
     </div>
+    <!-- End of Page Wrapper -->
 
+    <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded" href="#page-top">
         <i class="fas fa-angle-up"></i>
     </a>
 
-    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Ready to Leave?</h5>
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>
-                    </button>
-                </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-                <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login">Logout</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
 
 </body>
+
 </html>
