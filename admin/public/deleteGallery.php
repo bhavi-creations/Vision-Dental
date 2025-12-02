@@ -18,12 +18,12 @@ if (isset($_GET['id'])) {
         // Delete record from database
         $conn->query("DELETE FROM gallery WHERE id=$id");
 
-        echo "<script>alert('Image deleted successfully'); window.location='gallery_list.php';</script>";
+        echo "<script>alert('Image deleted successfully'); window.location='gallery_list';</script>";
     } else {
-        echo "<script>alert('Image not found'); window.location='gallery_list.php';</script>";
+        echo "<script>alert('Image not found'); window.location='gallery_list';</script>";
     }
 } else {
-    echo "<script>alert('Invalid request'); window.location='gallery_list.php';</script>";
+    echo "<script>alert('Invalid request'); window.location='gallery_list';</script>";
 }
 
 $conn->close();

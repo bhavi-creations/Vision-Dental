@@ -55,7 +55,7 @@
                                 </div>
                                 <!-- Card Body -->
                                 <div class="card-body">
-                                <form style="color:black;" id="addGalleryForm" action="addGallery.php" method="POST" enctype="multipart/form-data">
+                                <form style="color:black;" id="addGalleryForm" action="addGallery" method="POST" enctype="multipart/form-data">
 
     <!-- Gallery Title -->
     <div class="mb-3">

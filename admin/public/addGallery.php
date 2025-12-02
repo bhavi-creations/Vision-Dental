@@ -42,7 +42,7 @@ if (isset($_POST['title'])) {
             $stmt->bind_param("ss", $title, $db_filename);
 
             if ($stmt->execute()) {
-                echo "<script>alert('Gallery image uploaded successfully'); window.location='gallery_list.php';</script>";
+                echo "<script>alert('Gallery image uploaded successfully'); window.location='gallery_list';</script>";
             } else {
                 echo "Database error: " . $stmt->error;
             }

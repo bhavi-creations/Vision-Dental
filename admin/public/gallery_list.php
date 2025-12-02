@@ -41,7 +41,7 @@
 
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h2 class="h2 mb-0 text-info mx-2">Gallery Images</h2>
-                        <a href="newgallery.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+                        <a href="newgallery" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
                             <i class="fas fa-plus fa-sm text-white-50"></i> Add Image
                         </a>
                     </div>
@@ -65,8 +65,8 @@
                                         <div class='card-body'>
                                             <h5 class='card-title' style='color:black;'>{$row['title']}</h5>
                                             <div class='row'>
-                                                <a href='editGallery.php?id={$row['id']}' class='btn btn-warning col-xl-4 mx-3 my-2'>Edit</a>
-                                                <a href='deleteGallery.php?id={$row['id']}' class='btn btn-danger col-xl-4 mx-3 my-2'>Delete</a>
+                                                <a href='editGallery?id={$row['id']}' class='btn btn-warning col-xl-4 mx-3 my-2'>Edit</a>
+                                                <a href='deleteGallery?id={$row['id']}' class='btn btn-danger col-xl-4 mx-3 my-2'>Delete</a>
                                             </div>
                                         </div>
                                     </div>
@@ -116,7 +116,7 @@
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.php">Logout</a>
+                    <a class="btn btn-primary" href="login">Logout</a>
                 </div>
             </div>
         </div>
