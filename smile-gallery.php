@@ -77,25 +77,7 @@ $result = $conn->query($query);
 
 
 
-  <section>
-    <div class="container">
-      <div class="row g-4 justify-content-center">
-        <?php while ($row = $result->fetch_assoc()) { ?>
-          <div class="col-lg-4 col-md-6 col-12 d-flex justify-content-center">
-            <div class="gallery-card">
-              <img src="admin/uploads/gallery/<?php echo $row['image']; ?>"
-                alt="<?php echo htmlspecialchars($row['title']); ?>">
-              <div class="gallery-title">
-                <?php echo htmlspecialchars($row['title']); ?>
-              </div>
-            </div>
-          </div>
-        <?php } ?>
-      </div>
-
-    </div>
-    </div>
-  </section>
+ 
 
 
 </main>
