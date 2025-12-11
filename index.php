@@ -8,7 +8,7 @@
     <source src="assets/img/treat/vision.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  
+
 </section>
 
 <script>
@@ -24,6 +24,8 @@
     });
   });
 </script>
+
+
 
 
 
@@ -170,7 +172,8 @@
         <h1 class="doc_head_text">
           Vision Multispeciality Dental Hospital Dentist In Guntur</h1>
         <p class="doc_para_text">Welcome to Vision Multispeciality Dental Hospital, Guntur, where Dr. Abhilash, our esteemed founder and chief doctor, leads our dedicated team. With over 8 years of extensive experience in the field of dentistry,
-             <a href="https://visionmultispecialtydental.blogspot.com/2025/11/dr-abhilash-vision-multi-speciality.html" target="_blank"> Dr. Abhilash</a>  is renowned for his expertise in implant surgeries, laser photomedicines, and full mouth rehabilitations.</p>
+          <a href="https://visionmultispecialtydental.blogspot.com/2025/11/dr-abhilash-vision-multi-speciality.html" target="_blank"> Dr. Abhilash</a> is renowned for his expertise in implant surgeries, laser photomedicines, and full mouth rehabilitations.
+        </p>
         <button class="read_more_btn_vision"><a href="about-vision-dental-best-dental-clinic-in-guntur" style="color: white;"> Read More</a></button>
       </div>
 
@@ -656,6 +659,64 @@
 
 
 </section>
+
+
+
+
+
+
+
+<div class="container my-5">
+  <div class="row">
+    <div class="col-md-4 col-12 d-flex justify-content-center">
+      <img src="./assets/img/vision.png" alt="" class="img-fluid" style="height: 500px;">
+    </div>
+    <div class="col-md-4 col-12 d-flex justify-content-center">
+      <div class="vdh-feature-box">
+
+        <h1 class="vdh-title display-6">Vision dental offers you</h1>
+
+
+
+
+        <ul class="list-unstyled">
+
+          <li class="d-flex align-items-center vdh-list-row fs-5">
+            <i class="bi bi-caret-right-fill vdh-teal-icon"></i>
+            <span class="vdh-feature-text">Highest Quality Dental Care</span>
+          </li>
+
+          <li class="d-flex align-items-center vdh-list-row fs-5">
+            <i class="bi bi-caret-right-fill vdh-teal-icon"></i>
+            <span class="vdh-feature-text">High Ethical Standards</span>
+          </li>
+
+          <li class="d-flex align-items-center vdh-list-row fs-5">
+            <i class="bi bi-caret-right-fill vdh-teal-icon"></i>
+            <span class="vdh-feature-text">Best Sterilization Protocol</span>
+          </li>
+
+          <li class="d-flex align-items-center vdh-list-row fs-5">
+            <i class="bi bi-caret-right-fill vdh-teal-icon"></i>
+            <span class="vdh-feature-text">Affordable & Transparent Price</span>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="col-md-4 col-12 d-flex justify-content-center">
+      <img src="./assets/img/mission.png" alt="" class="img-fluid" style="height: 500px;">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
 
 
 <section>

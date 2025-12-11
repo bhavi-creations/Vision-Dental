@@ -262,9 +262,45 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
         <ul>
           <li class="nav-item active"><a class="nav-link scrollto " href="https://visiondentalguntur.com/">Home</a></li>
-          <li>
+          <!-- <li>
             <a class="nav-link scrollto" href="about-vision-dental-best-dental-clinic-in-guntur">About</a>
+          </li> -->
+
+
+
+          <li class="unique-nav-item " style="--i: 1.1s">
+            <a href="treatment-in-vision-multispeciality-dental-hospital" class="unique-nav-link">Owners<i class="fas fa-caret-down"></i></a>
+            <div class="unique-dropdown">
+              <ul class="unique-dropdown-list  new_nav_bg navbar_new_section">
+
+
+                <li class="unique-dropdown-item">
+                  <a href="about-vision-dental-best-dental-clinic-in-guntur.php" class="unique-dropdown-link">About us</i></a>
+                 
+                </li>
+               
+
+                <li class="unique-dropdown-item">
+                  <a href="we_promise.php" class="unique-dropdown-link">We promise</i></a>
+                  
+                </li>
+
+
+                <div class="unique-arrow"></div>
+              </ul>
+            </div>
           </li>
+
+
+
+
+
+
+
+
+
+
+          
 
           <li class="unique-nav-item " style="--i: 1.1s">
             <a href="treatment-in-vision-multispeciality-dental-hospital" class="unique-nav-link">Treatments<i class="fas fa-caret-down"></i></a>
