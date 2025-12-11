@@ -269,7 +269,7 @@
 
 
           <li class="unique-nav-item " style="--i: 1.1s">
-            <a href="treatment-in-vision-multispeciality-dental-hospital" class="unique-nav-link">Owners<i class="fas fa-caret-down"></i></a>
+            <a href="#" class="unique-nav-link">Owners<i class="fas fa-caret-down"></i></a>
             <div class="unique-dropdown">
               <ul class="unique-dropdown-list  new_nav_bg navbar_new_section">
 
