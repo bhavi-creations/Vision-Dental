@@ -4516,17 +4516,17 @@ h6 {
 }
 
 /* HOVER EFFECT */
-.vdh-list-row:hover {
-    background-color: #e0f7f7; /* Light teal background */
-    transform: scale(1.03); /* Pop-up effect */
-    cursor: pointer;
+.vdh-list-row {
+    background-color: #e0f7f7;
+
 }
 
-.vdh-list-row:hover .vdh-feature-text {
-    color: #006666; /* Darker teal text */
+.vdh-list-row .vdh-feature-text {
+    color: #006666; 
+    
 }
 
-.vdh-list-row:hover .vdh-teal-icon {
+.vdh-list-row  .vdh-teal-icon {
     color: #006666;
-    transform: translateX(4px); /* icon slide effect */
+    transform: translateX(4px); 
 }
