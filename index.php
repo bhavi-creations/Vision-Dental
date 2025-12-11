@@ -41,7 +41,7 @@
 
         <div class="d-flex">
           <button class="banner_contact_us"><a href="contact-us-vision-multispeciality-dental-hospital" style="color:#fff">Contact us</a> </button>
-          <button class="banner_read_more"><a href="about-vision-dental-best-dental-clinic-in-guntur" style="color:black">Read more</a></button>
+          <button class="banner_read_more"><a href="about-us" style="color:black">Read more</a></button>
 
         </div>
 
@@ -71,11 +71,11 @@
         <image href="assets/img/vision/appoit_icon.png" class="teeth_icon" />
 
 
-        <text class="teeth_heading" x="50%" y="30%" text-anchor="middle" fill="#333" dy=".3em"><a href="appointment-for-vision-multispeciality-dental-hospital"> Online Appointment </a> </text>
+        <text class="teeth_heading" x="50%" y="30%" text-anchor="middle" fill="#333" dy=".3em"><a href="appointment"> Online Appointment </a> </text>
 
-        <text class="teeth_first_para_card" x="50%" y="45%" text-anchor="middle" fill="#333" dy=".3em"><a href="appointment-for-vision-multispeciality-dental-hospital"> Vision Multispeciality Dental </a> </text>
+        <text class="teeth_first_para_card" x="50%" y="45%" text-anchor="middle" fill="#333" dy=".3em"><a href="appointment"> Vision Multispeciality Dental </a> </text>
 
-        <text class="teeth_sub_heading" x="50%" y="60%" text-anchor="middle" fill="#333" dy=".3em"><a href="appointment-for-vision-multispeciality-dental-hospital"> Make a appointment </a></text>
+        <text class="teeth_sub_heading" x="50%" y="60%" text-anchor="middle" fill="#333" dy=".3em"><a href="appointment"> Make a appointment </a></text>
 
         <defs>
           <filter id="filter0_d_122_1295" x="0.400002" y="0.982377" width="430.2" height="430.2" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
@@ -135,11 +135,11 @@
         <image href="assets/img/vision/doc_icon.png" class="teeth_icon" />
 
 
-        <text class="teeth_heading" x="50%" y="30%" text-anchor="middle" fill="#333" dy=".3em"><a href="about-vision-dental-best-dental-clinic-in-guntur"> Our Doctors </a></text>
+        <text class="teeth_heading" x="50%" y="30%" text-anchor="middle" fill="#333" dy=".3em"><a href="about-us"> Our Doctors </a></text>
 
-        <text class="teeth_first_para_card" x="50%" y="45%" text-anchor="middle" fill="#333" dy=".3em"> <a href="about-vision-dental-best-dental-clinic-in-guntur"> Vision Multispeciality Dental </a></text>
+        <text class="teeth_first_para_card" x="50%" y="45%" text-anchor="middle" fill="#333" dy=".3em"> <a href="about-us"> Vision Multispeciality Dental </a></text>
 
-        <text class="teeth_sub_heading" x="50%" y="60%" text-anchor="middle" fill="#333" dy=".3em"><a href="about-vision-dental-best-dental-clinic-in-guntur"> Doctors </a></text>
+        <text class="teeth_sub_heading" x="50%" y="60%" text-anchor="middle" fill="#333" dy=".3em"><a href="about-us"> Doctors </a></text>
 
 
         <defs>
@@ -174,7 +174,7 @@
         <p class="doc_para_text">Welcome to Vision Multispeciality Dental Hospital, Guntur, where Dr. Abhilash, our esteemed founder and chief doctor, leads our dedicated team. With over 8 years of extensive experience in the field of dentistry,
           <a href="https://visionmultispecialtydental.blogspot.com/2025/11/dr-abhilash-vision-multi-speciality.html" target="_blank"> Dr. Abhilash</a> is renowned for his expertise in implant surgeries, laser photomedicines, and full mouth rehabilitations.
         </p>
-        <button class="read_more_btn_vision"><a href="about-vision-dental-best-dental-clinic-in-guntur" style="color: white;"> Read More</a></button>
+        <button class="read_more_btn_vision"><a href="about-us" style="color: white;"> Read More</a></button>
       </div>
 
     </div>

@@ -21,7 +21,7 @@
             <p class="poetsen_font1">
               Teeth alignment at Vision Dentals in Guntur is a crucial aspect of achieving a well-balanced and functional smile. Properly aligned teeth not only enhance the aesthetic appeal of your smile but also contribute to overall oral health and comfort. Misaligned teeth can lead to various issues, including difficulties with chewing, speaking, and maintaining proper oral hygiene. At our dental hospital, we offer a range of solutions to address misalignment, including traditional braces, clear aligners like Invisalign, and other orthodontic treatments. Our expert team uses advanced diagnostic tools and customized treatment plans to ensure precise adjustments and effective results. By focusing on teeth alignment, we aim to correct bite issues, improve the symmetry of your smile, and enhance your overall dental function. Choosing teeth alignment treatments in Guntur provides you with expert care and cutting-edge technology, helping you achieve a straighter, healthier smile with long-lasting benefits.
             </p>
-            <a href="appointment-for-vision-multispeciality-dental-hospital"> <button class="appont">Book Appointment</button></a>
+            <a href="appointment"> <button class="appont">Book Appointment</button></a>
 
           </div>
 

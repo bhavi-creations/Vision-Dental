@@ -20,7 +20,7 @@
             <p class="poetsen_font1">
               Laser and gum therapy at Vision Dentals in Guntur represents a modern approach to treating various gum conditions with precision and minimal discomfort. Laser therapy utilizes focused light beams to target and treat infected or damaged gum tissue, offering a less invasive alternative to traditional gum surgery. This advanced technology allows for precise removal of infected tissue, promotes faster healing, and reduces bleeding and post-treatment discomfort. Gum therapy, including scaling and root planning, addresses issues such as gum disease, gingivitis, and periodontitis by thoroughly cleaning and smoothing the tooth surfaces beneath the gumline. Combining laser technology with comprehensive gum therapy ensures effective treatment of gum infections while preserving healthy tissue and enhancing overall gum health. By choosing laser and gum therapy at our dental hospital in Guntur, you benefit from state-of-the-art treatment options that improve oral health, reduce recovery time, and enhance your overall dental experience.
             </p>
-            <a href="appointment-for-vision-multispeciality-dental-hospital"> <button class="appont">Book Appointment</button></a>
+            <a href="appointment"> <button class="appont">Book Appointment</button></a>
 
           </div>
 

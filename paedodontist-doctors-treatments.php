@@ -22,7 +22,7 @@
               At Vision Dentals, the best dental hospital in Guntur, our paedodontist doctors are dedicated to making dental visits enjoyable and stress-free for your child. As a leading dental hospital in Guntur, we offer specialized care tailored to the unique needs of young patients. Our team employs a gentle approach to ensure each visit is a positive experience, with a focus on preventive care and early orthodontic assessments. Whether you're searching for a dental hospital near me or looking for the best multispeciality dental hospital in Guntur, you can trust us to provide expert care in a welcoming environment. We’re committed to helping your child build a foundation for excellent oral health and a lifetime of confident smiles. <br>
               <br> At Vision Dentals, recognized as the best multispeciality dental hospital in Guntur, our paedodontist doctors are dedicated to providing exceptional care for children. Located conveniently as a leading dental hospital near me, we offer comprehensive pediatric dental services designed to make every visit a positive and educational experience. Our expertise as the best dental hospital in Guntur ensures that your child receives top-notch care in a supportive and friendly environment. From preventive treatments to specialized care, we are committed to fostering healthy dental habits and creating a comfortable atmosphere that supports your child's oral health journey.
             </p>
-            <a href="appointment-for-vision-multispeciality-dental-hospital"> <button class="appont">Book Appointment</button></a>
+            <a href="appointment"> <button class="appont">Book Appointment</button></a>
 
           </div>
 

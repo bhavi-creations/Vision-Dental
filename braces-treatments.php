@@ -21,7 +21,7 @@
             <p class="poetsen_font1">
               Transform your smile with our expert orthodontic treatments at Vision Multispeciality Dental Hospital, recognized as the best dental hospital in Guntur. Our customised braces ensure precise teeth alignment, boosting confidence and oral health. If you’re searching for the best braces for teeth alignment near you, our clinic offers top-notch care and treatment, ensuring the best results.
             </p>
-            <a href="appointment-for-vision-multispeciality-dental-hospital"> <button class="appont">Book Appointment</button></a>
+            <a href="appointment"> <button class="appont">Book Appointment</button></a>
 
           </div>
 

@@ -12,7 +12,7 @@
                             <a href="https://visiondentalguntur.com/" style="color: #fff">Home</a>
                         </li>
                         <li class="foot_para">
-                            <a href="about-vision-dental-best-dental-clinic-in-guntur" style="color: #fff">About us</a>
+                            <a href="about-us" style="color: #fff">About us</a>
                         </li>
                         <li class="foot_para">
                             <a href="reviews-testimonials" style="color: #fff">Reviews</a>

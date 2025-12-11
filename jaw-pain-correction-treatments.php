@@ -22,7 +22,7 @@
             <p class="poetsen_font1">
               Jaw corrective treatments at Vision Dentals in Guntur are designed to address a variety of issues related to jaw alignment and function. These treatments are essential for individuals experiencing problems such as misaligned jaws, bite issues, or discomfort due to temporomandibular joint (TMJ) disorders. Our expert team provides a range of corrective options tailored to your specific needs, including orthodontic procedures, surgical interventions, and customized dental appliances. Correcting jaw misalignment not only improves the overall function of your bite but also enhances your facial aesthetics and alleviates discomfort. At Vision Dentals, we utilize advanced diagnostic tools and treatment planning techniques to ensure precise and effective results. By addressing jaw issues with professional care, you can achieve better oral health, improved chewing and speaking abilities, and a more balanced and harmonious smile.
             </p>
-            <a href="appointment-for-vision-multispeciality-dental-hospital"> <button class="appont">Book Appointment</button></a>
+            <a href="appointment"> <button class="appont">Book Appointment</button></a>
 
           </div>
 

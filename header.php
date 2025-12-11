@@ -275,7 +275,7 @@
 
 
                 <li class="unique-dropdown-item">
-                  <a href="about-vision-dental-best-dental-clinic-in-guntur.php" class="unique-dropdown-link">About us</i></a>
+                  <a href="about-us.php" class="unique-dropdown-link">About us</i></a>
                  
                 </li>
                
@@ -433,7 +433,7 @@
           <li><a class="nav-link scrollto" href="smile-gallery">Smile Gallery</a></li>
           <!-- <li><a class="nav-link scrollto d-none -d-lg- d-xl-none" href="contact">Contact us</a></li> -->
           <li><a class="nav-link scrollto d-block d-lg-none d-xl-block" href="contact-us-vision-multispeciality-dental-hospital">Contact us</a></li>
-          <li><a class="nav-link scrollto d-block d-lg-none d-xl-block" href="appointment-for-vision-multispeciality-dental-hospital">Appointment</a></li>
+          <li><a class="nav-link scrollto d-block d-lg-none d-xl-block" href="appointment">Appointment</a></li>
 
 
           <li class="call-nav ">

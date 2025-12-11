@@ -69,7 +69,7 @@
             font-weight: 700;
             color: var(--text-dark);
             font-size: 1.5rem;
-          color: white;
+            color: white;
             /* color: #1abc9c; */
             background-color: var(--circle-bg);
             box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
@@ -127,7 +127,7 @@
 
     <body>
 
-        <section class="advantage-main-section">
+        <section class="advantage-main-section d-block d-md-none d-lg-block">
             <div class="container advantage-list-wrapper">
                 <div class="row">
 
@@ -169,9 +169,11 @@
                             <div class="item-content-bubble bubble-teal">5-step Sterilisation Protocol</div>
                         </div>
                     </div>
-                    <div class="col-lg-4 d-flex justify-content-center d-block d-md-none d-lg-block">
-                        <img src="./assets/img/we_promise_2.png" alt="" class="img-fluid">
-                        <!-- <img src="assets/img/about/a11.png" class="img-fluid dr_img_padding abouter" alt="" style="border-radius: 4px;"> -->
+                    <!-- <div class="col-lg-4 d-flex justify-content-center align-item-center d-block d-md-none d-lg-block">
+                        <img src="./assets/img/logo_we_promise.png" alt="" class="img-fluid">
+                    </div> -->
+                    <div class="col-lg-4 d-flex justify-content-center align-items-center" >
+                        <img src=" ./assets/img/logo_we_promise.png" alt="Logo" class="img-fluid">
                     </div>
 
                     <div class="col-md-6 col-lg-4">
@@ -211,8 +213,104 @@
                             <div class="item-content-bubble bubble-purple">Unforgettable Dental Visit Experience</div>
                         </div>
                     </div>
-                    <div class="col-lg-4 d-flex justify-content-center d-none d-md-block d-lg-none">
-                        <img src="./assets/img/we_promise_2.png" alt="" class="img-fluid d-lg-none">
+                  
+                </div>
+
+                <div class="mock-background-element d-none d-md-block"></div>
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+        <section class="advantage-main-section  d-none d-md-block d-lg-none">
+            <div class="container advantage-list-wrapper">
+                <div class="row">
+
+                    <div class="col-md-6  col-lg-4">
+
+                        <div class="advantage-item-row">
+                            <div class="index-circle-wrapper">
+                                <div class="item-index-circle bubble-teal">1</div>
+                            </div>
+                            <div class="item-content-bubble bubble-teal">Painless Dental Treatments</div>
+                        </div>
+
+                        <div class="advantage-item-row">
+                            <div class="index-circle-wrapper">
+                                <div class="item-index-circle bubble-purple">2</div>
+                            </div>
+                            <div class="item-content-bubble bubble-purple">Highly Ethical Dentistry</div>
+                        </div>
+
+
+                        <div class="advantage-item-row">
+                            <div class="index-circle-wrapper">
+                                <div class="item-index-circle bubble-teal">3</div>
+                            </div>
+                            <div class="item-content-bubble bubble-teal">Highest Treatment Quality</div>
+                        </div>
+
+                        <div class="advantage-item-row">
+                            <div class="index-circle-wrapper">
+                                <div class="item-index-circle bubble-purple">4</div>
+                            </div>
+                            <div class="item-content-bubble bubble-purple">Near-Zero Waiting Time</div>
+                        </div>
+
+                        <div class="advantage-item-row">
+                            <div class="index-circle-wrapper">
+                                <div class="item-index-circle bubble-teal">5</div>
+                            </div>
+                            <div class="item-content-bubble bubble-teal">5-step Sterilisation Protocol</div>
+                        </div>
+                    </div>
+                    
+                   
+
+                    <div class="col-md-6 col-lg-4">
+
+                        <div class="advantage-item-row">
+                            <div class="index-circle-wrapper">
+                                <div class="item-index-circle bubble-purple">6</div>
+                            </div>
+                            <div class="item-content-bubble bubble-purple">Transparent Pricing Policy</div>
+                        </div>
+
+                        <div class="advantage-item-row">
+                            <div class="index-circle-wrapper">
+                                <div class="item-index-circle bubble-teal">7</div>
+                            </div>
+                            <div class="item-content-bubble bubble-teal">Expert & Experienced Team Of Dentists</div>
+                        </div>
+
+                        <div class="advantage-item-row">
+                            <div class="index-circle-wrapper">
+                                <div class="item-index-circle bubble-purple">8</div>
+                            </div>
+                            <div class="item-content-bubble bubble-purple">Courteous Staff</div>
+                        </div>
+
+                        <div class="advantage-item-row">
+                            <div class="index-circle-wrapper">
+                                <div class="item-index-circle bubble-teal">9</div>
+                            </div>
+                            <div class="item-content-bubble bubble-teal">Excellent Hospitality</div>
+                        </div>
+
+                        <div class="advantage-item-row">
+                            <div class="index-circle-wrapper">
+                                <div class="item-index-circle bubble-purple">10</div>
+                            </div>
+                            <div class="item-content-bubble bubble-purple">Unforgettable Dental Visit Experience</div>
+                        </div>
+                    </div>
+                    <div class=" d-flex justify-content-center align-items-center ">
+                        <img src="./assets/img/logo_we_promise.png" alt="" class="img-fluid d-lg-none">
                         <!-- <img src="assets/img/about/a11.png" class="img-fluid dr_img_padding abouter" alt="" style="border-radius: 4px;"> -->
                     </div>
                 </div>
@@ -221,6 +319,7 @@
 
             </div>
         </section>
+
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 

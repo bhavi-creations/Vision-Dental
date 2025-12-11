@@ -24,7 +24,7 @@
                     <p class="poetsen_font1">
                         Dental implants are a highly effective solution for replacing missing teeth and restoring both function and aesthetics to your smile. At Vision Dentals, our expertise in dental implants ensures that you receive the highest quality care tailored to your needs. Dental implants offer numerous benefits, including a natural look and feel, as they are designed to blend seamlessly with your existing teeth. The procedure involves placing a titanium post into the jawbone, which acts as a sturdy foundation for a replacement tooth. This approach not only provides a durable and long-lasting solution but also helps preserve bone structure and prevent the shifting of adjacent teeth. Additionally, dental implants offer the advantage of being a permanent solution, unlike removable dentures, which require regular adjustments. With our advanced techniques and personalized care, dental implants at Vision Dentals help restore your confidence and maintain optimal oral health. Whether you're dealing with a single missing tooth or multiple gaps, our team is dedicated to delivering exceptional results and ensuring a comfortable, efficient process.
                     </p>
-                    <a href="appointment-for-vision-multispeciality-dental-hospital"> <button class="appont">Book Appointment</button></a>
+                    <a href="appointment"> <button class="appont">Book Appointment</button></a>
 
                 </div>
 
