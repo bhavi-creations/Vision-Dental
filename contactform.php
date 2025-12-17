@@ -22,8 +22,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->SMTPAuth   = true;
 
         // Gmail App Password Required
-        $mail->Username   = 'manimalladi05@gmail.com';
-        $mail->Password   = 'gqetcnlslqnxzspm'; 
+        $mail->Username   = 'Visiondentalguntur@gmail.com';
+        $mail->Password   = 'eqvlhowgdjhulndv'; 
 
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
@@ -38,8 +38,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         );
 
         // Recipients
-        $mail->setFrom('manimalladi05@gmail.com', 'Vision Dental Guntur');
-        $mail->addAddress('manimalladi05@gmail.com', 'Vision Dental Guntur');
+        $mail->setFrom('Visiondentalguntur@gmail.com', 'Vision Dental Guntur');
+        $mail->addAddress('Visiondentalguntur@gmail.com', 'Vision Dental Guntur');
 
         // Email Content
         $mail->isHTML(true);

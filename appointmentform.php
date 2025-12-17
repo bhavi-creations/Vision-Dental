@@ -19,8 +19,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'manimalladi05@gmail.com';
-        $mail->Password   = 'gqetcnlslqnxzspm'; // Use Gmail App Password
+        $mail->Username   = 'Visiondentalguntur@gmail.com';
+        $mail->Password   = 'eqvlhowgdjhulndv'; // Use Gmail App Password
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
 
@@ -32,10 +32,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 'allow_self_signed' => true
             )
         );
-
+       
         // Recipients
-        $mail->setFrom('manimalladi05@gmail.com', 'Vision Dental Guntur');
-        $mail->addAddress('manimalladi05@gmail.com', 'Vision Dental Guntur');
+        $mail->setFrom('Visiondentalguntur@gmail.com', 'Vision Dental Guntur');
+        $mail->addAddress('Visiondentalguntur@gmail.com', 'Vision Dental Guntur');
 
         // Email content
         $mail->isHTML(true);
