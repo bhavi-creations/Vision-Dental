@@ -14,7 +14,7 @@
 
           </div>
           <div class="col-md-3 mt-5">
-            <a href="root-canal-treatments">
+            <a href="root-canal-treatments.php">
               <div class="cardB">
                 <img src="assets/img/treat/0.png" alt="" class="imggg1">
                 <div class="card__content">
@@ -27,7 +27,7 @@
 
           </div>
           <div class="col-md-3 mt-5">
-            <a href="braces-treatments">
+            <a href="braces-treatments.php">
               <div class="cardB">
                 <img src="assets/img/treat/23.png" alt="" class="imggg2">
                 <div class="card__content">
@@ -64,7 +64,7 @@
 
           </div>
           <div class="col-md-3 mt-5">
-            <a href="paedodontist-doctors-treatments">
+            <a href="paedodontist-doctors-treatments.php">
               <div class="cardB">
                 <img src="assets/img/treat/8.png" alt="" class="imggg4">
                 <div class="card__content">

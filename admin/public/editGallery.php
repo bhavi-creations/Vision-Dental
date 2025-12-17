@@ -57,7 +57,7 @@ if (isset($_POST['submit'])) {
     $stmt->bind_param("ssi", $title, $new_filename, $id);
 
     if ($stmt->execute()) {
-        echo "<script>alert('Gallery updated successfully'); window.location='gallery_list';</script>";
+        echo "<script>alert('Gallery updated successfully'); window.location='gallery_list.php';</script>";
     } else {
         echo "Database Update Failed: " . $stmt->error;
     }

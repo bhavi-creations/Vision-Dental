@@ -36,7 +36,7 @@
             creating confident smiles. Trust us for all your dental needs and experience the highest 
             standard of dental excellence. -->
 
-            Whether you need routine dental check-ups, cavity and  <a href="root-canal-treatments">root canal treatments</a> ,     <a href="braces-treatments">braces</a>    ,  <a href="dental-implants-treatments"> implants</a>    ,   or    <a href="smile-makeover-treatments"> smile makeovers</a>, our focus is on delivering safe, precise, and compassionate care for every patient.
+            Whether you need routine dental check-ups, cavity and  <a href="root-canal-treatments.php">root canal treatments</a> ,     <a href="braces-treatments.php">braces</a>    ,  <a href="dental-implants-treatments.php"> implants</a>    ,   or    <a href="smile-makeover-treatments.php"> smile makeovers</a>, our focus is on delivering safe, precise, and compassionate care for every patient.
 
 
 

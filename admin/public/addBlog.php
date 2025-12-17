@@ -1,201 +1,143 @@
 <?php
-// ======================================
-// 🧩 ENABLE SAFE ERROR LOGGING
-// ======================================
-ini_set('log_errors', 1);
-ini_set('error_log', __DIR__ . '/php_error.log'); 
-error_reporting(E_ALL);
-ini_set('display_errors', 1); // Set to 0 on production
+// Database connection
+include '../../db.connection/db_connection.php';
 
-// ======================================
-// 🧩 DATABASE CONNECTION
-// ======================================
-include __DIR__ . '/../../db.connection/db_connection.php';
-
-// ======================================
-// 🧩 ALLOWED FILE FORMATS
-// ======================================
-$allowedImageFormats = ['jpg', 'jpeg', 'png', 'gif', 'webp'];
-
-// ======================================
-// 🧩 FUNCTION: Generate Unique File Name
-// ======================================
+// Function to generate a unique file name
 function generateUniqueFileName($fileName) {
     $ext = pathinfo($fileName, PATHINFO_EXTENSION);
-    return uniqid('file_') . '_' . time() . '.' . $ext;
+    return uniqid() . '_' . time() . '.' . $ext;
 }
 
-// ======================================
-// 🧩 FUNCTION: Ensure Directory Exists and Writable
-// ======================================
-function ensureWritableDirectory($dir) {
-    if (!is_dir($dir)) {
-        if (!mkdir($dir, 0777, true) && !is_dir($dir)) {
-            error_log("Failed to create directory: " . $dir);
-            die("Error: Failed to create upload directory ($dir).");
-        }
-    }
+// Allowed image types
+$allowed_extensions = ['jpg', 'jpeg', 'png', 'gif', 'webp', 'svg'];
 
-    if (!is_writable($dir)) {
-        @chmod($dir, 0777);
-        clearstatcache();
-        if (!is_writable($dir)) {
-            error_log("Directory not writable: " . $dir);
-            die("Error: Upload directory ($dir) is not writable. Please check folder permissions.");
-        }
-    }
-}
-
-// ======================================
-// 🧩 FUNCTION: Upload File
-// ======================================
-function uploadFile($fileKey, $uploadDir, $allowedFormats = []) {
-    if (!empty($_FILES[$fileKey]['name'])) {
-        ensureWritableDirectory($uploadDir);
-
-        $ext = strtolower(pathinfo($_FILES[$fileKey]['name'], PATHINFO_EXTENSION));
-        if (!empty($allowedFormats) && !in_array($ext, $allowedFormats)) {
-            die("Error: Invalid file format for $fileKey. Allowed: " . implode(', ', $allowedFormats));
-        }
-
-        if ($_FILES[$fileKey]['error'] !== UPLOAD_ERR_OK) {
-            die("Upload error for $fileKey: " . $_FILES[$fileKey]['error']);
-        }
-
-        $fileName = generateUniqueFileName($_FILES[$fileKey]['name']);
-        $targetPath = $uploadDir . $fileName;
-
-        if (move_uploaded_file($_FILES[$fileKey]['tmp_name'], $targetPath)) {
-            return $fileName; 
-        } else {
-            error_log("Failed to move uploaded file for $fileKey to $targetPath");
-            die("Error uploading $fileKey. Check folder permissions for: " . $uploadDir);
-        }
-    }
-    return '';
-}
-
-// ======================================
-// 🧩 MAIN SCRIPT
-// ======================================
+// Check if form is submitted
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Collect form data
+    $blog_id = isset($_POST['id']) ? intval($_POST['id']) : 0;
+    $title = $_POST['title'] ?? '';
+    $main_content = $_POST['main_content'] ?? '';
+    $full_content = $_POST['full_content'] ?? '';
+    $service = $_POST['service'] ?? '';
+    $logo_link = $_POST['logo_link'] ?? '';
 
-    $blog_id      = isset($_POST['id']) ? intval($_POST['id']) : 0;
-    $title        = trim($_POST['title'] ?? '');
-    $main_content = trim($_POST['main_content'] ?? '');
-    $full_content = trim($_POST['full_content'] ?? '');
-    $service      = trim($_POST['service'] ?? '');
+    // Telugu fields
+    $telugu_title = $_POST['telugu_title'] ?? '';
+    $telugu_main_content = $_POST['telugu_main_content'] ?? '';
+    $telugu_full_content = $_POST['telugu_full_content'] ?? '';
 
-    // Validation
+    // Section contents
+    $section1_content = $_POST['section1_content'] ?? '';
+    $section2_content = $_POST['section2_content'] ?? '';
+    $section3_content = $_POST['section3_content'] ?? '';
+
+    // Required fields check
     if (empty($title) || empty($main_content) || empty($full_content) || empty($service)) {
         die("Error: Title, Main Content, Full Content, and Service cannot be empty.");
     }
 
-    // Directories
-    $uploadsDir = __DIR__ . "/../uploads/photos/";
-    $videosDir  = __DIR__ . "/../uploads/videos/";
+    // Helper function for image upload
+    function uploadImage($fileKey, $directoryName, $allowed_extensions) {
+        $path = '';
+        if (!empty($_FILES[$fileKey]['name'])) {
+            $ext = strtolower(pathinfo($_FILES[$fileKey]['name'], PATHINFO_EXTENSION));
+            if (!in_array($ext, $allowed_extensions)) {
+                die("Error: Invalid file type for $fileKey.");
+            }
 
-    // Upload files
-    $main_image_path  = uploadFile('main_image', $uploadsDir, $allowedImageFormats);
-    $video_path       = uploadFile('video', $videosDir);
-    $title_image_path = uploadFile('title_image', $uploadsDir, $allowedImageFormats);
+            $directory = __DIR__ . "/../uploads/$directoryName/";
+            if (!is_dir($directory)) mkdir($directory, 0777, true);
 
-    // Section contents and images
-    $section_contents = [];
-    $section_images   = [];
-    for ($i = 1; $i <= 3; $i++) {
-        $section_contents[$i] = $_POST["section{$i}_content"] ?? '';
-        $section_images[$i]   = uploadFile("section{$i}_image", $uploadsDir, $allowedImageFormats);
+            $fileName = generateUniqueFileName($_FILES[$fileKey]['name']);
+            $path = $fileName;
+
+            if (!move_uploaded_file($_FILES[$fileKey]['tmp_name'], $directory . $fileName)) {
+                die("Error uploading $fileKey.");
+            }
+        }
+        return $path;
     }
 
-    // Preserve existing files if editing
-    if ($blog_id > 0) {
-        $existing = $conn->query("SELECT * FROM blogs WHERE id=$blog_id");
-        if ($existing && $existing->num_rows > 0) {
-            $existing = $existing->fetch_assoc();
+    // Upload main assets
+    $title_image_path = uploadImage('title_image', 'photos', $allowed_extensions);
+    $main_image_path  = uploadImage('main_image', 'photos', $allowed_extensions);
+    $logo_path        = uploadImage('logo', 'logos', $allowed_extensions);
 
-            $main_image_path  = $main_image_path ?: ($existing['main_image'] ?? '');
-            $video_path       = $video_path ?: ($existing['video'] ?? '');
-            $title_image_path = $title_image_path ?: ($existing['title_image'] ?? '');
-            for ($i = 1; $i <= 3; $i++) {
-                $section_images[$i] = $section_images[$i] ?: ($existing["section{$i}_image"] ?? '');
-            }
-        } else {
-            die("Error: Blog not found for editing.");
+    // Upload video
+    $video_path = '';
+    if (!empty($_FILES['video']['name'])) {
+        $video_directory = __DIR__ . "/../uploads/videos/";
+        if (!is_dir($video_directory)) mkdir($video_directory, 0777, true);
+
+        $video_name = generateUniqueFileName($_FILES['video']['name']);
+        $video_path = $video_name;
+
+        if (!move_uploaded_file($_FILES['video']['tmp_name'], $video_directory . $video_name)) {
+            die("Error uploading video.");
         }
     }
 
-    // ======================================
-    // SQL QUERIES
-    // ======================================
+    // Upload section images
+    $section1_image = uploadImage('section1_image', 'photos', $allowed_extensions);
+    $section2_image = uploadImage('section2_image', 'photos', $allowed_extensions);
+    $section3_image = uploadImage('section3_image', 'photos', $allowed_extensions);
+
+    // Prepare SQL (Insert or Update)
     if ($blog_id > 0) {
         // UPDATE
         $stmt = $conn->prepare("UPDATE blogs 
-            SET title=?, main_content=?, full_content=?, title_image=?, main_image=?, video=?, service=?,
-                section1_content=?, section1_image=?, 
+            SET title=?, main_content=?, full_content=?, 
+                telugu_title=?, telugu_main_content=?, telugu_full_content=?,
+                title_image=?, main_image=?, video=?, 
+                service=?, logo=?, logo_link=?,
+                section1_content=?, section1_image=?,
                 section2_content=?, section2_image=?,
                 section3_content=?, section3_image=?
             WHERE id=?");
-        if (!$stmt) { die("Prepare failed: " . $conn->error); }
 
         $stmt->bind_param(
-            "sssssssssssssi",
-            $title,
-            $main_content,
-            $full_content,
-            $title_image_path,
-            $main_image_path,
-            $video_path,
-            $service,
-            $section_contents[1],
-            $section_images[1],
-            $section_contents[2],
-            $section_images[2],
-            $section_contents[3],
-            $section_images[3],
+            "ssssssssssssssssssi",
+            $title, $main_content, $full_content,
+            $telugu_title, $telugu_main_content, $telugu_full_content,
+            $title_image_path, $main_image_path, $video_path,
+            $service, $logo_path, $logo_link,
+            $section1_content, $section1_image,
+            $section2_content, $section2_image,
+            $section3_content, $section3_image,
             $blog_id
         );
 
     } else {
         // INSERT
         $stmt = $conn->prepare("INSERT INTO blogs 
-            (title, main_content, full_content, title_image, main_image, video, service,
+            (title, main_content, full_content, telugu_title, telugu_main_content, telugu_full_content,
+             title_image, main_image, video, service, logo, logo_link,
              section1_content, section1_image,
              section2_content, section2_image,
              section3_content, section3_image, created_at)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW())");
-        if (!$stmt) { die("Prepare failed: " . $conn->error); }
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, NOW())");
 
         $stmt->bind_param(
-            "sssssssssssss",
-            $title,
-            $main_content,
-            $full_content,
-            $title_image_path,
-            $main_image_path,
-            $video_path,
-            $service,
-            $section_contents[1],
-            $section_images[1],
-            $section_contents[2],
-            $section_images[2],
-            $section_contents[3],
-            $section_images[3]
+            "ssssssssssssssssss",
+            $title, $main_content, $full_content, $telugu_title, $telugu_main_content, $telugu_full_content,
+            $title_image_path, $main_image_path, $video_path,
+            $service, $logo_path, $logo_link,
+            $section1_content, $section1_image,
+            $section2_content, $section2_image,
+            $section3_content, $section3_image
         );
     }
 
-    // ======================================
-    // EXECUTE AND REDIRECT
-    // ======================================
+    // Execute SQL
     if ($stmt->execute()) {
-        header("Location: allBlog");
+        header("Location: allBlog.php");
         exit();
     } else {
-        error_log("Execute error: " . $stmt->error);
-        die("Execute Error: " . $stmt->error);
+        die("Error: " . $stmt->error);
     }
 
     $stmt->close();
-    $conn->close();
 }
+
+$conn->close();
 ?>

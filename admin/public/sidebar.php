@@ -13,7 +13,7 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
-        <a class="nav-link" href="index">
+        <a class="nav-link" href="index.php">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span></a>
     </li>
@@ -35,8 +35,8 @@
         <div id="collapsethree" class="collapse" aria-labelledby="headingthree" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">NEW BLOG</h6>
-                <a class="collapse-item" href="newBlog"> <i class="fas fa-fw fa-blog"></i> CREATE BLOG</a>
-                <a class="collapse-item" href="allBlog"> <i class="fas fa-fw fa-edit"></i> All BLOGS</a>
+                <a class="collapse-item" href="newBlog.php"> <i class="fas fa-fw fa-blog"></i> CREATE BLOG</a>
+                <a class="collapse-item" href="allBlog.php"> <i class="fas fa-fw fa-edit"></i> All BLOGS</a>
             </div>
         </div>
     </li>
@@ -69,8 +69,8 @@
         <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">NEW Gallery</h6>
-                <a class="collapse-item" href="newgallery"> <i class="fas fa-fw fa-blog"></i> Gallery</a>
-                <a class="collapse-item" href="gallery_list"> <i class="fas fa-fw fa-edit"></i> All Gallery</a>
+                <a class="collapse-item" href="newgallery.php"> <i class="fas fa-fw fa-blog"></i> Gallery</a>
+                <a class="collapse-item" href="gallery_list.php"> <i class="fas fa-fw fa-edit"></i> All Gallery</a>
             </div>
         </div>
     </li>

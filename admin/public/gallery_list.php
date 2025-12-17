@@ -50,7 +50,7 @@
 
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h2 class="h2 mb-0 text-info mx-2">Gallery Items</h2>
-                        <a href="newGallery" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+                        <a href="newgallery.php" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
                             <i class="fas fa-plus fa-sm text-white-50"></i> Add New Image
                         </a>
                     </div>
@@ -75,8 +75,8 @@
                                         <div class='card-body'>
                                             <h5 class='card-title' style='color:black;'>{$row['title']}</h5>
                                             <div class='row'>
-                                                <a href='editGallery?id={$row['id']}' class='btn btn-warning col-xl-4 mx-3 my-2'>Edit</a>
-                                                <a href='deleteGallery?id={$row['id']}' class='col-xl-4 btn btn-danger mx-3 my-2'>Delete</a>
+                                                <a href='editGallery.php?id={$row['id']}' class='btn btn-warning col-xl-4 mx-3 my-2'>Edit</a>
+                                                <a href='deleteGallery.php?id={$row['id']}' class='col-xl-4 btn btn-danger mx-3 my-2'>Delete</a>
                                             </div>
                                         </div>
                                     </div>

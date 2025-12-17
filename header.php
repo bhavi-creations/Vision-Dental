@@ -313,13 +313,13 @@
                   <div class="unique-dropdown second-level  nav_div_mrg nav_div_mrg_one">
                     <ul class="unique-dropdown-list inside_nav_drop_down sub_section1 pain_relieft_sub_service">
                       <li class="unique-dropdown-item">
-                        <a href="root-canal-treatments" class="unique-dropdown-link">Root Canal Treatment</a>
+                        <a href="root-canal-treatments.php" class="unique-dropdown-link">Root Canal Treatment</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="wisdom-tooth-removel-treatments" class="unique-dropdown-link"> Wisdom Tooth Removel</a>
+                        <a href="wisdom-tooth-removel-treatments.php" class="unique-dropdown-link"> Wisdom Tooth Removel</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="jaw-pain-correction-treatments" class="unique-dropdown-link"> Jaw Pain / Correction</a>
+                        <a href="jaw-pain-correction-treatments.php" class="unique-dropdown-link"> Jaw Pain / Correction</a>
                       </li>
 
                       <div class="unique-arrow"></div>
@@ -331,13 +331,13 @@
                   <div class="unique-dropdown second-level  nav_div_mrg nav_div_mrg_two">
                     <ul class="unique-dropdown-list inside_nav_drop_down sub_section1">
                       <li class="unique-dropdown-item">
-                        <a href="dentures-treatments" class="unique-dropdown-link">Dentures</a>
+                        <a href="dentures-treatments.php" class="unique-dropdown-link">Dentures</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="crowns-bridges-treatments" class="unique-dropdown-link">Crowns & Bridges</a>
+                        <a href="crowns-bridges-treatments.php" class="unique-dropdown-link">Crowns & Bridges</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="dental-implants-treatments" class="unique-dropdown-link">Dental Implants</a>
+                        <a href="dental-implants-treatments.php" class="unique-dropdown-link">Dental Implants</a>
                       </li>
 
                       <div class="unique-arrow"></div>
@@ -350,19 +350,19 @@
                     <ul class="unique-dropdown-list inside_nav_drop_down  sub_section1">
 
                       <li class="unique-dropdown-item">
-                        <a href="invisalign-treatments" class="unique-dropdown-link"> Invisalign</a>
+                        <a href="invisalign-treatments.php" class="unique-dropdown-link"> Invisalign</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="clear-aligners-treatment" class="unique-dropdown-link"> Clear Aligners</a>
+                        <a href="clear-aligners-treatment.php" class="unique-dropdown-link"> Clear Aligners</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="braces-treatments" class="unique-dropdown-link">Braces</a>
+                        <a href="braces-treatments.php" class="unique-dropdown-link">Braces</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="laminate-veneers-treatments" class="unique-dropdown-link">Laminate Veneers</a>
+                        <a href="laminate-veneers-treatments.php" class="unique-dropdown-link">Laminate Veneers</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="smile-designing-treatments" class="unique-dropdown-link"> Smile Designing</a>
+                        <a href="smile-designing-treatments.php" class="unique-dropdown-link"> Smile Designing</a>
                       </li>
 
                       <div class="unique-arrow"></div>
@@ -375,25 +375,25 @@
                   <div class="unique-dropdown second-level  nav_div_mrg nav_div_mrg_four">
                     <ul class="unique-dropdown-list inside_nav_drop_down sub_section1  pain_relieft_sub_service">
                       <li class="unique-dropdown-item">
-                        <a href="laser-assisted-teeth-cleaning-treatments" class="unique-dropdown-link"> Laser assisted Teeth Cleaning</a>
+                        <a href="laser-assisted-teeth-cleaning-treatments.php" class="unique-dropdown-link"> Laser assisted Teeth Cleaning</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="gum-depigmentation-treatments" class="unique-dropdown-link"> Gum Depigmentation</a>
+                        <a href="gum-depigmentation-treatments.php" class="unique-dropdown-link"> Gum Depigmentation</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="laser-teeth-whitening-treatments" class="unique-dropdown-link"> Laser Teeth Whitening</a>
+                        <a href="laser-teeth-whitening-treatments.php" class="unique-dropdown-link"> Laser Teeth Whitening</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="laser-gum-surgeries-treatments" class="unique-dropdown-link"> Laser Gum Surgeries</a>
+                        <a href="laser-gum-surgeries-treatments.php" class="unique-dropdown-link"> Laser Gum Surgeries</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="mouth-ulcers-treatments" class="unique-dropdown-link"> Mouth Ulcers</a>
+                        <a href="mouth-ulcers-treatments.php" class="unique-dropdown-link"> Mouth Ulcers</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="precancerous-lesion-in-mouth-treatments" class="unique-dropdown-link"> Precancerous Lesion in Mouth</a>
+                        <a href="precancerous-lesion-in-mouth-treatments.php" class="unique-dropdown-link"> Precancerous Lesion in Mouth</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="laser-crown-lengthening-treatments" class="unique-dropdown-link"> Laser Crown Lengthening</a>
+                        <a href="laser-crown-lengthening-treatments.php" class="unique-dropdown-link"> Laser Crown Lengthening</a>
                       </li>
 
 
@@ -408,10 +408,10 @@
                   <div class="unique-dropdown second-level nav_div_mrg nav_div_mrg_five">
                     <ul class="unique-dropdown-list inside_nav_drop_down sub_section1 pain_relieft_sub_service">
                       <li class="unique-dropdown-item">
-                        <a href="pediatric-dentist-treatments" class="unique-dropdown-link">Pediatric Dentist</a>
+                        <a href="pediatric-dentist-treatments.php" class="unique-dropdown-link">Pediatric Dentist</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="paedodontist-doctors-treatments" class="unique-dropdown-link">Paedodontist Doctors</a>
+                        <a href="paedodontist-doctors-treatments.php" class="unique-dropdown-link">Paedodontist Doctors</a>
                       </li>
 
 
@@ -427,13 +427,13 @@
           </li>
 
 
-          <li><a class="nav-link scrollto" href="equipment-in-vision-multispeciality-dental-hospital-in-guntur">Equipment</a></li>
-          <li><a class="nav-link" href="blogs">Blogs</a></li>
-          <li><a class="nav-link scrollto" href="reviews-testimonials">Reviews</a></li>
-          <li><a class="nav-link scrollto" href="smile-gallery">Smile Gallery</a></li>
+          <li><a class="nav-link scrollto" href="equipment-in-vision-multispeciality-dental-hospital-in-guntur.php">Equipment</a></li>
+          <li><a class="nav-link" href="blogs.php">Blogs</a></li>
+          <li><a class="nav-link scrollto" href="reviews-testimonials.php">Reviews</a></li>
+          <li><a class="nav-link scrollto" href="smile-gallery.php">Smile Gallery</a></li>
           <!-- <li><a class="nav-link scrollto d-none -d-lg- d-xl-none" href="contact">Contact us</a></li> -->
-          <li><a class="nav-link scrollto d-block d-lg-none d-xl-block" href="contact-us-vision-multispeciality-dental-hospital">Contact us</a></li>
-          <li><a class="nav-link scrollto d-block d-lg-none d-xl-block" href="appointment">Appointment</a></li>
+          <li><a class="nav-link scrollto d-block d-lg-none d-xl-block" href="contact-us-vision-multispeciality-dental-hospital.php">Contact us</a></li>
+          <li><a class="nav-link scrollto d-block d-lg-none d-xl-block" href="appointment.php">Appointment</a></li>
 
 
           <li class="call-nav ">

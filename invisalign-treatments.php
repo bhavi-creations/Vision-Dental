@@ -23,7 +23,7 @@
               Invisalign is a modern orthodontic treatment designed to straighten teeth discreetly and comfortably. At Vision Dentals, a premier dental hospital in Guntur, we offer Invisalign as a cutting-edge solution for achieving a beautifully aligned smile without the need for traditional metal braces. Invisalign uses a series of custom-made, clear aligners that are virtually invisible and removable, allowing you to continue eating your favorite foods and maintaining optimal oral hygiene throughout the treatment.
               <br><br> Each set of aligners is designed to gradually shift your teeth into their desired positions based on a personalized treatment plan created using advanced 3D imaging technology. The benefits of choosing Invisalign include a more aesthetically pleasing appearance, greater comfort, and fewer visits to the orthodontist compared to traditional braces. By opting for Invisalign treatment at our dental hospital in Guntur, you receive expert care and a tailored approach to help you achieve a straighter smile with minimal impact on your daily life.
             </p>
-            <a href="appointment"> <button class="appont">Book Appointment</button></a>
+            <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
 
           </div>
 

@@ -10,15 +10,14 @@ if ($blog_id <= 0) {
 }
 
 // ---------------------------------------------
-// FETCH BLOG DATA (SERVICE INCLUDED)
+// FETCH BLOG DATA
 // ---------------------------------------------
 $stmt = $conn->prepare("
     SELECT 
         title, main_content, full_content, 
         title_image, main_image, video, 
         telugu_title, telugu_main_content, telugu_full_content,
-        section1_image,
-        service
+        section1_image
     FROM blogs 
     WHERE id = ?
 ");
@@ -34,14 +33,13 @@ $stmt->bind_result(
     $telugu_title,
     $telugu_main_content,
     $telugu_full_content,
-    $section1_image,
-    $service
+    $section1_image
 );
 $stmt->fetch();
 $stmt->close();
 
 // ---------------------------------------------
-// FETCH LIKE / DISLIKE COUNTS
+// FETCH LIKE / DISLIKE COUNTS (IMPORTANT)
 // ---------------------------------------------
 $count_sql = "SELECT 
                 SUM(reaction='like') AS likes,
@@ -59,7 +57,7 @@ $count_stmt->close();
 $conn->close();
 ?>
 
-<?php include 'header.php'; ?>
+<?php include 'navbar.php'; ?>
 
 <main>
     <div class="container blog-detailed" style="padding-top: 50px;">
@@ -70,22 +68,12 @@ $conn->close();
             <button id="telugu-btn" class="lang-btn btn btn-sm telugu-btn mx-4">తెలుగు</button>
         </div>
 
-
-        <?php if (!empty($service)) { ?>
-            <div class="text-center mb-3">
-                <span class="badge_service_name px-4 py-2">
-                    <?= htmlspecialchars($service) ?>
-                </span>
-            </div>
-        <?php } ?>
-
         <!-- Image -->
         <div class="text-center mb-4">
             <?php if (!empty($section1_image)): ?>
                 <img src="./admin/uploads/photos/<?php echo $section1_image; ?>"
                     class="img-fluid "
-                    style="width:600px;
-                   ">
+                    style="">
             <?php else: ?>
                 <!-- <p>No Image Available</p> -->
             <?php endif; ?>
@@ -101,7 +89,9 @@ $conn->close();
             Your browser does not support the video tag.
           </video>";
                                         } elseif (!empty($main_image)) {
-                                            $main_image_path = "./admin/uploads/photos/{$main_image}";;
+                                            $main_image_path = "./admin/uploads/photos/{$main_image}";
+                                            echo "<img class='main-image img-fluid blog_main_img' 
+              src='{$main_image_path}' alt='Main Image'>";
                                         }
                                         ?>
         </div>
@@ -118,21 +108,15 @@ $conn->close();
             Your browser does not support the video tag.
           </video>";
             } elseif (!empty($main_image)) {
-                $main_image_path = "./admin/uploads/photos/{$main_image}";;
+                $main_image_path = "./admin/uploads/photos/{$main_image}";
+                echo "<img class='main-image img-fluid blog_main_img' 
+              src='{$main_image_path}' alt='Main Image'>";
             }
             ?>
         </div>
 
-
-
-
-        <!-- SERVICE BADGE -->
-        <!-- SERVICE BADGE -->
-       
-
-
         <!-- Title -->
-        <h4 class="blog-title text-center mt-5" style="color:#283779; font-weight:800;">
+        <h4 class="blog-title text-center" style="color:#283779; font-weight:800;">
             <span id="title-en"><?php echo $title; ?></span>
             <span id="title-te" style="display:none;"><?php echo $telugu_title; ?></span>
         </h4>

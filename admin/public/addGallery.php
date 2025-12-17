@@ -127,7 +127,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // EXECUTE AND REDIRECT
     // ======================================
     if ($stmt->execute()) {
-        header("Location: gallery_list"); // Redirect to gallery list page
+        header("Location: gallery_list.php"); // Redirect to gallery list page
         exit();
     } else {
         error_log("Execute error: " . $stmt->error);

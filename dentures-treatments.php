@@ -26,7 +26,7 @@
               <br><br>
               Dentures not only enhance your ability to eat and speak comfortably but also improve your overall appearance by providing a natural-looking smile. With custom-fit options and modern materials, our denture treatments are designed to ensure maximum comfort and functionality. At Vision Dentals, we are committed to delivering high-quality denture solutions that cater to your unique needs, helping you regain confidence and enjoy a restored quality of life.
             </p>
-            <a href="appointment"> <button class="appont">Book Appointment</button></a>
+            <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
 
           </div>
 

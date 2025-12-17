@@ -10,8 +10,8 @@
         <div class="row servSect">
           <div class="abot mt-5">
             <h4 class="abh4">Smile Designing Treatments</h4>
-            <p class="abP">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br>
-              Aenean commodo ligula aenean massa.</p>
+            <!-- <p class="abP">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br>
+              Aenean commodo ligula aenean massa.</p> -->
           </div>
           <div class="col-md-6 dr_content_padding  order-1 order-md-1 treater">
             <h2 class="dr_welcome_text1 mt-4 mb-4">Smile Designing in
@@ -22,7 +22,7 @@
             <p class="poetsen_font1">
               Smile designing at Vision Dentals in Guntur is a comprehensive aesthetic treatment aimed at creating a harmonious and beautiful smile tailored to your individual features and preferences. This process involves a combination of advanced cosmetic techniques and digital technology to enhance the overall appearance of your smile. Smile designing begins with a thorough consultation where our expert team evaluates your dental structure, facial aesthetics, and personal goals. Using digital imaging and mock-ups, we create a detailed plan that outlines the potential changes to your smile. Treatments may include teeth whitening, veneers, bonding, and orthodontics to address imperfections such as misalignment, discoloration, and uneven teeth. The goal of smile designing is to achieve a balanced and radiant smile that complements your facial features, boosts your confidence, and improves your overall dental health. By choosing smile designing at our dental hospital in Guntur, you benefit from personalized care and cutting-edge techniques that help you achieve a stunning, customized smile that truly reflects your best self.
             </p>
-            <a href="appointment"> <button class="appont">Book Appointment</button></a>
+            <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
 
           </div>
 

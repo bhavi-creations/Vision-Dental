@@ -25,7 +25,7 @@
             <p class="poetsen_font1">
               Laser crown lengthening is an advanced dental procedure at Vision Dentals in Guntur that involves using laser technology to adjust the gum line and expose more of the tooth structure. This technique is often employed to enhance the aesthetics of your smile or to prepare a tooth for a dental restoration, such as a crown. The procedure involves using a precise laser to remove excess gum tissue and, if necessary, a small amount of underlying bone to reveal a greater portion of the tooth. Unlike traditional methods, laser crown lengthening is minimally invasive, resulting in reduced bleeding, discomfort, and a quicker recovery time. The laser’s precision allows for a more controlled and accurate reshaping of the gum line, which can improve the overall appearance of your smile by creating a more balanced and proportionate look. Additionally, the procedure can facilitate better fit and function of dental restorations, ensuring optimal outcomes for long-term oral health. By choosing laser crown lengthening in Guntur, you benefit from cutting-edge technology and expert care that delivers effective and aesthetically pleasing results with minimal discomfort and downtime.
             </p>
-            <a href="appointment"> <button class="appont">Book Appointment</button></a>
+            <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
 
           </div>
 

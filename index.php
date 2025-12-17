@@ -40,8 +40,8 @@
         <p class="banner_para">Vision Multispeciality Dental Hospital in Guntur offers expert dental care with advanced technology and a patient-first approach.</p>
 
         <div class="d-flex">
-          <button class="banner_contact_us"><a href="contact-us-vision-multispeciality-dental-hospital" style="color:#fff">Contact us</a> </button>
-          <button class="banner_read_more"><a href="about-us" style="color:black">Read more</a></button>
+          <button class="banner_contact_us"><a href="contact-us-vision-multispeciality-dental-hospital.php" style="color:#fff">Contact us</a> </button>
+          <button class="banner_read_more"><a href="about-us.php" style="color:black">Read more</a></button>
 
         </div>
 
@@ -71,11 +71,11 @@
         <image href="assets/img/vision/appoit_icon.png" class="teeth_icon" />
 
 
-        <text class="teeth_heading" x="50%" y="30%" text-anchor="middle" fill="#333" dy=".3em"><a href="appointment"> Online Appointment </a> </text>
+        <text class="teeth_heading" x="50%" y="30%" text-anchor="middle" fill="#333" dy=".3em"><a href="appointment.php"> Online Appointment </a> </text>
 
-        <text class="teeth_first_para_card" x="50%" y="45%" text-anchor="middle" fill="#333" dy=".3em"><a href="appointment"> Vision Multispeciality Dental </a> </text>
+        <text class="teeth_first_para_card" x="50%" y="45%" text-anchor="middle" fill="#333" dy=".3em"><a href="appointment.php"> Vision Multispeciality Dental </a> </text>
 
-        <text class="teeth_sub_heading" x="50%" y="60%" text-anchor="middle" fill="#333" dy=".3em"><a href="appointment"> Make a appointment </a></text>
+        <text class="teeth_sub_heading" x="50%" y="60%" text-anchor="middle" fill="#333" dy=".3em"><a href="appointment.php"> Make a appointment </a></text>
 
         <defs>
           <filter id="filter0_d_122_1295" x="0.400002" y="0.982377" width="430.2" height="430.2" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
@@ -103,11 +103,11 @@
         <image href="assets/img/vision/emergrncy_icon.png" class="teeth_icon" />
 
 
-        <text class="teeth_heading" x="50%" y="30%" text-anchor="middle" fill="#333" dy=".3em"> <a href="contact-us-vision-multispeciality-dental-hospital"> Emergency Call</a></text>
-        <text class="teeth_first_para_card" x="50%" y="40%" text-anchor="middle" fill="#333" dy=".3em"> <a href="contact-us-vision-multispeciality-dental-hospital"> Vision Multispeciality Dental </a></text>
+        <text class="teeth_heading" x="50%" y="30%" text-anchor="middle" fill="#333" dy=".3em"> <a href="contact-us-vision-multispeciality-dental-hospital.php"> Emergency Call</a></text>
+        <text class="teeth_first_para_card" x="50%" y="40%" text-anchor="middle" fill="#333" dy=".3em"> <a href="contact-us-vision-multispeciality-dental-hospital.php"> Vision Multispeciality Dental </a></text>
         >
-        <text class="teeth_para_card" x="50%" y="50%" text-anchor="middle" fill="#2B93B8" dy=".3em"> <a href="contact-us-vision-multispeciality-dental-hospital"> +919391457072</a></text>
-        <text class="teeth_sub_heading" x="50%" y="60%" text-anchor="middle" fill="#333" dy=".3em"> <a href="contact-us-vision-multispeciality-dental-hospital"> Contact Us</a></text>
+        <text class="teeth_para_card" x="50%" y="50%" text-anchor="middle" fill="#2B93B8" dy=".3em"> <a href="contact-us-vision-multispeciality-dental-hospital.php"> +919391457072</a></text>
+        <text class="teeth_sub_heading" x="50%" y="60%" text-anchor="middle" fill="#333" dy=".3em"> <a href="contact-us-vision-multispeciality-dental-hospital.php"> Contact Us</a></text>
         >
 
         <defs>
@@ -135,11 +135,11 @@
         <image href="assets/img/vision/doc_icon.png" class="teeth_icon" />
 
 
-        <text class="teeth_heading" x="50%" y="30%" text-anchor="middle" fill="#333" dy=".3em"><a href="about-us"> Our Doctors </a></text>
+        <text class="teeth_heading" x="50%" y="30%" text-anchor="middle" fill="#333" dy=".3em"><a href="about-us.php"> Our Doctors </a></text>
 
-        <text class="teeth_first_para_card" x="50%" y="45%" text-anchor="middle" fill="#333" dy=".3em"> <a href="about-us"> Vision Multispeciality Dental </a></text>
+        <text class="teeth_first_para_card" x="50%" y="45%" text-anchor="middle" fill="#333" dy=".3em"> <a href="about-us.php"> Vision Multispeciality Dental </a></text>
 
-        <text class="teeth_sub_heading" x="50%" y="60%" text-anchor="middle" fill="#333" dy=".3em"><a href="about-us"> Doctors </a></text>
+        <text class="teeth_sub_heading" x="50%" y="60%" text-anchor="middle" fill="#333" dy=".3em"><a href="about-us.php"> Doctors </a></text>
 
 
         <defs>
@@ -174,7 +174,7 @@
         <p class="doc_para_text">Welcome to Vision Multispeciality Dental Hospital, Guntur, where Dr. Abhilash, our esteemed founder and chief doctor, leads our dedicated team. With over 8 years of extensive experience in the field of dentistry,
           <a href="https://visionmultispecialtydental.blogspot.com/2025/11/dr-abhilash-vision-multi-speciality.html" target="_blank"> Dr. Abhilash</a> is renowned for his expertise in implant surgeries, laser photomedicines, and full mouth rehabilitations.
         </p>
-        <button class="read_more_btn_vision"><a href="about-us" style="color: white;"> Read More</a></button>
+        <button class="read_more_btn_vision"><a href="about-us.php" style="color: white;"> Read More</a></button>
       </div>
 
     </div>
@@ -186,7 +186,7 @@
     <div class="row  d-flex fex-row justify-content-center">
       <h1 class="test_cont_head">What We Do for Your Teeth</h1>
       <p class="test_cont_para">The mouth is the gateway to a person’soverall health.</p>
-      <button class="list_cont_btn"> <a href="treatment-in-vision-multispeciality-dental-hospital" style="text-decoration: none; color:#fff">List Of all Services</a></button>
+      <button class="list_cont_btn"> <a href="treatment-in-vision-multispeciality-dental-hospital.php" style="text-decoration: none; color:#fff">List Of all Services</a></button>
     </div>
   </div>
 
@@ -204,7 +204,7 @@
                 <p class="custom-description">Surgical placement of artificial tooth roots</p>
               </div>
 
-              <a href="dental-implants-treatments" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
+              <a href="dental-implants-treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
 
             </div>
             <div class="col-6">
@@ -222,7 +222,7 @@
                 <p class="custom-description">Cosmetic treatment to enhance the whiteness of teeth</p>
               </div>
 
-              <a href="teeth-alignment-treatments" class="service_btn_readmore"> <button class="custom-button">Read More</button></a>
+              <a href="teeth-alignment-treatments.php" class="service_btn_readmore"> <button class="custom-button">Read More</button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -239,7 +239,7 @@
                 <p class="custom-description">Restorative procedures to repair cavities and damaged teeth</p>
 
               </div>
-              <a href="teeth-alignment-treatments" class="service_btn_readmore"> <button class="custom-button">Read More </button></a>
+              <a href="teeth-alignment-treatments.php" class="service_btn_readmore"> <button class="custom-button">Read More </button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -255,7 +255,7 @@
                   Canal</h2>
                 <p class="custom-description">Effective root canal treatment to save your tooth</p>
               </div>
-              <a href="root_canal_treatments" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
+              <a href="root_canal_treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -272,7 +272,7 @@
                   Braces</h2>
                 <p class="custom-description">Transform your smile with our expert teeth braces</p>
               </div>
-              <a href="braces-treatments" class="service_btn_readmore"><button class="custom-button"> Read More </button></a>
+              <a href="braces-treatments.php" class="service_btn_readmore"><button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -289,7 +289,7 @@
                 <p class="custom-description">Specialized care for children’s dental health and comfort</p>
 
               </div>
-              <a href="pediatric-dentist-treatments" class="service_btn_readmore"> <button class="custom-button">Read More </button></a>
+              <a href="pediatric-dentist-treatments.php" class="service_btn_readmore"> <button class="custom-button">Read More </button></a>
             </div>
             <div class="col-6">
 
@@ -311,7 +311,7 @@
                   Aligners</h2>
                 <p class="custom-description">Clear aligners straighten teeth discreetly and comfortably without braces</p>
               </div>
-              <a href="clear-aligners-treatment" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+              <a href="clear-aligners-treatment.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -328,7 +328,7 @@
                   Dentistry</h2>
                 <p class="custom-description">Laminate Veneers offers personalized treatments to enhance and perfect your smile</p>
               </div>
-              <a href="laminate-veneers-treatments" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+              <a href="laminate-veneers-treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -345,7 +345,7 @@
                 <p class="custom-description">Crowns and bridges restore function and enhance dental aesthetics</p>
 
               </div>
-              <a href="crowns-bridges-treatments" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+              <a href="crowns-bridges-treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
 
@@ -367,7 +367,7 @@
                 </h2>
                 <p class="custom-description">Comfortable and natural-looking dentures for restored confidence</p>
               </div>
-              <a href="dentures-treatment" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
+              <a href="dentures-treatment.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -384,7 +384,7 @@
                   Invisalign</h2>
                 <p class="custom-description">Invisalign uses clear aligners to straighten teeth discreetly and effectively</p>
               </div>
-              <a href="invisalign-treatments" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+              <a href="invisalign-treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -402,7 +402,7 @@
                 <p class="custom-description">Effective jaw corrective treatments for improved function and alignment</p>
 
               </div>
-              <a href="jaw-pain-correction-treatments" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+              <a href="jaw-pain-correction-treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
 
@@ -422,7 +422,7 @@
                   & Gum</h2>
                 <p class="custom-description">Advanced laser treatments for healthier gums and precision</p>
               </div>
-              <a href="laser-gum-treatments" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+              <a href="laser-gum-treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -439,7 +439,7 @@
                   Designing</h2>
                 <p class="custom-description">Custom smile designing for a radiant, confident appearance</p>
               </div>
-              <a href="smile-designing-treatments" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+              <a href="smile-designing-treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -457,7 +457,7 @@
                 <p class="custom-description">Complete smile makeover for a stunning, confident transformation</p>
 
               </div>
-              <a href="smile-makeover-treatments" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+              <a href="smile-makeover-treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
 
@@ -477,7 +477,7 @@
                   Alignment</h2>
                 <p class="custom-description">Achieve perfect teeth alignment with advanced orthodontic solutions</p>
               </div>
-              <a href="teeth-alignment-treatments" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
+              <a href="teeth-alignment-treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -494,7 +494,7 @@
                   Extraction</h2>
                 <p class="custom-description">Safe and efficient tooth extraction for optimal oral health</p>
               </div>
-              <a href="wisdom-tooth-removel" class="service_btn_readmore"> <button class="custom-button">Read More </button></a>
+              <a href="wisdom-tooth-removel.php" class="service_btn_readmore"> <button class="custom-button">Read More </button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -512,7 +512,7 @@
                 <p class="custom-description">Thorough tooth cleaning for a healthier, brighter smile</p>
 
               </div>
-              <a href="laserTooth" class="service_btn_readmore"><button class="custom-button"> Read More</button></a>
+              <a href="laserTooth.php" class="service_btn_readmore"><button class="custom-button"> Read More</button></a>
             </div>
             <div class="col-6">
 
@@ -532,7 +532,7 @@
                   Gum Depigment</h2>
                 <p class="custom-description">Brighten your smile with effective gum depigmentation treatment</p>
               </div>
-              <a href="gum-depigmentation-treatments" class="service_btn_readmore"><button class="custom-button"> Read More </button></a>
+              <a href="gum-depigmentation-treatments.php" class="service_btn_readmore"><button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -549,7 +549,7 @@
                   Gum Surgery</h2>
                 <p class="custom-description">Gum surgery treats gum disease, reduces pain, and promotes healing</p>
               </div>
-              <a href="laser-gum-surgeries-treatments" class="service_btn_readmore"><button class="custom-button"> Read More</button></a>
+              <a href="laser-gum-surgeries-treatments.php" class="service_btn_readmore"><button class="custom-button"> Read More</button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -567,7 +567,7 @@
                 <p class="custom-description">Mouth ulcers cause discomfort, pain, and need effective treatment options</p>
 
               </div>
-              <a href="mouth-ulcers-treatments" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
+              <a href="mouth-ulcers-treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
             </div>
             <div class="col-6">
 
@@ -587,7 +587,7 @@
                   Lesion</h2>
                 <p class="custom-description">Precancerous lesions require early detection and prompt treatment</p>
               </div>
-              <a href="precancerous-lesion-in-mouth-treatments" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
+              <a href="precancerous-lesion-in-mouth-treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -604,7 +604,7 @@
                   Crown Lengthening</h2>
                 <p class="custom-description">Laser crown lengthening enhances tooth visibility and gum health</p>
               </div>
-              <a href="laser-crown-lengthening-treatments" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+              <a href="laser-crown-lengthening-treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -727,7 +727,7 @@
           Vision Multi speciality
           Dental</h1>
         <p class="why_choose_para">"We provide a full range of dental services—from routine check-ups to advanced treatments—all conveniently available under one roof. At our trusted dental clinic in Guntur, our experienced team is committed to delivering personalized care tailored to your individual needs. Whether you're seeking preventive care, cosmetic improvements, or restorative dentistry, we’re here to support you every step of the way on your journey to better oral health. Visit one of Guntur’s top-rated dentists and experience the quality care you deserve"</p>
-        <button class="view_all_buttton"><a href="equipment-in-vision-multispeciality-dental-hospital-in-guntur" style="color: #fff;">View all</a> </button>
+        <button class="view_all_buttton"><a href="equipment-in-vision-multispeciality-dental-hospital-in-guntur.php" style="color: #fff;">View all</a> </button>
       </div>
       <div class="col-md-7">
         <img src="assets/img/vision/group chair.png" class="img-fluid group_chair_img" alt="">
@@ -742,7 +742,7 @@
     <div class="row  d-flex fex-row justify-content-center">
       <h1 class="test_cont_head">Our Patients Testimonials</h1>
       <p class="test_cont_para">The mouth is the gateway to a person’soverall health.</p>
-      <button class="test_cont_btn"> <a href="reviews-testimonials" style="text-decoration: none; color:#fff">View all</a></button>
+      <button class="test_cont_btn"> <a href="reviews-testimonials.php" style="text-decoration: none; color:#fff">View all</a></button>
     </div>
   </div>
 
@@ -983,14 +983,14 @@
 
 
       <div class="mt-5 d-none d-md-block">
-        <a href="blogs" style="text-decoration: none;">
+        <a href="blogs.php" style="text-decoration: none;">
           <p class="view_more_btn mb-5 d-flex flex-row justify-content-start">View More<i
               class="fa-solid fa-arrow-right mt-1"></i></p>
         </a>
       </div>
 
       <div class="d-flex flex-row justify-content-center mt-4">
-        <a href="blogs" style="text-decoration: none;">
+        <a href="blogs.php" style="text-decoration: none;">
           <p class="view_more_btn d-md-none">View More<i class="fa-solid fa-arrow-right"></i></p>
         </a>
       </div>

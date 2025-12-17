@@ -24,7 +24,7 @@
             <p class="poetsen_font1">
               Mouth ulcers, also known as canker sores, are painful lesions that appear on the soft tissues inside the mouth, such as the inner cheeks, gums, or tongue. At Vision Dentals in Guntur, we understand that these ulcers can cause significant discomfort and affect your ability to eat, speak, and maintain good oral hygiene. Mouth ulcers can be triggered by various factors, including stress, hormonal changes, nutritional deficiencies, certain foods, or underlying medical conditions. Our expert team provides comprehensive care to diagnose the underlying cause of your mouth ulcers and offers effective treatment options to alleviate symptoms and promote healing. Treatment may include topical medications to reduce pain and inflammation, dietary recommendations, and addressing any nutritional deficiencies. By seeking treatment for mouth ulcers at our dental hospital in Guntur, you benefit from personalized care that helps manage discomfort, accelerate healing, and improve your overall oral health and quality of life.
             </p>
-            <a href="appointment"> <button class="appont">Book Appointment</button></a>
+            <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
 
           </div>
 
