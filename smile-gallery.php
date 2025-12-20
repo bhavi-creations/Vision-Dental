@@ -1,4 +1,18 @@
+<?php
+$host = "localhost";
+$user = "visiondentalguntur";
+$pass = "pv2K2pIHvLuj4mq";
+$db   = "visiondentalguntur";
+$conn = new mysqli($host, $user, $pass, $db);
 
+if ($conn->connect_error) {
+  die("Connection Failed: " . $conn->connect_error);
+}
+
+// Fetch gallery data
+$query = "SELECT * FROM gallery ORDER BY id DESC";
+$result = $conn->query($query);
+?>
 
 <?php include 'header.php'; ?>
 
@@ -62,6 +76,26 @@
 
 
 
+
+  <section>
+    <div class="container">
+      <div class="row g-4 justify-content-center">
+        <?php while ($row = $result->fetch_assoc()) { ?>
+          <div class="col-lg-4 col-md-6 col-12 d-flex justify-content-center">
+            <div class="gallery-card">
+              <img src="admin/uploads/gallery/<?php echo $row['image']; ?>"
+                alt="<?php echo htmlspecialchars($row['title']); ?>">
+              <div class="gallery-title">
+                <?php echo htmlspecialchars($row['title']); ?>
+              </div>
+            </div>
+          </div>
+        <?php } ?>
+      </div>
+
+    </div>
+    </div>
+  </section>
 
 
 </main>

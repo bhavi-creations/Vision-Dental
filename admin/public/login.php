@@ -44,7 +44,7 @@
                                         </div>
 
 
-                                        <form class="user" action="../includes/login_handler" method="POST">
+                                        <form class="user" action="../includes/login_handler.php" method="POST">
                                             <div class="form-group">
                                                 <input type="email" class="form-control form-control-user" id="email" name="email" required placeholder="Email Address">
 
