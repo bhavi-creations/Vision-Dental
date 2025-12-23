@@ -1,22 +1,19 @@
 <?php
 include './db.connection/db_connection.php';
+session_start();
 
 /* ===============================
    AJAX LIKE / DISLIKE HANDLE
 ================================ */
-if (isset($_POST['action']) && isset($_POST['blog_id'])) {
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'], $_POST['blog_id'])) {
 
-    session_start();
-    $blog_id = intval($_POST['blog_id']);
+    $blog_id  = (int)$_POST['blog_id'];
     $reaction = $_POST['action']; // like / dislike
-
-    // One user = one reaction (session based)
     $user_key = session_id();
 
-    // Already reacted?
+    // Check already voted
     $check = $conn->prepare("
-        SELECT id, reaction 
-        FROM blog_reactions 
+        SELECT id FROM blog_reactions 
         WHERE blog_id = ? AND created_at = ?
     ");
     $check->bind_param("is", $blog_id, $user_key);
@@ -28,6 +25,7 @@ if (isset($_POST['action']) && isset($_POST['blog_id'])) {
         exit;
     }
 
+    // Insert vote
     $insert = $conn->prepare("
         INSERT INTO blog_reactions (blog_id, reaction, created_at)
         VALUES (?, ?, ?)
@@ -35,22 +33,46 @@ if (isset($_POST['action']) && isset($_POST['blog_id'])) {
     $insert->bind_param("iss", $blog_id, $reaction, $user_key);
     $insert->execute();
 
-    echo json_encode(["status" => "success"]);
+    // Return updated counts
+    $like_count = $conn->query("
+        SELECT COUNT(*) c FROM blog_reactions 
+        WHERE blog_id=$blog_id AND reaction='like'
+    ")->fetch_assoc()['c'];
+
+    $dislike_count = $conn->query("
+        SELECT COUNT(*) c FROM blog_reactions 
+        WHERE blog_id=$blog_id AND reaction='dislike'
+    ")->fetch_assoc()['c'];
+
+    echo json_encode([
+        "status" => "success",
+        "likes" => $like_count,
+        "dislikes" => $dislike_count
+    ]);
     exit;
 }
 
 /* ===============================
    FETCH BLOG
 ================================ */
-$blog_id = isset($_GET['id']) ? intval($_GET['id']) : 0;
+$blog_id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
 
 $stmt = $conn->prepare("
-    SELECT title, main_content, full_content 
+    SELECT title, main_content, full_content,
+           section1_image, main_image, video, service
     FROM blogs WHERE id = ?
 ");
 $stmt->bind_param("i", $blog_id);
 $stmt->execute();
-$stmt->bind_result($title, $main_content, $full_content);
+$stmt->bind_result(
+    $title,
+    $main_content,
+    $full_content,
+    $section1_image,
+    $main_image,
+    $video,
+    $service
+);
 $stmt->fetch();
 $stmt->close();
 
@@ -58,19 +80,15 @@ $stmt->close();
    COUNT REACTIONS
 ================================ */
 $like_count = $conn->query("
-    SELECT COUNT(*) as c 
-    FROM blog_reactions 
+    SELECT COUNT(*) c FROM blog_reactions 
     WHERE blog_id=$blog_id AND reaction='like'
 ")->fetch_assoc()['c'];
 
 $dislike_count = $conn->query("
-    SELECT COUNT(*) as c 
-    FROM blog_reactions 
+    SELECT COUNT(*) c FROM blog_reactions 
     WHERE blog_id=$blog_id AND reaction='dislike'
 ")->fetch_assoc()['c'];
 ?>
-
-
 <?php include 'header.php'; ?>
 
 
@@ -97,6 +115,11 @@ $dislike_count = $conn->query("
                 <button id="english-btn" class="lang-btn btn btn-sm me-2 english-btn">English</button>
                 <button id="telugu-btn" class="lang-btn btn btn-sm telugu-btn mx-4">తెలుగు</button>
             </div>
+
+
+
+
+
 
 
             <?php if (!empty($service)) { ?>
@@ -324,6 +347,56 @@ $dislike_count = $conn->query("
     };
 </script>
 
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+
+        const blogId = <?php echo json_encode($blog_id); ?>;
+        const likeBtn = document.getElementById("like-btn");
+        const dislikeBtn = document.getElementById("dislike-btn");
+
+        let hasVoted = localStorage.getItem("blog_vote_" + blogId);
+
+        if (hasVoted) {
+            likeBtn.disabled = true;
+            dislikeBtn.disabled = true;
+        }
+
+        function vote(type) {
+
+            if (hasVoted) return;
+
+            fetch("update_vote.php", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/x-www-form-urlencoded"
+                    },
+                    body: `blog_id=${blogId}&vote_type=${type}`
+                })
+                .then(res => res.json())
+                .then(data => {
+                    if (data.success) {
+
+                        document.getElementById("like-count").textContent = data.new_likes;
+                        document.getElementById("dislike-count").textContent = data.new_dislikes;
+
+                        localStorage.setItem("blog_vote_" + blogId, type);
+                        likeBtn.disabled = true;
+                        dislikeBtn.disabled = true;
+
+                    } else {
+                        alert("Vote Failed");
+                    }
+                })
+                .catch(() => alert("Error while voting"));
+        }
+
+        likeBtn.onclick = () => vote("like");
+        dislikeBtn.onclick = () => vote("dislike");
+
+    });
+</script>
 
 
 

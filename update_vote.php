@@ -1,44 +1,44 @@
 <?php
-header("Content-Type: application/json");
+session_start();
 include './db.connection/db_connection.php';
 
-if (!isset($_POST['blog_id']) || !isset($_POST['vote_type'])) {
-    echo json_encode(["success" => false, "message" => "Invalid request"]);
+if(!isset($_POST['blog_id'],$_POST['action'])){
+    echo json_encode(["status"=>"error"]);
     exit;
 }
 
 $blog_id = intval($_POST['blog_id']);
-$vote_type = $_POST['vote_type']; // like or dislike
+$action  = $_POST['action']; // like / dislike
+$user    = session_id();
 
-// Insert Reaction
-$insert_sql = "INSERT INTO blog_reactions (blog_id, reaction, created_at) 
-               VALUES (?, ?, NOW())";
+/* CHECK */
+$check = $conn->prepare("
+    SELECT id FROM blog_reactions
+    WHERE blog_id=? AND created_at=?
+");
+$check->bind_param("is",$blog_id,$user);
+$check->execute();
+$check->store_result();
 
-$insert_stmt = $conn->prepare($insert_sql);
-$insert_stmt->bind_param("is", $blog_id, $vote_type);
-$insert_stmt->execute();
-$insert_stmt->close();
+if($check->num_rows>0){
+    echo json_encode(["status"=>"already"]);
+    exit;
+}
 
-// Fetch Updated Counts
-$count_sql = "SELECT 
-                SUM(reaction='like') AS likes,
-                SUM(reaction='dislike') AS dislikes
-              FROM blog_reactions 
-              WHERE blog_id = ?";
+/* INSERT */
+$ins = $conn->prepare("
+    INSERT INTO blog_reactions (blog_id,reaction,created_at)
+    VALUES (?,?,?)
+");
+$ins->bind_param("iss",$blog_id,$action,$user);
+$ins->execute();
 
-$count_stmt = $conn->prepare($count_sql);
-$count_stmt->bind_param("i", $blog_id);
-$count_stmt->execute();
-$count_stmt->bind_result($likes, $dislikes);
-$count_stmt->fetch();
-$count_stmt->close();
+/* NEW COUNTS */
+$likes = $conn->query("SELECT COUNT(*) c FROM blog_reactions WHERE blog_id=$blog_id AND reaction='like'")->fetch_assoc()['c'];
+$dislikes = $conn->query("SELECT COUNT(*) c FROM blog_reactions WHERE blog_id=$blog_id AND reaction='dislike'")->fetch_assoc()['c'];
 
 echo json_encode([
-    "success" => true,
-    "message" => "Vote updated",
-    "new_likes" => $likes,
-    "new_dislikes" => $dislikes
+    "status"=>"success",
+    "likes"=>$likes,
+    "dislikes"=>$dislikes
 ]);
-
-$conn->close();
-?>
