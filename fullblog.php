@@ -96,6 +96,7 @@ $dislike_count = $conn->query("
 <main>
     <!-- ======= Blogs Section ======= -->
     <!-- <div class="page-header bg-more-light tittle-image">
+        
             <?php
             if (!empty($title_image)) {
                 $title_image_path = "./admin/uploads/photos/{$title_image}";
@@ -106,7 +107,7 @@ $dislike_count = $conn->query("
             ?>
         </div> -->
 
-    <div class="container blog-detailed blog-detailed-sidebar" style="padding-bottom: 0px;padding-top: 50px;">
+    <div class="container blog-detailed blog-detailed-sidebar" style="padding-bottom: 0px;">
 
         <div class="container blog-detailed" style="padding-top: 50px;">
 
@@ -204,11 +205,11 @@ $dislike_count = $conn->query("
         </div>
 
         <div class="reaction-box text-center my-4">
-            <button id="likeBtn" class="reaction-btn like-btn">
+            <button id="likeBtn" class="reaction-btn dislike-btn">
                 👍 Like <span id="likeCount"><?= $like_count ?></span>
             </button>
 
-            <button id="dislikeBtn" class="reaction-btn dislike-btn">
+            <button id="dislikeBtn" class="reaction-btn  like-btn">
                 👎 Dislike <span id="dislikeCount"><?= $dislike_count ?></span>
             </button>
         </div>
