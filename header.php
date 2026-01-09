@@ -1,4 +1,3 @@
-<?php include 'view_count.php' ; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -36,8 +35,7 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
 
   <!-- Google tag (gtag.js) -->
@@ -251,6 +249,8 @@
 
 
 
+
+
   <header id="header">
     <div class="container d-flex align-items-center onlypad  ">
       <div class="logo-text-container d-flex align-items-center" style="z-index: 999;">
@@ -304,7 +304,7 @@
           
 
           <li class="unique-nav-item " style="--i: 1.1s">
-            <a href="treatment-in-vision-multispeciality-dental-hospital" class="unique-nav-link">Treatments<i class="fas fa-caret-down"></i></a>
+            <a href="treatment-in-vision-multispeciality-dental-hospital.php" class="unique-nav-link">Treatments<i class="fas fa-caret-down"></i></a>
             <div class="unique-dropdown">
               <ul class="unique-dropdown-list  new_nav_bg navbar_new_section">
 
@@ -314,13 +314,13 @@
                   <div class="unique-dropdown second-level  nav_div_mrg nav_div_mrg_one">
                     <ul class="unique-dropdown-list inside_nav_drop_down sub_section1 pain_relieft_sub_service">
                       <li class="unique-dropdown-item">
-                        <a href="root-canal-treatments.php" class="unique-dropdown-link">Root Canal Treatment</a>
+                        <a href="root-canal-treatments-in-guntur.php" class="unique-dropdown-link">Root Canal Treatment</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="wisdom-tooth-removel-treatments.php" class="unique-dropdown-link"> Wisdom Tooth Removel</a>
+                        <a href="wisdom-tooth-removel-treatments-in-guntur.php" class="unique-dropdown-link"> Wisdom Tooth Removel</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="jaw-pain-correction-treatments.php" class="unique-dropdown-link"> Jaw Pain / Correction</a>
+                        <a href="jaw-pain-correction-treatments-in-guntur.php" class="unique-dropdown-link"> Jaw Pain / Correction</a>
                       </li>
 
                       <div class="unique-arrow"></div>
@@ -332,13 +332,13 @@
                   <div class="unique-dropdown second-level  nav_div_mrg nav_div_mrg_two">
                     <ul class="unique-dropdown-list inside_nav_drop_down sub_section1">
                       <li class="unique-dropdown-item">
-                        <a href="dentures-treatments.php" class="unique-dropdown-link">Dentures</a>
+                        <a href="dentaldentures-treatments-in-guntur.php" class="unique-dropdown-link">Dentures</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="crowns-bridges-treatments.php" class="unique-dropdown-link">Crowns & Bridges</a>
+                        <a href="dentalcrown-bridge-treatment-in-guntur.php" class="unique-dropdown-link">Crowns & Bridges</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="dental-implants-treatments.php" class="unique-dropdown-link">Dental Implants</a>
+                        <a href="dental-implants-treatments-in-guntur.php" class="unique-dropdown-link">Dental Implants</a>
                       </li>
 
                       <div class="unique-arrow"></div>
@@ -351,19 +351,19 @@
                     <ul class="unique-dropdown-list inside_nav_drop_down  sub_section1">
 
                       <li class="unique-dropdown-item">
-                        <a href="invisalign-treatments.php" class="unique-dropdown-link"> Invisalign</a>
+                        <a href="invisalignaligners_clearaligners_treatment-in-guntur.php" class="unique-dropdown-link"> Invisalign</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="clear-aligners-treatment.php" class="unique-dropdown-link"> Clear Aligners</a>
+                        <a href="clear-aligners-treatment-in-guntur.php" class="unique-dropdown-link"> Clear Aligners</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="braces-treatments.php" class="unique-dropdown-link">Braces</a>
+                        <a href="dentalbraces-treatments-in-guntur.php" class="unique-dropdown-link">Braces</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="laminate-veneers-treatments.php" class="unique-dropdown-link">Laminate Veneers</a>
+                        <a href="laminate-veneers-treatments-in-guntur.php" class="unique-dropdown-link">Laminate Veneers</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="smile-designing-treatments.php" class="unique-dropdown-link"> Smile Designing</a>
+                        <a href="smile-designing-treatments-in-guntur.php" class="unique-dropdown-link"> Smile Designing</a>
                       </li>
 
                       <div class="unique-arrow"></div>
@@ -376,25 +376,25 @@
                   <div class="unique-dropdown second-level  nav_div_mrg nav_div_mrg_four">
                     <ul class="unique-dropdown-list inside_nav_drop_down sub_section1  pain_relieft_sub_service">
                       <li class="unique-dropdown-item">
-                        <a href="laser-assisted-teeth-cleaning-treatments.php" class="unique-dropdown-link"> Laser assisted Teeth Cleaning</a>
+                        <a href="laser-assisted-teeth-cleaning-treatments-in-guntur.php" class="unique-dropdown-link"> Laser assisted Teeth Cleaning</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="gum-depigmentation-treatments.php" class="unique-dropdown-link"> Gum Depigmentation</a>
+                        <a href="gum-depigmentation-treatments-in-guntur.php" class="unique-dropdown-link"> Gum Depigmentation</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="laser-teeth-whitening-treatments.php" class="unique-dropdown-link"> Laser Teeth Whitening</a>
+                        <a href="laser-teeth-whitening-treatments-in-guntur.php" class="unique-dropdown-link"> Laser Teeth Whitening</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="laser-gum-surgeries-treatments.php" class="unique-dropdown-link"> Laser Gum Surgeries</a>
+                        <a href="laser-gum-surgeries-treatments-in-guntur.php" class="unique-dropdown-link"> Laser Gum Surgeries</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="mouth-ulcers-treatments.php" class="unique-dropdown-link"> Mouth Ulcers</a>
+                        <a href="mouth-ulcers-treatments-in-guntur.php" class="unique-dropdown-link"> Mouth Ulcers</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="precancerous-lesion-in-mouth-treatments.php" class="unique-dropdown-link"> Precancerous Lesion in Mouth</a>
+                        <a href="precancerous-lesion-in-mouth-treatments-in-guntur.php" class="unique-dropdown-link"> Precancerous Lesion in Mouth</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="laser-crown-lengthening-treatments.php" class="unique-dropdown-link"> Laser Crown Lengthening</a>
+                        <a href="laser-crown-lengthening-treatments-in-guntur.php" class="unique-dropdown-link"> Laser Crown Lengthening</a>
                       </li>
 
 
@@ -409,10 +409,10 @@
                   <div class="unique-dropdown second-level nav_div_mrg nav_div_mrg_five">
                     <ul class="unique-dropdown-list inside_nav_drop_down sub_section1 pain_relieft_sub_service">
                       <li class="unique-dropdown-item">
-                        <a href="pediatric-dentist-treatments.php" class="unique-dropdown-link">Pediatric Dentist</a>
+                        <a href="pediatric-dentist-treatments-in-guntur.php" class="unique-dropdown-link">Pediatric Dentist</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="paedodontist-doctors-treatments.php" class="unique-dropdown-link">Paedodontist Doctors</a>
+                        <a href="paedodontist-doctors-treatments-in-guntur.php" class="unique-dropdown-link">Paedodontist Doctors</a>
                       </li>
 
 
@@ -652,10 +652,6 @@ $(document).ready(function() {
 
 
 
-
-
-
-    
   </header>
 
 

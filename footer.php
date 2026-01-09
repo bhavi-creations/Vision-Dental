@@ -40,28 +40,28 @@
                     <h1 class="foot_head">Treatments</h1>
                     <ul>
                         <li class="foot_para">
-                            <a href="root_canal_treatments.php" style="color: #fff">Root Canal </a>
+                            <a href="root-canal-treatments-in-guntur.php" style="color: #fff">Root Canal </a>
                         </li>
                         <li class="foot_para">
-                            <a href="braces-treatments.php" style="color: #fff"> Teeth Braces </a>
+                            <a href="dentalbraces-treatments-in-guntur.php" style="color: #fff"> Teeth Braces </a>
                         </li>
                         <li class="foot_para">
-                            <a href="pediatric-dentist-treatments.php" style="color: #fff">Pediatric Dentist</a>
+                            <a href="pediatric-dentist-treatments-in-guntur.php" style="color: #fff">Pediatric Dentist</a>
                         </li>
                         <li class="foot_para">
-                            <a href="paedodontist-doctors-treatments.php" style="color: #fff">Paedodontist Doctors</a>
+                            <a href="paedodontist-doctors-treatments-in-guntur.php" style="color: #fff">Paedodontist Doctors</a>
                         </li>
                         <li class="foot_para">
-                            <a href="clear-aligners-treatment.php" style="color: #fff">Clear Aligners</a>
+                            <a href="clear-aligners-treatment-in-guntur.php" style="color: #fff">Clear Aligners</a>
                         </li>
                         <li class="foot_para">
-                            <a href="laminate-veneers-treatments.php" style="color: #fff">Laminate Veneers</a>
+                            <a href="laminate-veneers-treatments-in-guntur.php" style="color: #fff">Laminate Veneers</a>
                         </li>
                         <li class="foot_para">
-                            <a href="crowns-bridges-treatments.php" style="color: #fff">Crowns & Bridges</a>
+                            <a href="dentalcrown-bridge-treatment-in-guntur.php" style="color: #fff">Crowns & Bridges</a>
                         </li>
                         <li class="foot_para">
-                            <a href="dental-implants-treatments.php" style="color: #fff">Dental Implants</a>
+                            <a href="dental-implants-treatments-in-guntur.php" style="color: #fff">Dental Implants</a>
                         </li>
                     </ul>
                 </div>
@@ -70,29 +70,29 @@
                     <h1 class="foot_head">Treatments</h1>
                     <ul>
                         <li class="foot_para">
-                            <a href="dentures-treatments.php" style="color: #fff">Dentures Treatment
+                            <a href="dentaldentures-treatments-in-guntur.php" style="color: #fff">Dentures Treatment
                             </a>
                         </li>
                         <li class="foot_para">
-                            <a href="invisalign-treatments.php" style="color: #fff"> Invisalign </a>
+                            <a href="invisalignaligners_clearaligners_treatment-in-guntur.php" style="color: #fff"> Invisalign </a>
                         </li>
                         <li class="foot_para">
-                            <a href="jaw-pain-correction-treatments.php" style="color: #fff">Jaw Corrective</a>
+                            <a href="jaw-pain-correction-treatments-in-guntur.php" style="color: #fff">Jaw Corrective</a>
                         </li>
                         <li class="foot_para">
-                            <a href="laser-gum-treatments.php" style="color: #fff">Laser & Gum</a>
+                            <a href="laser-gum-treatments-in-guntur.php" style="color: #fff">Laser & Gum</a>
                         </li>
                         <li class="foot_para">
-                            <a href="smile-designing-treatments.php" style="color: #fff">Smile Designing</a>
+                            <a href="smile-designing-treatments-in-guntur.php" style="color: #fff">Smile Designing</a>
                         </li>
                         <li class="foot_para">
-                            <a href="smile-makeover-treatments.php" style="color: #fff">Smile Makeover</a>
+                            <a href="smile-makeover-treatments-in-guntur.php" style="color: #fff">Smile Makeover</a>
                         </li>
                         <li class="foot_para">
-                            <a href="teeth-alignment-treatments.php" style="color: #fff">Teeth Alignment</a>
+                            <a href="teeth-alignment-treatments-in-guntur.php" style="color: #fff">Teeth Alignment</a>
                         </li>
                         <li class="foot_para">
-                            <a href="wisdom-tooth-removel-treatments.php" style="color: #fff">Tooth Extraction </a>
+                            <a href="wisdom-tooth-removel-treatments-in-guntur.php" style="color: #fff">Tooth Extraction </a>
                         </li>
                     </ul>
                 </div>
@@ -101,28 +101,28 @@
                     <h1 class="foot_head">Treatments</h1>
                     <ul>
                         <li class="foot_para">
-                            <a href="laser-assisted-teeth-cleaning-treatments.php" style="color: #fff">
+                            <a href="laser-assisted-teeth-cleaning-treatments-in-guntur.php" style="color: #fff">
                                 Tooth Cleaning
                             </a>
                         </li>
                         <li class="foot_para">
-                            <a href="gum-depigmentation-treatments.php" style="color: #fff">Gum Depigment</a>
+                            <a href="gum-depigmentation-treatments-in-guntur.php" style="color: #fff">Gum Depigment</a>
                         </li>
                         <li class="foot_para">
-                            <a href="laser-teeth-whitening-treatments.php" style="color: #fff">
+                            <a href="laser-teeth-whitening-treatments-in-guntur.php" style="color: #fff">
                                 Teeth Whitening</a>
                         </li>
                         <li class="foot_para">
-                            <a href="laser-gum-surgeries-treatments.php" style="color: #fff">Laser Gum Surgery</a>
+                            <a href="laser-gum-surgeries-treatments-in-guntur.php" style="color: #fff">Laser Gum Surgery</a>
                         </li>
                         <li class="foot_para">
-                            <a href="mouth-ulcers-treatments.php" style="color: #fff">Mouth Ulcers</a>
+                            <a href="mouth-ulcers-treatments-in-guntur.php" style="color: #fff">Mouth Ulcers</a>
                         </li>
                         <li class="foot_para">
-                            <a href="precancerous-lesion-in-mouth-treatments.php" style="color: #fff">Precancerous Lesion</a>
+                            <a href="precancerous-lesion-in-mouth-treatments-in-guntur.php" style="color: #fff">Precancerous Lesion</a>
                         </li>
                         <li class="foot_para">
-                            <a href="laser-crown-lengthening-treatments.php" style="color: #fff">Laser Crown Lengthening</a>
+                            <a href="laser-crown-lengthening-treatments-in-guntur.php" style="color: #fff">Laser Crown Lengthening</a>
                         </li>
                     </ul>
                 </div>
@@ -443,5 +443,8 @@
 </a>
 
 
-<div id="preloader"></div>
+<div id="preloader">
+   
+</div>
 
+<?php include 'view_count.php' ; ?>

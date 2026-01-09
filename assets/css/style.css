@@ -4790,15 +4790,21 @@ color:white !important;
 
 /* Pulse animation */
 #visitor-eye {
-  animation: eyeLook 5s infinite;
+    animation: eyeLook 5s infinite;
 }
 
 @keyframes eyeLook {
-  0%, 100% { transform: translateX(0); }
-  25% { transform: translateX(-4px); }
-  50% { transform: translateX(4px); }
-  75% { transform: translateX(-4px); }
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-4px); }
+    50% { transform: translateX(4px); }
+    75% { transform: translateX(-4px); }
 }
+
+
+
+
+
+
 
 
 
@@ -4842,3 +4848,6 @@ color:white !important;
 #visitor-eye:hover .visitor-tooltip {
   display: block;
 }
+
+
+

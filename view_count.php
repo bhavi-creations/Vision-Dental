@@ -24,20 +24,34 @@ $totalCount = $totalRes->fetch_assoc()['total'] ?? 0;
 <html>
 
 <head>
-    <title>Visitor Counter</title>
+    <title>Vision multispeciality dental hospital in guntur </title>
 </head>
 
-<body>  
-    <!-- <img src=".\assets\img\eye.png" class="img-fluid" alt="" style="width: 30px; height: 30px;"> -->
+<body>
 
-<a href="visitor-analytics.php" id="visitor-eye">
-    <!-- 👁 -->
+
+    <!--<a href="visitor-analytics.php" id="visitor-eye">
+    👁 
     <img src=".\assets\img\eye.png" class="img-fluid" alt="" style="width: 30px; height: 30px;">
     <div class="visitor-tooltip">
         <div>Total Website Visitors: <b><?php echo $totalCount; ?></b></div>
         <div>This Page Visitors: <b><?php echo $pageCount; ?></b></div>
     </div>
-</a>
+</a>-->
+
+    <a href="visitor-analytics.php" id="visitor-eye">
+        <img src=".\assets\img\eye.png" class="img-fluid" alt="" style="width: 30px; height: 30px;">
+
+
+        <div class="visitor-tooltip">
+            <div>Total page Visitors: <b><?php echo $totalCount; ?></b></div>
+            <div>This Page Visitors: <b><?php echo $pageCount; ?></b></div>
+        </div>
+    </a>
+
+
+
+
 
     <?php
     include './db.connection/db_connection.php';

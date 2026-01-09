@@ -204,7 +204,7 @@
                 <p class="custom-description">Surgical placement of artificial tooth roots</p>
               </div>
 
-              <a href="dental-implants-treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
+              <a href="dental-implants-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
 
             </div>
             <div class="col-6">
@@ -222,7 +222,7 @@
                 <p class="custom-description">Cosmetic treatment to enhance the whiteness of teeth</p>
               </div>
 
-              <a href="teeth-alignment-treatments.php" class="service_btn_readmore"> <button class="custom-button">Read More</button></a>
+              <a href="laser-teeth-whitening-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button">Read More</button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -239,7 +239,7 @@
                 <p class="custom-description">Restorative procedures to repair cavities and damaged teeth</p>
 
               </div>
-              <a href="teeth-alignment-treatments.php" class="service_btn_readmore"> <button class="custom-button">Read More </button></a>
+              <a href="teeth-alignment-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button">Read More </button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -255,7 +255,7 @@
                   Canal</h2>
                 <p class="custom-description">Effective root canal treatment to save your tooth</p>
               </div>
-              <a href="root_canal_treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
+              <a href="root-canal-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -272,7 +272,7 @@
                   Braces</h2>
                 <p class="custom-description">Transform your smile with our expert teeth braces</p>
               </div>
-              <a href="braces-treatments.php" class="service_btn_readmore"><button class="custom-button"> Read More </button></a>
+              <a href="dentalbraces-treatments-in-guntur.php" class="service_btn_readmore"><button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -289,7 +289,7 @@
                 <p class="custom-description">Specialized care for children’s dental health and comfort</p>
 
               </div>
-              <a href="pediatric-dentist-treatments.php" class="service_btn_readmore"> <button class="custom-button">Read More </button></a>
+              <a href="pediatric-dentist-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button">Read More </button></a>
             </div>
             <div class="col-6">
 
@@ -311,7 +311,7 @@
                   Aligners</h2>
                 <p class="custom-description">Clear aligners straighten teeth discreetly and comfortably without braces</p>
               </div>
-              <a href="clear-aligners-treatment.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+              <a href="clear-aligners-treatment-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -328,7 +328,7 @@
                   Dentistry</h2>
                 <p class="custom-description">Laminate Veneers offers personalized treatments to enhance and perfect your smile</p>
               </div>
-              <a href="laminate-veneers-treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+              <a href="laminate-veneers-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -345,7 +345,7 @@
                 <p class="custom-description">Crowns and bridges restore function and enhance dental aesthetics</p>
 
               </div>
-              <a href="crowns-bridges-treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+              <a href="dentalcrown-bridge-treatment-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
 
@@ -367,7 +367,7 @@
                 </h2>
                 <p class="custom-description">Comfortable and natural-looking dentures for restored confidence</p>
               </div>
-              <a href="dentures-treatment.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
+              <a href="dentaldentures-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -384,7 +384,7 @@
                   Invisalign</h2>
                 <p class="custom-description">Invisalign uses clear aligners to straighten teeth discreetly and effectively</p>
               </div>
-              <a href="invisalign-treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+              <a href="invisalignaligners_clearaligners_treatment-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -402,7 +402,7 @@
                 <p class="custom-description">Effective jaw corrective treatments for improved function and alignment</p>
 
               </div>
-              <a href="jaw-pain-correction-treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+              <a href="jaw-pain-correction-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
 
@@ -422,7 +422,7 @@
                   & Gum</h2>
                 <p class="custom-description">Advanced laser treatments for healthier gums and precision</p>
               </div>
-              <a href="laser-gum-treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+              <a href="laser-gum-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -439,7 +439,7 @@
                   Designing</h2>
                 <p class="custom-description">Custom smile designing for a radiant, confident appearance</p>
               </div>
-              <a href="smile-designing-treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+              <a href="smile-designing-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -457,7 +457,7 @@
                 <p class="custom-description">Complete smile makeover for a stunning, confident transformation</p>
 
               </div>
-              <a href="smile-makeover-treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+              <a href="smile-makeover-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
 
@@ -477,7 +477,7 @@
                   Alignment</h2>
                 <p class="custom-description">Achieve perfect teeth alignment with advanced orthodontic solutions</p>
               </div>
-              <a href="teeth-alignment-treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
+              <a href="teeth-alignment-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -494,7 +494,7 @@
                   Extraction</h2>
                 <p class="custom-description">Safe and efficient tooth extraction for optimal oral health</p>
               </div>
-              <a href="wisdom-tooth-removel.php" class="service_btn_readmore"> <button class="custom-button">Read More </button></a>
+              <a href="wisdom-tooth-removel-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button">Read More </button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -512,7 +512,7 @@
                 <p class="custom-description">Thorough tooth cleaning for a healthier, brighter smile</p>
 
               </div>
-              <a href="laserTooth.php" class="service_btn_readmore"><button class="custom-button"> Read More</button></a>
+              <a href="laser-assisted-teeth-cleaning-treatments-in-guntur.php" class="service_btn_readmore"><button class="custom-button"> Read More</button></a>
             </div>
             <div class="col-6">
 
@@ -532,7 +532,7 @@
                   Gum Depigment</h2>
                 <p class="custom-description">Brighten your smile with effective gum depigmentation treatment</p>
               </div>
-              <a href="gum-depigmentation-treatments.php" class="service_btn_readmore"><button class="custom-button"> Read More </button></a>
+              <a href="gum-depigmentation-treatments-in-guntur.php" class="service_btn_readmore"><button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -549,7 +549,7 @@
                   Gum Surgery</h2>
                 <p class="custom-description">Gum surgery treats gum disease, reduces pain, and promotes healing</p>
               </div>
-              <a href="laser-gum-surgeries-treatments.php" class="service_btn_readmore"><button class="custom-button"> Read More</button></a>
+              <a href="laser-gum-surgeries-treatments-in-guntur.php" class="service_btn_readmore"><button class="custom-button"> Read More</button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -567,7 +567,7 @@
                 <p class="custom-description">Mouth ulcers cause discomfort, pain, and need effective treatment options</p>
 
               </div>
-              <a href="mouth-ulcers-treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
+              <a href="mouth-ulcers-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
             </div>
             <div class="col-6">
 
@@ -587,7 +587,7 @@
                   Lesion</h2>
                 <p class="custom-description">Precancerous lesions require early detection and prompt treatment</p>
               </div>
-              <a href="precancerous-lesion-in-mouth-treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
+              <a href="precancerous-lesion-in-mouth-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
@@ -604,7 +604,7 @@
                   Crown Lengthening</h2>
                 <p class="custom-description">Laser crown lengthening enhances tooth visibility and gum health</p>
               </div>
-              <a href="laser-crown-lengthening-treatments.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
+              <a href="laser-crown-lengthening-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
               <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">

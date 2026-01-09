@@ -1,93 +1,151 @@
-
-
 <?php
-// 1️⃣ DB connection (MUST be first)
 include './db.connection/db_connection.php';
 
-// 2️⃣ Total website visitors
-$totalRes = $conn->query(
-    "SELECT SUM(visit_count) AS total FROM visitors"
-);
+$from = $_GET['from'] ?? '';
+$to   = $_GET['to'] ?? '';
+$isFiltered = false;
 
-if ($totalRes) {
-    $totalRow = $totalRes->fetch_assoc();
-    $totalCount = $totalRow['total'] ?? 0;
-} else {
-    $totalCount = 0;
+// =======================
+// TOTAL VISITS
+// =======================
+$totalRes = $conn->query(
+    "SELECT COUNT(*) AS total FROM visitor_logs"
+);
+$totalRow = $totalRes->fetch_assoc();
+$totalCount = $totalRow['total'] ?? 0;
+
+// =======================
+// PAGE WISE QUERY
+// =======================
+$query = "
+    SELECT page_name, COUNT(*) AS total_visits
+    FROM visitor_logs
+";
+
+$params = [];
+$types  = '';
+
+if ($from && $to) {
+    $query .= " WHERE DATE(visited_at) BETWEEN ? AND ?";
+    $params = [$from, $to];
+    $types  = "ss";
+    $isFiltered = true;
 }
 
-// 3️⃣ Page-wise visitors
-$pages = $conn->query(
-    "SELECT page_name, visit_count FROM visitors ORDER BY visit_count DESC"
-);
+$query .= " GROUP BY page_name ORDER BY total_visits DESC";
+
+$stmt = $conn->prepare($query);
+
+if ($isFiltered) {
+    $stmt->bind_param($types, ...$params);
+}
+
+$stmt->execute();
+$result = $stmt->get_result();
 ?>
 
-<?php include 'header.php' ; ?>
+<?php include 'header.php'; ?>
 
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Visitor Analytics</title>
+    <title>VISION DENTAL </title>
+
     <style>
         body {
             font-family: Arial;
+            background: #f4f6f8;
             padding: 20px;
         }
-        .box {
-            border: 1px solid #ccc;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 15px;
+        .va-container {
+            max-width: 1000px;
+            margin: auto;
+        }
+        .va-box {
+            background: #fff;
+            padding: 18px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .va-total {
+            font-size: 28px;
+            color: #1976d2;
+        }
+        .va-form input, .va-form button {
+            padding: 8px;
+            margin-right: 10px;
+        }
+        .reset-btn {
+            background: #e53935;
+            color: #fff;
+            border: none;
+            cursor: pointer;
         }
         table {
             width: 100%;
             border-collapse: collapse;
         }
         th, td {
-            padding: 8px;
+            padding: 10px;
             border: 1px solid #ddd;
-            text-align: left;
         }
         th {
-            background: #f5f5f5;
+            background: #f1f1f1;
         }
-      
     </style>
 </head>
-<body class="body_section">
 
-<h2 class="mt-5">📊 Visitor Analytics</h2>
+<body>
 
-<div class="box">
-    <h3>👥 Total Website Visitors</h3>
-    <p><b><?php echo $totalCount; ?></b></p>
-</div>
+<div class="va-container">
 
-<div class="box">
-    <h3>📄 Page-wise Visitors</h3>
-    <table>
-        <tr>
-            <th>Page</th>
-            <th>Visitors</th>
-        </tr>
+    <div class="va-box">
+        <h2>👥 Total Pages Visits</h2>
+        <div class="va-total"><?php echo $totalCount; ?></div>
+    </div>
 
-        <?php if ($pages && $pages->num_rows > 0) { ?>
-            <?php while ($row = $pages->fetch_assoc()) { ?>
+    <div class="va-box">
+        <h3>📅 Filter by Date</h3>
+        <form method="GET" class="va-form">
+            <input type="date" name="from" value="<?php echo $from; ?>" required>
+            <input type="date" name="to" value="<?php echo $to; ?>" required>
+            <button type="submit">Show</button>
+
+            <?php if ($isFiltered) { ?>
+                <a href="visitor-analytics.php">
+                    <button type="button" class="reset-btn">Reset</button>
+                </a>
+            <?php } ?>
+        </form>
+    </div>
+
+    <div class="va-box">
+        <h3>
+            📄 Page-wise Visits
+            <?php if ($isFiltered) echo " ($from → $to)"; ?>
+        </h3>
+
+        <table>
+            <tr>
+                <th>Page Name</th>
+                <th>Total Visits</th>
+            </tr>
+
+            <?php if ($result->num_rows > 0) {
+                while ($row = $result->fetch_assoc()) { ?>
+                    <tr>
+                        <td><?php echo htmlspecialchars($row['page_name']); ?></td>
+                        <td><?php echo $row['total_visits']; ?></td>
+                    </tr>
+            <?php }} else { ?>
                 <tr>
-                    <td><?php echo htmlspecialchars($row['page_name']); ?></td>
-                    <td><?php echo $row['visit_count']; ?></td>
+                    <td colspan="2">No data found</td>
                 </tr>
             <?php } ?>
-        <?php } else { ?>
-            <tr>
-                <td colspan="2">No visitor data found</td>
-            </tr>
-        <?php } ?>
+        </table>
+    </div>
 
-    </table>
 </div>
 
 </body>
 </html>
-
-

@@ -14,7 +14,7 @@
 
           </div>
           <div class="col-md-3 mt-5">
-            <a href="root-canal-treatments.php">
+            <a href="root-canal-treatments-in-guntur.php">
               <div class="cardB">
                 <img src="assets/img/treat/0.png" alt="" class="imggg1">
                 <div class="card__content">
@@ -27,7 +27,7 @@
 
           </div>
           <div class="col-md-3 mt-5">
-            <a href="braces-treatments.php">
+            <a href="dentalbraces-treatments-in-guntur.php">
               <div class="cardB">
                 <img src="assets/img/treat/23.png" alt="" class="imggg2">
                 <div class="card__content">
@@ -43,9 +43,9 @@
 
           </div>
           <div class="col-md-3 mt-5">
-            <a href="pediatric-dentist-treatments">
+            <a href="pediatric-dentist-treatments-in-guntur.php">
               <div class="cardB">
-                <img src="assets/img/treat/17.png" alt="" class="imggg3">
+                <img src="assets/img/treat/3.png" alt="" class="imggg3">
                 <div class="card__content">
                   <p class="card__title">Pediatric Dentist</p>
                   <p class="card__description">A pediatric dentist specializes in the dental care of children, focusing on their unique oral health needs and providing a child-friendly environment.
@@ -64,7 +64,7 @@
 
           </div>
           <div class="col-md-3 mt-5">
-            <a href="paedodontist-doctors-treatments.php">
+            <a href="paedodontist-doctors-treatments-in-guntur.php">
               <div class="cardB">
                 <img src="assets/img/treat/8.png" alt="" class="imggg4">
                 <div class="card__content">
@@ -89,7 +89,7 @@
                 <div class="row mt-5"> -->
           <div class="col-md-3 mt-5">
 
-            <a href="clear-aligners-treatment">
+            <a href="clear-aligners-treatment-in-guntur.php">
               <div class="cardB">
                 <img src="assets/img/treat/16.png" alt="" class="imggg5">
                 <div class="card__content">
@@ -109,9 +109,9 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="laminate-veneers-treatments">
+            <a href="laminate-veneers-treatments-in-guntur.php">
               <div class="cardB">
-                <img src="assets/img/treat/3.png" alt="" class="imggg6">
+                <img src="assets/img/treat/17.png" alt="" class="imggg6">
                 <div class="card__content">
                   <p class="card__title"> Laminate Veneers</p>
                   <p class="card__description">Revitalize Your Smile with Custom Laminate Veneers.
@@ -129,7 +129,7 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="crowns-bridges-treatments">
+            <a href="dentalcrown-bridge-treatment-in-guntur.php">
               <div class="cardB">
                 <img src="assets/img/treat/9.png" alt="" class="imggg7">
                 <div class="card__content">
@@ -149,7 +149,7 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="dental-implants-treatments">
+            <a href="dental-implants-treatments-in-guntur.php">
               <div class="cardB">
                 <img src="assets/img/treat/22.png" alt="" class="imggg8">
                 <div class="card__content">
@@ -171,7 +171,7 @@
           <!-- </div>
                 <div class="row mt-5"> -->
           <div class="col-md-3 mt-5">
-            <a href="dentures-treatments">
+            <a href="dentaldentures-treatments-in-guntur.php">
               <div class="cardB">
                 <img src="assets/img/treat/21.png" alt="" class="imggg9">
 
@@ -192,7 +192,7 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="invisalign-treatments">
+            <a href="invisalignaligners_clearaligners_treatment-in-guntur.php">
               <div class="cardB">
                 <img src="assets/img/treat/11.png" alt="" class="imggg9">
 
@@ -207,7 +207,7 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="jaw-pain-correction-treatments">
+            <a href="jaw-pain-correction-treatments-in-guntur.php">
               <div class="cardB">
                 <img src="assets/img/treat/24.png" alt="" class="imggg10">
 
@@ -221,7 +221,7 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="laser-gum-treatments">
+            <a href="laser-gum-treatments-in-guntur.php">
               <div class="cardB">
                 <img src="assets/img/treat/5.png" alt="" class="imggg11">
 
@@ -237,7 +237,7 @@
           <!-- </div>
                 <div class="row mt-5"> -->
           <div class="col-md-3 mt-5">
-            <a href="smile-designing-treatments">
+            <a href="smile-designing-treatments-in-guntur.php">
               <div class="cardB">
                 <img src="assets/img/treat/15.png" alt="" class="imggg12">
 
@@ -251,7 +251,7 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="smile-makeover-treatments">
+            <a href="smile-makeover-treatments-in-guntur.php">
               <div class="cardB">
                 <img src="assets/img/treat/12.png" alt="" class="imggg12">
 
@@ -268,7 +268,7 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="teeth-alignment-treatments">
+            <a href="teeth-alignment-treatments-in-guntur.php">
               <div class="cardB">
                 <img src="assets/img/treat/13.png" alt="" class="imggg13">
 
@@ -282,7 +282,7 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="wisdom-tooth-removel-treatments">
+            <a href="wisdom-tooth-removel-treatments-in-guntur.php">
               <div class="cardB">
                 <img src="assets/img/treat/20.png" alt="" class="imggg14">
 
@@ -298,7 +298,7 @@
           <!-- </div>
                 <div class="row mt-5"> -->
           <div class="col-md-3 mt-5">
-            <a href="laser-assisted-teeth-cleaning-treatments">
+            <a href="laser-assisted-teeth-cleaning-treatments-in-guntur.php">
               <div class="cardB">
                 <img src="assets/img/treat/6.png" alt="" class="imggg15">
 
@@ -312,7 +312,7 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="gum-depigmentation-treatments">
+            <a href="gum-depigmentation-treatments-in-guntur.php">
               <div class="cardB">
                 <img src="assets/img/treat/19.png" alt="" class="imggg16">
 
@@ -326,7 +326,7 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="laser-teeth-whitening-treatments">
+            <a href="laser-teeth-whitening-treatments-in-guntur.php">
               <div class="cardB">
                 <img src="assets/img/treat/14.png" alt="" class="imggg17">
 
@@ -340,7 +340,7 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="laser-gum-surgeries-treatments">
+            <a href="laser-gum-surgeries-treatments-in-guntur.php">
               <div class="cardB">
                 <img src="assets/img/treat/25.png" alt="" class="imggg17">
 
@@ -356,7 +356,7 @@
           <!-- </div> -->
           <div class="row   tret">
             <div class="col-md-3 mt-5">
-              <a href="mouth-ulcers-treatments">
+              <a href="mouth-ulcers-treatments-in-guntur.php">
                 <div class="cardB">
                   <img src="assets/img/treat/26.png" alt="" class="imggg17">
 
@@ -370,7 +370,7 @@
               </a>
             </div>
             <div class="col-md-3 mt-5">
-              <a href="precancerous-lesion-in-mouth-treatments">
+              <a href="precancerous-lesion-in-mouth-treatments-in-guntur.php">
                 <div class="cardB">
                   <img src="assets/img/treat/18.png" alt="" class="imggg18">
 
@@ -384,7 +384,7 @@
               </a>
             </div>
             <div class="col-md-3 mt-5">
-              <a href="laser-crown-lengthening-treatments">
+              <a href="laser-crown-lengthening-treatments-in-guntur.php">
                 <div class="cardB">
                   <img src="assets/img/treat/10.png" alt="" class="imggg19">
 

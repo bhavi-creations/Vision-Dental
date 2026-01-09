@@ -1,66 +1,26 @@
 <?php
 include './db.connection/db_connection.php';
-session_start();
 
-/* ===============================
-   AJAX LIKE / DISLIKE HANDLE
-================================ */
-if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action'], $_POST['blog_id'])) {
+// GET BLOG ID
+$blog_id = isset($_GET['id']) ? intval($_GET['id']) : 0;
 
-    $blog_id  = (int)$_POST['blog_id'];
-    $reaction = $_POST['action']; // like / dislike
-    $user_key = session_id();
-
-    // Check already voted
-    $check = $conn->prepare("
-        SELECT id FROM blog_reactions 
-        WHERE blog_id = ? AND created_at = ?
-    ");
-    $check->bind_param("is", $blog_id, $user_key);
-    $check->execute();
-    $check->store_result();
-
-    if ($check->num_rows > 0) {
-        echo json_encode(["status" => "already"]);
-        exit;
-    }
-
-    // Insert vote
-    $insert = $conn->prepare("
-        INSERT INTO blog_reactions (blog_id, reaction, created_at)
-        VALUES (?, ?, ?)
-    ");
-    $insert->bind_param("iss", $blog_id, $reaction, $user_key);
-    $insert->execute();
-
-    // Return updated counts
-    $like_count = $conn->query("
-        SELECT COUNT(*) c FROM blog_reactions 
-        WHERE blog_id=$blog_id AND reaction='like'
-    ")->fetch_assoc()['c'];
-
-    $dislike_count = $conn->query("
-        SELECT COUNT(*) c FROM blog_reactions 
-        WHERE blog_id=$blog_id AND reaction='dislike'
-    ")->fetch_assoc()['c'];
-
-    echo json_encode([
-        "status" => "success",
-        "likes" => $like_count,
-        "dislikes" => $dislike_count
-    ]);
+if ($blog_id <= 0) {
+    echo "Invalid Blog ID";
     exit;
 }
 
-/* ===============================
-   FETCH BLOG
-================================ */
-$blog_id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
-
+// ---------------------------------------------
+// FETCH BLOG DATA (SERVICE INCLUDED)
+// ---------------------------------------------
 $stmt = $conn->prepare("
-    SELECT title, main_content, full_content,
-           section1_image, main_image, video, service
-    FROM blogs WHERE id = ?
+    SELECT 
+        title, main_content, full_content, 
+        title_image, main_image, video, 
+        telugu_title, telugu_main_content, telugu_full_content,
+        section1_image,
+        service
+    FROM blogs 
+    WHERE id = ?
 ");
 $stmt->bind_param("i", $blog_id);
 $stmt->execute();
@@ -68,176 +28,167 @@ $stmt->bind_result(
     $title,
     $main_content,
     $full_content,
-    $section1_image,
+    $title_image,
     $main_image,
     $video,
+    $telugu_title,
+    $telugu_main_content,
+    $telugu_full_content,
+    $section1_image,
     $service
 );
 $stmt->fetch();
 $stmt->close();
 
-/* ===============================
-   COUNT REACTIONS
-================================ */
-$like_count = $conn->query("
-    SELECT COUNT(*) c FROM blog_reactions 
-    WHERE blog_id=$blog_id AND reaction='like'
-")->fetch_assoc()['c'];
+// ---------------------------------------------
+// FETCH LIKE / DISLIKE COUNTS
+// ---------------------------------------------
+$count_sql = "SELECT 
+                SUM(reaction='like') AS likes,
+                SUM(reaction='dislike') AS dislikes
+              FROM blog_reactions
+              WHERE blog_id = ?";
 
-$dislike_count = $conn->query("
-    SELECT COUNT(*) c FROM blog_reactions 
-    WHERE blog_id=$blog_id AND reaction='dislike'
-")->fetch_assoc()['c'];
+$count_stmt = $conn->prepare($count_sql);
+$count_stmt->bind_param("i", $blog_id);
+$count_stmt->execute();
+$count_stmt->bind_result($likes_count, $dislikes_count);
+$count_stmt->fetch();
+$count_stmt->close();
+
+$conn->close();
 ?>
-<?php include 'header.php'; ?>
 
-
+<?php include 'navbar.php'; ?>
 
 <main>
-    <!-- ======= Blogs Section ======= -->
-    <!-- <div class="page-header bg-more-light tittle-image">
-        
+    <div class="container blog-detailed" style="padding-top: 50px;">
+
+        <!-- Language buttons -->
+        <div class="d-flex justify-content-center mb-3">
+            <button id="english-btn" class="lang-btn btn btn-sm me-2 english-btn">English</button>
+            <button id="telugu-btn" class="lang-btn btn btn-sm telugu-btn mx-4">తెలుగు</button>
+        </div>
+
+
+        <?php if (!empty($service)) { ?>
+            <div class="text-center mb-3">
+                <span class="badge_service_name px-4 py-2">
+                    <?= htmlspecialchars($service) ?>
+                </span>
+            </div>
+        <?php } ?>
+
+        <!-- Image -->
+        <div class="text-center mb-4">
+            <?php if (!empty($section1_image)): ?>
+                <img src="./admin/uploads/photos/<?php echo $section1_image; ?>"
+                    class="img-fluid "
+                    style="width:600px;
+                   ">
+            <?php else: ?>
+                <!-- <p>No Image Available</p> -->
+            <?php endif; ?>
+        </div>
+
+        <!-- Video / Image -->
+        <div class="d-block d-lg-none"><?php
+                                        if (!empty($video)) {
+                                            $video_path = "./admin/uploads/videos/{$video}";
+                                            echo "<video class='main-video' controls
+            style='max-width:100%; height:auto; object-fit:contain; display:block; margin:0 auto;'>
+            <source src='{$video_path}' type='video/mp4'>
+            Your browser does not support the video tag.
+          </video>";
+                                        } elseif (!empty($main_image)) {
+                                            $main_image_path = "./admin/uploads/photos/{$main_image}";;
+                                        }
+                                        ?>
+        </div>
+
+
+        <div class="d-none d-lg-block">
+
             <?php
-            if (!empty($title_image)) {
-                $title_image_path = "./admin/uploads/photos/{$title_image}";
-                echo "<img class='img-fluid img_sts' src='{$title_image_path}' style='width: 3000px;  ' alt='Title Image'>";
-            } else {
-                echo "<img class='img-fluid img_sts' src='assets/images/title images2/Deep_vein_thrombosis_title_image_one_stop_vascular_solutions.webp' style='width: 3000px;' alt='Deep_vein_thrombosis_title_image_one_stop_vascular_solutions'>";
+            if (!empty($video)) {
+                $video_path = "./admin/uploads/videos/{$video}";
+                echo "<video class='main-video' controls
+            style='width:700px; height:425px; object-fit:contain; display:block; margin:0 auto;'>
+            <source src='{$video_path}' type='video/mp4'>
+            Your browser does not support the video tag.
+          </video>";
+            } elseif (!empty($main_image)) {
+                $main_image_path = "./admin/uploads/photos/{$main_image}";;
             }
             ?>
-        </div> -->
-
-    <div class="container blog-detailed blog-detailed-sidebar" style="padding-bottom: 0px;">
-
-        <div class="container blog-detailed" style="padding-top: 50px;">
-
-            <!-- Language buttons -->
-            <div class="d-flex justify-content-center mb-3">
-                <button id="english-btn" class="lang-btn btn btn-sm me-2 english-btn">English</button>
-                <button id="telugu-btn" class="lang-btn btn btn-sm telugu-btn mx-4">తెలుగు</button>
-            </div>
-
-
-
-
-
-
-
-            <?php if (!empty($service)) { ?>
-                <div class="text-center mb-3">
-                    <span class="badge_service_name px-4 py-2">
-                        <?= htmlspecialchars($service) ?>
-                    </span>
-                </div>
-            <?php } ?>
-
-            <!-- Image -->
-            <div class="text-center mb-4">
-                <?php if (!empty($section1_image)): ?>
-                    <img src="./admin/uploads/photos/<?php echo $section1_image; ?>"
-                        class="img-fluid "
-                        style="width:600px;
-           ">
-                <?php else: ?>
-                    <!-- <p>No Image Available</p> -->
-                <?php endif; ?>
-            </div>
-
-            <!-- Video / Image -->
-            <div class="d-block d-lg-none"><?php
-                                            if (!empty($video)) {
-                                                $video_path = "./admin/uploads/videos/{$video}";
-                                                echo "<video class='main-video' controls
-    style='max-width:100%; height:auto; object-fit:contain; display:block; margin:0 auto;'>
-    <source src='{$video_path}' type='video/mp4'>
-    Your browser does not support the video tag.
-  </video>";
-                                            } elseif (!empty($main_image)) {
-                                                $main_image_path = "./admin/uploads/photos/{$main_image}";;
-                                            }
-                                            ?>
-            </div>
-
-
-            <div class="d-none d-lg-block">
-
-                <?php
-                if (!empty($video)) {
-                    $video_path = "./admin/uploads/videos/{$video}";
-                    echo "<video class='main-video' controls
-    style='width:700px; height:425px; object-fit:contain; display:block; margin:0 auto;'>
-    <source src='{$video_path}' type='video/mp4'>
-    Your browser does not support the video tag.
-  </video>";
-                } elseif (!empty($main_image)) {
-                    $main_image_path = "./admin/uploads/photos/{$main_image}";;
-                }
-                ?>
-            </div>
-
-
-
-
-            <!-- SERVICE BADGE -->
-            <!-- SERVICE BADGE -->
-
-
-
-            <!-- Title -->
-            <h4 class="blog-title text-center mt-5" style="color:#283779; font-weight:800;">
-                <span id="title-en"><?php echo $title; ?></span>
-                <!-- <span id="title-te" style="display:none;"><?php echo $telugu_title; ?></span> -->
-            </h4>
-
-            <!-- Contents -->
-            <div class="main-content " style="text-align:justify;">
-                <div id="main-en"><?php echo $main_content; ?></div>
-                <!-- <div id="main-te" style="display:none;"><?php echo $telugu_main_content; ?></div> -->
-            </div>
-
-            <div class="full-content ">
-                <div id="full-en"><?php echo $full_content; ?></div>
-                <div id="full-te" style="display:none;"><?php echo $telugu_full_content; ?></div>
-            </div>
-
-
-
-        </div>
-
-        <div class="reaction-box text-center my-4">
-            <button id="likeBtn" class="reaction-btn dislike-btn">
-                👍 Like <span id="likeCount"><?= $like_count ?></span>
-            </button>
-
-            <button id="dislikeBtn" class="reaction-btn  like-btn">
-                👎 Dislike <span id="dislikeCount"><?= $dislike_count ?></span>
-            </button>
         </div>
 
 
 
-        <div class="container">
-            <div class="blogs_side my-5">
-                <div class="side-bar">
-                    <h1 class="d-flex justify-content-center my-3">LATEST BLOGS</h1>
-                    <div class="swiper blog-swiper">
-                        <div class="swiper-wrapper">
-                            <?php
-                            // DB connection
-                            $conn = new mysqli($servername, $username, $password, $dbname);
-                            if ($conn->connect_error) {
-                                die("Connection failed: " . $conn->connect_error);
-                            }
 
-                            $sql = "SELECT id, title, main_image FROM blogs ORDER BY created_at DESC";
-                            $result = $conn->query($sql);
+        <!-- SERVICE BADGE -->
+        <!-- SERVICE BADGE -->
+       
 
-                            if ($result->num_rows > 0) {
-                                while ($row = $result->fetch_assoc()) {
-                                    $sidebar_image_path = !empty($row['main_image']) ? "./admin/uploads/photos/{$row['main_image']}" : "https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png";
-                                    $title_short = strlen($row['title']) > 50 ? substr($row['title'], 0, 50) . '...' : $row['title'];
 
-                                    echo "
+        <!-- Title -->
+        <h4 class="blog-title text-center mt-5" style="color:#283779; font-weight:800;">
+            <span id="title-en"><?php echo $title; ?></span>
+            <span id="title-te" style="display:none;"><?php echo $telugu_title; ?></span>
+        </h4>
+
+        <!-- Contents -->
+        <div class="main-content " style="text-align:justify;">
+            <div id="main-en"><?php echo $main_content; ?></div>
+            <div id="main-te" style="display:none;"><?php echo $telugu_main_content; ?></div>
+        </div>
+
+        <div class="full-content ">
+            <div id="full-en"><?php echo $full_content; ?></div>
+            <div id="full-te" style="display:none;"><?php echo $telugu_full_content; ?></div>
+        </div>
+
+        <!-- LIKE / DISLIKE -->
+        <div class="d-flex justify-content-center mt-4">
+            <button id="like-btn" class="btn btn-outline-success me-3">
+                👍 Like (<span id="like-count"><?php echo $likes_count ?? 0; ?></span>)
+            </button>
+
+            <button id="dislike-btn" class="btn btn-outline-danger">
+                👎 Dislike (<span id="dislike-count"><?php echo $dislikes_count ?? 0; ?></span>)
+            </button>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <div class="container">
+        <div class="blogs_side my-5">
+            <div class="side-bar">
+                <h1 class="d-flex justify-content-center my-3">LATEST BLOGS</h1>
+                <div class="swiper blog-swiper">
+                    <div class="swiper-wrapper">
+                        <?php
+                        // DB connection
+                        $conn = new mysqli($servername, $username, $password, $dbname);
+                        if ($conn->connect_error) {
+                            die("Connection failed: " . $conn->connect_error);
+                        }
+
+                        $sql = "SELECT id, title, main_image FROM blogs ORDER BY created_at DESC";
+                        $result = $conn->query($sql);
+
+                        if ($result->num_rows > 0) {
+                            while ($row = $result->fetch_assoc()) {
+                                $sidebar_image_path = !empty($row['main_image']) ? "./admin/uploads/photos/{$row['main_image']}" : "https://mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png";
+                                $title_short = strlen($row['title']) > 50 ? substr($row['title'], 0, 50) . '...' : $row['title'];
+
+                                echo "
                             <div class='swiper-slide d-flex justify-content-center'>
                                 <div class='custom-card background_sidebar text-center' 
                                     style='width:100%; max-width:400px; height:350px; display:flex; flex-direction:column; justify-content:flex-start; align-items:center; padding:10px; border-radius:8px; box-shadow:0px 2px 10px rgba(0,0,0,0.1);'>
@@ -249,81 +200,27 @@ $dislike_count = $conn->query("
                                     </a>
                                 </div>
                             </div>";
-                                }
-                            } else {
-                                echo "<p>No blog posts found.</p>";
                             }
-                            $conn->close();
-                            ?>
-                        </div>
+                        } else {
+                            echo "<p>No blog posts found.</p>";
+                        }
+                        $conn->close();
+                        ?>
+                    </div>
 
-                        <!-- Navigation -->
-                        <!-- <div class="swiper-button-next blog-swiper-button-next"></div>
+                    <!-- Navigation -->
+                    <!-- <div class="swiper-button-next blog-swiper-button-next"></div>
                     <div class="swiper-button-prev blog-swiper-button-prev"></div> -->
 
-                        <!-- Pagination -->
-                        <!-- <div class="swiper-pagination blog-swiper-pagination"></div> -->
-                    </div>
+                    <!-- Pagination -->
+                    <!-- <div class="swiper-pagination blog-swiper-pagination"></div> -->
                 </div>
             </div>
         </div>
-
-
     </div>
-
 </main>
 
-
-<?php include('./footer.php'); ?>
-
-
-<!-- Vendor JS Files -->
-<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-<script src="assets/vendor/aos/aos.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script>
-
-<script src="assets/js/main.js"></script>
-
-<script>
-    // Initialize Swiper
-    var blogSwiper = new Swiper(".blog-swiper", {
-        slidesPerView: 3,
-        spaceBetween: 20,
-        loop: true,
-        grabCursor: true,
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-        },
-        navigation: {
-            nextEl: ".blog-swiper-button-next",
-            prevEl: ".blog-swiper-button-prev",
-        },
-        pagination: {
-            el: ".blog-swiper-pagination",
-            clickable: true,
-        },
-        breakpoints: {
-            0: {
-                slidesPerView: 1
-            },
-            520: {
-                slidesPerView: 2
-            },
-            950: {
-                slidesPerView: 3
-            },
-        },
-    });
-</script>
-
-
-
-
-
+<?php include 'footer.php'; ?>
 
 <!-- LANGUAGE SWITCH SCRIPT -->
 <script>
@@ -348,8 +245,7 @@ $dislike_count = $conn->query("
     };
 </script>
 
-
-
+<!-- LIKE / DISLIKE SCRIPT -->
 <script>
     document.addEventListener("DOMContentLoaded", function() {
 
@@ -400,32 +296,38 @@ $dislike_count = $conn->query("
 </script>
 
 
-
-
 <script>
-    function react(action) {
-        fetch("", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/x-www-form-urlencoded"
-                },
-                body: "action=" + action + "&blog_id=<?= $blog_id ?>"
-            })
-            .then(res => res.json())
-            .then(data => {
-                if (data.status === "success") {
-                    location.reload(); // reload to show saved count
-                } else {
-                    alert("Already reacted!");
-                }
-            });
-    }
-
-    document.getElementById("likeBtn").onclick = () => react("like");
-    document.getElementById("dislikeBtn").onclick = () => react("dislike");
+    // Initialize Swiper
+    var blogSwiper = new Swiper(".blog-swiper", {
+        slidesPerView: 3,
+        spaceBetween: 20,
+        loop: true,
+        grabCursor: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: ".blog-swiper-button-next",
+            prevEl: ".blog-swiper-button-prev",
+        },
+        pagination: {
+            el: ".blog-swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            0: {
+                slidesPerView: 1
+            },
+            520: {
+                slidesPerView: 2
+            },
+            950: {
+                slidesPerView: 3
+            },
+        },
+    });
 </script>
-
-
 
 </body>
 
