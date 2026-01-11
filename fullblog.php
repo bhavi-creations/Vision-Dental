@@ -59,7 +59,7 @@ $count_stmt->close();
 $conn->close();
 ?>
 
-<?php include 'navbar.php'; ?>
+<?php include 'header.php'; ?>
 
 <main>
     <div class="container blog-detailed" style="padding-top: 50px;">
