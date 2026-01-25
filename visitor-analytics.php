@@ -144,7 +144,7 @@ $cities = $conn->query("
 <html>
 
 <head>
-    <title>Srinivasa Multispeciality Dental Hospital</title>
+    <title>Vision Dental Hospital</title>
     
     <link rel="stylesheet" href="visitor-analytics.css">
 </head>
