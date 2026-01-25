@@ -18,8 +18,10 @@ $data = json_decode($response, true);
 $country = $data['country'] ?? 'Unknown';
 $region  = $data['regionName'] ?? 'Unknown';
 $city    = $data['city'] ?? 'Unknown';
+  
 
-// Insert only once per day per page per user
+
+
 $stmt = $conn->prepare("
     INSERT IGNORE INTO visitors
     (ip_address, visit_date, page_name, country, region, city)
