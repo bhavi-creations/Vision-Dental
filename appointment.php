@@ -1,22 +1,4 @@
-<?php
-include './db.connection/db_connection.php';
 
-
-$selected_date = date('Y-m-d');
-$slots = [
-  "9:00 AM - 10:00 AM",
-  "10:00 AM - 11:00 AM",
-  "11:00 AM - 12:00 PM",
-  "12:00 PM - 01:00 PM",
-  "01:00 PM - 02:00 PM",
-  "02:00 PM - 03:00 PM",
-  "03:00 PM - 04:00 PM",
-  "04:00 PM - 05:00 PM",
-  "05:00 PM - 06:00 PM",
-  "06:00 PM - 07:00 PM",
-  "07:00 PM - 08:30 PM"
-];
-?>
 <?php include 'header.php'; ?>
 
 
@@ -38,7 +20,7 @@ $slots = [
 
 
         <div class="col-md-6 mt-5">
-          <!-- <form action="appointmentform" method="post" role="form" class="php-email-form"
+           <form action="appointmentform" method="post" role="form" class="php-email-form"
               data-aos-delay="100">
               <div class="row">
                 <div class="col-md-6 form-group mt-4 mt-md-0 mb-4">
@@ -104,9 +86,9 @@ $slots = [
 
               <div class="text-center maker"><button type="submit" class="makee">Make an
                   Appointment</button></div>
-            </form> -->
+            </form> 
 
-          <form id="appointmentForm"
+          <!-- <form id="appointmentForm"
             method="POST"
             action="save_appointment.php"
             class="row appointment-form mx-auto">
@@ -154,7 +136,7 @@ $slots = [
               </button>
             </div>
 
-          </form>
+          </form> -->
 
         </div>
 
@@ -180,7 +162,7 @@ $slots = [
 
 <script src="assets/js/main.js"></script>
 
-<script>
+<!-- <script>
   document.getElementById('appointment_date').addEventListener('change', function() {
     const date = this.value;
     const slotSelect = document.getElementById('time_slot');
@@ -217,7 +199,7 @@ $slots = [
         slotSelect.innerHTML = '<option>Error loading slots</option>';
       });
   });
-</script>
+</script> -->
 
 </body>
 

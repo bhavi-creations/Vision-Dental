@@ -446,5 +446,3 @@
 <div id="preloader">
    
 </div>
-
-<?php include 'view_count.php' ; ?>
