@@ -65,9 +65,19 @@ $conn->close();
     <div class="container blog-detailed" style="padding-top: 50px;">
 
         <!-- Language buttons -->
-        <div class="d-flex justify-content-center mb-3">
+        <!-- <div class="d-flex justify-content-center mb-3">
             <button id="english-btn" class="lang-btn btn btn-sm me-2 english-btn">English</button>
             <button id="telugu-btn" class="lang-btn btn btn-sm telugu-btn mx-4">తెలుగు</button>
+        </div> -->
+
+
+        <div class="d-flex justify-content-center mb-3">
+            <button id="english-btn" class="lang-btn english-btn active">
+                English
+            </button>
+            <button id="telugu-btn" class="lang-btn telugu-btn mx-4">
+                తెలుగు
+            </button>
         </div>
 
 
@@ -128,7 +138,7 @@ $conn->close();
 
         <!-- SERVICE BADGE -->
         <!-- SERVICE BADGE -->
-       
+
 
 
         <!-- Title -->
@@ -149,7 +159,7 @@ $conn->close();
         </div>
 
         <!-- LIKE / DISLIKE -->
-        <div class="d-flex justify-content-center mt-4">
+        <!-- <div class="d-flex justify-content-center mt-4">
             <button id="like-btn" class="btn btn-outline-success me-3">
                 👍 Like (<span id="like-count"><?php echo $likes_count ?? 0; ?></span>)
             </button>
@@ -157,7 +167,8 @@ $conn->close();
             <button id="dislike-btn" class="btn btn-outline-danger">
                 👎 Dislike (<span id="dislike-count"><?php echo $dislikes_count ?? 0; ?></span>)
             </button>
-        </div>
+            
+        </div> -->
 
     </div>
 
@@ -220,7 +231,6 @@ $conn->close();
     </div>
 </main>
 
-<?php include 'footer.php'; ?>
 
 <!-- LANGUAGE SWITCH SCRIPT -->
 <script>
@@ -328,6 +338,22 @@ $conn->close();
         },
     });
 </script>
+
+
+<script>
+    const buttons = document.querySelectorAll('.lang-btn');
+
+    buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            // remove active from all buttons
+            buttons.forEach(b => b.classList.remove('active'));
+
+            // add active only to clicked button
+            btn.classList.add('active');
+        });
+    });
+</script>
+
 
 </body>
 
