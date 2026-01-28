@@ -407,6 +407,46 @@
 
 
 
+<!-- location  -->
+ <script>
+if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(
+        function (position) {
+            let lat = position.coords.latitude;
+            let lon = position.coords.longitude;
+
+            fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lon}`)
+                .then(res => res.json())
+                .then(data => {
+
+                    let city =
+                        data.address.city ||
+                        data.address.town ||
+                        data.address.village ||
+                        data.address.county ||
+                        "Unknown";
+
+                    fetch("save_location.php", {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json"
+                        },
+                        body: JSON.stringify({ city: city })
+                    });
+                });
+        },
+        function () {
+            console.log("Location permission denied");
+        }
+    );
+}
+</script>
+
+
+
+
+
+
 <style>
     #scrollBtn {
         display: none;
