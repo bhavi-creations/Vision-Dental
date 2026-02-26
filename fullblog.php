@@ -159,7 +159,7 @@ $conn->close();
         </div>
 
         <!-- LIKE / DISLIKE -->
-        <!-- <div class="d-flex justify-content-center mt-4">
+        <div class="d-flex justify-content-center mt-4">
             <button id="like-btn" class="btn btn-outline-success me-3">
                 👍 Like (<span id="like-count"><?php echo $likes_count ?? 0; ?></span>)
             </button>
@@ -168,7 +168,7 @@ $conn->close();
                 👎 Dislike (<span id="dislike-count"><?php echo $dislikes_count ?? 0; ?></span>)
             </button>
             
-        </div> -->
+        </div>
 
     </div>
 

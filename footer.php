@@ -33,6 +33,10 @@
                         <li class="foot_para">
                             <a href="https://g.co/kgs/YQpLG4o" target="_blank" style="color: #fff">GMB </a>
                         </li>
+                        <p class="foot_para">
+                            <a href="https://www.dentistlistings.org/" target="_blank" style="color: #fff"> </a>
+                            <!-- <a href='https://www.dentistlistings.org/' style="">Dentist Listings</a>/ -->
+                        </p>
                     </ul>
                 </div>
 
