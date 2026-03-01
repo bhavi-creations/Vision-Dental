@@ -452,7 +452,7 @@
                         <a href="dental-hospital-in-arundelpet-guntur.php" class="unique-dropdown-link"> Arundalpet</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="dental_clinic_in_brodipeta_guntur.php" class="unique-dropdown-link">  Brodipeta </a>
+                        <a href="dental-clinic-in-brodipeta-guntur.php" class="unique-dropdown-link">  Brodipeta </a>
                       </li>
                       <li class="unique-dropdown-item">
                         <a href="dentist-in-old-guntur.php" class="unique-dropdown-link"> Old Guntur</a>
