@@ -28,8 +28,9 @@
     }
 
     .oldguntur_badge {
-        background: rgba(0, 123, 255, 0.1);
-        color: var(--oldguntur-primary);
+        background: #6a2b5f;
+        /* background: rgba(0, 123, 255, 0.1); */
+        color: white;
         padding: 8px 20px;
         border-radius: 50px;
         font-weight: 700;
@@ -53,15 +54,20 @@
         border-radius: 20px;
         padding: 25px;
         transition: 0.3s;
-        border: 1px solid #eee;
+        border: 1px solid #6a2b5f;
         height: 100%;
     }
 
     .oldguntur_service_box:hover {
-        border-color: var(--oldguntur-primary);
+        /* border-color: var(--oldguntur-primary); */
         transform: translateY(-5px);
         box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
     }
+.oldguntur_service_box  i{
+    color: #6a2b5f !important;
+
+}
+
 
     .oldguntur_icon {
         font-size: 2rem;
@@ -72,7 +78,7 @@
 
     /* Features Dark Section */
     .oldguntur_features {
-        background: var(--oldguntur-dark);
+        background: #6a2b5f;
         color: white;
         border-radius: 30px;
         padding: 60px;
@@ -97,7 +103,7 @@
 
     /* CTA Button */
     .oldguntur_btn {
-        background: var(--oldguntur-primary);
+        background:#6a2b5f;
         color: white;
         padding: 15px 35px;
         border-radius: 50px;
@@ -112,6 +118,10 @@
         color: white;
         box-shadow: 0 10px 20px rgba(0, 123, 255, 0.3);
     }
+    
+    .fw-bold{
+        color: #6a2b5f;
+    }
 </style>
 
 <section class="oldguntur_section">
@@ -120,7 +130,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-7">
                     <span class="oldguntur_badge">Serving Old Guntur Residents</span>
-                    <h1 class="oldguntur_title">Your Trusted Local <span style="color: var(--oldguntur-primary);">Dentist in Old Guntur</span></h1>
+                    <h1 class="oldguntur_title">Your Trusted Local <span style="color: #6a2b5f;">Dentist in Old Guntur</span></h1>
                     <p class="text-muted mb-4">
                         Vision Multispeciality Dental Hospital provides comprehensive dental care with advanced technology and a patient-first approach. We serve families looking for safe, comfortable, and affordable dental treatment.
                     </p>
@@ -141,7 +151,7 @@
             <div class="col-md-4">
                 <a href="dental-implants-treatments-in-guntur.php">
                     <div class="oldguntur_service_box text-center">
-                        <i class="fas fa-tooth oldguntur_icon"></i>
+                        <!-- <i class="fas fa-tooth oldguntur_icon"></i> -->
                         <h5 class="fw-bold">Dental Implants</h5>
                         <p class="small text-muted">Permanent and natural-looking replacement for missing teeth.</p>
                     </div>
@@ -149,12 +159,12 @@
             </div>
 
 
-            [Image of dental implant structure]
+            <!-- [Image of dental implant structure] -->
 
             <div class="col-md-4">
                 <a href="root-canal-treatments-in-guntur.php">
                     <div class="oldguntur_service_box text-center">
-                        <i class="fas fa-file-medical-alt oldguntur_icon"></i>
+                        <!-- <i class="fas fa-file-medical-alt oldguntur_icon"></i> -->
                         <h5 class="fw-bold">Root Canal (RCT)</h5>
                         <p class="small text-muted">Painless procedures to save your natural tooth from infection.</p>
                     </div>
@@ -162,12 +172,12 @@
             </div>
 
 
-            [Image of stages of root canal treatment]
+            <!-- [Image of stages of root canal treatment] -->
 
             <div class="col-md-4">
                 <a href="dentalbraces-treatments-in-guntur.php">
                     <div class="oldguntur_service_box text-center">
-                        <i class="fas fa-teeth-smile oldguntur_icon"></i>
+                        <!-- <i class="fas fa-teeth-smile oldguntur_icon"></i> -->
                         <h5 class="fw-bold">Braces & Aligners</h5>
                         <p class="small text-muted">Orthodontic solutions for children and adults from Old Guntur.</p>
                     </div>
@@ -175,7 +185,7 @@
             </div>
 
 
-            [Image of types of dental braces and clear aligners]
+            <!-- [Image of types of dental braces and clear aligners] -->
 
         </div>
 
@@ -192,10 +202,10 @@
                 </div>
                 <div class="col-lg-6 mt-4 mt-lg-0">
                     <div class="bg-white p-4 rounded-4 text-dark">
-                        <h5 class="fw-bold"><i class="fas fa-map-marked-alt me-2 text-primary"></i> Easy Access from Old Guntur</h5>
+                        <h5 class="fw-bold"><i class="fas fa-map-marked-alt me-2 " style="color: #6a2b5f;"></i> Easy Access from Old Guntur</h5>
                         <p class="small text-muted">Our clinic is located within easy reach, making it convenient for residents and easily accessible from main roads. You can use the map given below for directions.</p>
                         <hr>
-                        <p class="mb-0 small fw-bold text-primary">Short drive • Minimal waiting time • Parking Available</p>
+                        <p class="mb-0 small fw-bold " style="color: #6a2b5f;">Short drive • Minimal waiting time • Parking Available</p>
                         <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3829.416759153765!2d80.40892811086457!3d16.30163613310894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a75e8e72e323b%3A0xc24e52047b5202de!2sVision%20MultiSpeciality%20Dental%20Hospital%20Guntur%20%7C%20Best%20Dentist%20in%20Guntur%20%7C%20Best%20Dental%20Hospital%20in%20Guntur!5e0!3m2!1sen!2sin!4v1753944933567!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
 
                     </div>
@@ -211,3 +221,4 @@
         </div>
     </div>
 </section>
+

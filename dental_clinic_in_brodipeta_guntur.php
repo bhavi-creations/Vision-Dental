@@ -70,7 +70,7 @@
   .hero-title span {
     color: #6a2d5f;
     /* color: var(--accent); */
-    
+
   }
 
   .hero-subtitle {
@@ -81,9 +81,9 @@
   }
 
   .btn-book {
-    background:   #6a2d5f;
+    background: #6a2d5f;
     /* background: var(--accent); */
-  
+
     color: white;
     /* color: var(--charcoal); */
     font-weight: 600;
@@ -95,23 +95,23 @@
     box-shadow: 0 4px 20px rgba(245, 158, 11, .4);
   }
 
-  .btn-book:hover {
+  /* .btn-book:hover {
     background: #FBBF24;
     transform: translateY(-2px);
     box-shadow: 0 8px 28px rgba(245, 158, 11, .5);
-    color: var(--charcoal);
-  }
+    
+  } */
 
   .btn-outline-hero {
     border: 1.5px solid rgba(255, 255, 255, .5);
-    color: #000000;
-    font-weight: 500;
+    color: #ffffff;
+    font-weight: 900;
     font-size: .95rem;
     padding: 14px 28px;
     border-radius: 50px;
     background: transparent;
     transition: all .3s ease;
-    border: 2px solid black ;
+    border: 2px solid black;
   }
 
   /* .btn-outline-hero:hover {
@@ -121,7 +121,7 @@
   } */
 
   .stat-card {
-    background: rgba(0, 0, 0, 0.35);
+    background: #6a2b5f;
     /* background: rgba(255, 255, 255, .1); */
     border: 1px solid rgba(255, 255, 255, .2);
     border-radius: 16px;
@@ -134,7 +134,7 @@
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
     font-weight: 700;
-    color: #6a2d5f;
+    color: #ffffff;
     /* color: var(--accent);#6a2d5f */
     line-height: 1;
   }
@@ -174,13 +174,13 @@
     background: #fff;
     border-radius: 20px;
     padding: 32px 28px;
-    border: 1px solid #E5E7EB;
+    border: 2px dotted #6a2b5f;
     transition: all .3s ease;
     height: 100%;
   }
 
   .why-card:hover {
-    border-color: var(--teal);
+    /* border-color: var(--teal);  */
     transform: translateY(-6px);
     box-shadow: 0 16px 40px rgba(13, 148, 136, .12);
   }
@@ -221,7 +221,8 @@
 
   /* TREATMENTS */
   .treatments-section {
-    background: var(--charcoal);
+    background: #6a2b5f;
+
     padding: 90px 0;
   }
 
@@ -240,21 +241,21 @@
     padding: 24px;
     border-radius: 16px;
     background: rgba(255, 255, 255, .05);
-    border: 1px solid rgba(255, 255, 255, .08);
+    border: 2px dotted white;
     transition: all .3s ease;
     height: 100%;
   }
 
-  .treatment-item:hover {
+  /* .treatment-item:hover {
     background: rgba(13, 148, 136, .15);
     border-color: var(--teal);
-  }
+  } */
 
   .treatment-num {
     font-family: 'Playfair Display', serif;
     font-size: 1.6rem;
     font-weight: 900;
-    color: #6a2d5f;
+    color: #ffffff;
     /* color: var(--teal); */
     line-height: 1;
     min-width: 36px;
@@ -265,6 +266,7 @@
     font-weight: 600;
     font-size: .98rem;
     margin-bottom: 4px;
+
   }
 
   .treatment-item p {
@@ -348,7 +350,7 @@
   }
 
   .accordion-button:not(.collapsed) {
-    color:white;
+    color: white;
     background: #6a2d5f;
     /* background: var(--teal-light); */
     box-shadow: none;
@@ -425,16 +427,16 @@
           <h1 class="hero-title mb-4">Your Trusted<br><span>Dental Care</span><br>Partner in Guntur</h1>
           <p class="hero-subtitle mb-5">Vision Multispeciality Dental Hospital brings advanced dental care, experienced specialists, and a patient-first experience — all within easy reach from Brodipet.</p>
           <div class="d-flex flex-wrap gap-3">
-            <a href="tel:+91" class="btn btn-book"><i class="bi bi-telephone-fill me-2"></i>Book Appointment</a>
-            <a href="#treatments" class="btn btn-outline-hero">Explore Treatments</a>
+            <a href="appointment.php" class="btn btn-book"><i class="bi bi-telephone-fill me-2"></i>Book Appointment</a>
+            <a href="treatment-in-vision-multispeciality-dental-hospital.php" class="btn btn-outline-hero">Explore Treatments</a>
           </div>
         </div>
         <div class="col-lg-5 fade-up delay-2">
           <div class="row g-3">
             <div class="col-6">
               <div class="stat-card">
-                <div class="stat-num">10+</div>
-                <div class="stat-label">Years of Excellence</div>
+                <div class="stat-num">8+</div>
+                <div class="stat-label">Years of clinical experience</div>
               </div>
             </div>
             <div class="col-6">
@@ -445,7 +447,7 @@
             </div>
             <div class="col-6">
               <div class="stat-card">
-                <div class="stat-num">5K+</div>
+                <div class="stat-num">2K+</div>
                 <div class="stat-label">Happy Patients</div>
               </div>
             </div>
@@ -486,7 +488,14 @@
         </div>
         <div class="col-sm-6 col-lg-4">
           <div class="why-card">
-            <div class="why-icon"><i class="bi bi-shield-check-fill"></i></div>
+            <div class="why-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 13L10 6L14 10L21 3" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M16 3H21V8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M3 18H21" stroke="white" stroke-width="2" stroke-opacity="0.2" stroke-linecap="round" stroke-linejoin="round" />
+                <circle cx="21" cy="3" r="1" fill="white" />
+              </svg>
+            </div>
             <h6>Strict Hygiene Protocols</h6>
             <p>Every instrument and surface is sterilized following international hygiene standards for your safety.</p>
           </div>

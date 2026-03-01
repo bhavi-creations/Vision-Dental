@@ -1,4 +1,4 @@
-<?php include 'header.php' ; ?>
+<?php include 'header.php'; ?>
 <style>
     :root {
         --vision-blue: #0056b3;
@@ -16,8 +16,9 @@
 
     /* Header Styling */
     .vision_badge {
-        background: rgba(0, 86, 179, 0.1);
-        color: var(--vision-blue);
+        background: #6a2b5f;
+        /* background: rgba(0, 86, 179, 0.1); */
+        color: white;
         padding: 8px 20px;
         border-radius: 50px;
         font-weight: 600;
@@ -36,31 +37,32 @@
     }
 
     .vision_main_title span {
-        color: var(--vision-blue);
+        color: #6a2b5f;
     }
 
     /* Service Card Styling */
     .vision_service_card {
         background: var(--vision-light);
-        border: none;
+        border: 2px dotted #6a2b5f;
         border-radius: 20px;
         padding: 30px;
         height: 100%;
         transition: all 0.3s ease;
         border-bottom: 4px solid transparent;
+
     }
 
     .vision_service_card:hover {
         transform: translateY(-10px);
         background: #ffffff;
-        box-shadow: 0 15px 40px rgba(0,0,0,0.1);
-        border-bottom: 4px solid var(--vision-blue);
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+        border-bottom: 4px solid #6a2b5f;
     }
 
     .vision_icon_box {
         width: 60px;
         height: 60px;
-        background: var(--vision-blue);
+        background: #6a2b5f;
         color: white;
         border-radius: 15px;
         display: flex;
@@ -72,7 +74,7 @@
 
     /* Why Choose Us Section */
     .vision_why_choose {
-        background: var(--vision-dark);
+        background: #6a2b5f;
         color: white;
         border-radius: 30px;
         padding: 50px;
@@ -87,13 +89,13 @@
     }
 
     .vision_list_item i {
-        color: var(--vision-gold);
+        color: #ffffff;
         font-size: 1.2rem;
     }
 
     /* CTA Button */
     .vision_cta_btn {
-        background: var(--vision-blue);
+        background: #6a2b5f;
         color: white;
         padding: 15px 35px;
         border-radius: 50px;
@@ -117,24 +119,30 @@
     .vision_img_container img {
         border-radius: 30px;
         width: 100%;
-        box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
     }
 
     .vision_experience_tag {
         position: absolute;
         bottom: 30px;
         left: -20px;
-        background: var(--vision-gold);
-        color: #000;
+        background: #6a2b5f;
+        color: #ffffff;
         padding: 20px;
         border-radius: 15px;
         font-weight: 800;
-        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     }
 
     @media (max-width: 768px) {
-        .vision_main_title { font-size: 2.2rem; }
-        .vision_experience_tag { position: static; margin-top: 20px; }
+        .vision_main_title {
+            font-size: 2.2rem;
+        }
+
+        .vision_experience_tag {
+            position: static;
+            margin-top: 20px;
+        }
     }
 </style>
 
@@ -166,7 +174,7 @@
                 <h2 class="fw-bold">Our Dental Services</h2>
                 <div class="mx-auto" style="width: 80px; height: 4px; background: var(--vision-blue); border-radius: 2px;"></div>
             </div>
-            
+
             <div class="col-md-4">
                 <div class="vision_service_card">
                     <div class="vision_icon_box"><i class="fas fa-notes-medical"></i></div>
@@ -193,7 +201,7 @@
         <div class="vision_why_choose">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <h2 class="mb-4">Why Lakshmipuram Residents <br><span style="color: var(--vision-gold)">Choose Us?</span></h2>
+                    <h2 class="mb-4">Why Lakshmipuram Residents <br><span style="color: #ffffff">Choose Us?</span></h2>
                     <div class="vision_list_item">
                         <i class="fas fa-check-circle"></i>
                         <span>Skilled and friendly dentists with years of experience</span>
@@ -212,7 +220,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 mt-4 mt-lg-0 text-center">
-                    <div class="p-4 border border-secondary rounded-4">
+                    <div class="p-4 border  rounded-4">
                         <i class="fas fa-clinic-medical fa-3x mb-3 text-warning"></i>
                         <h4>Easy Access</h4>
                         <p class="small opacity-75">Close to Lakshmipuram main road. Easy access from major residential areas by car, bike, or auto-rickshaw.</p>
@@ -224,3 +232,10 @@
         </div>
     </div>
 </section>
+
+<div class="text-center mt-5">
+    <!-- <p class="mb-0 fw-bold">Is it an emergency? We treat severe pain and urgent issues.</p>
+            <p class="text-muted small">Your healthy smile begins with expert care — Vision Multispeciality Dental Hospital.</p> -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3829.416759153765!2d80.40892811086457!3d16.30163613310894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a75e8e72e323b%3A0xc24e52047b5202de!2sVision%20MultiSpeciality%20Dental%20Hospital%20Guntur%20%7C%20Best%20Dentist%20in%20Guntur%20%7C%20Best%20Dental%20Hospital%20in%20Guntur!5e0!3m2!1sen!2sin!4v1753944933567!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>

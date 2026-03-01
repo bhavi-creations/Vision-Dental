@@ -7,7 +7,7 @@
 <style>
     :root {
         --arundel-blue: #004a99;
-        --arundel-accent: #ffd700;
+        --arundel-accent: #6a2b5f;
         --arundel-dark: #111111;
         --arundel-bg: #fdfdfd;
     }
@@ -21,7 +21,7 @@
 
     /* Badge & Titles */
     .arundel_badge {
-        color: var(--arundel-blue);
+        color: #6a2b5f;
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 2px;
@@ -41,13 +41,18 @@
     }
 
     .arundel_text_blue {
-        color: var(--arundel-blue);
+        color: #ffffff;
+        /* color: var(--arundel-blue); */
+    }
+
+    .arundel_text_blue_section{
+        color:#6a2b5f;
     }
 
     /* Service Grid Layout */
     .arundel_service_card {
         background: #fff;
-        border: 1px solid #eee;
+        border: 1px solid #6a2b5f;
         border-radius: 15px;
         padding: 25px;
         text-align: center;
@@ -65,8 +70,10 @@
         width: 70px;
         height: 70px;
         line-height: 70px;
-        background: rgba(0, 74, 153, 0.05);
-        color: var(--arundel-blue);
+        background: #6a2b5f;
+        /* background: rgba(0, 74, 153, 0.05); */
+        color:white;
+        /* color: var(--arundel-blue); */
         border-radius: 50%;
         font-size: 1.8rem;
         margin: 0 auto 20px;
@@ -75,7 +82,8 @@
 
     /* Why Choose Us Dark Box */
     .arundel_features_box {
-        background: var(--arundel-dark);
+        background: #6a2b5f;
+        /* background: var(--arundel-dark); */
         color: #fff;
         border-radius: 30px;
         padding: 50px;
@@ -90,7 +98,8 @@
     }
 
     .arundel_feature_item i {
-        color: var(--arundel-accent);
+        /* color: var(--arundel-accent); */
+        color: white;
         font-size: 1.2rem;
         margin-top: 5px;
     }
@@ -123,7 +132,8 @@
 
     /* CTA Button */
     .arundel_btn_call {
-        background: var(--arundel-blue);
+        background: #6a2b5f;
+        /* background: var(--arundel-blue); */
         color: #fff;
         padding: 15px 40px;
         border-radius: 50px;
@@ -146,6 +156,13 @@
             font-size: 2.2rem;
         }
     }
+    .fw-bold{
+        color: #6a2b5f;
+    }
+
+    .fw-bold-section{
+        color: white;
+    }
 </style>
 
 <section class="arundel_page_section">
@@ -153,7 +170,7 @@
         <div class="row align-items-center mb-5">
             <div class="col-lg-7">
                 <span class="arundel_badge">Arundelpet, Guntur</span>
-                <h1 class="arundel_title">Advanced & Trusted <br><span class="arundel_text_blue">Dental Excellence</span></h1>
+                <h1 class="arundel_title">Advanced & Trusted <br><span class="arundel_text_blue_section">Dental Excellence</span></h1>
                 <p class="lead mb-4 text-muted">
                     If you are searching for a reliable dental hospital in Arundelpet, Vision Multispeciality Dental Hospital offers modern technology, experienced doctors, and a patient-focused approach.
                 </p>
@@ -164,7 +181,7 @@
             <div class="col-lg-5 mt-5 mt-lg-0">
                 <div class="position-relative">
                     <img src="./assets/img/equipment_arundelpet-guntur.png" alt="Dental Hospital" class="img-fluid rounded-4 shadow-lg">
-                    <div style="position: absolute; top: -20px; right: -20px; background: var(--arundel-accent); padding: 20px; border-radius: 15px; font-weight: 800; font-size: 0.9rem;">
+                    <div style="position: absolute; top: -20px; right: -20px; background: var(--arundel-accent); padding: 20px; border-radius: 15px; font-weight: 800; font-size: 0.9rem; color: white;">
                         Modern <br> Infrastructure
                     </div>
                 </div>
@@ -242,7 +259,7 @@
                             <strong>Parking:</strong> Dedicated parking facilities available for our patients.
                         </div>
                         <div class="text-center mt-3">
-                            <a href="#" class="btn btn-outline-primary w-100 rounded-pill fw-bold">Open Google Maps</a>
+                            <a href="https://share.google/Ia8aMisICDAK1Qxd9" target="_blank" class="btn btn-outline-primary w-100 rounded-pill fw-bold-section">Open Google Maps</a>
                         </div>
                     </div>
                 </div>

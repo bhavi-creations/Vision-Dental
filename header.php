@@ -68,14 +68,14 @@
 
 
 
-  
+
   <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> -->
 
 
 
 
   <!-- ask oncologist  -->
-  
+
 
   <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
@@ -249,7 +249,7 @@
 
 
 <body>
-  <?php include'view_count.php'; ?>
+  <?php include 'view_count.php'; ?>
 
 
 
@@ -281,13 +281,13 @@
 
                 <li class="unique-dropdown-item">
                   <a href="about-us.php" class="unique-dropdown-link">About us</i></a>
-                 
+
                 </li>
-               
+
 
                 <li class="unique-dropdown-item">
                   <a href="we_promise.php" class="unique-dropdown-link">We promise</i></a>
-                  
+
                 </li>
 
 
@@ -305,7 +305,7 @@
 
 
 
-          
+
 
           <li class="unique-nav-item " style="--i: 1.1s">
             <a href="treatment-in-vision-multispeciality-dental-hospital.php" class="unique-nav-link">Treatments<i class="fas fa-caret-down"></i></a>
@@ -424,6 +424,57 @@
                     </ul>
                   </div>
                 </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <li class="unique-dropdown-item">
+                  <a href="#" class="unique-dropdown-link">Areas We Serve <i class="fas fa-caret-down"></i></a>
+                  <div class="unique-dropdown second-level  nav_div_mrg nav_div_mrg_three">
+                    <ul class="unique-dropdown-list inside_nav_drop_down  sub_section1">
+
+                      <li class="unique-dropdown-item">
+                        <a href="dental-hospital-in-arundelpet-guntur.php" class="unique-dropdown-link"> Arundalpet</a>
+                      </li>
+                      <li class="unique-dropdown-item">
+                        <a href="dental_clinic_in_brodipeta_guntur.php" class="unique-dropdown-link">  Brodipeta </a>
+                      </li>
+                      <li class="unique-dropdown-item">
+                        <a href="dentist-in-old-guntur.php" class="unique-dropdown-link"> Old Guntur</a>
+                      </li>
+                      <li class="unique-dropdown-item">
+                        <a href="dentist-in-lakshmipuram-guntur.php" class="unique-dropdown-link"> Lakshmipuram</a>
+                      </li>
+                     
+
+                      <div class="unique-arrow"></div>
+                    </ul>
+                  </div>
+                </li>
+
+
+
+
+
+
+
+
+
 
 
                 <div class="unique-arrow"></div>
@@ -562,102 +613,98 @@
 
 
     <script>
-// Add this JavaScript to your existing script section or create a new one
-// Make sure jQuery is loaded before this script
+      // Add this JavaScript to your existing script section or create a new one
+      // Make sure jQuery is loaded before this script
 
-$(document).ready(function() {
-  // Only apply mobile navigation behavior on screens smaller than 992px
-  function initMobileNav() {
-    if ($(window).width() < 992) {
-      
-      // Handle first-level dropdown (Treatments)
-      $('.unique-nav-item > .unique-nav-link').off('click').on('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        
-        var $parent = $(this).parent();
-        var $dropdown = $(this).next('.unique-dropdown');
-        
-        // Check if already open
-        var isOpen = $parent.hasClass('active');
-        
-        // Close other first-level dropdowns
-        $('.unique-nav-item').not($parent).removeClass('active')
-          .find('.unique-dropdown').removeClass('show').hide();
-        
-        // Close all second-level dropdowns
-        $('.second-level').removeClass('show').hide();
-        $('.unique-dropdown-item').removeClass('active');
-        
-        // Toggle current dropdown
-        if (isOpen) {
-          $parent.removeClass('active');
-          $dropdown.removeClass('show').hide();
-        } else {
-          $parent.addClass('active');
-          $dropdown.addClass('show').css('display', 'block');
-        }
-      });
-      
-      // Handle second-level dropdown (Pain Relief, Teeth Replacement, etc.)
-      $('.unique-dropdown-item > .unique-dropdown-link').off('click').on('click', function(e) {
-        var $secondLevel = $(this).next('.second-level');
-        
-        // If there's a second level dropdown, prevent default and toggle it
-        if ($secondLevel.length > 0) {
-          e.preventDefault();
-          e.stopPropagation();
-          
-          var $parent = $(this).parent();
-          
-          // Check if already open
-          var isOpen = $parent.hasClass('active');
-          
-          // Close other second-level dropdowns at the same level
-          $parent.siblings('.unique-dropdown-item').removeClass('active')
-            .find('.second-level').removeClass('show').hide();
-          
-          // Toggle current second-level dropdown
-          if (isOpen) {
-            $parent.removeClass('active');
-            $secondLevel.removeClass('show').hide();
+      $(document).ready(function() {
+        // Only apply mobile navigation behavior on screens smaller than 992px
+        function initMobileNav() {
+          if ($(window).width() < 992) {
+
+            // Handle first-level dropdown (Treatments)
+            $('.unique-nav-item > .unique-nav-link').off('click').on('click', function(e) {
+              e.preventDefault();
+              e.stopPropagation();
+
+              var $parent = $(this).parent();
+              var $dropdown = $(this).next('.unique-dropdown');
+
+              // Check if already open
+              var isOpen = $parent.hasClass('active');
+
+              // Close other first-level dropdowns
+              $('.unique-nav-item').not($parent).removeClass('active')
+                .find('.unique-dropdown').removeClass('show').hide();
+
+              // Close all second-level dropdowns
+              $('.second-level').removeClass('show').hide();
+              $('.unique-dropdown-item').removeClass('active');
+
+              // Toggle current dropdown
+              if (isOpen) {
+                $parent.removeClass('active');
+                $dropdown.removeClass('show').hide();
+              } else {
+                $parent.addClass('active');
+                $dropdown.addClass('show').css('display', 'block');
+              }
+            });
+
+            // Handle second-level dropdown (Pain Relief, Teeth Replacement, etc.)
+            $('.unique-dropdown-item > .unique-dropdown-link').off('click').on('click', function(e) {
+              var $secondLevel = $(this).next('.second-level');
+
+              // If there's a second level dropdown, prevent default and toggle it
+              if ($secondLevel.length > 0) {
+                e.preventDefault();
+                e.stopPropagation();
+
+                var $parent = $(this).parent();
+
+                // Check if already open
+                var isOpen = $parent.hasClass('active');
+
+                // Close other second-level dropdowns at the same level
+                $parent.siblings('.unique-dropdown-item').removeClass('active')
+                  .find('.second-level').removeClass('show').hide();
+
+                // Toggle current second-level dropdown
+                if (isOpen) {
+                  $parent.removeClass('active');
+                  $secondLevel.removeClass('show').hide();
+                } else {
+                  $parent.addClass('active');
+                  $secondLevel.addClass('show').css('display', 'block');
+                }
+              }
+              // If no second level, let the link work normally (it will navigate)
+            });
+
           } else {
-            $parent.addClass('active');
-            $secondLevel.addClass('show').css('display', 'block');
+            // Remove mobile click handlers on desktop
+            $('.unique-nav-item > .unique-nav-link').off('click');
+            $('.unique-dropdown-item > .unique-dropdown-link').off('click');
+
+            // Remove all mobile classes
+            $('.unique-nav-item, .unique-dropdown-item').removeClass('active');
+            $('.unique-dropdown, .second-level').removeClass('show').removeAttr('style');
           }
         }
-        // If no second level, let the link work normally (it will navigate)
+
+        // Initialize on page load
+        initMobileNav();
+
+        // Reinitialize on window resize
+        var resizeTimer;
+        $(window).on('resize', function() {
+          clearTimeout(resizeTimer);
+          resizeTimer = setTimeout(function() {
+            initMobileNav();
+          }, 250);
+        });
       });
-      
-    } else {
-      // Remove mobile click handlers on desktop
-      $('.unique-nav-item > .unique-nav-link').off('click');
-      $('.unique-dropdown-item > .unique-dropdown-link').off('click');
-      
-      // Remove all mobile classes
-      $('.unique-nav-item, .unique-dropdown-item').removeClass('active');
-      $('.unique-dropdown, .second-level').removeClass('show').removeAttr('style');
-    }
-  }
-  
-  // Initialize on page load
-  initMobileNav();
-  
-  // Reinitialize on window resize
-  var resizeTimer;
-  $(window).on('resize', function() {
-    clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(function() {
-      initMobileNav();
-    }, 250);
-  });
-});
-</script>
+    </script>
 
 
 
   </header>
-
-
-
-
