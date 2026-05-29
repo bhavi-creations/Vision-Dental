@@ -68,6 +68,8 @@
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/style1.css" rel="stylesheet">
 
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
 
 
 

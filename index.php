@@ -3,8 +3,8 @@
 <!-- ======video======-->
 
 
-<section class="only_first">
-  <video id="myVideo" width="100%" height="auto" muted loop playsinline preload="none" poster="assets/img/vision/banner_pic.png">
+<section autoplay muted loop class="only_first">
+  <video id="myVideo" width="100%" height="auto" autoplay muted loop preload="none">
     <source data-src="assets/img/treat/vision.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
