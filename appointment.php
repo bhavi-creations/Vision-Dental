@@ -30,7 +30,7 @@
      <div class="container appointment_bg" style="  background-color: #E7F3FE80;">
 
        <div class="section-title text-center">
-         <h2 class=" pt-5 mb-4 contct_text">Make an Appointment</h2>
+         <h2 class=" pt-5 mb-4 contct_text">Free Consultation </h2>
        </div>
 
 
