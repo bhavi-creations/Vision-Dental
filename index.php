@@ -16,7 +16,7 @@
     const video = document.getElementById('myVideo');
     const unmuteButton = document.getElementById('unmuteButton');
 
-    window.addEventListener('load', () => {
+    const loadHeroVideo = () => {
       const source = video.querySelector('source[data-src]');
       if (!source) return;
 
@@ -24,6 +24,24 @@
       source.removeAttribute('data-src');
       video.load();
       video.play().catch(() => {});
+    };
+
+    window.addEventListener('load', () => {
+      const isMobile = window.matchMedia('(max-width: 767px)').matches;
+
+      if (isMobile) {
+        const loadLater = () => window.setTimeout(loadHeroVideo, 3000);
+        if ('requestIdleCallback' in window) {
+          requestIdleCallback(loadLater, {
+            timeout: 5000
+          });
+        } else {
+          loadLater();
+        }
+        return;
+      }
+
+      loadHeroVideo();
     });
 
     if (unmuteButton) {
@@ -217,7 +235,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <img src="assets/img/vision/doc_main_img.png" class="img-fluid" alt="">
+        <img src="assets/img/vision/doc_main_img.png" class="img-fluid" alt="" loading="lazy" decoding="async">
       </div>
       <div class="col-md-6">
 
@@ -261,7 +279,7 @@
 
             </div>
             <div class="col-6">
-              <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
+              <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img " loading="lazy" decoding="async">
             </div>
           </div>
         </div>
@@ -278,7 +296,7 @@
               <a href="laser-teeth-whitening-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button">Read More</button></a>
             </div>
             <div class="col-6">
-              <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
+              <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img " loading="lazy" decoding="async">
             </div>
           </div>
         </div>
@@ -295,7 +313,7 @@
               <a href="teeth-alignment-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button">Read More </button></a>
             </div>
             <div class="col-6">
-              <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
+              <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img " loading="lazy" decoding="async">
             </div>
           </div>
         </div>
@@ -311,7 +329,7 @@
               <a href="root-canal-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
             </div>
             <div class="col-6">
-              <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
+              <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img " loading="lazy" decoding="async">
             </div>
           </div>
         </div>
@@ -328,7 +346,7 @@
               <a href="dentalbraces-treatments-in-guntur.php" class="service_btn_readmore"><button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
-              <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
+              <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img " loading="lazy" decoding="async">
             </div>
           </div>
         </div>
@@ -346,7 +364,7 @@
             </div>
             <div class="col-6">
 
-              <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
+              <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img " loading="lazy" decoding="async">
 
 
             </div>
@@ -367,7 +385,7 @@
               <a href="clear-aligners-treatment-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
-              <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
+              <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img " loading="lazy" decoding="async">
             </div>
           </div>
         </div>
@@ -384,7 +402,7 @@
               <a href="laminate-veneers-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
-              <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
+              <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img " loading="lazy" decoding="async">
             </div>
           </div>
         </div>
@@ -402,7 +420,7 @@
             </div>
             <div class="col-6">
 
-              <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
+              <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img " loading="lazy" decoding="async">
 
 
             </div>
@@ -423,7 +441,7 @@
               <a href="dentaldentures-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
             </div>
             <div class="col-6">
-              <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
+              <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img " loading="lazy" decoding="async">
             </div>
           </div>
         </div>
@@ -440,7 +458,7 @@
               <a href="invisalignaligners_clearaligners_treatment-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
-              <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
+              <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img " loading="lazy" decoding="async">
             </div>
           </div>
         </div>
@@ -459,7 +477,7 @@
             </div>
             <div class="col-6">
 
-              <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
+              <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img " loading="lazy" decoding="async">
 
 
             </div>
@@ -478,7 +496,7 @@
               <a href="laser-gum-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
-              <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
+              <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img " loading="lazy" decoding="async">
             </div>
           </div>
         </div>
@@ -495,7 +513,7 @@
               <a href="smile-designing-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
-              <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
+              <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img " loading="lazy" decoding="async">
             </div>
           </div>
         </div>
@@ -514,7 +532,7 @@
             </div>
             <div class="col-6">
 
-              <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
+              <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img " loading="lazy" decoding="async">
 
 
             </div>
@@ -533,7 +551,7 @@
               <a href="teeth-alignment-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
             </div>
             <div class="col-6">
-              <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
+              <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img " loading="lazy" decoding="async">
             </div>
           </div>
         </div>
@@ -550,7 +568,7 @@
               <a href="wisdom-tooth-removel-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button">Read More </button></a>
             </div>
             <div class="col-6">
-              <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
+              <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img " loading="lazy" decoding="async">
             </div>
           </div>
         </div>
@@ -569,7 +587,7 @@
             </div>
             <div class="col-6">
 
-              <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
+              <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img " loading="lazy" decoding="async">
 
 
             </div>
@@ -588,7 +606,7 @@
               <a href="gum-depigmentation-treatments-in-guntur.php" class="service_btn_readmore"><button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
-              <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
+              <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img " loading="lazy" decoding="async">
             </div>
           </div>
         </div>
@@ -605,7 +623,7 @@
               <a href="laser-gum-surgeries-treatments-in-guntur.php" class="service_btn_readmore"><button class="custom-button"> Read More</button></a>
             </div>
             <div class="col-6">
-              <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
+              <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img " loading="lazy" decoding="async">
             </div>
           </div>
         </div>
@@ -624,7 +642,7 @@
             </div>
             <div class="col-6">
 
-              <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
+              <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img " loading="lazy" decoding="async">
 
 
             </div>
@@ -643,7 +661,7 @@
               <a href="precancerous-lesion-in-mouth-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More</button></a>
             </div>
             <div class="col-6">
-              <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img ">
+              <img src="assets/img/vision/mam_ser.png" alt="" class="img-fluid custom-card-img " loading="lazy" decoding="async">
             </div>
           </div>
         </div>
@@ -660,7 +678,7 @@
               <a href="laser-crown-lengthening-treatments-in-guntur.php" class="service_btn_readmore"> <button class="custom-button"> Read More </button></a>
             </div>
             <div class="col-6">
-              <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img ">
+              <img src="assets/img/vision/sir_ser.png" alt="" class="img-fluid custom-card-img " loading="lazy" decoding="async">
             </div>
           </div>
         </div>
@@ -722,7 +740,7 @@
 <div class="container my-5">
   <div class="row">
     <div class="col-md-4 col-12 d-flex justify-content-center">
-      <img src="./assets/img/vision.png" alt="" class="img-fluid" style="height: 500px;">
+      <img src="./assets/img/vision.png" alt="" class="img-fluid" style="height: 500px;" loading="lazy" decoding="async">
     </div>
     <div class="col-md-4 col-12 d-flex justify-content-center">
       <div class="vdh-feature-box">
@@ -760,7 +778,7 @@
     </div>
 
     <div class="col-md-4 col-12 d-flex justify-content-center">
-      <img src="./assets/img/mission.png" alt="" class="img-fluid" style="height: 500px;">
+      <img src="./assets/img/mission.png" alt="" class="img-fluid" style="height: 500px;" loading="lazy" decoding="async">
     </div>
   </div>
 </div>
@@ -784,7 +802,7 @@
         <button class="view_all_buttton"><a href="equipment-in-vision-multispeciality-dental-hospital-in-guntur.php" style="color: #fff;">View all</a> </button>
       </div>
       <div class="col-md-7">
-        <img src="assets/img/vision/group chair.png" class="img-fluid group_chair_img" alt="">
+        <img src="assets/img/vision/group chair.png" class="img-fluid group_chair_img" alt="" loading="lazy" decoding="async">
       </div>
 
     </div>
@@ -815,7 +833,7 @@
           </div>
           <div class="d-flex profile_card_div_dp">
             <div class="">
-              <img src="assets/img/vision/shesa reddy.png" class="img-fluid dp_image_testmonials" alt="">
+              <img src="assets/img/vision/shesa reddy.png" class="img-fluid dp_image_testmonials" alt="" loading="lazy" decoding="async">
             </div>
             <div class="">
               <h3 class="revier_name">Sesha Reddy</h3>
@@ -834,7 +852,7 @@
           </div>
           <div class="d-flex profile_card_div_dp">
             <div class="">
-              <img src="assets/img/vision/rohit.png" class="img-fluid dp_image_testmonials" alt="">
+              <img src="assets/img/vision/rohit.png" class="img-fluid dp_image_testmonials" alt="" loading="lazy" decoding="async">
             </div>
             <div class="">
               <h3 class="revier_name">Rohit Pawar
@@ -854,7 +872,7 @@
           </div>
           <div class="d-flex profile_card_div_dp">
             <div class="">
-              <img src="assets/img/vision/anand naidu.png" class="img-fluid dp_image_testmonials" alt="">
+              <img src="assets/img/vision/anand naidu.png" class="img-fluid dp_image_testmonials" alt="" loading="lazy" decoding="async">
             </div>
             <div class="">
               <h3 class="revier_name">Anand Naidu
@@ -875,7 +893,7 @@
           </div>
           <div class="d-flex profile_card_div_dp">
             <div class="">
-              <img src="assets/img/vision/sangeetha.png" class="img-fluid dp_image_testmonials" alt="">
+              <img src="assets/img/vision/sangeetha.png" class="img-fluid dp_image_testmonials" alt="" loading="lazy" decoding="async">
             </div>
             <div class="">
               <h3 class="revier_name">Sangeetha</h3>
@@ -962,7 +980,7 @@
 
       <div class="col-md-2 d-none d-md-block"></div>
       <div class="col-md-5">
-        <img src="assets/img/vision/lady_doc_img.png" class="img-fluid" alt="">
+        <img src="assets/img/vision/lady_doc_img.png" class="img-fluid" alt="" loading="lazy" decoding="async">
       </div>
 
     </div>
@@ -1008,7 +1026,7 @@
           // Display video if available
           if (!empty($video)) {
             $video_path = "./admin/uploads/videos/{$video}";
-            echo "<video class='main-video img-fluid' controls>
+            echo "<video class='main-video img-fluid' controls preload='none'>
                     <source src='{$video_path}' type='video/mp4'>
                     Your browser does not support the video tag.
                   </video>";
@@ -1016,7 +1034,7 @@
           // If no video, display main image
           elseif (!empty($main_image)) {
             $main_image_path = "./admin/uploads/photos/{$main_image}";
-            echo "<img class='card-img-top img-fluid' src='{$main_image_path}' alt='Blog Image'>";
+            echo "<img class='card-img-top img-fluid' src='{$main_image_path}' alt='Blog Image' loading='lazy' decoding='async'>";
           }
           echo "<h5 class='card-title my-3'>" . htmlspecialchars($title) . "</h5>";
           // Display a short portion of the blog content
@@ -1515,3 +1533,4 @@
 </body>
 
 </html>
+
