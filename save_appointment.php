@@ -54,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             "05:00 PM - 06:00 PM",
             "06:00 PM - 07:00 PM",
             "07:00 PM - 08:30 PM",
-            
+
         ];
 
         if (
@@ -63,7 +63,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             ($type == 'afternoon' && in_array($slot, $afternoonSlots))
         ) {
             echo "<script>
-                alert('".$row['reason']."');
+                alert('" . $row['reason'] . "');
                 window.location='index.php';
             </script>";
             exit;
@@ -111,7 +111,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mailDoctor->Host       = 'smtp.gmail.com';
         $mailDoctor->SMTPAuth   = true;
         $mailDoctor->Username   = 'manimalladi05@gmail.com';
-        $mailDoctor->Password   = 'mxhnohjzbkofbrbs';
+        $mailDoctor->Password   = 'cvarqcchfjpawxvo';
         $mailDoctor->SMTPSecure = 'tls';
         $mailDoctor->Port       = 587;
 
@@ -136,7 +136,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         ";
 
         $mailDoctor->send();
-
     } catch (Exception $e) {
         echo 'Doctor Mail Error: ' . $mailDoctor->ErrorInfo;
         exit;
@@ -152,13 +151,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mailPatient->Host       = 'smtp.gmail.com';
         $mailPatient->SMTPAuth   = true;
         $mailPatient->Username   = 'manimalladi05@gmail.com';
-        $mailPatient->Password   = 'mxhnohjzbkofbrbs';
+        $mailPatient->Password   = 'cvarqcchfjpawxvo';
         $mailPatient->SMTPSecure = 'tls';
         $mailPatient->Port       = 587;
 
         $mailPatient->setFrom(
             'manimalladi05@gmail.com',
-            'Vision Multispeciality Dental Hospital'
+            'Srinivasa Multispeciality Dental Hospital'
         );
 
         $mailPatient->addAddress($email);
@@ -179,18 +178,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </table>
 
             <p>Thank you for choosing<br>
-            <b>Vision Multispeciality Dental Hospital</b>.</p>
+            <b>Srinivasa Multispeciality Dental Hospital</b>.</p>
         ";
 
         $mailPatient->send();
 
         echo "<script>
-            alert('Appointment booked successfully');
-            window.location='index.php';
+           
+            window.location='thankyou.php';
         </script>";
-
     } catch (Exception $e) {
         echo 'Patient Mail Error: ' . $mailPatient->ErrorInfo;
     }
 }
-?>

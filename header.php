@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Vision Multispecialty Dental Hospital in Guntur</title>
+  <title>Best Dental Clinic in Guntur | Vision Dental Hospital</title>
 
   <meta name="google-site-verification" content="H2SztZ2bMfGjPtPTvWlAPlclCAJWgBeVrfyf3ZXvADM" />
   <meta name="title" content="Vision Multispecialty Dental Hospital in Guntur | Best Dental Hospital in Guntur">
@@ -39,7 +39,7 @@
     rel="stylesheet">
 
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PCRYBC3NWQ"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18192734271"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -48,7 +48,7 @@
     }
     gtag('js', new Date());
 
-    gtag('config', 'G-PCRYBC3NWQ');
+    gtag('config', 'AW-18192734271');
   </script>
 
 
@@ -249,7 +249,7 @@
 
 
 <body>
-  <?php include 'view_count.php'; ?>
+
 
 
 
@@ -452,7 +452,7 @@
                         <a href="dental-hospital-in-arundelpet-guntur.php" class="unique-dropdown-link"> Arundalpet</a>
                       </li>
                       <li class="unique-dropdown-item">
-                        <a href="dental-clinic-in-brodipeta-guntur.php" class="unique-dropdown-link">  Brodipeta </a>
+                        <a href="dental-clinic-in-brodipeta-guntur.php" class="unique-dropdown-link"> Brodipeta </a>
                       </li>
                       <li class="unique-dropdown-item">
                         <a href="dentist-in-old-guntur.php" class="unique-dropdown-link"> Old Guntur</a>
@@ -460,7 +460,7 @@
                       <li class="unique-dropdown-item">
                         <a href="dentist-in-lakshmipuram-guntur.php" class="unique-dropdown-link"> Lakshmipuram</a>
                       </li>
-                     
+
 
                       <div class="unique-arrow"></div>
                     </ul>

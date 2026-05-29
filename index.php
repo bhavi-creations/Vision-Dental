@@ -29,7 +29,7 @@
 
 
 
-<section class="banner_bg_color">
+<!-- <section class="banner_bg_color">
   <div class="container first_section">
     <div class="row ">
       <div class="col-md-6 first_banner_col">
@@ -54,7 +54,48 @@
 
     </div>
   </div>
+</section> -->
+
+
+
+
+<section class="banner_bg_color">
+  <div class="container first_section">
+    <div class="row ">
+      <div class="col-md-6 first_banner_col">
+        <img src="assets/img/vision/large_icon.png" class="img-fluid banner_image_logo  d-none d-lg-block" alt="">
+        <h1 class="banner_head">Dental Hospital in Guntur <br>
+          Vision Multispeciality <br>
+          Dental Hospital</h1>
+        <p class="banner_para">Looking for the best dental clinic in Guntur? Vision Dental provides expert care with advanced technology. We are a leading dental hospital in Guntur specializing in painless root canals, dental implants, and braces. Our specialist team ensures a patient-first approach for all your dental needs. Visit us in Guntur for a healthy, confident smile today.</p>
+
+        <div class="d-flex">
+          <button class="banner_contact_us"><a href="contact-us-vision-multispeciality-dental-hospital.php" style="color:#fff">Contact us</a> </button>
+          <button class="banner_read_more"><a href="about-us.php" style="color:black">Read more</a></button>
+
+        </div>
+
+
+      </div>
+      <div class="col-md-6">
+        <img src="assets/img/vision/banner_pic.png" class="img-fluid" alt="">
+
+      </div>
+
+    </div>
+  </div>
 </section>
+
+
+
+
+
+
+
+
+
+
+
 
 
 <div class="container teeth_card_container d-none d-md-block">
@@ -171,7 +212,8 @@
 
         <h1 class="doc_head_text">
           Vision Multispeciality Dental Hospital Dentist In Guntur</h1>
-        <p class="doc_para_text">Welcome to Vision Multispeciality Dental Hospital, Guntur, where Dr. Abhilash, our esteemed founder and chief doctor, leads our dedicated team. With over 8 years of extensive experience in the field of dentistry,
+        <p class="doc_para_text">Vision Multispecialty Dental Hospital is the top-rated dental hospital in Guntur. Led by Dr. Abhilash, an expert dentist in Guntur with 8+ years of experience, we specialize in painless dental implants, laser dentistry, and full mouth rehabilitation. For those seeking a "dentist near me in Guntur," we provide advanced level care and the best dental treatments.
+          <!-- <p class="doc_para_text">Welcome to Vision Multispeciality Dental Hospital, Guntur, where Dr. Abhilash, our esteemed founder and chief doctor, leads our dedicated team. With over 8 years of extensive experience in the field of dentistry, </p>-->
           <a href="https://visionmultispecialtydental.blogspot.com/2025/11/dr-abhilash-vision-multi-speciality.html" target="_blank"> Dr. Abhilash</a> is renowned for his expertise in implant surgeries, laser photomedicines, and full mouth rehabilitations.
         </p>
         <button class="read_more_btn_vision"><a href="about-us.php" style="color: white;"> Read More</a></button>
@@ -726,7 +768,8 @@
         <h1 class="why_choose_head">Why Choose 
           Vision Multi speciality
           Dental</h1>
-        <p class="why_choose_para">"We provide a full range of dental services—from routine check-ups to advanced treatments—all conveniently available under one roof. At our trusted dental clinic in Guntur, our experienced team is committed to delivering personalized care tailored to your individual needs. Whether you're seeking preventive care, cosmetic improvements, or restorative dentistry, we’re here to support you every step of the way on your journey to better oral health. Visit one of Guntur’s top-rated dentists and experience the quality care you deserve"</p>
+        <p class="why_choose_para">"Experience world-class care at Vision Dental, the best dental clinic in Guntur. Led by expert specialists, our dental hospital in Guntur offers everything from painless root canals to cosmetic dentistry and braces. Searching for a trusted dentist in Guntur? Visit us for advanced technology and patient-first treatments tailored to your smile."</p>
+        <!-- <p class="why_choose_para">"We provide a full range of dental services—from routine check-ups to advanced treatments—all conveniently available under one roof. At our trusted dental clinic in Guntur, our experienced team is committed to delivering personalized care tailored to your individual needs. Whether you're seeking preventive care, cosmetic improvements, or restorative dentistry, we’re here to support you every step of the way on your journey to better oral health. Visit one of Guntur’s top-rated dentists and experience the quality care you deserve"</p> -->
         <button class="view_all_buttton"><a href="equipment-in-vision-multispeciality-dental-hospital-in-guntur.php" style="color: #fff;">View all</a> </button>
       </div>
       <div class="col-md-7">
@@ -880,9 +923,13 @@
   <div class="container">
     <div class="row">
       <div class="col-md-5">
-        <h1 class="head_tag_doc_mam">For Best Dentist in Guntur
+        <!-- <h1 class="head_tag_doc_mam">For Best Dentist in Guntur
           and <span class="doc_span_text">Top Dental Care In
-            Guntur</span> Solutions, Enroll With Us Now.</h1>
+            Guntur</span> Solutions, Enroll With Us Now.</h1> -->
+        <h1 class="head_tag_doc_mam">Best Dentist in Guntur at Vision Multispeciality.
+          <span class="doc_span_text"> For Top Dental Care in Guntur,
+          </span>visit our expert dental hospital.
+        </h1>
         <p class="call_text_bg_green">Call - +91 9391 457072</p>
 
 

@@ -42,4 +42,3 @@ if (isset($_GET['id'])) {
     header("Location: allBlog.php");
     exit;
 }
-?>
