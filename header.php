@@ -35,7 +35,9 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
 
   <!-- Google tag (gtag.js) -->
@@ -67,32 +69,6 @@
   <link href="assets/css/style1.css" rel="stylesheet">
 
 
-
-
-  <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> -->
-
-
-
-
-  <!-- ask oncologist  -->
-
-
-  <!-- Bootstrap CSS -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Bootstrap JS and dependencies -->
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
-  <!-- call ki related icons  -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
 
   <!-- Google tag (gtag.js) -->
@@ -532,25 +508,6 @@
     </div>
 
 
-    <script>
-      // jQuery needed to manage hover and click behavior
-      $(document).ready(function() {
-        // Ensure that the dropdown opens on hover
-        $('#servicesDropdown').hover(function() {
-          $(this).dropdown('toggle');
-        });
-
-        // Make sure the dropdown also works on click
-        $('#servicesDropdown').click(function(e) {
-          e.stopPropagation(); // Prevents the click from closing the dropdown immediately
-          window.location.href = $(this).attr('href'); // Redirect to the link
-        });
-      });
-    </script>
-
-
-
-
     <?php
     // Define hospital details dynamically
     $hospital_name = "Vision Dental Guntur";
@@ -613,94 +570,119 @@
 
 
     <script>
-      // Add this JavaScript to your existing script section or create a new one
-      // Make sure jQuery is loaded before this script
+      document.addEventListener('DOMContentLoaded', function() {
+        var resizeTimer;
 
-      $(document).ready(function() {
-        // Only apply mobile navigation behavior on screens smaller than 992px
+        function resetMobileNav(firstLevelLinks, secondLevelLinks) {
+          firstLevelLinks.forEach(function(link) {
+            link.onclick = null;
+          });
+          secondLevelLinks.forEach(function(link) {
+            link.onclick = null;
+          });
+        }
+
         function initMobileNav() {
-          if ($(window).width() < 992) {
+          var firstLevelLinks = document.querySelectorAll('.unique-nav-item > .unique-nav-link');
+          var secondLevelLinks = document.querySelectorAll('.unique-dropdown-item > .unique-dropdown-link');
+          var allDropdowns = document.querySelectorAll('.unique-dropdown, .second-level');
+          var navItems = document.querySelectorAll('.unique-nav-item, .unique-dropdown-item');
 
-            // Handle first-level dropdown (Treatments)
-            $('.unique-nav-item > .unique-nav-link').off('click').on('click', function(e) {
-              e.preventDefault();
-              e.stopPropagation();
+          resetMobileNav(firstLevelLinks, secondLevelLinks);
 
-              var $parent = $(this).parent();
-              var $dropdown = $(this).next('.unique-dropdown');
-
-              // Check if already open
-              var isOpen = $parent.hasClass('active');
-
-              // Close other first-level dropdowns
-              $('.unique-nav-item').not($parent).removeClass('active')
-                .find('.unique-dropdown').removeClass('show').hide();
-
-              // Close all second-level dropdowns
-              $('.second-level').removeClass('show').hide();
-              $('.unique-dropdown-item').removeClass('active');
-
-              // Toggle current dropdown
-              if (isOpen) {
-                $parent.removeClass('active');
-                $dropdown.removeClass('show').hide();
-              } else {
-                $parent.addClass('active');
-                $dropdown.addClass('show').css('display', 'block');
-              }
-            });
-
-            // Handle second-level dropdown (Pain Relief, Teeth Replacement, etc.)
-            $('.unique-dropdown-item > .unique-dropdown-link').off('click').on('click', function(e) {
-              var $secondLevel = $(this).next('.second-level');
-
-              // If there's a second level dropdown, prevent default and toggle it
-              if ($secondLevel.length > 0) {
+          if (window.innerWidth < 992) {
+            firstLevelLinks.forEach(function(link) {
+              link.onclick = function(e) {
                 e.preventDefault();
                 e.stopPropagation();
 
-                var $parent = $(this).parent();
+                var parent = link.parentElement;
+                var dropdown = link.nextElementSibling;
+                var isOpen = parent.classList.contains('active');
 
-                // Check if already open
-                var isOpen = $parent.hasClass('active');
+                document.querySelectorAll('.unique-nav-item').forEach(function(item) {
+                  if (item !== parent) {
+                    item.classList.remove('active');
+                    item.querySelectorAll('.unique-dropdown').forEach(function(menu) {
+                      menu.classList.remove('show');
+                      menu.style.display = 'none';
+                    });
+                  }
+                });
 
-                // Close other second-level dropdowns at the same level
-                $parent.siblings('.unique-dropdown-item').removeClass('active')
-                  .find('.second-level').removeClass('show').hide();
+                document.querySelectorAll('.second-level').forEach(function(menu) {
+                  menu.classList.remove('show');
+                  menu.style.display = 'none';
+                });
+                document.querySelectorAll('.unique-dropdown-item').forEach(function(item) {
+                  item.classList.remove('active');
+                });
 
-                // Toggle current second-level dropdown
                 if (isOpen) {
-                  $parent.removeClass('active');
-                  $secondLevel.removeClass('show').hide();
+                  parent.classList.remove('active');
+                  if (dropdown) {
+                    dropdown.classList.remove('show');
+                    dropdown.style.display = 'none';
+                  }
                 } else {
-                  $parent.addClass('active');
-                  $secondLevel.addClass('show').css('display', 'block');
+                  parent.classList.add('active');
+                  if (dropdown) {
+                    dropdown.classList.add('show');
+                    dropdown.style.display = 'block';
+                  }
                 }
-              }
-              // If no second level, let the link work normally (it will navigate)
+              };
             });
 
-          } else {
-            // Remove mobile click handlers on desktop
-            $('.unique-nav-item > .unique-nav-link').off('click');
-            $('.unique-dropdown-item > .unique-dropdown-link').off('click');
+            secondLevelLinks.forEach(function(link) {
+              link.onclick = function(e) {
+                var secondLevel = link.nextElementSibling;
 
-            // Remove all mobile classes
-            $('.unique-nav-item, .unique-dropdown-item').removeClass('active');
-            $('.unique-dropdown, .second-level').removeClass('show').removeAttr('style');
+                if (secondLevel && secondLevel.classList.contains('second-level')) {
+                  e.preventDefault();
+                  e.stopPropagation();
+
+                  var parent = link.parentElement;
+                  var isOpen = parent.classList.contains('active');
+
+                  Array.from(parent.parentElement.children).forEach(function(item) {
+                    if (item !== parent && item.classList && item.classList.contains('unique-dropdown-item')) {
+                      item.classList.remove('active');
+                      item.querySelectorAll('.second-level').forEach(function(menu) {
+                        menu.classList.remove('show');
+                        menu.style.display = 'none';
+                      });
+                    }
+                  });
+
+                  if (isOpen) {
+                    parent.classList.remove('active');
+                    secondLevel.classList.remove('show');
+                    secondLevel.style.display = 'none';
+                  } else {
+                    parent.classList.add('active');
+                    secondLevel.classList.add('show');
+                    secondLevel.style.display = 'block';
+                  }
+                }
+              };
+            });
+          } else {
+            navItems.forEach(function(item) {
+              item.classList.remove('active');
+            });
+            allDropdowns.forEach(function(menu) {
+              menu.classList.remove('show');
+              menu.removeAttribute('style');
+            });
           }
         }
 
-        // Initialize on page load
         initMobileNav();
 
-        // Reinitialize on window resize
-        var resizeTimer;
-        $(window).on('resize', function() {
+        window.addEventListener('resize', function() {
           clearTimeout(resizeTimer);
-          resizeTimer = setTimeout(function() {
-            initMobileNav();
-          }, 250);
+          resizeTimer = setTimeout(initMobileNav, 250);
         });
       });
     </script>

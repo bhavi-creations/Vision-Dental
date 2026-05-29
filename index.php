@@ -3,9 +3,9 @@
 <!-- ======video======-->
 
 
-<section autoplay muted loop class="only_first">
-  <video id="myVideo" width="100%" height="auto" autoplay muted loop>
-    <source src="assets/img/treat/vision.mp4" type="video/mp4">
+<section class="only_first">
+  <video id="myVideo" width="100%" height="auto" muted loop playsinline preload="none" poster="assets/img/vision/banner_pic.png">
+    <source data-src="assets/img/treat/vision.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 
@@ -16,12 +16,23 @@
     const video = document.getElementById('myVideo');
     const unmuteButton = document.getElementById('unmuteButton');
 
-    // Function to unmute and play the video
-    unmuteButton.addEventListener('click', () => {
-      video.muted = false; // Unmute the video
-      video.play(); // Play the video
-      unmuteButton.style.display = 'none'; // Hide the unmute button
+    window.addEventListener('load', () => {
+      const source = video.querySelector('source[data-src]');
+      if (!source) return;
+
+      source.src = source.dataset.src;
+      source.removeAttribute('data-src');
+      video.load();
+      video.play().catch(() => {});
     });
+
+    if (unmuteButton) {
+      unmuteButton.addEventListener('click', () => {
+        video.muted = false;
+        video.play();
+        unmuteButton.style.display = 'none';
+      });
+    }
   });
 </script>
 
@@ -1482,23 +1493,23 @@
   }
 </script>
 <!-- Vendor JS Files -->
-<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-<script src="assets/vendor/aos/aos.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/vendor/purecounter/purecounter_vanilla.js" defer></script>
+<script src="assets/vendor/aos/aos.js" defer></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js" defer></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js" defer></script>
+<script src="assets/vendor/php-email-form/validate.js" defer></script>
 
 <!-- Template Main JS File -->
-<script src="assets/js/main.js"></script>
+<script src="assets/js/main.js" defer></script>
 
 
 <!-- Swiper JS -->
-<script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.js" defer></script>
 
 <!-- JavaScript -->
 <!--Uncomment this line-->
-<script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/script.js"></script>
+<script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/script.js" defer></script>
 
 
 </body>
