@@ -1533,7 +1533,8 @@ h6 {
   .num_head_tag {
     color: #1D2053;
     font-family: Helvetica;
-    font-size: 52.925px;
+    font-size: 30px;
+    /* font-size: 52.925px; */
     font-style: normal;
     font-weight: 700;
     line-height: 33.968px;
@@ -4902,4 +4903,117 @@ h6 {
 .lang-btn.active {
   background: linear-gradient(95deg, #095da6 -1.58%, #0e49c9 100%) !important;
   color: #fff !important;
+}
+
+
+/* new  styling for counting  */
+.count_section_index{
+    /* background:#943483; */
+    padding:60px 20px;
+}
+
+.count_section_index .count_wrapper{
+    max-width:1200px;
+    margin:auto;
+    background:#943483;
+    border-radius:18px;
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.count_section_index .count_box{
+    flex:1;
+    text-align:center;
+    padding:35px 25px;
+    border-right:1px solid rgba(255,255,255,0.12);
+}
+
+.count_section_index .count_box:last-child{
+    border-right:none;
+}
+
+.count_section_index .count_box h2{
+    color:#fff;
+    font-size:42px;
+    font-weight:700;
+    margin-bottom:8px;
+    line-height:1;
+}
+
+.count_section_index .count_box h2::after{
+    content:"+";
+}
+
+.count_section_index .count_box p{
+    color:#fff;
+    font-size:17px;
+    font-weight:600;
+    margin:0;
+    text-transform:uppercase;
+    line-height:1.4;
+}
+
+/* Tablet */
+@media(max-width:991px){
+    .count_section_index .count_wrapper{
+        flex-wrap:wrap;
+    }
+
+    .count_section_index .count_box{
+        width:50%;
+        flex:none;
+        border-bottom:1px solid rgba(255,255,255,0.12);
+    }
+
+    .count_section_index .count_box:nth-child(2){
+        border-right:none;
+    }
+
+    .count_section_index .count_box:nth-child(4){
+        border-right:none;
+        border-bottom:none;
+    }
+
+    .count_section_index .count_box:nth-child(3){
+        border-bottom:none;
+    }
+}
+
+/* Mobile */
+@media(max-width:576px){
+    .count_section_index{
+        padding:40px 15px;
+    }
+
+    .count_section_index .count_wrapper{
+        border-radius:15px;
+    }
+
+    .count_section_index .count_box{
+        width:100%;
+        border-right:none;
+        border-bottom:1px solid rgba(255,255,255,0.12);
+        padding:25px 15px;
+    }
+
+    .count_section_index .count_box:last-child{
+        border-bottom:none;
+    }
+
+    .count_section_index .count_box h2{
+        font-size:32px;
+    }
+
+    .count_section_index .count_box p{
+        font-size:15px;
+    }
+}
+
+@media (max-width:992px){
+
+  .index_img_section{
+margin:10px 0px;
+  }
 }

@@ -231,11 +231,32 @@
 </div>
 
 
+<!-- yotube video start in this section -->
+    <!-- Video Section -->
+<!-- <section class="py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="ratio ratio-16x9">
+                    <iframe
+                        src="https://youtu.be/ffk5PCUDfnE?si=Be82SUCUIyrqQe7J"
+                        title="YouTube Video"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+
+               
+            </div>
+        </div>
+    </div>
+</section> -->
+<!-- yotube video end in this section -->
+
 <section>
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
-        <img src="assets/img/vision/doc_main_img.png" class="img-fluid" alt="" loading="lazy" decoding="async">
+      <div class="col-md-6 d-flex justify-content-center index_img_section ">
+        <img src="assets/img/vision/index_page_img.jpeg" class="img-fluid" alt="" loading="lazy" decoding="async">
       </div>
       <div class="col-md-6">
 
@@ -962,20 +983,7 @@
         <p class="call_text_bg_green">Call - +91 9391 457072</p>
 
 
-        <div class="d-flex justify-content-between">
-          <div class="">
-            <h1 class="num_head_tag">07+ </h1>
-            <p class="num_para_tag"> Years Experience</p>
-          </div>
-          <div class="">
-            <h1 class="num_head_tag"> 2697</h1>
-            <p class="num_para_tag"> Happy Smile</p>
-          </div>
-          <div class="">
-            <h1 class="num_head_tag"> 1489 </h1>
-            <p class="num_para_tag"> Root Canal</p>
-          </div>
-        </div>
+
       </div>
 
       <div class="col-md-2 d-none d-md-block"></div>
@@ -986,6 +994,99 @@
     </div>
   </div>
 </section>
+
+<!-- <div class="d-flex justify-content-between">
+  <div class="">
+    <h1 class="num_head_tag">10+ </h1>
+    <p class="num_para_tag"> Years <br> Experience</p>
+  </div>
+  <div class="">
+    <h1 class="num_head_tag"> 3500</h1>
+    <p class="num_para_tag"> Happy Smile</p>
+  </div>
+  <div class="">
+    <h1 class="num_head_tag"> 3000 </h1>
+    <p class="num_para_tag"> Root Canal</p>
+  </div>
+
+  <div class="">
+    <h1 class="num_head_tag"> 1500 </h1>
+    <p class="num_para_tag"> Implants</p>
+  </div>
+</div> -->
+
+
+
+
+<!-- Count Section -->
+<section class="count_section_index">
+    <div class="container">
+        <div class="count_wrapper">
+            
+            <div class="count_box">
+                <h2 class="counter" data-target="10">0</h2>
+                <p>Years <br> Experience</p>
+            </div>
+
+            <div class="count_box">
+                <h2 class="counter" data-target="3500">0</h2>
+                <p>Happy Smiles</p>
+            </div>
+
+            <div class="count_box">
+                <h2 class="counter" data-target="3000">0</h2>
+                <p>Root Canals</p>
+            </div>
+
+            <div class="count_box">
+                <h2 class="counter" data-target="1500">0</h2>
+                <p>Implants</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    const counters = document.querySelectorAll(".counter");
+
+    const startCounter = (counter) => {
+        const target = +counter.getAttribute("data-target");
+        let count = 0;
+
+        const speed = target / 100;
+
+        const updateCount = () => {
+            if (count < target) {
+                count += speed;
+                counter.innerText = Math.ceil(count);
+                requestAnimationFrame(updateCount);
+            } else {
+                counter.innerText = target;
+            }
+        };
+
+        updateCount();
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if(entry.isIntersecting){
+                startCounter(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.5 });
+
+    counters.forEach(counter => {
+        observer.observe(counter);
+    });
+
+});
+</script>
+
 
 <section class="blog_section ">
   <div class="container">
@@ -1533,4 +1634,3 @@
 </body>
 
 </html>
-
