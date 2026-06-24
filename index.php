@@ -232,24 +232,24 @@
 
 
 <!-- yotube video start in this section -->
-    <!-- Video Section -->
-<!-- <section class="py-5">
+<!-- Video Section -->
+<section class="py-5">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="ratio ratio-16x9">
                     <iframe
-                        src="https://youtu.be/ffk5PCUDfnE?si=Be82SUCUIyrqQe7J"
-                        title="YouTube Video"
+                        src="https://www.youtube.com/embed/ffk5PCUDfnE?autoplay=1&mute=1&loop=1&playlist=ffk5PCUDfnE"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="autoplay; accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen>
                     </iframe>
                 </div>
-
-               
             </div>
         </div>
     </div>
-</section> -->
+</section>
 <!-- yotube video end in this section -->
 
 <section>
@@ -1020,71 +1020,73 @@
 
 <!-- Count Section -->
 <section class="count_section_index">
-    <div class="container">
-        <div class="count_wrapper">
-            
-            <div class="count_box">
-                <h2 class="counter" data-target="10">0</h2>
-                <p>Years <br> Experience</p>
-            </div>
+  <div class="container">
+    <div class="count_wrapper">
 
-            <div class="count_box">
-                <h2 class="counter" data-target="3500">0</h2>
-                <p>Happy Smiles</p>
-            </div>
+      <div class="count_box">
+        <h2 class="counter" data-target="10">0</h2>
+        <p>Years <br> Experience</p>
+      </div>
 
-            <div class="count_box">
-                <h2 class="counter" data-target="3000">0</h2>
-                <p>Root Canals</p>
-            </div>
+      <div class="count_box">
+        <h2 class="counter" data-target="3500">0</h2>
+        <p>Happy Smiles</p>
+      </div>
 
-            <div class="count_box">
-                <h2 class="counter" data-target="1500">0</h2>
-                <p>Implants</p>
-            </div>
+      <div class="count_box">
+        <h2 class="counter" data-target="3000">0</h2>
+        <p>Root Canals</p>
+      </div>
 
-        </div>
+      <div class="count_box">
+        <h2 class="counter" data-target="1500">0</h2>
+        <p>Implants</p>
+      </div>
+
     </div>
+  </div>
 </section>
 
 <script>
-document.addEventListener("DOMContentLoaded", () => {
+  document.addEventListener("DOMContentLoaded", () => {
 
     const counters = document.querySelectorAll(".counter");
 
     const startCounter = (counter) => {
-        const target = +counter.getAttribute("data-target");
-        let count = 0;
+      const target = +counter.getAttribute("data-target");
+      let count = 0;
 
-        const speed = target / 100;
+      const speed = target / 100;
 
-        const updateCount = () => {
-            if (count < target) {
-                count += speed;
-                counter.innerText = Math.ceil(count);
-                requestAnimationFrame(updateCount);
-            } else {
-                counter.innerText = target;
-            }
-        };
+      const updateCount = () => {
+        if (count < target) {
+          count += speed;
+          counter.innerText = Math.ceil(count);
+          requestAnimationFrame(updateCount);
+        } else {
+          counter.innerText = target;
+        }
+      };
 
-        updateCount();
+      updateCount();
     };
 
     const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if(entry.isIntersecting){
-                startCounter(entry.target);
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.5 });
-
-    counters.forEach(counter => {
-        observer.observe(counter);
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          startCounter(entry.target);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.5
     });
 
-});
+    counters.forEach(counter => {
+      observer.observe(counter);
+    });
+
+  });
 </script>
 
 
