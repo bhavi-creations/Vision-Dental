@@ -35,29 +35,29 @@ $result = $stmt->get_result();
   <div class="container">
     <div class="filter_buttons redirect_section mt-4">
       <a href="blogs?service="><button class="redirect_blog_srivice">All</button></a>
-      <a href="blogs?service=Root Canal"><button class="redirect_blog_srivice">Root Canal</button></a>
-      <a href="blogs?service=Teeth Braces"><button class="redirect_blog_srivice">Teeth Braces</button></a>
-      <a href="blogs?service=Pediatric Dentist"><button class="redirect_blog_srivice"> Pediatric Dentist</button></a>
-      <a href="blogs?service=Paedodontist Doctors"><button class="redirect_blog_srivice">Paedodontist Doctors </button></a>
-      <a href="blogs?service=Clear Aligners"><button class="redirect_blog_srivice"> Clear Aligners</button></a>
-      <a href="blogs?service=Laminate Veneers"><button class="redirect_blog_srivice">Laminate Veneers</button></a>
-      <a href="blogs?service=Crown Bridge"><button class="redirect_blog_srivice">Crown & Bridge</button></a>
-      <a href="blogs?service=Dental Implant"><button class="redirect_blog_srivice">Dental Implant</button></a>
-      <a href="blogs?service=Dentures Treatments"><button class="redirect_blog_srivice">Dentures Treatments</button></a>
-      <a href="blogs?service=Invisalign"><button class="redirect_blog_srivice">Invisalign </button></a>
-      <a href="blogs?service=Jaw Corrective"><button class="redirect_blog_srivice">Jaw Corrective</button></a>
-      <a href="blogs?service=Laser Gum"><button class="redirect_blog_srivice">Laser & Gum</button></a>
-      <a href="blogs?service=Smile Designing"><button class="redirect_blog_srivice">Smile Designing</button></a>
-      <a href="blogs?service=Smile Makeover"><button class="redirect_blog_srivice">Smile Makeover</button></a>
-      <a href="blogs?service=Teeth Alignment"><button class="redirect_blog_srivice"> Teeth Alignment</button></a>
-      <a href="blogs?service=Tooth Extraction"><button class="redirect_blog_srivice">Tooth Extraction</button></a>
-      <a href="blogs?service=Tooth Cleaning"><button class="redirect_blog_srivice">Tooth Cleaning</button></a>
-      <a href="blogs?service=Gum Depigment"><button class="redirect_blog_srivice">Gum Depigment</button></a>
-      <a href="blogs?service=Teeth Whitening"><button class="redirect_blog_srivice">Teeth Whitening</button></a>
-      <a href="blogs?service=Laser Gum Surgery"><button class="redirect_blog_srivice">Laser Gum Surgery</button></a>
-      <a href="blogs?service=Mouth Ulcers"><button class="redirect_blog_srivice">Mouth Ulcers</button></a>
-      <a href="blogs?service=Precancerous Lesion"><button class="redirect_blog_srivice">Precancerous Lesion</button></a>
-      <a href="blogs?service=Laser Crown Lengthening"><button class="redirect_blog_srivice">Laser Crown Lengthening</button></a>
+      <a href="blogs?service=root canal"><button class="redirect_blog_srivice">Root Canal</button></a>
+      <a href="blogs?service=teeth braces"><button class="redirect_blog_srivice">Teeth Braces</button></a>
+      <a href="blogs?service=pediatric dentist"><button class="redirect_blog_srivice"> Pediatric Dentist</button></a>
+      <a href="blogs?service=paedodontist doctors"><button class="redirect_blog_srivice">Paedodontist Doctors </button></a>
+      <a href="blogs?service=clear aligners"><button class="redirect_blog_srivice"> Clear Aligners</button></a>
+      <a href="blogs?service=laminate veneers"><button class="redirect_blog_srivice">Laminate Veneers</button></a>
+      <a href="blogs?service=crown bridge"><button class="redirect_blog_srivice">Crown & Bridge</button></a>
+      <a href="blogs?service=dental implant"><button class="redirect_blog_srivice">Dental Implant</button></a>
+      <a href="blogs?service=dentures treatments"><button class="redirect_blog_srivice">Dentures Treatments</button></a>
+      <a href="blogs?service=invisalign"><button class="redirect_blog_srivice">Invisalign </button></a>
+      <a href="blogs?service=jaw corrective"><button class="redirect_blog_srivice">Jaw Corrective</button></a>
+      <a href="blogs?service=laser gum"><button class="redirect_blog_srivice">Laser & Gum</button></a>
+      <a href="blogs?service=smile designing"><button class="redirect_blog_srivice">Smile Designing</button></a>
+      <a href="blogs?service=smile makeover"><button class="redirect_blog_srivice">Smile Makeover</button></a>
+      <a href="blogs?service=teeth alignment"><button class="redirect_blog_srivice"> Teeth Alignment</button></a>
+      <a href="blogs?service=tooth extraction"><button class="redirect_blog_srivice">Tooth Extraction</button></a>
+      <a href="blogs?service=tooth cleaning"><button class="redirect_blog_srivice">Tooth Cleaning</button></a>
+      <a href="blogs?service=gum depigment"><button class="redirect_blog_srivice">Gum Depigment</button></a>
+      <a href="blogs?service=teeth whitening"><button class="redirect_blog_srivice">Teeth Whitening</button></a>
+      <a href="blogs?service=laser gum surgery"><button class="redirect_blog_srivice">Laser Gum Surgery</button></a>
+      <a href="blogs?service=mouth ulcers"><button class="redirect_blog_srivice">Mouth Ulcers</button></a>
+      <a href="blogs?service=precancerous lesion"><button class="redirect_blog_srivice">Precancerous Lesion</button></a>
+      <a href="blogs?service=laser crown lengthening"><button class="redirect_blog_srivice">Laser Crown Lengthening</button></a>
     </div>
   </div>
 

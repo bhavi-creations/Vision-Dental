@@ -192,7 +192,7 @@
             </a>
           </div>
           <div class="col-md-3 mt-5">
-            <a href="invisalignaligners_clearaligners_treatment-in-guntur.php">
+            <a href="invisalignaligners-clearaligners-treatment-in-guntur.php">
               <div class="cardB">
                 <img src="assets/img/treat/11.png" alt="" class="imggg9">
 

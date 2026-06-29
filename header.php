@@ -333,7 +333,7 @@
                     <ul class="unique-dropdown-list inside_nav_drop_down  sub_section1">
 
                       <li class="unique-dropdown-item">
-                        <a href="invisalignaligners_clearaligners_treatment-in-guntur.php" class="unique-dropdown-link"> Invisalign</a>
+                        <a href="invisalignaligners-clearaligners-treatment-in-guntur.php" class="unique-dropdown-link"> Invisalign</a>
                       </li>
                       <li class="unique-dropdown-item">
                         <a href="clear-aligners-treatment-in-guntur.php" class="unique-dropdown-link"> Clear Aligners</a>

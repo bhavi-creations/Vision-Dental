@@ -78,7 +78,7 @@
                             </a>
                         </li>
                         <li class="foot_para">
-                            <a href="invisalignaligners_clearaligners_treatment-in-guntur.php" style="color: #fff"> Invisalign </a>
+                            <a href="invisalignaligners-clearaligners-treatment-in-guntur.php" style="color: #fff"> Invisalign </a>
                         </li>
                         <li class="foot_para">
                             <a href="jaw-pain-correction-treatments-in-guntur.php" style="color: #fff">Jaw Corrective</a>
