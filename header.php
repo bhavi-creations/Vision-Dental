@@ -1,3 +1,49 @@
+<?php
+$site_base_url = 'https://visiondentalguntur.com';
+$server_request_uri = $_SERVER['REQUEST_URI'] ?? '/';
+$server_request_path = parse_url($server_request_uri, PHP_URL_PATH) ?: '/';
+$server_request_path = $server_request_path === '' ? '/' : $server_request_path;
+if (substr($server_request_path, -4) === '.php') {
+  $server_request_path = substr($server_request_path, 0, -4);
+}
+if ($server_request_path === '/index') {
+  $server_request_path = '/';
+}
+
+$page_title = isset($page_title) ? $page_title : '';
+$page_description = isset($page_description) ? $page_description : 'Vision Dental Hospital in Guntur offers advanced dental treatments with experienced doctors, modern technology, and patient-friendly care.';
+$page_keywords = isset($page_keywords) ? $page_keywords : 'dentist in Guntur, best dental hospital in Guntur, dental implants in Guntur, root canal treatment in Guntur, clear aligners in Guntur';
+$meta_robots = isset($meta_robots) ? $meta_robots : 'index,follow';
+
+$default_titles = [
+  'index' => 'Best Dental Clinic in Guntur | Vision Dental Hospital',
+  'about-us' => 'About Vision Dental Hospital in Guntur',
+  'appointment' => 'Book Dental Appointment in Guntur | Vision Dental Hospital',
+  'blogs' => 'Dental Blogs & Treatment Insights | Vision Dental Hospital',
+  'contact-us-vision-multispeciality-dental-hospital' => 'Contact Vision Dental Hospital in Guntur',
+  'reviews-testimonials' => 'Patient Reviews & Testimonials | Vision Dental Hospital',
+  'smile-gallery' => 'Smile Gallery | Vision Dental Hospital'
+];
+
+$script_slug = basename($_SERVER['PHP_SELF'] ?? 'index.php', '.php');
+if (empty($page_title)) {
+  $page_title = $default_titles[$script_slug] ?? ucfirst(str_replace(['-', '_'], ' ', $script_slug)) . ' | Vision Dental Hospital';
+}
+
+$canonical_query = [];
+parse_str($_SERVER['QUERY_STRING'] ?? '', $canonical_query);
+$canonical_query = array_filter($canonical_query, function ($value) {
+  return $value !== '' && $value !== null;
+});
+
+$canonical_url = $site_base_url . $server_request_path;
+if (!empty($canonical_query)) {
+  $canonical_url .= '?' . http_build_query($canonical_query);
+}
+if (isset($canonical_override) && !empty($canonical_override)) {
+  $canonical_url = $canonical_override;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,30 +51,14 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Best Dental Clinic in Guntur | Vision Dental Hospital</title>
+  <title><?= htmlspecialchars($page_title) ?></title>
 
   <meta name="google-site-verification" content="H2SztZ2bMfGjPtPTvWlAPlclCAJWgBeVrfyf3ZXvADM" />
-  <meta name="title" content="Vision Multispecialty Dental Hospital in Guntur | Best Dental Hospital in Guntur">
-  <meta name="description" content="Vision Multispecialty Dental Hospital in Guntur provides expert dental care, offering Dental implants, Root canal, Pediatric dentistry, and Cosmetic treatments.">
-  <meta name="keywords" content="dentist in Guntur ,
-       best dental hospital in Guntur,
-       dentist near me, 
-       Dental Implants in Guntur, 
-       best dental clinic in Guntur, 
-       dental doctors in Guntur,
-       Invisalign aligners in Guntur, 
-        root canal specialist in Guntur, 
-        best teeth cleaning in Guntur, 
-        wisdom teeth removal in Guntur, 
-        laser dental clinic in Guntur, 
-        best teeth crown dentist in Guntur, 
-        best orthodontist in Guntur, 
-        best pediatric dentist in Guntur, 
-        best clear aligners in Guntur, 
-        best teeth dentures in Guntur, 
-        teeth alignment specialist in Guntur, 
-        tooth extraction specialist in Guntur">
-  <link rel="canonical" href="https://visiondentalguntur.com/" />
+  <meta name="title" content="<?= htmlspecialchars($page_title) ?>">
+  <meta name="description" content="<?= htmlspecialchars($page_description) ?>">
+  <meta name="keywords" content="<?= htmlspecialchars($page_keywords) ?>">
+  <meta name="robots" content="<?= htmlspecialchars($meta_robots) ?>">
+  <link rel="canonical" href="<?= htmlspecialchars($canonical_url) ?>" />
 
   <!-- Favicons -->
   <link href="assets/img/vision/fav.png" rel="icon">

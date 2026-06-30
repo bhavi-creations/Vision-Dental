@@ -2,6 +2,10 @@
 // Database connection
 include './db.connection/db_connection.php';
 
+$page_title = 'Dental Treatment Details | Vision Dental Hospital';
+$page_description = 'Explore advanced dental treatments at Vision Dental Hospital in Guntur with expert care, modern technology, and trusted results.';
+$page_keywords = 'dental treatments in Guntur, dental implants, root canal treatment, clear aligners, smile design';
+
 // =====================
 // 1️⃣ Fetch ALL blogs (latest first)
 // =====================
@@ -47,6 +51,15 @@ if ($blog_id > 0) {
     $result = $stmt->get_result();
     $blog = $result->fetch_assoc();
     $stmt->close();
+    if (!empty($blog['title'])) {
+        $page_title = $blog['title'] . ' | Vision Dental Hospital';
+    }
+    if (!empty($blog['main_content'])) {
+        $page_description = substr(strip_tags($blog['main_content']), 0, 160);
+    }
+    if (!empty($blog['service'])) {
+        $page_keywords = $blog['service'] . ', dental treatment in Guntur, Vision Dental Hospital';
+    }
 }
 
 // =====================
@@ -91,7 +104,11 @@ function displaySectionImage($imagePath, $alt = 'Section Image')
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vision-Dental</title>
+    <title><?= htmlspecialchars($page_title) ?></title>
+    <meta name="description" content="<?= htmlspecialchars($page_description) ?>">
+    <meta name="keywords" content="<?= htmlspecialchars($page_keywords) ?>">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="https://visiondentalguntur.com/service_detsils/<?= intval($blog_id) ?>" />
 
     <!-- libraries CSS -->
     <!-- <link rel="stylesheet" href="assets2/icon/flaticon_digicom.css"> -->

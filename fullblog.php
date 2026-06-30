@@ -3,6 +3,9 @@ include './db.connection/db_connection.php';
 
 // GET BLOG ID
 $blog_id = isset($_GET['id']) ? intval($_GET['id']) : 0;
+if ($blog_id <= 0 && isset($GLOBALS['__URL_PARAMS']) && !empty($GLOBALS['__URL_PARAMS'][0])) {
+    $blog_id = intval($GLOBALS['__URL_PARAMS'][0]);
+}
 
 if ($blog_id <= 0) {
     echo "Invalid Blog ID";
@@ -59,7 +62,14 @@ $count_stmt->close();
 $conn->close();
 ?>
 
-<?php include 'header.php'; ?>
+<?php
+$page_title = !empty($title) ? htmlspecialchars($title) . ' | Vision Dental Hospital' : 'Dental Blog | Vision Dental Hospital';
+$page_description = !empty($main_content) ? substr(strip_tags($main_content), 0, 160) : 'Read this dental care article from Vision Dental Hospital in Guntur.';
+$page_keywords = !empty($service) ? htmlspecialchars($service) . ', dental care, Vision Dental Hospital' : 'dental care article, Vision Dental Hospital, dental treatments';
+$meta_robots = 'index,follow';
+$canonical_override = !empty($blog_id) ? 'https://visiondentalguntur.com/fullblog/' . $blog_id : 'https://visiondentalguntur.com/blogs';
+include 'header.php';
+?>
 
 <main>
     <div class="container blog-detailed" style="padding-top: 50px;">

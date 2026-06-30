@@ -1,0 +1,24 @@
+RewriteEngine On
+
+# Skip admin folder
+RewriteRule ^admin/ - [L]
+
+# Redirect old .php URLs to clean URLs
+RewriteCond %{THE_REQUEST} \s/([^.]+)\.php(?:\?([^\s]*))? [NC]
+RewriteRule ^ %1 [R=301,L]
+
+# Redirect old blog/detail query URLs to clean URLs
+RewriteCond %{QUERY_STRING} (^|&)id=([0-9]+) [NC]
+RewriteRule ^fullblog\.php$ /fullblog/%2? [R=301,L]
+
+RewriteCond %{QUERY_STRING} (^|&)id=([0-9]+) [NC]
+RewriteRule ^service_detsils\.php$ /service_detsils/%2? [R=301,L]
+
+# Rewrite clean blog URLs like /fullblog/104 -> /fullblog.php?id=104
+RewriteRule ^fullblog/([0-9]+)/?$ fullblog.php?id=$1 [L,QSA]
+RewriteRule ^service_detsils/([0-9]+)/?$ service_detsils.php?id=$1 [L,QSA]
+
+# Rewrite clean URL to .php for normal pages
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([a-zA-Z0-9_-]+)/?$ $1.php [L]
