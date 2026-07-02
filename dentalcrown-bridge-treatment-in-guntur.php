@@ -1,4 +1,13 @@
-<?php include 'header.php';?>
+<?php
+
+$meta_title = "Dental Crowns & Bridges in Guntur | Expert Care";
+$meta_description = "Get durable dental crowns and bridges in Guntur to restore damaged or missing teeth. Natural-looking restorations with expert dental care.";
+
+include 'header.php';
+
+?>
+
+
 
 
 
@@ -14,18 +23,17 @@
             <p class="abP">Crowns and bridges are dental restorations used to replace missing teeth and restore damaged teeth, improving function, appearance, and stability.</p>
           </div>
           <div class="col-md-6 dr_content_padding  order-1 order-md-1 treater">
-            <h2 class="dr_welcome_text1 mt-4 mb-4">Crowns and Bridges Treatment in
-              Guntur
+            <h2 class="dr_welcome_text1 mt-4 mb-4">Dental Crowns & Bridges in Guntur
             </h2>
             <p class="poetsen_font1">
-              Crowns and bridges are essential dental restorations used to restore the function and appearance of damaged or missing teeth. At Vision Dentals in Guntur, crowns are custom-made caps that cover and protect a damaged tooth, providing strength and improving its shape and size. They are ideal for teeth that are heavily decayed, cracked, or weakened, and can be crafted from various materials, including porcelain, metal, or a combination of both, to blend seamlessly with your natural teeth. Bridges, on the other hand, are used to replace one or more missing teeth by anchoring artificial teeth to the adjacent healthy teeth or dental implants. A bridge is composed of one or more artificial teeth (pontics) supported by crowns placed on the neighboring teeth or implants. Both crowns and bridges enhance the functionality of your bite, restore your ability to chew and speak properly, and improve the overall aesthetic of your smile. By choosing crowns and bridges in Guntur, you benefit from expert care and high-quality restorations that help maintain your oral health and boost your confidence with a natural-looking and durable solution.
+             Dental Crowns & Bridges in Guntur are essential dental restorations used to restore the function and appearance of damaged or missing teeth. At Vision Dentals in Guntur, crowns are custom-made caps that cover and protect a damaged tooth, providing strength and improving its shape and size. They are ideal for teeth that are heavily decayed, cracked, or weakened, and can be crafted from various materials, including porcelain, metal, or a combination of both, to blend seamlessly with your natural teeth. Bridges, on the other hand, are used to replace one or more missing teeth by anchoring artificial teeth to the adjacent healthy teeth or dental implants. A bridge is composed of one or more artificial teeth (pontics) supported by crowns placed on the neighboring teeth or implants. Both crowns and bridges enhance the functionality of your bite, restore your ability to chew and speak properly, and improve the overall aesthetic of your smile. By choosing crowns and bridges in Guntur, you benefit from expert care and high-quality restorations that help maintain your oral health and boost your confidence with a natural-looking and durable solution.
             </p>
             <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
 
           </div>
 
           <div class="col-md-6 order-3  order-md-2 mt-5 text-center">
-            <img src="assets/img/about/crowns-bridges.jpg" class="img-fluid dr_img_padding abouter1" alt="">
+            <img src="assets/img/about/crowns-bridges.jpg" class="img-fluid dr_img_padding abouter1" alt="Dental Crowns & Bridges in Guntur">
           </div>
 
 

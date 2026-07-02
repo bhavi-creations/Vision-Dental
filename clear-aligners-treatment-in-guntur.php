@@ -1,6 +1,11 @@
-<?php include 'header.php';?>
+<?php
 
+$meta_title = "Clear Aligners in Guntur | Invisible Teeth Straightening";
+$meta_description = "Get advanced clear aligners in Guntur for discreet teeth straightening. Enjoy a comfortable, removable alternative to braces.";
 
+include 'header.php';
+
+?>
 
 
 
@@ -16,9 +21,7 @@
             <p class="abP">"Achieve a discreet and effective teeth straightening with our advanced clear aligners treatment."</p>
           </div>
           <div class="col-md-6 dr_content_padding  order-1 order-md-1 treater">
-            <h2 class="dr_welcome_text1 mt-4 mb-4">Clear Aligners in
-              <br>
-              Guntur
+            <h2 class="dr_welcome_text1 mt-4 mb-4">Clear Aligners in Guntur
             </h2>
             <p class="poetsen_font1">
               Experience a discreet smile transformation with our custom-made clear aligners, offering comfort and convenience for your orthodontic journey at Vision Multispecialty Dental Hospital, the best dental hospital in Guntur. If you’re looking for a dental hospital near me with the best braces for teeth alignment treatment, our clear aligners are the ideal choice for achieving your perfect smile.
@@ -28,7 +31,7 @@
           </div>
 
           <div class="col-md-6 order-3  order-md-2 mt-5  text-center">
-            <img src="assets/img/about/clear aligners.webp" class="img-fluid dr_img_padding abouter1" alt="">
+            <img src="assets/img/about/clear aligners.webp" class="img-fluid dr_img_padding abouter1" alt="Clear Aligners in Guntur ">
           </div>
 
 
@@ -54,7 +57,7 @@
               <div class="col-md-6">
                 <h2 class="dr_welcome_text11 mt-4 mb-4">Why Do You Need Clear Aligners in Guntur?
                 </h2>
-                <p class="poetsen_font1">You may need clear aligners treatment in Guntur to straighten your teeth discreetly and comfortably. Clear aligners offer a less noticeable alternative to traditional braces, making them ideal for those who prefer a subtle approach to orthodontic treatment. They effectively address issues such as crooked teeth, gaps, and bite problems while allowing for easy maintenance of oral hygiene. Additionally, clear aligners can be removed for eating and special occasions, providing greater flexibility and convenience in your daily life.
+                <p class="poetsen_font1">You may need Clear Aligners in Guntur to straighten your teeth discreetly and comfortably. Clear aligners offer a less noticeable alternative to traditional braces, making them ideal for those who prefer a subtle approach to orthodontic treatment. They effectively address issues such as crooked teeth, gaps, and bite problems while allowing for easy maintenance of oral hygiene. Additionally, clear aligners can be removed for eating and special occasions, providing greater flexibility and convenience in your daily life.
 
                 </p>
               </div>

@@ -1,4 +1,11 @@
-<?php include 'header.php';?>
+<?php
+
+$meta_title = "Laser Teeth Cleaning in Guntur | Painless Dental Care";
+$meta_description = "Get gentle, effective laser assisted teeth cleaning in Guntur. Remove plaque & tartar with advanced, pain-free technology for healthier gums.";
+
+include 'header.php';
+
+?>
 
 
 
@@ -10,24 +17,21 @@
       <p class="mt-5">Treatments < Laser Veda < Laser assisted Teeth Cleaning</p>
         <div class="row servSect">
           <div class="abot mt-5">
-            <h4 class="abh4">Laser Tooth Cleaning Treatments</h4>
+            <h4 class="abh4">Laser Teeth Cleaning Treatments</h4>
             <p class="abP">Laser tooth cleaning uses focused laser technology to remove plaque, tartar, and bacteria from teeth and gums for a thorough and precise cleaning.</p>
           </div>
           <div class="col-md-6 dr_content_padding  order-1 order-md-1 treater">
-            <h2 class="dr_welcome_text1 mt-4 mb-4">Laser Tooth Cleaning in
-
-
-              Guntur
+            <h2 class="dr_welcome_text1 mt-4 mb-4">Laser Teeth Cleaning in Guntur
             </h2>
             <p class="poetsen_font1">
-              Laser tooth cleaning at Vision Dentals in Guntur is a modern, effective approach to maintaining oral health through advanced technology. This procedure uses a laser to remove plaque, tartar, and bacteria from the surfaces of your teeth and below the gumline with precision and minimal discomfort. Unlike traditional cleaning methods, laser tooth cleaning targets and eradicates buildup with a focused light beam, which helps reduce bleeding and promotes faster healing. The laser also stimulates the gums, encouraging the regeneration of healthy tissue and improving overall gum health. This minimally invasive technique is particularly beneficial for patients with sensitive teeth or gum issues, offering a more comfortable experience compared to conventional cleaning methods. By opting for laser tooth cleaning in Guntur, you benefit from cutting-edge technology that ensures a thorough, effective clean while enhancing your oral health and contributing to a more comfortable dental care experience.
+             Laser Teeth Cleaning in Guntur is a modern, effective approach to maintaining oral health through advanced technology. This procedure uses a laser to remove plaque, tartar, and bacteria from the surfaces of your teeth and below the gumline with precision and minimal discomfort. Unlike traditional cleaning methods, laser tooth cleaning targets and eradicates buildup with a focused light beam, which helps reduce bleeding and promotes faster healing. The laser also stimulates the gums, encouraging the regeneration of healthy tissue and improving overall gum health. This minimally invasive technique is particularly beneficial for patients with sensitive teeth or gum issues, offering a more comfortable experience compared to conventional cleaning methods. By opting for laser tooth cleaning in Guntur, you benefit from cutting-edge technology that ensures a thorough, effective clean while enhancing your oral health and contributing to a more comfortable dental care experience.
             </p>
             <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
 
           </div>
 
           <div class="col-md-6 order-3  order-md-2 mt-5 text-center">
-            <img src="assets/img/about/Laser Tooth Cleaning.png" class="img-fluid dr_img_padding abouter1" alt="">
+            <img src="assets/img/about/Laser Tooth Cleaning.png" class="img-fluid dr_img_padding abouter1" alt="Laser Teeth Cleaning in Guntur">
           </div>
 
 

@@ -1,4 +1,12 @@
-<?php include 'header.php';?>
+<?php
+
+$meta_title = "Laser Teeth Whitening in Guntur | Instant Brighter Smile";
+$meta_description = "Achieve a whiter, brighter smile with laser teeth whitening in Guntur. Fast, safe & long-lasting results in just one visit.";
+
+include 'header.php';
+
+?>
+
 
 
 
@@ -14,21 +22,17 @@
             <p class="abP">Laser teeth whitening is a cosmetic treatment that uses laser technology to accelerate the bleaching process and lighten the color of teeth for a brighter smile.</p>
           </div>
           <div class="col-md-6 dr_content_padding  order-1 order-md-1 treater">
-            <h2 class="dr_welcome_text1 mt-4 mb-4">Laser Teeth Whitening in
-
-
-
-              Guntur
+            <h2 class="dr_welcome_text1 mt-4 mb-4">Laser Teeth Whitening in Guntur
             </h2>
             <p class="poetsen_font1">
-              Laser teeth whitening at Vision Dentals in Guntur is a highly effective and advanced cosmetic procedure designed to brighten your smile by removing stains and discoloration from your teeth. This treatment utilizes powerful laser technology to accelerate the whitening process, providing dramatic results in a relatively short amount of time. During the procedure, a whitening gel is applied to the teeth, and a laser is used to activate and enhance the gel’s whitening properties. The laser’s precision targets and breaks down stains and discoloration on the tooth enamel, resulting in a significantly whiter and brighter smile. Laser teeth whitening is particularly beneficial for individuals with stubborn stains from coffee, tea, tobacco, or other sources that are resistant to conventional whitening methods. The procedure is minimally invasive and typically involves minimal discomfort, with patients experiencing immediate and noticeable improvements. By choosing laser teeth whitening in Guntur, you benefit from cutting-edge technology and expert care that delivers fast, effective results, enhancing your smile and boosting your confidence.
+             Laser Teeth Whitening in Guntur is a highly effective and advanced cosmetic procedure designed to brighten your smile by removing stains and discoloration from your teeth. This treatment utilizes powerful laser technology to accelerate the whitening process, providing dramatic results in a relatively short amount of time. During the procedure, a whitening gel is applied to the teeth, and a laser is used to activate and enhance the gel’s whitening properties. The laser’s precision targets and breaks down stains and discoloration on the tooth enamel, resulting in a significantly whiter and brighter smile. Laser teeth whitening is particularly beneficial for individuals with stubborn stains from coffee, tea, tobacco, or other sources that are resistant to conventional whitening methods. The procedure is minimally invasive and typically involves minimal discomfort, with patients experiencing immediate and noticeable improvements. By choosing laser teeth whitening in Guntur, you benefit from cutting-edge technology and expert care that delivers fast, effective results, enhancing your smile and boosting your confidence.
             </p>
             <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
 
           </div>
 
           <div class="col-md-6 order-3  order-md-2 mt-5 text-center">
-            <img src="assets/img/about/laser-tooth-whitening.jpg" class="img-fluid dr_img_padding abouter1" alt="">
+            <img src="assets/img/about/laser-tooth-whitening.jpg" class="img-fluid dr_img_padding abouter1" alt="Laser Teeth Whitening in Guntur">
           </div>
 
 

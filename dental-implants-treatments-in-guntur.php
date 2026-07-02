@@ -1,6 +1,12 @@
-<?php include 'header.php'; ?>
 
+<?php
 
+$meta_title = "Dental Implants in Guntur | Permanent Tooth Replacement";
+$meta_description = "Replace missing teeth with advanced dental implants in Guntur. Get natural-looking, long-lasting tooth replacement from expert implant dentists.";
+
+include 'header.php';
+
+?>
 
 
 
@@ -18,8 +24,7 @@
                     </p>
                 </div>
                 <div class="col-md-6 dr_content_padding  order-1 order-md-1 treater">
-                    <h2 class="dr_welcome_text1 mt-4 mb-4">Dental Implants in
-                        Guntur
+                    <h2 class="dr_welcome_text1 mt-4 mb-4">Dental Implants in Guntur 
                     </h2>
                     <p class="poetsen_font1">
                         Dental implants are a highly effective solution for replacing missing teeth and restoring both function and aesthetics to your smile. At Vision Dentals, our expertise in dental implants ensures that you receive the highest quality care tailored to your needs. Dental implants offer numerous benefits, including a natural look and feel, as they are designed to blend seamlessly with your existing teeth. The procedure involves placing a titanium post into the jawbone, which acts as a sturdy foundation for a replacement tooth. This approach not only provides a durable and long-lasting solution but also helps preserve bone structure and prevent the shifting of adjacent teeth. Additionally, dental implants offer the advantage of being a permanent solution, unlike removable dentures, which require regular adjustments. With our advanced techniques and personalized care, dental implants at Vision Dentals help restore your confidence and maintain optimal oral health. Whether you're dealing with a single missing tooth or multiple gaps, our team is dedicated to delivering exceptional results and ensuring a comfortable, efficient process.
@@ -29,7 +34,7 @@
                 </div>
 
                 <div class="col-md-6 order-3  order-md-2 mt-5 text-center">
-                    <img src="assets/img/about/dental-implant.webp" class="img-fluid dr_img_padding abouter1" alt="">
+                    <img src="assets/img/about/dental-implant.webp" class="img-fluid dr_img_padding abouter1" alt="Dental Implants in Guntur ">
                 </div>
 
 
@@ -50,7 +55,7 @@
 
 
 
-                        Dental implants are the most effective and permanent solution for replacing missing teeth. At Vision Dental, Guntur, we offer advanced implant technology that restores your smile, improves chewing ability, and prevents jawbone loss — all with expert precision and personalized care
+                        Dental Implants in Guntur  are the most effective and permanent solution for replacing missing teeth. At Vision Dental, Guntur, we offer advanced implant technology that restores your smile, improves chewing ability, and prevents jawbone loss — all with expert precision and personalized care
                     </p>
 
 

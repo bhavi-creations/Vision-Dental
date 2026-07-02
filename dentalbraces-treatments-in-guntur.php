@@ -1,4 +1,12 @@
-<?php include 'header.php';?>
+<?php
+
+$meta_title = "Braces Treatment in Guntur | Orthodontic Care";
+$meta_description = "Achieve a perfectly aligned smile with braces treatment in Guntur. Expert orthodontic care for children, teens, and adults.";
+
+include 'header.php';
+
+?>
+
 
 
 
@@ -14,9 +22,7 @@
             <p class="abP">"Transform your smile with our advanced braces for precise teeth alignment and enhanced confidence."</p>
           </div>
           <div class="col-md-6 dr_content_padding  order-1 order-md-1 treater">
-            <h2 class="dr_welcome_text1 mt-4 mb-4">Braces for Teeth Alignment in
-              <br>
-              Guntur
+            <h2 class="dr_welcome_text1 mt-4 mb-4">Braces Treatment in Guntur
             </h2>
             <p class="poetsen_font1">
               Transform your smile with our expert orthodontic treatments at Vision Multispeciality Dental Hospital, recognized as the best dental hospital in Guntur. Our customised braces ensure precise teeth alignment, boosting confidence and oral health. If you’re searching for the best braces for teeth alignment near you, our clinic offers top-notch care and treatment, ensuring the best results.
@@ -26,7 +32,7 @@
           </div>
 
           <div class="col-md-6 order-3  order-md-2 mt-5 text-center">
-            <img src="assets/img/about/braces.jpg" class="img-fluid dr_img_padding abouter1" alt="">
+            <img src="assets/img/about/braces.jpg" class="img-fluid dr_img_padding abouter1" alt="Braces Treatment in Guntur">
           </div>
 
 
@@ -57,7 +63,7 @@
               <div class="col-md-6">
                 <h2 class="dr_welcome_text11 mt-4 mb-4">Benefits of Braces for Teeth Alignment in Guntur:
                 </h2>
-                <p class="poetsen_font1">Braces in Guntur straighten your teeth, enhance your smile, and correct bite issues. They improve oral health by making teeth easier to clean, prevent future dental problems, and boost your confidence with a well-aligned smile.
+                <p class="poetsen_font1">Braces Treatment in Guntur straighten your teeth, enhance your smile, and correct bite issues. They improve oral health by making teeth easier to clean, prevent future dental problems, and boost your confidence with a well-aligned smile.
 
                 </p>
               </div>

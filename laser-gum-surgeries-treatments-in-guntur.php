@@ -1,5 +1,11 @@
-<?php include 'header.php';?>
+<?php
 
+$meta_title = "Laser Gum Surgery in Guntur | Advanced Periodontal Care";
+$meta_description = "Expert laser gum surgeries in Guntur for healthier gums. Minimally invasive, faster healing & precise periodontal treatment.";
+
+include 'header.php';
+
+?>
 
 
 
@@ -15,21 +21,17 @@
             <p class="abP">Laser and gum therapy uses advanced laser technology to treat gum disease, reduce inflammation, and promote healing with minimal discomfort and recovery time.</p>
           </div>
           <div class="col-md-6 dr_content_padding  order-1 order-md-1 treater">
-            <h2 class="dr_welcome_text1 mt-4 mb-4">Laser Gum Surgery in
-
-
-
-              Guntur
+            <h2 class="dr_welcome_text1 mt-4 mb-4">Laser Gum Surgery in Guntur
             </h2>
             <p class="poetsen_font1">
-              Laser gum surgery at Vision Dentals in Guntur is an advanced dental procedure designed to treat various gum conditions with precision and minimal discomfort. This innovative technique uses a focused laser beam to target and remove infected or damaged gum tissue while preserving healthy tissue. Laser gum surgery is commonly used to address issues such as gum disease, periodontal pockets, and gingival overgrowth. The laser’s precision allows for the effective removal of bacteria and diseased tissue, promoting faster healing and reducing bleeding compared to traditional surgical methods. Additionally, the laser helps stimulate the regeneration of healthy gum tissue, leading to improved gum health and overall oral function. The procedure is minimally invasive, resulting in a quicker recovery time and less postoperative discomfort. By choosing laser gum surgery in Guntur, you benefit from cutting-edge technology and expert care that enhances your gum health, improves the appearance of your gums, and supports a more comfortable and efficient dental treatment experience.
+             Laser Gum Surgery in Guntur is an advanced dental procedure designed to treat various gum conditions with precision and minimal discomfort. This innovative technique uses a focused laser beam to target and remove infected or damaged gum tissue while preserving healthy tissue. Laser gum surgery is commonly used to address issues such as gum disease, periodontal pockets, and gingival overgrowth. The laser’s precision allows for the effective removal of bacteria and diseased tissue, promoting faster healing and reducing bleeding compared to traditional surgical methods. Additionally, the laser helps stimulate the regeneration of healthy gum tissue, leading to improved gum health and overall oral function. The procedure is minimally invasive, resulting in a quicker recovery time and less postoperative discomfort. By choosing laser gum surgery in Guntur, you benefit from cutting-edge technology and expert care that enhances your gum health, improves the appearance of your gums, and supports a more comfortable and efficient dental treatment experience.
             </p>
             <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
 
           </div>
 
           <div class="col-md-6 order-3  order-md-2 mt-5 text-center">
-            <img src="assets/img/about/laser_gum_surgery.webp" class="img-fluid dr_img_padding abouter1" alt="">
+            <img src="assets/img/about/laser_gum_surgery.webp" class="img-fluid dr_img_padding abouter1" alt="Laser Gum Surgery in Guntur">
           </div>
 
 

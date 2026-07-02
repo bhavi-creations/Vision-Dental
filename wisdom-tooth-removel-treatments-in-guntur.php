@@ -1,4 +1,12 @@
-<?php include 'header.php';?>
+<?php
+
+$meta_title = "Wisdom Tooth Removal in Guntur | Safe Extraction";
+$meta_description = "Looking for wisdom tooth removal in Guntur? Our expert dentists provide safe, painless tooth extractions with advanced dental care. Book now.";
+
+include 'header.php';
+
+?>
+
 
 
 
@@ -10,15 +18,11 @@
       <p class="mt-5">Treatments < Pain Relief < Wisdom Tooth Removel</p>
         <div class="row servSect">
           <div class="abot mt-5">
-            <h4 class="abh4">Wisdom Tooth Extraction Treatments</h4>
+            <h3 class="abh4">Wisdom Tooth Removal in Guntur</h3>
             <p class="abP">Tooth extraction is the removal of a tooth from its socket in the jawbone, typically due to damage, decay, or crowding.</p>
           </div>
           <div class="col-md-6 dr_content_padding  order-1 order-md-1 treater">
-            <h2 class="dr_welcome_text1 mt-4 mb-4">Wisdom Tooth Extraction in
-
-
-              <br>
-              Guntur
+            <h2 class="dr_welcome_text1 mt-4 mb-4">Wisdom Tooth Removal in Guntur
             </h2>
             <p class="poetsen_font1">
               Tooth extraction at Vision Dentals in Guntur is a carefully considered procedure used to remove teeth that are beyond repair or are causing significant dental issues. This procedure may be necessary for a variety of reasons, including severe tooth decay, advanced gum disease, overcrowding, or impacted wisdom teeth. Our experienced team at Vision Dentals uses state-of-the-art techniques and local anesthesia to ensure that the extraction process is as comfortable and efficient as possible. Following the extraction, we provide comprehensive care and guidance to facilitate proper healing and minimize discomfort. Tooth extraction can help alleviate pain, prevent the spread of infection, and create space for orthodontic treatments or other dental procedures. By choosing tooth extraction at our dental hospital in Guntur, you benefit from expert care and advanced methods designed to ensure a smooth and successful recovery, ultimately contributing to better overall oral health and comfort.
@@ -28,7 +32,7 @@
           </div>
 
           <div class="col-md-6 order-3  order-md-2 mt-5 text-center">
-            <img src="assets/img/about/Tooth-Extraction-Solution.jpg" class="img-fluid dr_img_padding abouter1" alt="">
+            <img src="assets/img/about/Tooth-Extraction-Solution.jpg" class="img-fluid dr_img_padding abouter1" alt="Wisdom Tooth Removal in Guntur">
           </div>
 
 
@@ -59,7 +63,7 @@
 
 
                 </h2>
-                <p class="poetsen_font1">Wisdom tooth extraction in Guntur is crucial for addressing potential issues associated with the third molars, which often emerge in late adolescence or early adulthood. At Vision Dentals, a leading dental hospital in Guntur, the extraction of wisdom teeth is recommended when they are impacted, misaligned, or causing significant problems such as pain, infection, or overcrowding. Wisdom teeth can be problematic because they may not have enough space to erupt properly, leading to potential complications like swelling, discomfort, and damage to adjacent teeth. By opting for wisdom tooth extraction in Guntur, you benefit from expert care and advanced techniques to alleviate these issues and prevent further dental complications. The procedure helps in relieving pain, reducing the risk of infection, and preventing crowding or misalignment of other teeth. Choosing a trusted local provider ensures that you receive high-quality care and effective treatment tailored to your specific needs, ultimately contributing to improved oral health and comfort.
+                <p class="poetsen_font1">Wisdom Tooth Removal in Guntur is crucial for addressing potential issues associated with the third molars, which often emerge in late adolescence or early adulthood. At Vision Dentals, a leading dental hospital in Guntur, the extraction of wisdom teeth is recommended when they are impacted, misaligned, or causing significant problems such as pain, infection, or overcrowding. Wisdom teeth can be problematic because they may not have enough space to erupt properly, leading to potential complications like swelling, discomfort, and damage to adjacent teeth. By opting for wisdom tooth extraction in Guntur, you benefit from expert care and advanced techniques to alleviate these issues and prevent further dental complications. The procedure helps in relieving pain, reducing the risk of infection, and preventing crowding or misalignment of other teeth. Choosing a trusted local provider ensures that you receive high-quality care and effective treatment tailored to your specific needs, ultimately contributing to improved oral health and comfort.
                 </p>
               </div>
               <div class="col-md-6">

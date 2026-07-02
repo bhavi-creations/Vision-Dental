@@ -1,6 +1,11 @@
-<?php include 'header.php';?>
+<?php
 
+$meta_title = "Root Canal Treatment in Guntur | Expert Dentists";
+$meta_description = "Get painless root canal treatment in Guntur from experienced dentists. Save your natural tooth with advanced technology. Book your appointment today.";
 
+include 'header.php';
+
+?>
 
 
   <main id="main">
@@ -15,8 +20,7 @@
             <p class="abP">"Receive expert root canal treatment at our dental hospital for effective pain relief and tooth preservation."</p>
           </div>
           <div class="col-md-6 dr_content_padding  order-1 order-md-1 treater">
-            <h2 class="dr_welcome_text1 mt-4 mb-4">Root Canal Treatment in <br>
-              Guntur
+            <h2 class="dr_welcome_text1 mt-4 mb-4">Root Canal Treatment in Guntur 
             </h2>
             <p class="poetsen_font1">
               Vision Multi Speciality Dental Hospital in Guntur is renowned for providing high-quality
@@ -31,7 +35,7 @@
           </div>
 
           <div class="col-md-6 order-3  order-md-2 mt-5 text-center">
-            <img src="assets/img/about/root canal.png" class="img-fluid dr_img_padding abouter1" alt="">
+            <img src="assets/img/about/root canal.png" class="img-fluid dr_img_padding abouter1" alt="Root Canal Treatment in Guntur ">
           </div>
 
 
@@ -72,7 +76,7 @@
               <div class="col-md-6">
                 <h2 class="dr_welcome_text11 mt-4 mb-4">Benefits of Root Canal Treatment in Guntur:
                 </h2>
-                <p class="poetsen_font1">Root canal treatment offers significant benefits, including immediate pain relief from
+                <p class="poetsen_font1">Root Canal Treatment in Guntur  offers significant benefits, including immediate pain relief from
                   infected or inflamed tooth pulp and the preservation of your natural tooth, which helps
                   maintain proper chewing and bite function. It also prevents the spread of infection to
                   surrounding tissues, reducing the risk of more severe complications. By saving the tooth,

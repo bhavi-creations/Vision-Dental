@@ -70,6 +70,18 @@ if (isset($canonical_override) && !empty($canonical_override)) {
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
 
+
+
+
+      <!-- Dynamic Title -->
+    <title><?= isset($meta_title) ? $meta_title : "Bhavi Creations"; ?></title>
+
+    <!-- Dynamic Meta Description -->
+    <meta name="description"
+        content="<?= isset($meta_description) ? $meta_description : "Default website description"; ?>">
+
+  
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18192734271"></script>
   <script>

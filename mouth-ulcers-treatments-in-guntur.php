@@ -1,4 +1,11 @@
-<?php include 'header.php';?>
+<?php
+
+$meta_title = "Mouth Ulcer Treatment in Guntur | Fast Relief with Laser";
+$meta_description = "Get quick relief from painful mouth ulcers with laser treatment in Guntur. Safe, effective & fast-healing dental care.";
+
+include 'header.php';
+
+?>
 
 
 
@@ -11,15 +18,10 @@
         <div class="row servSect">
           <div class="abot mt-5">
             <h4 class="abh4">Mouth Ulcers Treatments</h4>
-            <p class="abP">Mouth ulcers are painful, shallow sores that develop on the mucous membranes inside the mouth, often causing discomfort and difficulty eating or speaking.</p>
+            <p class="abP">Mouth Ulcer Treatment in Guntur are painful, shallow sores that develop on the mucous membranes inside the mouth, often causing discomfort and difficulty eating or speaking.</p>
           </div>
           <div class="col-md-6 dr_content_padding  order-1 order-md-1 treater">
-            <h2 class="dr_welcome_text1 mt-4 mb-4">Mouth Ulcers Treatment in
-
-
-
-              <br>
-              Guntur
+            <h2 class="dr_welcome_text1 mt-4 mb-4">Mouth Ulcer Treatment in Guntur
             </h2>
             <p class="poetsen_font1">
               Mouth ulcers, also known as canker sores, are painful lesions that appear on the soft tissues inside the mouth, such as the inner cheeks, gums, or tongue. At Vision Dentals in Guntur, we understand that these ulcers can cause significant discomfort and affect your ability to eat, speak, and maintain good oral hygiene. Mouth ulcers can be triggered by various factors, including stress, hormonal changes, nutritional deficiencies, certain foods, or underlying medical conditions. Our expert team provides comprehensive care to diagnose the underlying cause of your mouth ulcers and offers effective treatment options to alleviate symptoms and promote healing. Treatment may include topical medications to reduce pain and inflammation, dietary recommendations, and addressing any nutritional deficiencies. By seeking treatment for mouth ulcers at our dental hospital in Guntur, you benefit from personalized care that helps manage discomfort, accelerate healing, and improve your overall oral health and quality of life.
@@ -29,7 +31,7 @@
           </div>
 
           <div class="col-md-6 order-3  order-md-2 mt-5 text-center">
-            <img src="assets/img/about/mouth_uclerws.jpg" class="img-fluid dr_img_padding abouter1" alt="">
+            <img src="assets/img/about/mouth_uclerws.jpg" class="img-fluid dr_img_padding abouter1" alt="Mouth Ulcer Treatment in Guntur">
           </div>
 
 

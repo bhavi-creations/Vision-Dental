@@ -1,4 +1,12 @@
-<?php include 'header.php';?>
+<?php
+
+$meta_title = "Invisalign Treatment in Guntur | Clear Aligners";
+$meta_description = "Straighten your teeth with Invisalign treatment in Guntur. Comfortable, removable clear aligners for a confident and beautiful smile.";
+
+include 'header.php';
+
+?>
+
 
 
 
@@ -16,11 +24,10 @@
             </p>
           </div>
           <div class="col-md-6 dr_content_padding  order-1 order-md-1 treater">
-            <h2 class="dr_welcome_text1 mt-4 mb-4">Invisalign Treatment in
-              Guntur
+            <h2 class="dr_welcome_text1 mt-4 mb-4">Invisalign Treatment in Guntur 
             </h2>
             <p class="poetsen_font1">
-              Invisalign is a modern orthodontic treatment designed to straighten teeth discreetly and comfortably. At Vision Dentals, a premier dental hospital in Guntur, we offer Invisalign as a cutting-edge solution for achieving a beautifully aligned smile without the need for traditional metal braces. Invisalign uses a series of custom-made, clear aligners that are virtually invisible and removable, allowing you to continue eating your favorite foods and maintaining optimal oral hygiene throughout the treatment.
+              Invisalign Treatment in Guntur  is a modern orthodontic treatment designed to straighten teeth discreetly and comfortably. At Vision Dentals, a premier dental hospital in Guntur, we offer Invisalign as a cutting-edge solution for achieving a beautifully aligned smile without the need for traditional metal braces. Invisalign uses a series of custom-made, clear aligners that are virtually invisible and removable, allowing you to continue eating your favorite foods and maintaining optimal oral hygiene throughout the treatment.
               <br><br> Each set of aligners is designed to gradually shift your teeth into their desired positions based on a personalized treatment plan created using advanced 3D imaging technology. The benefits of choosing Invisalign include a more aesthetically pleasing appearance, greater comfort, and fewer visits to the orthodontist compared to traditional braces. By opting for Invisalign treatment at our dental hospital in Guntur, you receive expert care and a tailored approach to help you achieve a straighter smile with minimal impact on your daily life.
             </p>
             <a href="appointment.php"> <button class="appont">Book Appointment</button></a>
@@ -28,7 +35,7 @@
           </div>
 
           <div class="col-md-6 order-3  order-md-2 mt-5 text-center">
-            <img src="assets/img/about/invisilers.jpg" class="img-fluid dr_img_padding abouter1" alt="">
+            <img src="assets/img/about/invisilers.jpg" class="img-fluid dr_img_padding abouter1" alt="Invisalign Treatment in Guntur ">
           </div>
 
 

@@ -1,4 +1,11 @@
-<?php include 'header.php';?>
+<?php
+
+$meta_title = "Pediatric Dentist in Guntur | Kids' Dental Care Experts";
+$meta_description = "Trusted pediatric dentist in Guntur for gentle, expert dental care. Helping your child build healthy teeth & happy smiles from an early age.";
+
+include 'header.php';
+
+?>
 
 
 
@@ -15,12 +22,14 @@
             <p class="abP">"A pediatric dentist specializes in the dental care of children, focusing on their unique oral health needs and providing a child-friendly environment."</p>
           </div>
           <div class="col-md-6 dr_content_padding  order-1 order-md-1 treater">
-            <h2 class="dr_welcome_text1 mt-4 mb-4">Children Dental Hospital in Guntur | <br> Best Pediatric Dentist
+            <h2 class="dr_welcome_text1 mt-4 mb-4">Pediatric Dentist in Guntur</h2>
+
+            <!-- <h2 class="dr_welcome_text1 mt-4 mb-4">Children Dental Hospital in Guntur | <br> Best Pediatric Dentist</h2> -->
 
 
-            </h2>
+
             <p class="poetsen_font1">
-              At Vision Dentals, we understand that a child’s smile is priceless. As the best dental hospital in Guntur, our specialized pediatric dentistry services ensure that your little one receives the best care in a comforting and fun environment. Whether it's a first dental visit or ongoing preventive care, we are committed to making every dental experience positive. The first dental visit is crucial for establishing a lifetime of good oral health. Our gentle and friendly team makes this experience pleasant and educational for both you and your child, focusing on building trust and ensuring your child feels comfortable.
+              At Vision Dentals, we understand that a child’s smile is priceless. As the best dental hospital in Guntur, our specialized Pediatric Dentist in Guntur services ensure that your little one receives the best care in a comforting and fun environment. Whether it's a first dental visit or ongoing preventive care, we are committed to making every dental experience positive. The first dental visit is crucial for establishing a lifetime of good oral health. Our gentle and friendly team makes this experience pleasant and educational for both you and your child, focusing on building trust and ensuring your child feels comfortable.
               <br>
               Prevention is better than cure, which is why we offer comprehensive preventive care at our dental hospital in Guntur, including regular cleanings, fluoride treatments, and dental sealants to protect your child’s teeth from cavities and decay. We also provide personalized advice on maintaining oral hygiene at home. Routine cleanings and exams are essential for monitoring your child’s dental development, and our hygienists are specifically trained to work with children, ensuring their teeth and gums remain healthy and strong.
             </p>
@@ -29,7 +38,7 @@
           </div>
 
           <div class="col-md-6 order-3  order-md-2 mt-5 text-center">
-            <img src="assets/img/about/Pediatric.jpg" class="img-fluid dr_img_padding abouter1" alt="">
+            <img src="assets/img/about/Pediatric.jpg" class="img-fluid dr_img_padding abouter1" alt="Pediatric Dentist in Guntur">
           </div>
 
 
