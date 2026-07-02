@@ -256,18 +256,35 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 d-flex justify-content-center index_img_section ">
-        <img src="assets/img/vision/index_page_img.jpeg" class="img-fluid" alt="" loading="lazy" decoding="async">
+        <img src="assets/img/about/a11.png" class="img-fluid" alt="" loading="lazy" decoding="async">
       </div>
-      <div class="col-md-6">
+      <!-- <div class="col-md-6 align-items-center">
 
-        <h1 class="doc_head_text">
+        <h1 class="doc_head_text ">
           Vision Multispeciality Dental Hospital Dentist In Guntur</h1>
         <p class="doc_para_text">Vision Multispecialty Dental Hospital is the top-rated dental hospital in Guntur. Led by Dr. Abhilash, an expert dentist in Guntur with 8+ years of experience, we specialize in painless dental implants, laser dentistry, and full mouth rehabilitation. For those seeking a "dentist near me in Guntur," we provide advanced level care and the best dental treatments.
-          <!-- <p class="doc_para_text">Welcome to Vision Multispeciality Dental Hospital, Guntur, where Dr. Abhilash, our esteemed founder and chief doctor, leads our dedicated team. With over 8 years of extensive experience in the field of dentistry, </p>-->
           <a href="https://visionmultispecialtydental.blogspot.com/2025/11/dr-abhilash-vision-multi-speciality.html" target="_blank"> Dr. Abhilash</a> is renowned for his expertise in implant surgeries, laser photomedicines, and full mouth rehabilitations.
         </p>
         <button class="read_more_btn_vision"><a href="about-us.php" style="color: white;"> Read More</a></button>
-      </div>
+      </div> -->
+
+      <div class="col-md-6 d-flex flex-column justify-content-center align-items-start">
+
+        <h1 class="doc_head_text ">
+          Vision Multispeciality Dental Hospital Dentist In Guntur
+        </h1>
+
+        <p class="doc_para_text">
+          Vision Multispecialty Dental Hospital is the top-rated dental hospital in Guntur. Led by Dr. Abhilash, an expert dentist in Guntur with 8+ years of experience, we specialize in painless dental implants, laser dentistry, and full mouth rehabilitation. For those seeking a "dentist near me in Guntur," we provide advanced level care and the best dental treatments.
+          <!-- <p class="doc_para_text">Welcome to Vision Multispeciality Dental Hospital, Guntur, where Dr. Abhilash, our esteemed founder and chief doctor, leads our dedicated team. With over 8 years of extensive experience in the field of dentistry, </p>-->
+          <a href="https://visionmultispecialtydental.blogspot.com/2025/11/dr-abhilash-vision-multi-speciality.html" target="_blank">Dr. Abhilash</a> is renowned for his expertise in implant surgeries, laser photomedicines, and full mouth rehabilitations.
+        </p>
+
+        <button class="read_more_btn_vision">
+          <a href="about-us.php" style="color: white; text-decoration: none;">Read More</a>
+        </button>
+
+</div>
 
     </div>
   </div>

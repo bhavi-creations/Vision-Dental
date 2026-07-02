@@ -502,8 +502,8 @@ if (isset($canonical_override) && !empty($canonical_override)) {
 
           <li><a class="nav-link scrollto" href="equipment-in-vision-multispeciality-dental-hospital-in-guntur.php">Equipment</a></li>
           <li><a class="nav-link" href="blogs.php">Blogs</a></li>
-          <li><a class="nav-link scrollto" href="reviews-testimonials.php">Reviews</a></li>
-          <li><a class="nav-link scrollto" href="smile-gallery.php">Smile Gallery</a></li>
+          <!-- <li><a class="nav-link scrollto" href="reviews-testimonials.php">Reviews</a></li>
+          <li><a class="nav-link scrollto" href="smile-gallery.php">Smile Gallery</a></li> -->
           <!-- <li><a class="nav-link scrollto d-none -d-lg- d-xl-none" href="contact">Contact us</a></li> -->
           <li><a class="nav-link scrollto d-block d-lg-none d-xl-block" href="contact-us-vision-multispeciality-dental-hospital.php">Contact us</a></li>
           <li><a class="nav-link scrollto d-block d-lg-none d-xl-block" href="appointment.php">Appointment</a></li>
@@ -731,3 +731,455 @@ if (isset($canonical_override) && !empty($canonical_override)) {
 
 
   </header>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vision Multispeciality Dental Hospital — Guntur</title>
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --blue:#004a99;
+    --plum:#6a2b5f;
+    --ink:#111111;
+    --paper:#fdfdfd;
+    --blue-tint:#eaf1fb;
+    --plum-tint:#f5eaf1;
+    --line:#e2e2e2;
+    --muted:#5c5c5c;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    font-size:1rem;
+    line-height:1.65;
+  }
+  h1,h2,h3,.display-font{
+    font-family:'Fraunces',serif;
+    letter-spacing:-0.01em;
+  }
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.72rem;
+    letter-spacing:0.16em;
+    text-transform:uppercase;
+    color:var(--plum);
+    display:flex;
+    align-items:center;
+    gap:.5rem;
+  }
+  .eyebrow::before{
+    content:"";
+    width:22px;height:1px;background:var(--plum);
+    display:inline-block;
+  }
+  a{color:var(--blue);}
+  .btn-primary{
+    background:var(--blue);
+    border-color:var(--blue);
+    font-weight:600;
+    border-radius:2px;
+    padding:.75rem 1.6rem;
+  }
+  .btn-primary:hover{background:#003a79;border-color:#003a79;}
+  .btn-outline-plum{
+    border:1.5px solid var(--plum);
+    color:var(--plum);
+    font-weight:600;
+    border-radius:2px;
+    padding:.7rem 1.5rem;
+    background:transparent;
+  }
+  .btn-outline-plum:hover{background:var(--plum);color:#fff;}
+
+  /* ---------- NAV ---------- */
+  .navbar{
+    background:var(--paper);
+    border-bottom:1px solid var(--line);
+    padding:.9rem 0;
+  }
+  .brand-mark{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:1.25rem;
+    color:var(--ink);
+  }
+  .brand-mark span{color:var(--blue);}
+  .nav-link{
+    font-weight:500;
+    font-size:.92rem;
+    color:var(--ink) !important;
+    margin:0 .6rem;
+  }
+  .nav-link:hover{color:var(--blue) !important;}
+
+  /* ---------- HERO ---------- */
+  .hero{
+    background:linear-gradient(180deg,var(--blue-tint) 0%, var(--paper) 78%);
+    position:relative;
+    overflow:hidden;
+    padding-top:4.5rem;
+  }
+  .hero h1{
+    font-size:clamp(2.3rem,4.6vw,3.6rem);
+    font-weight:600;
+    color:var(--ink);
+  }
+  .hero h1 em{
+    font-style:normal;
+    color:var(--blue);
+    border-bottom:3px solid var(--plum);
+  }
+  .hero p.lead{
+    color:var(--muted);
+    max-width:34rem;
+    font-size:1.08rem;
+  }
+  .hero-stats{
+    display:flex;
+    gap:2.2rem;
+    margin-top:2.4rem;
+    flex-wrap:wrap;
+  }
+  .hero-stats div strong{
+    display:block;
+    font-family:'Fraunces',serif;
+    font-size:1.7rem;
+    color:var(--blue);
+  }
+  .hero-stats div span{
+    font-size:.78rem;
+    color:var(--muted);
+    text-transform:uppercase;
+    letter-spacing:.06em;
+  }
+
+  /* ---------- ARCH DIVIDER (signature element) ---------- */
+  .arch-divider{width:100%;display:block;}
+
+  /* ---------- SECTION ---------- */
+  section{padding:5rem 0;}
+  .section-title{
+    font-size:clamp(1.7rem,3vw,2.3rem);
+    font-weight:600;
+    margin-top:.4rem;
+    margin-bottom:1rem;
+  }
+  .section-lead{color:var(--muted);max-width:38rem;}
+
+  /* ---------- SERVICE CARDS ---------- */
+  .svc-card{
+    border:1px solid var(--line);
+    background:var(--paper);
+    padding:1.6rem 1.4rem;
+    height:100%;
+    transition:.25s ease;
+    border-radius:2px;
+  }
+  .svc-card:hover{
+    border-color:var(--blue);
+    box-shadow:0 10px 24px -14px rgba(0,74,153,.35);
+    transform:translateY(-3px);
+  }
+  .svc-card i{
+    font-size:1.4rem;
+    color:var(--plum);
+  }
+  .svc-card h3{
+    font-family:'Inter',sans-serif;
+    font-size:1.02rem;
+    font-weight:600;
+    margin:.8rem 0 .3rem;
+  }
+  .svc-card p{font-size:.86rem;color:var(--muted);margin:0;}
+
+  /* ---------- TECH STRIP ---------- */
+  .tech-section{
+    background:var(--ink);
+    color:var(--paper);
+  }
+  .tech-section .eyebrow{color:#c9a9be;}
+  .tech-section .eyebrow::before{background:#c9a9be;}
+  .tech-item{
+    border-top:1px solid #333;
+    padding:1.1rem 0;
+    display:flex;
+    align-items:center;
+    gap:1rem;
+  }
+  .tech-item:last-child{border-bottom:1px solid #333;}
+  .tech-item i{color:var(--plum-tint);font-size:1.15rem;width:28px;text-align:center;}
+  .tech-item span{font-size:.95rem;}
+
+  /* ---------- WHY CHOOSE ---------- */
+  .why-item{
+    display:flex;
+    gap:.9rem;
+    padding:1rem 0;
+    border-bottom:1px solid var(--line);
+  }
+  .why-item i{color:var(--blue);font-size:1.1rem;margin-top:.15rem;}
+  .why-item h4{font-size:.98rem;font-weight:600;margin:0 0 .2rem;}
+  .why-item p{font-size:.85rem;color:var(--muted);margin:0;}
+
+  /* ---------- COVERAGE / AREAS ---------- */
+  .coverage{background:var(--plum-tint);}
+  .area-pill{
+    display:inline-block;
+    font-size:.78rem;
+    padding:.35rem .75rem;
+    margin:.22rem;
+    border:1px solid rgba(106,43,95,.3);
+    color:var(--plum);
+    background:#fff;
+    border-radius:20px;
+  }
+  .coverage-map-note{
+    font-size:.82rem;
+    color:var(--muted);
+  }
+
+  /* ---------- CTA BANNER ---------- */
+  .cta-banner{
+    background:var(--blue);
+    color:#fff;
+    text-align:center;
+    padding:4rem 0;
+  }
+  .cta-banner h2{font-size:clamp(1.6rem,3.4vw,2.2rem);}
+  .cta-banner .btn-light{
+    font-weight:600;
+    border-radius:2px;
+    padding:.8rem 2rem;
+    color:var(--blue);
+  }
+  .keyword-line{
+    font-size:.85rem;
+    color:#cfe0f5;
+    max-width:44rem;
+    margin:1rem auto 0;
+  }
+
+  /* ---------- FOOTER ---------- */
+  footer{
+    background:var(--ink);
+    color:#bdbdbd;
+    padding:2.6rem 0 1.4rem;
+    font-size:.85rem;
+  }
+  footer h5{color:#fff;font-family:'Fraunces',serif;font-weight:600;font-size:1.05rem;}
+  footer a{color:#bdbdbd;text-decoration:none;}
+  footer a:hover{color:var(--plum-tint);}
+  .foot-line{border-top:1px solid #2c2c2c;margin-top:2rem;padding-top:1.2rem;font-size:.76rem;color:#7c7c7c;}
+
+  @media (max-width:767px){
+    section{padding:3.2rem 0;}
+    .hero{padding-top:2rem;}
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<!-- <nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container">
+    <a class="navbar-brand brand-mark" href="#">Vision <span>Dental</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="nav">
+      <a class="nav-link" href="#services">Treatments</a>
+      <a class="nav-link" href="#technology">Technology</a>
+      <a class="nav-link" href="#why">Why Us</a>
+      <a class="nav-link" href="#coverage">Areas We Serve</a>
+      <a class="btn btn-primary ms-lg-3 mt-2 mt-lg-0" href="#book">Book Consultation</a>
+    </div>
+  </div>
+</nav> -->
+
+<!-- HERO -->
+<header class="hero">
+  <div class="container py-5">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7">
+        <p class="eyebrow">Guntur's Multispeciality Dental Hospital</p>
+        <h1 class="mt-3">A healthy smile, <em>trusted across Guntur</em></h1>
+        <p class="lead mt-3">From Brodipet to Tadepalli, Mangalagiri to Chinakakani — families choose Vision Multispeciality Dental Hospital for advanced technology, experienced specialists and honest, personalised treatment plans.</p>
+        <div class="d-flex gap-3 flex-wrap mt-4">
+          <a href="appointment.php" class="btn btn-primary">Book Your Consultation</a>
+
+           <a href="treatment-in-vision-multispeciality-dental-hospital.php" class="btn btn-primary">Explore Treatments</a>
+          <!-- <a href="treatment-in-vision-multispeciality-dental-hospital.php" class="btn btn-outline-plum">Explore Treatments</a> -->
+        </div>
+        <div class="hero-stats">
+          <div><strong>16+</strong><span>Dental Treatments</span></div>
+          <div><strong>60+</strong><span>Localities Served</span></div>
+          <div><strong>CBCT</strong><span>3D Digital Imaging</span></div>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <svg viewBox="0 0 360 340" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;">
+          <path d="M40 260 C 40 120, 320 120, 320 260" fill="none" stroke="#004a99" stroke-width="2" opacity="0.25"/>
+          <g>
+            <!-- stylised upper dental arch made of 10 tooth blocks -->
+            <path d="M50 250 Q 180 60 310 250" fill="none" stroke="#6a2b5f" stroke-width="1.5" stroke-dasharray="4 5" opacity="0.5"/>
+            <g fill="#fdfdfd" stroke="#004a99" stroke-width="2">
+              <rect x="42" y="228" width="26" height="34" rx="8"/>
+              <rect x="72" y="196" width="26" height="40" rx="8"/>
+              <rect x="103" y="160" width="27" height="46" rx="9"/>
+              <rect x="135" y="132" width="28" height="50" rx="9"/>
+              <rect x="168" y="120" width="28" height="52" rx="9" stroke="#6a2b5f"/>
+              <rect x="200" y="132" width="28" height="50" rx="9"/>
+              <rect x="232" y="160" width="27" height="46" rx="9"/>
+              <rect x="263" y="196" width="26" height="40" rx="8"/>
+              <rect x="293" y="228" width="26" height="34" rx="8"/>
+            </g>
+          </g>
+          <text x="180" y="305" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#5c5c5c" letter-spacing="1">GUIDED · DIGITAL · PRECISE</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ARCH DIVIDER -->
+<svg class="arch-divider" viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 0 Q 360 60 720 20 T 1440 0 V60 H0 Z" fill="#eaf1fb"/>
+</svg>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="container">
+    <p class="eyebrow">Comprehensive Care</p>
+    <h2 class="section-title">Complete dental care, under one roof</h2>
+    <p class="section-lead">Personalised treatment plans for every age group — from routine check-ups to complete smile transformations.</p>
+    <div class="row g-3 mt-3">
+      <!-- 16 treatments -->
+      <div class="col-6 col-md-4 col-lg-3"><div class="svc-card"><i class="bi bi-bezier2"></i><h3>Dental Implants</h3><p>Long-lasting, natural-feeling replacements.</p></div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="svc-card"><i class="bi bi-grid-3x3"></i><h3>Full Mouth Rehabilitation</h3><p>Complete restoration of form and function.</p></div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="svc-card"><i class="bi bi-arrows-collapse"></i><h3>Invisalign & Clear Aligners</h3><p>Straighten teeth without metal braces.</p></div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="svc-card"><i class="bi bi-stars"></i><h3>Smile Designing</h3><p>Custom smile makeovers, planned digitally.</p></div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="svc-card"><i class="bi bi-activity"></i><h3>Root Canal Treatment</h3><p>Pain-free, precise endodontic care.</p></div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="svc-card"><i class="bi bi-scissors"></i><h3>Wisdom Tooth Removal</h3><p>Safe, guided extraction procedures.</p></div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="svc-card"><i class="bi bi-lightning-charge"></i><h3>Laser Dentistry</h3><p>Minimally invasive, faster healing.</p></div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="svc-card"><i class="bi bi-gem"></i><h3>Cosmetic Dentistry</h3><p>Aesthetic solutions for a confident smile.</p></div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="svc-card"><i class="bi bi-shield-check"></i><h3>Dental Veneers</h3><p>Thin shells for a flawless smile line.</p></div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="svc-card"><i class="bi bi-diamond"></i><h3>Zirconia Crowns</h3><p>Strong, tooth-coloured crowns.</p></div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="svc-card"><i class="bi bi-brightness-high"></i><h3>Teeth Whitening</h3><p>Safe, visible brightening in one visit.</p></div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="svc-card"><i class="bi bi-emoji-smile"></i><h3>Children's Dentistry</h3><p>Gentle, child-friendly dental care.</p></div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="svc-card"><i class="bi bi-heart-pulse"></i><h3>Gum Disease Treatment</h3><p>Restoring healthy gums and support.</p></div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="svc-card"><i class="bi bi-camera"></i><h3>Digital Smile Design</h3><p>Preview your new smile before treatment.</p></div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="svc-card"><i class="bi bi-calendar-check"></i><h3>Preventive Dental Care</h3><p>Regular care to avoid bigger problems.</p></div></div>
+      <div class="col-6 col-md-4 col-lg-3"><div class="svc-card"><i class="bi bi-exclamation-circle"></i><h3>Emergency Dental Care</h3><p>Prompt attention when it matters most.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- TECHNOLOGY -->
+<section id="technology" class="tech-section">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-5">
+        <p class="eyebrow">Precision, Built In</p>
+        <h2 class="section-title" style="color:#fdfdfd;">Advanced technology for better outcomes</h2>
+        <p style="color:#bdbdbd;max-width:30rem;">We combine clinical expertise with modern technology for accurate diagnosis, comfortable treatment, faster results and reduced chair time.</p>
+      </div>
+      <div class="col-lg-7">
+        <div class="tech-item"><i class="bi bi-badge-3d"></i><span>Digital CBCT 3D Imaging</span></div>
+        <div class="tech-item"><i class="bi bi-file-earmark-medical"></i><span>Digital OPG X-Ray</span></div>
+        <div class="tech-item"><i class="bi bi-cpu"></i><span>Intraoral Scanner</span></div>
+        <div class="tech-item"><i class="bi bi-lightning"></i><span>Laser Dentistry</span></div>
+        <div class="tech-item"><i class="bi bi-vector-pen"></i><span>Digital Smile Design</span></div>
+        <div class="tech-item"><i class="bi bi-crosshair"></i><span>Guided Implant Surgery</span></div>
+        <div class="tech-item"><i class="bi bi-box"></i><span>3D Printing Technology</span></div>
+        <div class="tech-item"><i class="bi bi-droplet-half"></i><span>International Sterilisation Protocols</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE -->
+<section id="why">
+  <div class="container">
+    <p class="eyebrow">Why Patients Choose Us</p>
+    <h2 class="section-title">Care built around trust</h2>
+    <div class="row g-4 mt-2">
+      <div class="col-md-6">
+        <div class="why-item"><i class="bi bi-award"></i><div><h4>Experienced Specialists</h4><p>Highly qualified dentists across every discipline.</p></div></div>
+        <div class="why-item"><i class="bi bi-cpu-fill"></i><div><h4>Advanced Technology</h4><p>Digital tools for accurate, efficient treatment.</p></div></div>
+        <div class="why-item"><i class="bi bi-person-check"></i><div><h4>Personalised Plans</h4><p>Treatment tailored to your specific needs.</p></div></div>
+        <div class="why-item"><i class="bi bi-house-heart"></i><div><h4>Comfortable Environment</h4><p>A hygienic, calming space for every visit.</p></div></div>
+      </div>
+      <div class="col-md-6">
+        <div class="why-item"><i class="bi bi-chat-square-text"></i><div><h4>Transparent Explanations</h4><p>Clear communication before every procedure.</p></div></div>
+        <div class="why-item"><i class="bi bi-calendar2-week"></i><div><h4>Flexible Scheduling</h4><p>Appointments that work around your day.</p></div></div>
+        <div class="why-item"><i class="bi bi-credit-card"></i><div><h4>EMI Facilities</h4><p>Affordable options for eligible procedures.</p></div></div>
+        <div class="why-item"><i class="bi bi-emoji-smile-upside-down"></i><div><h4>Long-Term Oral Health</h4><p>Focused on results that last for years.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COVERAGE / AREAS -->
+<section id="coverage" class="coverage">
+  <div class="container">
+    <p class="eyebrow">Conveniently Accessible</p>
+    <h2 class="section-title">Serving Guntur and the capital region</h2>
+    <p class="section-lead coverage-map-note">Patients travel to us every month from across Guntur city, its developing suburbs and nearby districts — with excellent road connectivity and ample parking.</p>
+    <div class="mt-4">
+      <span class="area-pill">Amaravathi Road</span><span class="area-pill">Ankireddypalem</span><span class="area-pill">APHB Colony</span><span class="area-pill">Arundelpet</span><span class="area-pill">Ashok Nagar</span><span class="area-pill">AT Agraharam</span><span class="area-pill">Autonagar</span><span class="area-pill">Balaji Nagar</span><span class="area-pill">Basava Taraka Rama Nagar</span><span class="area-pill">Bharatpet</span><span class="area-pill">Brodipet</span><span class="area-pill">Brindavan Gardens</span><span class="area-pill">Budampadu</span><span class="area-pill">Chandramouli Nagar</span><span class="area-pill">Chinakakani</span><span class="area-pill">Chowdavaram</span><span class="area-pill">Etukuru</span><span class="area-pill">Gandhi Nagar</span><span class="area-pill">Gorantla</span><span class="area-pill">Gujjanagundla</span><span class="area-pill">GV Thota</span><span class="area-pill">Jonnalagadda</span><span class="area-pill">Kanna Vari Thota</span><span class="area-pill">Kaza</span><span class="area-pill">Koritepadu</span><span class="area-pill">Koppuravuru</span><span class="area-pill">Kothapet</span><span class="area-pill">Krishna Nagar</span><span class="area-pill">Lala Pet</span><span class="area-pill">Lakshmipuram</span><span class="area-pill">Lam</span><span class="area-pill">Mangalagiri</span><span class="area-pill">Mirchi Yard</span><span class="area-pill">Nallacheruvu</span><span class="area-pill">Nallapadu</span><span class="area-pill">Namburu</span><span class="area-pill">Navabharat Nagar</span><span class="area-pill">Neerukonda</span><span class="area-pill">Old Guntur</span><span class="area-pill">Pattabhipuram</span><span class="area-pill">Pedakakani</span><span class="area-pill">Pedapalakaluru</span><span class="area-pill">Perecherla</span><span class="area-pill">R Agraharam</span><span class="area-pill">Reddypalem</span><span class="area-pill">Shankar Vilas</span><span class="area-pill">Sitarama Nagar</span><span class="area-pill">Srinivasa Rao Thota</span><span class="area-pill">Swarnabharathi Nagar</span><span class="area-pill">SVN Colony</span><span class="area-pill">Syamala Nagar</span><span class="area-pill">Tadikonda</span><span class="area-pill">Tadepalli</span><span class="area-pill">Tobacco Market Area</span><span class="area-pill">Undavalli</span><span class="area-pill">Venigandla</span><span class="area-pill">Venugopal Nagar</span><span class="area-pill">Vidyanagar</span><span class="area-pill">Vijayapuri Colony</span><span class="area-pill">Vinjanampadu</span><span class="area-pill">Vaddeswaram</span>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="book" class="cta-banner">
+  <div class="container">
+    <p class="eyebrow" style="color:#a9c6ea;justify-content:center;">Book Your Consultation</p>
+    <p class="eyebrow" style="display:none;"></p>
+    <h2 class="mt-2 mb-3">Searching for the best dental hospital in Guntur?</h2>
+    <a href="tel:+9193914 57072" class="btn btn-success"><i class="bi bi-telephone-fill me-2"></i>Schedule Your Consultation</a>
+    <p class="keyword-line">Dental implants in Guntur · Invisalign treatment · Smile designing · Root canal treatment · Laser dentistry — ethical, evidence-based, patient-centred care for individuals and families across Guntur.</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<!-- <footer>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-4">
+        <h5>Vision Multispeciality Dental Hospital</h5>
+        <p class="mt-2">Advanced dentistry, delivered with care — for Guntur and the surrounding region.</p>
+      </div>
+      <div class="col-md-4">
+        <h5>Explore</h5>
+        <p class="mt-2 mb-1"><a href="#services">Treatments</a></p>
+        <p class="mb-1"><a href="#technology">Technology</a></p>
+        <p class="mb-1"><a href="#why">Why Choose Us</a></p>
+        <p class="mb-1"><a href="#coverage">Areas We Serve</a></p>
+      </div>
+      <div class="col-md-4">
+        <h5>Visit Us</h5>
+        <p class="mt-2 mb-1">Guntur, Andhra Pradesh</p>
+        <p class="mb-1">Open for consultations — flexible scheduling</p>
+      </div>
+    </div>
+    <div class="foot-line">© 2026 Vision Multispeciality Dental Hospital, Guntur. All rights reserved.</div>
+  </div>
+</footer> -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
