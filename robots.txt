@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
+
 Disallow: /privacy-policy
 Disallow: /terms-and-conditions
-Sitemap: https://visiondentalguntur.com/sitemap.xml 
+
+Sitemap: https://visiondentalguntur.com/sitemap.xml
