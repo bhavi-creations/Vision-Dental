@@ -4,7 +4,7 @@ $host = 'localhost';
 if ($_SERVER['SERVER_NAME'] == 'localhost') {
     $user = "root";
     $pass = "";
-    $db = "vision";
+    $db = "visiondental";
 } else {
     $user = "visiondentalguntur";
     $pass = "pv2K2pIHvLuj4mq";

@@ -5,7 +5,7 @@ $servername = "localhost";
 if ($_SERVER['SERVER_NAME'] == 'localhost') {
     $username = "root";
     $password = "";
-    $dbname = "vision";
+    $dbname = "visiondental";
 } else {
     $username = "visiondentalguntur";
     $password = "pv2K2pIHvLuj4mq";
