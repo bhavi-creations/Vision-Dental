@@ -23,52 +23,64 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $day = date('l', strtotime($date));
 
     /* ======================
-       HOLIDAY CHECK
-       ====================== */
-    $stmt = $conn->prepare(
-        "SELECT holiday_type, reason 
-         FROM holidays 
-         WHERE holiday_date=?"
-    );
-    $stmt->bind_param("s", $date);
-    $stmt->execute();
-    $h = $stmt->get_result();
+   HOLIDAY CHECK
+   ====================== */
 
-    if ($h->num_rows > 0) {
-        $row  = $h->fetch_assoc();
-        $type = $row['holiday_type'];
+$stmt = $conn->prepare(
+    "SELECT holiday_type, reason
+     FROM holidays
+     WHERE holiday_date = ?"
+);
 
-        $morningSlots = [
+if ($stmt === false) {
+    die("Holiday query failed: " . $conn->error);
+}
 
-            "09:00 AM - 10:00 AM",
-            "10:00 AM - 11:00 AM",
-            "11:00 AM - 12:00 PM",
-            "12:00 PM - 01:00 PM",
-            "01:00 PM - 02:00 PM"
-        ];
+$stmt->bind_param("s", $date);
 
-        $afternoonSlots = [
-            "02:00 PM - 03:00 PM",
-            "03:00 PM - 04:00 PM",
-            "04:00 PM - 05:00 PM",
-            "05:00 PM - 06:00 PM",
-            "06:00 PM - 07:00 PM",
-            "07:00 PM - 08:30 PM",
+if (!$stmt->execute()) {
+    die("Holiday query execution failed: " . $stmt->error);
+}
 
-        ];
+$h = $stmt->get_result();
 
-        if (
-            $type == 'fullday' ||
-            ($type == 'morning' && in_array($slot, $morningSlots)) ||
-            ($type == 'afternoon' && in_array($slot, $afternoonSlots))
-        ) {
-            echo "<script>
-                alert('" . $row['reason'] . "');
-                window.location='index.php';
-            </script>";
-            exit;
-        }
+if ($h->num_rows > 0) {
+
+    $row  = $h->fetch_assoc();
+    $type = $row['holiday_type'];
+
+    $morningSlots = [
+        "09:00 AM - 10:00 AM",
+        "10:00 AM - 11:00 AM",
+        "11:00 AM - 12:00 PM",
+        "12:00 PM - 01:00 PM",
+        "01:00 PM - 02:00 PM"
+    ];
+
+    $afternoonSlots = [
+        "02:00 PM - 03:00 PM",
+        "03:00 PM - 04:00 PM",
+        "04:00 PM - 05:00 PM",
+        "05:00 PM - 06:00 PM",
+        "06:00 PM - 07:00 PM",
+        "07:00 PM - 08:00 PM",
+        "07:00 PM - 08:30 PM"
+    ];
+
+    if (
+        $type == 'fullday' ||
+        ($type == 'morning' && in_array($slot, $morningSlots)) ||
+        ($type == 'afternoon' && in_array($slot, $afternoonSlots))
+    ) {
+
+        echo "<script>
+            alert(" . json_encode($row['reason']) . ");
+            window.location='index.php';
+        </script>";
+
+        exit;
     }
+}
 
     /* ======================
        SLOT LIMIT CHECK
@@ -91,15 +103,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     /* ======================
-       INSERT APPOINTMENT
-       ====================== */
-    $stmt = $conn->prepare(
-        "INSERT INTO appointments 
-        (name, email, phone, appointment_date, time_slot, message)
-        VALUES (?,?,?,?,?,?)"
-    );
-    $stmt->bind_param("ssssss", $name, $email, $phone, $date, $slot, $msg);
-    $stmt->execute();
+   INSERT APPOINTMENT
+   ====================== */
+$stmt = $conn->prepare(
+    "INSERT INTO appointments 
+    (name, email, phone, appointment_date, time_slot, message)
+    VALUES (?,?,?,?,?,?)"
+);
+
+// Prepare fail aithe error chupinchadaniki idi add cheyali
+if ($stmt === false) {
+    die("Prepare failed: " . $conn->error);
+}
+
+$stmt->bind_param("ssssss", $name, $email, $phone, $date, $slot, $msg);
+$stmt->execute();
 
     /* ======================
        MAIL TO DOCTOR ONLY
@@ -110,17 +128,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mailDoctor->isSMTP();
         $mailDoctor->Host       = 'smtp.gmail.com';
         $mailDoctor->SMTPAuth   = true;
-        $mailDoctor->Username   = 'manimalladi05@gmail.com';
-        $mailDoctor->Password   = 'cvarqcchfjpawxvo';
+        $mailDoctor->Username   = 'Visiondentalguntur@gmail.com';
+        $mailDoctor->Password   = 'tyrwfvurugoylwie';
         $mailDoctor->SMTPSecure = 'tls';
         $mailDoctor->Port       = 587;
 
         $mailDoctor->setFrom(
-            'manimalladi05@gmail.com',
+            'Visiondentalguntur@gmail.com',
             'Clinic Appointment System'
         );
 
-        $mailDoctor->addAddress('manimalladi05@gmail.com');
+        $mailDoctor->addAddress('Visiondentalguntur@gmail.com');
 
         $mailDoctor->isHTML(true);
         $mailDoctor->Subject = 'New Appointment Booked';
@@ -150,13 +168,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mailPatient->isSMTP();
         $mailPatient->Host       = 'smtp.gmail.com';
         $mailPatient->SMTPAuth   = true;
-        $mailPatient->Username   = 'manimalladi05@gmail.com';
-        $mailPatient->Password   = 'cvarqcchfjpawxvo';
+        $mailPatient->Username   = 'Visiondentalguntur@gmail.com';
+        $mailPatient->Password   = 'tyrwfvurugoylwie';
         $mailPatient->SMTPSecure = 'tls';
         $mailPatient->Port       = 587;
 
         $mailPatient->setFrom(
-            'manimalladi05@gmail.com',
+            'Visiondentalguntur@gmail.com',
             'Srinivasa Multispeciality Dental Hospital'
         );
 
